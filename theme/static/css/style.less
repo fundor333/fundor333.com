@@ -1,0 +1,144 @@
+/*
+Theme Name: F333 Theme
+Theme URI: http://www.fundor333.com/
+Description: Theme for my personal blog
+Version: 1.0
+Tags: responsive, bootstrap
+
+License: Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
+License URI: http://creativecommons.org/licenses/by-sa/2.0/
+
+*/
+
+@import "boostrap/bootstrap";
+@import "font_awesome/font-awesome";
+
+
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
+@main_body_margin: 2%;
+@color_changing: 20%;
+
+@color_main: #2F4F4F;
+@color_main_lighter: lighten(@color_main, @color_changing);
+@color_main_darker: darken(@color_main, @color_changing);
+
+@color_text: #D3D3D3;
+
+@color_secondary: #B22222;
+@color_secondary_lighter: lighten(@color_secondary, @color_changing);
+@color_secondary_darker: darken(@color_secondary, @color_changing);
+
+@color_page_background: #C0C0C0;
+
+.a_link(@color ) {
+  a:link, a:visited, a:hover,a:active {
+    color: @color;
+  }
+}
+
+.btn-social{
+  width: 60px;
+  height: 40px;
+}
+
+.tag{
+  .a_link(@color_text);
+    color: @color_text;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.btn_f333{
+  .button-variant(@color_text; @color_main_lighter; @color_main_lighter);
+  font-family: 'Nothing You Could Do', cursive;
+  margin: 2px;
+
+}
+
+.btn-f333-vertical{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;}
+
+.maintitle {
+  margin-top: @main_body_margin;
+  margin-bottom: @main_body_margin;
+  font-family: 'Nothing You Could Do', cursive;
+    .a_link(@color_text)
+}
+
+.subtitle {
+  margin-top: @main_body_margin;
+  margin-bottom: @main_body_margin;
+  font-family: 'Nothing You Could Do', cursive;
+  .a_link(@color_text);
+
+}
+
+.footbody{
+  background-color: @color_main;
+  color: @color_text;
+  padding: 1%;
+}
+
+.topbody{
+  background-color: @color_main;
+  color: @color_text;
+  padding: 1%;
+}
+
+.sidebar{
+  color: @color_text;
+  background-color: @color_main_lighter;
+  padding: 5%;
+}
+
+.centerbody {
+  background-color: @color_text;
+  color: @color_main;
+  padding: 1%;
+}
+
+
+.up_down_margin {
+  margin-top: @main_body_margin;
+  margin-bottom: @main_body_margin;
+}
+
+body {
+  background-color: @color_page_background;
+}
+
+#title {
+  margin: 15px;
+}
+
+.title{
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+#post_title{
+  text-align: center;
+}
+
+#next_post_link,
+#previous_post_link{
+  text-align: center;
+  background-color: @color_main;
+  padding: 1%;
+  margin-top:10px;
+
+  .a_link(@color_text);
+}
+
+#copyright{
+  color: @color_page_background;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+
+
+article{
+  font-family: 'Nothing You Could Do', cursive;
+}

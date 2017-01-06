@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+
+{% block head %}
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    {% if FEED_ALL_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"
+          title="{{ SITENAME }} Full Atom Feed"/>
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate"
+          title="{{ SITENAME }} Full RSS Feed"/>
+    {% endif %}
+    {% if FEED_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate"
+          title="{{ SITENAME }} Atom Feed"/>
+    {% endif %}
+    {% if FEED_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate"
+          title="{{ SITENAME }} RSS Feed"/>
+    {% endif %}
+    {% if CATEGORY_FEED_ATOM and category %}
+    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml"
+          rel="alternate" title="{{ SITENAME }} Categories Atom Feed"/>
+    {% endif %}
+    {% if CATEGORY_FEED_RSS and category %}
+    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}" type="application/rss+xml"
+          rel="alternate" title="{{ SITENAME }} Categories RSS Feed"/>
+    {% endif %}
+    {% if TAG_FEED_ATOM and tag %}
+    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate"
+          title="{{ SITENAME }} Tags Atom Feed"/>
+    {% endif %}
+    {% if TAG_FEED_RSS and tag %}
+    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate"
+          title="{{ SITENAME }} Tags RSS Feed"/>
+    {% endif %}
+    {% endblock head %}
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="col-sm-12 up_down_margin">
+        <nav class="visible-xs visible-sm col-xs-12 btn-group" role="group">
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-facebook fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-twitter fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-github fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-gitlab fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-linkedin fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-rss fa-lg"></i>
+            </button>
+        </nav>
+        <nav class="col-sm-1 col-sm-offset-1 btn-group-vertical hidden-xs hidden-sm">
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-facebook fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-twitter fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-github fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-gitlab fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-linkedin fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn_f333">
+                <i class="fa fa-rss fa-lg"></i>
+            </button>
+        </nav>
+        <div class="col-sm-9 col-xs-12">
+            <div class="row ">
+                <header class="topbody">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-12">
+                            <img class="img-responsive center-block" id="header_logo" src="{{ SITEURL }}/theme/img/logo.png">
+                        </div>
+
+                        <div class="col-sm-9 col-xs-12">
+                            <div class="row center-block">
+                                <div class="col-md-6 col-xs-12" id="title">
+
+                                    <a href="{{ SITEURL }}/">
+                                        <div class="maintitle row"><h1>{{ SITENAME }} </h1></div>
+                                    </a>
+                                    <div class="subtitle row"><a href="https://xkcd.com/353/">import antigravity</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row center-block btn-group">
+                                {% for title, link in MENUITEMS %}
+                                <a href="{{ link }}" class="{% if p == page %} active{% endif %}">
+                                    <button class="btn btn_f333">{{ title }}</button>
+                                </a>
+                                {% endfor %}
+
+                                {% if DISPLAY_PAGES_ON_MENU %}
+                                {% for p in pages %}
+                                <a href="{{ p.url }}" class="{% if p == page %} active{% endif %}">
+                                    <button class="btn btn_f333">{{ p.title }}</button>
+                                </a>
+                                {% endfor %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-9">
+                    <div class="row">
+                        <section class="centerbody">
+                            {% block content %}
+                            {% endblock %}
+                        </section>
+                    </div>
+                    <br>
+
+                </div>
+
+                <aside class="col-sm-3 hidden-xs">
+
+                    <div class="sidebar">
+                        <h2 class="tag">Topics</h2>
+                        {% if DISPLAY_CATEGORIES_ON_MENU %}
+                        {% for cat, null in categories %}
+                        <a href="{{ SITEURL }}/{{ cat.url }}" class="{% if p == page %} active{% endif %} tag">
+                            {{ cat }}
+                        </a>
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                    <br>
+                    <div class="sidebar">
+                        <h2 class="tag">Tag</h2>
+                        {% for tag, null in tags %}
+                        <a href="{{ SITEURL }}/{{ tag.url }}" class="tag"> {{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                    <br>
+                </aside>
+            </div>
+
+            <footer class="row">
+                <div class="col-sm-3 hidden-xs footbody">Footer</div>
+                <div class="col-sm-4 col-sm-offset-1 col-xs-12 footbody" id="copyright">Made by <a
+                        href="http://www.fundor333.com/">Fundor333</a></div>
+                <div class="col-sm-3 hidden-xs col-sm-offset-1 footbody">Footer</div>
+            </footer>
+        </div>
+
+    </div>
+</div>
+
+<!-- jQuery Version 1.11.1 -->
+<script src="{{ SITEURL }}/static/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ SITEURL }}/static/js/bootstrap.min.js"></script>
+{% include "analytics.html" %}
+</body>
+</html>

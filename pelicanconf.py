@@ -26,10 +26,17 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Facebook', 'https://www.facebook.com/fundor333'),
+          ('Twitter', 'https://twitter.com/fundor333'),
+          ('Linkedin', 'https://it.linkedin.com/in/matteo-scarpa-78969263'),
+          ('Github', 'https://github.com/fundor333'),
+          ('GitLab', 'https://gitlab.com/fundor333'),)
 
 DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
+
+# Specify theme
+
+THEME = "theme"
