@@ -4,7 +4,7 @@ Author: fundor333
 Slug: marea-bot-acqua-alta-a-venezia
 Status: published
 
-Marea Bot <a class="button" href="https://github.com/fundor333/mareabot">![](http://www.fundor333.com/wp-content/uploads/2016/09/github.svg){.style-svg}
+Marea Bot <a class="button" href="https://github.com/fundor333/mareabot">![](http://www.fundor333.com/wp-content/uploads/2016/09/github.svg){.img-responsive}
 ========================================================================================================================================================
 
 </a>\

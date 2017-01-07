@@ -1,7 +1,7 @@
 Title: Orrori delle parentesi
 Date: 2016-11-09 12:24
 Author: fundor333
-Category: Appunti di taccuino, Articoli
+Category: blog
 Tags: Errori, Orrori, Parentesi, Programmazione
 Slug: orrori-delle-parentesi
 Status: published

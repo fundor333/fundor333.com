@@ -1,7 +1,7 @@
 Title: Docker, la balena con i container per software
 Date: 2016-10-03 13:12
 Author: fundor333
-Category: Sbobinati
+Category: blog
 Tags: Container, Docker, Virtual Machine
 Slug: docker-la-balena-con-i-container
 Status: published
@@ -12,8 +12,7 @@ Docker
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
 Docker.\
 ![Docker
-logo](http://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png){.alignright
-width="1354" height="1208"}
+logo](http://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png){.alignright .img-responsive}
 
 <!--more-->\
 La prima volta che ho incontrato Docker è stato leggendo un articolo
