@@ -87,31 +87,19 @@
             </button>
         </nav>
         <nav class="col-sm-1 col-sm-offset-1 btn-group-vertical hidden-xs hidden-sm">
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-facebook fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-twitter fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-github fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-gitlab fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-linkedin fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-rss fa-lg"></i>
-            </button>
+            {% for title, link in SOCIAL %}
+                <a class="btn btn_f333" href="{{link}}">
+                    <i class="fa fa-{{title}} fa-lg"></i>
+                </a>
+            {% endfor %}
         </nav>
         <div class="col-sm-9 col-xs-12">
             <div class="row ">
                 <header class="topbody">
                     <div class="row">
                         <div class="col-sm-3 col-xs-12">
-                            <img class="img-responsive center-block" id="header_logo" src="{{ SITEURL }}/theme/img/logo.png">
+                            <img class="img-responsive center-block" id="header_logo"
+                                 src="{{ SITEURL }}/theme/img/logo.png">
                         </div>
 
                         <div class="col-sm-9 col-xs-12">
@@ -173,8 +161,13 @@
                     <br>
                     <div class="sidebar">
                         <h2 class="tag">Tag</h2>
-                        {% for tag, null in tags %}
-                        <a href="{{ SITEURL }}/{{ tag.url }}" class="tag"> {{ tag }}</a>
+                        {% for tag in tag_cloud %}
+                        <a href="{{ SITEURL }}/{{ tag.0.url }}" class="tag tag-{{ tag.1 }}">
+                            {{ tag.0 }}
+                            {% if TAG_CLOUD_BADGE %}
+                            <span class="badge">{{ tag.2 }}</span>
+                            {% endif %}
+                        </a>
                         {% endfor %}
                     </div>
                     <br>

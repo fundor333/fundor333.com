@@ -8759,7 +8759,6 @@ button.close {
   background-color: #558f8f;
   border-color: #558f8f;
   font-family: 'Nothing You Could Do', cursive;
-  margin: 2px;
 }
 .btn_f333:focus,
 .btn_f333.focus {
@@ -8899,6 +8898,22 @@ body {
 }
 article {
   font-family: 'Nothing You Could Do', cursive;
+}
+ul.tagcloud {
+  list-style: none;
+  padding: 0;
+}
+.tag-1 {
+  font-size: 150%;
+}
+.tag-2 {
+  font-size: 120%;
+}
+.tag-3 {
+  font-size: 90%;
+}
+.tag-4 {
+  font-size: 60%;
 }
 
 /*# sourceMappingURL=style.css.map */

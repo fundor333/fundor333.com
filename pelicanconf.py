@@ -26,11 +26,11 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Facebook', 'https://www.facebook.com/fundor333'),
-          ('Twitter', 'https://twitter.com/fundor333'),
-          ('Linkedin', 'https://it.linkedin.com/in/matteo-scarpa-78969263'),
-          ('Github', 'https://github.com/fundor333'),
-          ('GitLab', 'https://gitlab.com/fundor333'),)
+SOCIAL = (('facebook', 'https://www.facebook.com/fundor333'),
+          ('twitter', 'https://twitter.com/fundor333'),
+          ('linkedin', 'https://it.linkedin.com/in/matteo-scarpa-78969263'),
+          ('github', 'https://github.com/fundor333'),
+          ('gitlab', 'https://gitlab.com/fundor333'),)
 
 DEFAULT_PAGINATION = 8
 
@@ -40,3 +40,8 @@ DEFAULT_PAGINATION = 8
 # Specify theme
 
 THEME = "theme"
+
+# Specify the plugins
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["tag_cloud"]
