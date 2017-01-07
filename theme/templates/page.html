@@ -7,17 +7,18 @@
 
             {# title with big background image #}
             {% if page.image %}
-            <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ page.image }});">
+            <div class="background-image"
+                 style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ page.image }});">
                 <img src="{{ page.image }}" alt="{{ page.title|striptags }}">
                 <div class="title">
-                <h1>
-                    {{ page.title }}
-                </h1>
-                {% if page.subtitle %}
-                <h2>
-                    {{ page.subtitle }}
-                </h2>
-                {% endif %}
+                    <h1>
+                        {{ page.title }}
+                    </h1>
+                    {% if page.subtitle %}
+                    <h2>
+                        {{ page.subtitle }}
+                    </h2>
+                    {% endif %}
                 </div>
             </div>
             {% else %}
@@ -61,9 +62,9 @@
                     <div class="pure-u-3-4">
                         <h3 class="author-name"><a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a></h3>
                         <p class="author-description">
-                          {% if MEDIUS_AUTHORS %}
-                          {{ MEDIUS_AUTHORS.get(author|string).description }}
-                          {% endif %}
+                            {% if MEDIUS_AUTHORS %}
+                            {{ MEDIUS_AUTHORS.get(author|string).description }}
+                            {% endif %}
                         </p>
                     </div>
                 </div>

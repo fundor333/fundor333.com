@@ -2716,7 +2716,7 @@ select.input-sm {
   line-height: 30px;
 }
 textarea.input-sm,
-select[multiple].input-sm {
+select[multiple] .input-sm {
   height: auto;
 }
 .form-group-sm .form-control {
@@ -2753,7 +2753,7 @@ select.input-lg {
   line-height: 46px;
 }
 textarea.input-lg,
-select[multiple].input-lg {
+select[multiple] .input-lg {
   height: auto;
 }
 .form-group-lg .form-control {
@@ -3504,9 +3504,9 @@ select.input-group-lg > .input-group-btn > .btn {
 textarea.input-group-lg > .form-control,
 textarea.input-group-lg > .input-group-addon,
 textarea.input-group-lg > .input-group-btn > .btn,
-select[multiple].input-group-lg > .form-control,
-select[multiple].input-group-lg > .input-group-addon,
-select[multiple].input-group-lg > .input-group-btn > .btn {
+select[multiple] .input-group-lg > .form-control,
+select[multiple] .input-group-lg > .input-group-addon,
+select[multiple] .input-group-lg > .input-group-btn > .btn {
   height: auto;
 }
 .input-group-sm > .form-control,
@@ -3527,9 +3527,9 @@ select.input-group-sm > .input-group-btn > .btn {
 textarea.input-group-sm > .form-control,
 textarea.input-group-sm > .input-group-addon,
 textarea.input-group-sm > .input-group-btn > .btn,
-select[multiple].input-group-sm > .form-control,
-select[multiple].input-group-sm > .input-group-addon,
-select[multiple].input-group-sm > .input-group-btn > .btn {
+select[multiple] .input-group-sm > .form-control,
+select[multiple] .input-group-sm > .input-group-addon,
+select[multiple] .input-group-sm > .input-group-btn > .btn {
   height: auto;
 }
 .input-group-addon,

@@ -7,11 +7,11 @@
         <h1>Archives for {{ SITENAME }}</h1>
 
         <ul>
-        {% for article in dates %}
+            {% for article in dates %}
             <li>
                 <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> &mdash; {{ article.locale_date }}
             </li>
-        {% endfor %}
+            {% endfor %}
         </ul>
 
     </div>

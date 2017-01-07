@@ -60,48 +60,21 @@
     <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate"
           title="{{ SITENAME }} Tags RSS Feed"/>
     {% endif %}
-    {% endblock head %}
 </head>
+{% endblock head %}
 
 <body>
 
 <div class="container">
 
     <div class="col-sm-12 up_down_margin">
-        <nav class="visible-xs visible-sm col-xs-12 btn-group" role="group">
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-facebook fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-twitter fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-github fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-gitlab fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-linkedin fa-lg"></i>
-            </button>
-            <button type="button" class="btn btn_f333">
-                <i class="fa fa-rss fa-lg"></i>
-            </button>
-        </nav>
-        <nav class="col-sm-1 col-sm-offset-1 btn-group-vertical hidden-xs hidden-sm">
-            {% for title, link in SOCIAL %}
-            <a class="btn btn_f333" href="{{link}}">
-                <i class="fa fa-{{title}} fa-lg"></i>
-            </a>
-            {% endfor %}
-        </nav>
-        <div class="col-sm-9 col-xs-12">
+
+        <div class="col-sm-10 col-sm-offset-1 col-xs-12">
             <div class="row ">
                 <header class="topbody">
                     <div class="row">
                         <div class="col-sm-3 col-xs-12">
-                            <img class="img-responsive center-block" id="header_logo"
-                                 src="{{ SITEURL }}/theme/img/logo.png">
+                            <img class="img-responsive center-block" id="header_logo" src="{{ SITEURL }}/theme/img/logo.png">
                         </div>
 
                         <div class="col-sm-9 col-xs-12">
@@ -130,6 +103,14 @@
                                 </a>
                                 {% endfor %}
                                 {% endif %}
+
+                                {% if DISPLAY_CATEGORIES_ON_MENU %}
+                                {% for cat, null in categories %}
+                                <a href="{{ SITEURL }}/{{ cat.url }}" class="{% if p == page %} active{% endif %}">
+                                    <button class="btn btn_f333">{{ cat }}</button>
+                                </a>
+                                {% endfor %}
+                                {% endif %}
                             </div>
                         </div>
                     </div>
@@ -137,7 +118,7 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-xs-9">
+                <div class="col-sm-9 col-xs-12">
                     <div class="row">
                         <section class="centerbody">
                             <div class="row">
@@ -154,16 +135,28 @@
                 </div>
 
                 <aside class="col-sm-3 hidden-xs">
-
-                    <div class="sidebar">
-                        <h2 class="tag">Topics</h2>
-                        {% if DISPLAY_CATEGORIES_ON_MENU %}
-                        {% for cat, null in categories %}
-                        <a href="{{ SITEURL }}/{{ cat.url }}" class="{% if p == page %} active{% endif %} tag">
-                            {{ cat }}
-                        </a>
-                        {% endfor %}
-                        {% endif %}
+                    <div class="row">
+                        <nav class="col-sm-12 btn-group-vertical hidden-xs">
+                            {% for title, link in SOCIAL %}
+                            <a class="btn btn_f333" href="{{link}}">
+                                <i class="fa fa-{{title}} fa-4x"></i>
+                            </a>
+                            {% endfor %}
+                        </nav>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 hidden-xs hidden-sm sidebar">
+                            <h2 class="tag">Tag</h2>
+                            {% for tag in tag_cloud %}
+                            <a href="{{ SITEURL }}/{{ tag.0.url }}" class="tag-{{ tag.1 }} tag">
+                                {{ tag.0 }}
+                                {% if TAG_CLOUD_BADGE %}
+                                <span class="badge">{{ tag.2 }}</span>
+                                {% endif %}
+                            </a>
+                            {% endfor %}
+                        </div>
                     </div>
                     <br>
                 </aside>
