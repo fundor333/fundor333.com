@@ -25,6 +25,7 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 @color_main_darker: darken(@color_main, @color_changing);
 
 @color_text: #D3D3D3;
+@color_text_dark : black;
 
 @color_secondary: #B22222;
 @color_secondary_lighter: lighten(@color_secondary, @color_changing);
@@ -33,7 +34,7 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 @color_page_background: #C0C0C0;
 
 .a_link(@color ) {
-  a:link, a:visited, a:hover,a:active {
+  a:link, a:visited, a:hover,a:active, a{
     color: @color;
   }
 }
@@ -161,4 +162,12 @@ ul.tagcloud {
 
 .tag-4{
   font-size:60%;
+}
+
+.f333_link{
+  .a_link(@color_text)
+}
+
+f333_title{
+  .a_link(@color_text_dark)
 }

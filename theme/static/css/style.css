@@ -8751,7 +8751,8 @@ button.close {
 .tag a:link,
 .tag a:visited,
 .tag a:hover,
-.tag a:active {
+.tag a:active,
+.tag a {
   color: #D3D3D3;
 }
 .btn_f333 {
@@ -8825,7 +8826,8 @@ fieldset[disabled] .btn_f333.focus {
 .maintitle a:link,
 .maintitle a:visited,
 .maintitle a:hover,
-.maintitle a:active {
+.maintitle a:active,
+.maintitle a {
   color: #D3D3D3;
 }
 .subtitle {
@@ -8836,7 +8838,8 @@ fieldset[disabled] .btn_f333.focus {
 .subtitle a:link,
 .subtitle a:visited,
 .subtitle a:hover,
-.subtitle a:active {
+.subtitle a:active,
+.subtitle a {
   color: #D3D3D3;
 }
 .footbody {
@@ -8889,7 +8892,9 @@ body {
 #next_post_link a:hover,
 #previous_post_link a:hover,
 #next_post_link a:active,
-#previous_post_link a:active {
+#previous_post_link a:active,
+#next_post_link a,
+#previous_post_link a {
   color: #D3D3D3;
 }
 #copyright {
@@ -8914,6 +8919,20 @@ ul.tagcloud {
 }
 .tag-4 {
   font-size: 60%;
+}
+.f333_link a:link,
+.f333_link a:visited,
+.f333_link a:hover,
+.f333_link a:active,
+.f333_link a {
+  color: #D3D3D3;
+}
+f333_title a:link,
+f333_title a:visited,
+f333_title a:hover,
+f333_title a:active,
+f333_title a {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
