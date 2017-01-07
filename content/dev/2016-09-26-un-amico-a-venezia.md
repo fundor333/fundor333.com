@@ -2,6 +2,7 @@ Title: Un Amico a Venezia
 Date: 2016-09-26 21:42
 Author: fundor333
 Slug: un-amico-a-venezia
+Tags: sito, web, wordpress, theme
 Status: published
 
 Un Amico a Venezia [🔗](http://www.unamicoavenezia.org/wp_it/){.button}

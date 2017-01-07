@@ -2,7 +2,7 @@ Title: Meteo del Sangue e Alta Marea
 Date: 2016-12-21 13:36
 Author: fundor333
 Category: blog
-Tags: Bot, Facebook, Open Data, Relegram, Twitter
+Tags: bot, facebook, open data, telegram, twitter
 Slug: meteo-del-sangue-alta-marea
 Status: published
 

@@ -2,7 +2,7 @@ Title: Come sopravivvere a un Hackathon programmando
 Date: 2016-10-25 14:08
 Author: fundor333
 Category: blog
-Tags: Consigli, eodappathon, Guida, Hackathon, Programmazione, Tutorial
+Tags: consigli, eodappathon, guida, hackathon, programmazione, tutorial
 Slug: sopravivvere-un-hackathon-programmando
 Status: published
 

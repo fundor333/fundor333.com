@@ -2,6 +2,7 @@ Title: Il mio container Docker Wordpress
 Date: 2016-11-16 13:12
 Author: fundor333
 Slug: mio-container-docker-wordpress
+Tags: docker, wordpress, container
 Status: published
 
 Questo è un progetto nato da una mia necessità: avere wordpress
