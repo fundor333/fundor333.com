@@ -18,39 +18,3 @@ sottotitolo *import antigravity* viene da una vignetta di
 Se volete potete contattarmi via mail GPG
 [qui](https://keybase.io/fundor333/key.asc) c'è la chiave. L'indirizzo è
 mail@fundor333.com
-
-------------------------------------------------------------------------
-
-***Link Social***\
-[\
-![](http://www.fundor333.com/wp-content/uploads/2016/09/twitter.svg){.style-svg}\
-](https://twitter.com/fundor333){.button}
-
-[\
-![](http://www.fundor333.com/wp-content/uploads/2016/09/github.svg){.style-svg}\
-](https://github.com/fundor333){.button}
-
-[\
-![](http://www.fundor333.com/wp-content/uploads/2016/09/gitlab.svg){.style-svg}\
-](https://gitlab.com/u/fundor333){.button}
-
-[\
-![](http://www.fundor333.com/wp-content/uploads/2016/09/bitbucket.svg){.style-svg}\
-](https://bitbucket.org/fundor333/){.button}
-
-[\
-![](http://www.fundor333.com/wp-content/uploads/2016/09/linkedin.svg){.style-svg}\
-](https://www.linkedin.com/in/matteo-scarpa-78969263){.button}
-
-<div class="github-card" data-github="fundor333" data-width="400"
-data-height="150" data-theme="default">
-
-</div>
-
-<p>
-<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-\
- 
-
-</p>
-
