@@ -23,12 +23,9 @@ Un frammento di codice con parentesi messe allineate in fondo...
 > Seek help instead of this.
 > [pic.twitter.com/1EYb7BLHkb](https://t.co/1EYb7BLHkb)
 >
-> — Boodell games. (@UdellGames) [19 ottobre
-> 2016](https://twitter.com/UdellGames/status/788690145822306304)
+> — Boodell games. (@UdellGames) [19 ottobre> 2016](https://twitter.com/UdellGames/status/788690145822306304)
+![Img](https://pbs.twimg.com/media/CvH9gfFWcAA2knK.jpg)
 
-<p style="text-align: left;">
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
 \\|/(x,,,x)\\|/
 
 Questo è, appunto, uno di quei limiti da non superare. Il *bon ton*
