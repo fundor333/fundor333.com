@@ -17,18 +17,20 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 @main_body_margin: 2%;
 @color_changing: 20%;
 
-@color_main: #2F4F4F;
-@color_main_lighter: lighten(@color_main, @color_changing);
-@color_main_darker: darken(@color_main, @color_changing);
+@color_main: #d0d0d0;
 
-@color_text: #D3D3D3;
-@color_text_dark: black;
+@color_sidebar: #fffb85;
+@color_sidebar_lighter: lighten(@color_sidebar, @color_changing);
+@color_sidebar_darker: darken(@color_sidebar, @color_changing);
+
+@color_text:  black;
+@color_text_dark: #D3D3D3;
 
 @color_secondary: #B22222;
 @color_secondary_lighter: lighten(@color_secondary, @color_changing);
 @color_secondary_darker: darken(@color_secondary, @color_changing);
 
-@color_page_background: #C0C0C0;
+@color_page_background:#2F4F4F;
 
 .a_link(@color ) {
   a:link, a:visited, a:hover, a:active, a {
@@ -48,7 +50,7 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 }
 
 .btn_f333 {
-  .button-variant(@color_text; @color_main_lighter; @color_main_lighter);
+  .button-variant(@color_text; @color_sidebar_lighter; @color_sidebar_lighter);
   font-family: 'Nothing You Could Do', cursive;
 }
 
@@ -73,30 +75,37 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 
 }
 
-.footbody {
+.topbody, .footbody {
   background-color: @color_main;
   color: @color_text;
   padding: 1%;
-}
-
-.topbody {
-  background-color: @color_main;
-  color: @color_text;
-  padding: 1%;
+  display: flex;
+  .a_link(@color_text);
 }
 
 .sidebar {
   color: @color_text;
-  background-color: @color_main_lighter;
+  background-color: @color_sidebar_lighter;
   padding: 5%;
 }
 
+.asider{
+  background-color: @color_sidebar_lighter;
+    hr{
+    border-color: @color_text;
+  }
+}
+#center_body{
+  display: flex;
+  background-color: @color_main ;
+  color: @color_text;
+}
 
-
-.centerbody {
-  background-color: @color_text;
-  color: @color_main;
-  padding: 1%;
+#feed_title{
+  display: flex;
+  border-bottom-color: rgb(238, 238, 238) !important;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 .up_down_margin {
@@ -108,9 +117,6 @@ body {
   background-color: @color_page_background;
 }
 
-#title {
-  margin: 15px;
-}
 
 .title {
   font-family: 'Nothing You Could Do', cursive;
@@ -130,10 +136,13 @@ body {
   .a_link(@color_text);
 }
 
-#copyright {
+.copyright {
   color: @color_page_background;
   font-family: 'Nothing You Could Do', cursive;
 }
+
+#left_copy{    text-align: left;}
+#right_copy{    text-align: right;}
 
 article {
   font-family: 'Nothing You Could Do', cursive;
@@ -164,6 +173,6 @@ ul.tagcloud {
   .a_link(@color_text)
 }
 
-f333_title {
+.f333_title {
   .a_link(@color_text_dark)
 }
