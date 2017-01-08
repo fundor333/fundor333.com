@@ -43,5 +43,11 @@ THEME = "theme"
 
 # Specify the plugins
 
-PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["tag_cloud"]
+PLUGIN_PATHS = ["pelican-plugins.git"]
+PLUGINS = ['tag_cloud',
+           'custom_article_urls']
+
+# For the landing page
+TEMPLATE_PAGES = {
+    '../theme/templates/home.html': 'index.html',
+}
