@@ -1,0 +1,83 @@
+{% extends "_base.html" %}
+{% block body %}
+<div class="main-container">
+
+    <div class="row boxes">
+        <div class="col-sm-3 col-xs-12 ">
+            <div class="row">
+                <div class="center-block col-xs-10 col-xs-offset-1">
+                    <img src="{{ SITEURL }}/theme/img/logo.png" class="img-responsive">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="page_box col-xs-12 ">
+                    {% for title, link in SOCIAL %}
+                    <div class="btn btn-f333 btn-circle col-xs-12 col-sm-6 col-sm-4">
+                        <a href="{{link}}">
+                            <i class="fa fa-{{title}} fa-2x"></i>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-8 col-offset-sm-1 col-xs-12 page_box">
+            <article>
+                <!-- TODO Aggiungere delle info personali -->
+                <h1>HTML Ipsum Presents</h1>
+
+                <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac
+                    turpis
+                    egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+                    libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat
+                    eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi,
+                    condimentum
+                    sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
+                    condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non
+                        enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+                <h2>Header Level 2</h2>
+
+                <ol>
+                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                    <li>Aliquam tincidunt mauris eu risus.</li>
+                </ol>
+
+                <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at
+                    felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend,
+                    libero
+                    at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus
+                    pretium ornare est.</p></blockquote>
+
+                <h3>Header Level 3</h3>
+
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                    <li>Aliquam tincidunt mauris eu risus.</li>
+                </ul>
+
+            </article>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-xs-12">
+            {% for title,url,desc in LINKS_F333 %}
+            <a class="subtitle" href="{{ url }}">
+                <div class="page_box col-xs-12 col-sm-6 col-md-4 text-center">
+                    <div>
+                        <h3>{{ title }}</h3>
+                        <hr>
+                        <article>{{ desc}}</article>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

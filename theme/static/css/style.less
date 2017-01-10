@@ -11,8 +11,11 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 */
 @import "boostrap/bootstrap";
 @import "font_awesome/font-awesome";
-@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do");
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+ @import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font_titles: 'Arima Madurai';
+@font_text: 'Roboto';
 
 @main_body_margin: 2%;
 @color_changing: 20%;
@@ -23,19 +26,25 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 @color_sidebar_lighter: lighten(@color_sidebar, @color_changing);
 @color_sidebar_darker: darken(@color_sidebar, @color_changing);
 
-@color_text:  black;
+@color_text: black;
 @color_text_dark: #D3D3D3;
 
 @color_secondary: #B22222;
 @color_secondary_lighter: lighten(@color_secondary, @color_changing);
 @color_secondary_darker: darken(@color_secondary, @color_changing);
 
-@color_page_background:#2F4F4F;
+@color_page_background: #2F4F4F;
 
 .a_link(@color ) {
   a:link, a:visited, a:hover, a:active, a {
     color: @color;
   }
+}
+
+.vcenter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .btn-social {
@@ -46,12 +55,16 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 .tag {
   .a_link(@color_text);
   color: @color_text;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: @font_titles, cursive;
+}
+
+.boxes {
+  display: flex;
 }
 
 .btn_f333 {
   .button-variant(@color_text; @color_sidebar_lighter; @color_sidebar_lighter);
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: @font_titles, cursive;
 }
 
 .btn-f333-vertical {
@@ -63,14 +76,14 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 .maintitle {
   margin-top: @main_body_margin;
   margin-bottom: @main_body_margin;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: @font_titles, cursive;
   .a_link(@color_text)
 }
 
 .subtitle {
   margin-top: @main_body_margin;
   margin-bottom: @main_body_margin;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: @font_titles, cursive;
   .a_link(@color_text);
 
 }
@@ -83,25 +96,39 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
   .a_link(@color_text);
 }
 
+.page_box {
+  .a_link(@color_text);
+  color: @color_text;
+  background-color: @color_sidebar_lighter;
+  padding: 5%;
+  margin: 5%;
+  hr {
+    border-bottom: 5px;
+    border-top: 5px;
+    border-color: @color_text;
+  }
+}
+
 .sidebar {
   color: @color_text;
   background-color: @color_sidebar_lighter;
   padding: 5%;
 }
 
-.asider{
+.asider {
   background-color: @color_sidebar_lighter;
-    hr{
+  hr {
     border-color: @color_text;
   }
 }
-#center_body{
+
+#center_body {
   display: flex;
-  background-color: @color_main ;
+  background-color: @color_main;
   color: @color_text;
 }
 
-#feed_title{
+#feed_title {
   display: flex;
   border-bottom-color: rgb(238, 238, 238) !important;
   border-bottom-style: solid;
@@ -117,9 +144,8 @@ body {
   background-color: @color_page_background;
 }
 
-
 .title {
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: @font_titles, cursive;
 }
 
 #post_title {
@@ -138,14 +164,18 @@ body {
 
 .copyright {
   color: @color_page_background;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: @font_titles, cursive;
 }
 
-#left_copy{    text-align: left;}
-#right_copy{    text-align: right;}
+#left_copy {
+  text-align: left;
+}
 
-article {
-  font-family: 'Nothing You Could Do', cursive;
+#right_copy {
+  text-align: right;
+}
+article{
+font-family:@font_text ;
 }
 
 ul.tagcloud {

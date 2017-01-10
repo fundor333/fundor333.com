@@ -15,8 +15,8 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do");
-@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8740,13 +8740,18 @@ button.close {
   overflow: visible;
   clip: auto;
 }
+.vcenter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .btn-social {
   width: 60px;
   height: 40px;
 }
 .tag {
   color: black;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Arima Madurai', cursive;
 }
 .tag a:link,
 .tag a:visited,
@@ -8755,11 +8760,14 @@ button.close {
 .tag a {
   color: black;
 }
+.boxes {
+  display: flex;
+}
 .btn_f333 {
   color: black;
   background-color: #fffeeb;
   border-color: #fffeeb;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Arima Madurai', cursive;
 }
 .btn_f333:focus,
 .btn_f333.focus {
@@ -8821,7 +8829,7 @@ fieldset[disabled] .btn_f333.focus {
 .maintitle {
   margin-top: 2%;
   margin-bottom: 2%;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Arima Madurai', cursive;
 }
 .maintitle a:link,
 .maintitle a:visited,
@@ -8833,7 +8841,7 @@ fieldset[disabled] .btn_f333.focus {
 .subtitle {
   margin-top: 2%;
   margin-bottom: 2%;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Arima Madurai', cursive;
 }
 .subtitle a:link,
 .subtitle a:visited,
@@ -8860,6 +8868,24 @@ fieldset[disabled] .btn_f333.focus {
 .topbody a,
 .footbody a {
   color: black;
+}
+.page_box {
+  color: black;
+  background-color: #fffeeb;
+  padding: 5%;
+  margin: 5%;
+}
+.page_box a:link,
+.page_box a:visited,
+.page_box a:hover,
+.page_box a:active,
+.page_box a {
+  color: black;
+}
+.page_box hr {
+  border-bottom: 5px;
+  border-top: 5px;
+  border-color: black;
 }
 .sidebar {
   color: black;
@@ -8891,7 +8917,7 @@ body {
   background-color: #2F4F4F;
 }
 .title {
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Arima Madurai', cursive;
 }
 #post_title {
   text-align: center;
@@ -8917,7 +8943,7 @@ body {
 }
 .copyright {
   color: #2F4F4F;
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Arima Madurai', cursive;
 }
 #left_copy {
   text-align: left;
@@ -8926,7 +8952,7 @@ body {
   text-align: right;
 }
 article {
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: 'Roboto';
 }
 ul.tagcloud {
   list-style: none;

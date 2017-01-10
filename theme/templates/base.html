@@ -1,75 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ DEFAULT_LANG }}">
-
-{% block head %}
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-
-
-    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-    <link rel="icon" href="{{ SITEURL }}/theme/img/favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="{{ SITEURL }}/theme/img/favicon.ico" type="image/x-icon"/>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css"/>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    {% if FEED_ALL_ATOM %}
-    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"
-          title="{{ SITENAME }} Full Atom Feed"/>
-    {% endif %}
-    {% if FEED_ALL_RSS %}
-    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate"
-          title="{{ SITENAME }} Full RSS Feed"/>
-    {% endif %}
-    {% if FEED_ATOM %}
-    <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate"
-          title="{{ SITENAME }} Atom Feed"/>
-    {% endif %}
-    {% if FEED_RSS %}
-    <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate"
-          title="{{ SITENAME }} RSS Feed"/>
-    {% endif %}
-    {% if CATEGORY_FEED_ATOM and category %}
-    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml"
-          rel="alternate" title="{{ SITENAME }} Categories Atom Feed"/>
-    {% endif %}
-    {% if CATEGORY_FEED_RSS and category %}
-    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}" type="application/rss+xml"
-          rel="alternate" title="{{ SITENAME }} Categories RSS Feed"/>
-    {% endif %}
-    {% if TAG_FEED_ATOM and tag %}
-    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate"
-          title="{{ SITENAME }} Tags Atom Feed"/>
-    {% endif %}
-    {% if TAG_FEED_RSS and tag %}
-    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate"
-          title="{{ SITENAME }} Tags RSS Feed"/>
-    {% endif %}
-</head>
-{% endblock head %}
-
-<body>
-
-<div class="container">
-
-    <div class="col-sm-12 up_down_margin">
-
-        <div class="col-xs-12">
+{% extends "_base.html" %}
+{% block body %}
             <header class="topbody">
                 <div class="col-sm-3 col-xs-12">
                     <img class="img-responsive center-block " id="header_logo"
@@ -163,15 +93,4 @@
                         href="https://github.com/fundor333/fundor333.com">Source code</a>
                 </div>
             </footer>
-        </div>
-
-    </div>
-</div>
-
-<!-- jQuery Version 1.11.1 -->
-<script src="{{ SITEURL }}/static/js/jquery.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ SITEURL }}/static/js/bootstrap.min.js"></script>
-{% include "analytics.html" %}
-</body>
-</html>
+{% endblock %}
