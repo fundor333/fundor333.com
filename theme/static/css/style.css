@@ -8871,7 +8871,7 @@ fieldset[disabled] .btn_f333.focus {
 }
 .page_box {
   color: black;
-  background-color: #fffeeb;
+  background-color: #d0d0d0;
   padding: 5%;
   margin: 5%;
 }
@@ -8882,7 +8882,7 @@ fieldset[disabled] .btn_f333.focus {
 .page_box a {
   color: black;
 }
-.page_box hr {
+.page_box hr.less {
   border-bottom: 5px;
   border-top: 5px;
   border-color: black;
@@ -8976,6 +8976,9 @@ ul.tagcloud {
 .f333_link a:active,
 .f333_link a {
   color: black;
+}
+.f333_title {
+  font-family: 'Arima Madurai', cursive;
 }
 .f333_title a:link,
 .f333_title a:visited,
