@@ -8885,9 +8885,6 @@ fieldset[disabled] .btn_f333.focus {
   border-top: 5px;
   border-color: black;
 }
-.page_box .inside {
-  margin: 2%;
-}
 .sidebar {
   color: black;
   background-color: #fffeeb;
@@ -8913,6 +8910,9 @@ fieldset[disabled] .btn_f333.focus {
 .up_down_margin {
   margin-top: 2%;
   margin-bottom: 2%;
+}
+.inside {
+  margin: 1%;
 }
 body {
   background-color: #2F4F4F;
