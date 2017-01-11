@@ -4,6 +4,7 @@ branches:
   - source
 install:
 - pip install pelican ghp-import
+- pip install requirements.txt
 script:
 - make github
 
