@@ -88,3 +88,6 @@ PLUGINS = [
     'tag_cloud',
     'custom_article_urls'
 ]
+
+# URL settings
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
