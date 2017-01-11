@@ -1,7 +1,6 @@
 '''
 tag_cloud
 ===================================
-
 This plugin generates a tag cloud from available tags
 '''
 from __future__ import unicode_literals

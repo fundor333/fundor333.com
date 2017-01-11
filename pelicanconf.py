@@ -83,7 +83,7 @@ TAGS_SAVE_AS = 'everything/tags/index.html'
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 
 # Specify the plugins
-PLUGIN_PATHS = ["pelican-plugins.git"]
+PLUGIN_PATHS = ["plugin"]
 PLUGINS = [
     'tag_cloud',
     'custom_article_urls'
