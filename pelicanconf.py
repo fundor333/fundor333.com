@@ -22,12 +22,17 @@ SOCIAL = (('facebook', 'https://www.facebook.com/fundor333'),
           ('twitter', 'https://twitter.com/fundor333'),
           ('linkedin', 'https://it.linkedin.com/in/matteo-scarpa-78969263'),
           ('github', 'https://github.com/fundor333'),
-          ('gitlab', 'https://gitlab.com/fundor333'),)
+          ('gitlab', 'https://gitlab.com/fundor333'),
+          ('feed','/feeds/all.atom.xml'))
 
 # Link edited for more than 2-tuples
 LINKS_F333 = (
-    ('name', 'relative url', 'long text descrition'),
-    ('ciao','altro','altro')
+    ('blog','/blog/','I miei articoli, ordinati cronologicamente'),
+    ('everything', '/everything/', 'Tutto il materiale del mio blog, senza distinzioni'),
+    ('dev','/dev/','Il mio diario di sviluppo'),
+    ('about','/about/','Chi sono e cosa faccio'),
+    ('project','/project/','In sintesi i miei progetti'),
+    ('the code', 'https://github.com/fundor333/fundor333.github.io', 'Il sorgente del sito')
 )
 
 TWITTER_USERNAME = 'fundor333'
