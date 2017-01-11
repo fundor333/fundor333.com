@@ -6,7 +6,7 @@ branches:
 install:
 - pip install pelican ghp-import
 script:
-- make publish github
+- make html && make github
 
 env:
   global:
