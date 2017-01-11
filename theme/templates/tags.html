@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h2>Tag</h2>
+{% for tag in tag_cloud %}
+<a href="{{ SITEURL }}/{{ tag.0.url }}" class="tag-{{ tag.1 }}">
+    {{ tag.0 }}
+    {% if TAG_CLOUD_BADGE %}
+    <span class="badge">{{ tag.2 }}</span>
+    {% endif %}
+</a>
+{% endfor %}
+
+
+{% endblock %}

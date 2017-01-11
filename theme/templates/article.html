@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block title %}
+{{ article.title|striptags }}
+{% endblock %}
+{% block content %}
+<div class="page-container">
+    <article>
+    <div class="article-header-container ">
+        <div class="background-image-container ">
+            {# title with big background image #}
+            {% if article.cover %}
+            <div class="background-image"
+                 style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ article.cover }});">
+                <img src="{{ article.cover }}" alt="{{ article.title|striptags }}">
+                <div class="title f333_title">
+                    <h1>
+                        {{ article.title }}
+                    </h1>
+                    {% if article.subtitle %}
+                    <h2>
+                        {{ article.subtitle }}
+                    </h2>
+                    {% endif %}
+                </div>
+            </div>
+            {% else %}
+            <div class="background-image-small">
+                {% if article.thumbnail %}
+                <img src="{{ article.thumbnail }}" alt="{{ article.title|striptags }}">
+                {% endif %}
+                <div class="title-container">
+                    <h1>{{ article.title }}</h1>
+                    {% if article.subtitle %}
+                    <h4>{{ article.subtitle }}</h4>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        <div class="date_article">
+            {{ article.locale_date }}
+        </div>
+    </div>
+    <br>
+    <div class="entry-content">
+        {{ article.content }}
+    </div>
+
+    <div>
+        <div class="pure-g post-footer">
+            Postato da Fundor333 il {{ article.locale_date }}
+        </div>
+
+        {% if article.tags %}
+        <div class="tags">
+            {% for tag in article.tags %}
+            <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag | escape }}</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+        </article>
+    <hr>
+    {% if DISQUS_SITENAME %}
+    <div class="entry-content">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = '{{ DISQUS_SITENAME }}';
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments
+            powered by Disqus.</a></noscript>
+    </div>
+    {% endif %}
+    <br>
+</div>
+
+{% endblock %}
