@@ -8872,8 +8872,6 @@ fieldset[disabled] .btn_f333.focus {
 .page_box {
   color: black;
   background-color: #d0d0d0;
-  padding: 5%;
-  margin: 5%;
 }
 .page_box a:link,
 .page_box a:visited,
@@ -8886,6 +8884,9 @@ fieldset[disabled] .btn_f333.focus {
   border-bottom: 5px;
   border-top: 5px;
   border-color: black;
+}
+.page_box .inside {
+  margin: 2%;
 }
 .sidebar {
   color: black;

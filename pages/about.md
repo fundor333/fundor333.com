@@ -4,7 +4,8 @@ Author: fundor333
 Slug: about
 Status: published
 
-Informatico con la passione per Python, Git e per il mondo Open Source.\
+Informatico con la passione per Python, Git e per il mondo Open Source.
+
 Utilizzo molto Docker, Debian e Telegram sopratutto per leggere e
 operare sugli opendata, anche se per ora per progetti con poca o nessuna
 risonanza.
