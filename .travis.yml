@@ -2,9 +2,9 @@ language: python
 branches:
   only:
   - source
+  - feature/travis
 install:
 - pip install pelican ghp-import
-- pip install -r requirements.txt
 script:
 - make publish github
 
