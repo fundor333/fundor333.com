@@ -40,3 +40,5 @@ Sto lavorando per permettere a ogni utente di telegram di connettersi ad
 un bot e selezionare il livello minimo per cui essere avvisato, in modo
 da avere una segnalazione più aderente alle reali necessità della
 persona
+
+Fundor 333

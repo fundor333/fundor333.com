@@ -53,4 +53,4 @@ Tutto questo è iniziato mangiando bigne e parlando di Python a una
 convention...
 
 PS: per chi è curioso del progetto [qui](https://mareabot.github.io/)
-trova altre info
+trova altre info su questo progetto
