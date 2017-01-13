@@ -3,7 +3,7 @@ Date: 2017-01-14 13:12
 Author: fundor333
 Slug: scrivi-push-public
 Tags: github, wordpress, container
-Status: draft
+Status: published
 
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.
 
