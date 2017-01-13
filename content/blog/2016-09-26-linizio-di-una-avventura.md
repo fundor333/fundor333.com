@@ -1,8 +1,8 @@
 Title: L'inizio di una avventura
 Date: 2016-09-26 14:08
 Author: fundor333
-Category: blog
-Tags: aggiornamento, blog, fundor333
+Category: status,blog
+Tags: status
 Slug: linizio-di-una-avventura
 Status: published
 

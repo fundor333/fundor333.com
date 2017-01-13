@@ -1,8 +1,8 @@
 Title: Status del blog
 Date: 2016-12-06 12:18
 Author: fundor333
-Category: blog
-Tags: aggiornamento, firebase, gdg
+Category: blog, status
+Tags: status, firebase, gdg
 Slug: status-del-blog
 Status: published
 
