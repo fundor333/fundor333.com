@@ -11,11 +11,11 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'it'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feeds/feed.xml'
-CATEGORY_FEED_ATOM = 'feeds/category/%s.xml'
-TAG_FEED_ATOM = 'feeds/tag/%s.xml'
-AUTHOR_FEED_ATOM = 'feeds/%s.rss.xml'
-FEED_MAX_ITEMS = 15
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # Social widget with fontawesome implementation
 SOCIAL = (('facebook', 'https://www.facebook.com/fundor333'),
