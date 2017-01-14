@@ -2,7 +2,7 @@ Title: Gource, visualizzare Git repository
 Date: 2016-11-07 13:25
 Author: fundor333
 Category: blog
-Tags: git, gource, video, visualizzazione
+Tags: git, gource
 Slug: gource-visualizzare-git-repository
 Status: published
 

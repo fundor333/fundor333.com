@@ -1,9 +1,9 @@
 Title: Scrivi, push e publica
-Date: 2017-01-16 13:12
+Date: 2017-01-14 13:12
 Author: fundor333
 Slug: scrivi-push-public
 Tags: github, wordpress, container
-Status: draft
+Status: published
 
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.
 
@@ -33,3 +33,16 @@ _Piccola nota a parte sulla cosa: io mi trovo MOLTO meglio con il sistema di ges
 Inizialmente io ho pensato di utilizzare la "nuova" funzionalità dei sub-moduli di Git ma questo mi ha portato più problemi che altro.
 
 Dopo svariati tentativi e poca comprensione di perchè continua a essere elaborato male da git e dal mio ide ho pensato che i plugin sono più facili da gestire semplicemente copiandoli in una cartella e aggiornando a mano.
+
+## Sistemazione articoli e pagine
+Ho fatto un po' di pulizia perchè il meccanismo di importazione automatica lascia dello "sporco" qui e li sotto forma di codice html/css non più desiderato in alcuni punti (precedentemente era usato da plugin e dal tema di wordpress per fare cosucce ma col passaggio è risultato inutile).
+
+Stessa cosa è successa con le pagine ed è stato più veloce. Sono, per ora, in attesa di revisione e correzione, in modo che siano aggiornate e più coerenti con la grafica del nuovo tema.
+
+## Travis e la autopublicazione
+Dopo aver elaborato le pagine e gli altricoli ho quindi preparato il repository github seguendo il paradigma di [Git Flow](http://danielkummer.github.io/git-flow-cheatsheet/) e preparando TravisCI per la autopublicazione degli articoli. Questo mi consente di accedere a un qualunque pc collegato a internet, andare sul sito di github, aggiungere il post o editare parte del sito e travis si occupa dell'elaborazione e di mandarmi il log in caso di fallimento, tutto intermente sul server, senza aver niente installato sul pc che sto usando per scrivere.
+
+Il settaggio di Travis in se mi ha tolto circa un ora di sonno perchè non sono stato in grado di capire alcuni piccoli comandi. Ora però il meccanismo funziona e, grazie alle funzionalità beta di Travis ho avuto una idea...
+
+## Progetti per il futuro
+Intanto spero di rilanciare il blog, renderlo più attivo e seguito e poi spero di riuscire a scrivere un piccolo plugin per Pelican ma questa è una storia per un altra volta...

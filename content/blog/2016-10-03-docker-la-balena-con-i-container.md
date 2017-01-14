@@ -2,7 +2,7 @@ Title: Docker, la balena con i container per software
 Date: 2016-10-03 13:12
 Author: fundor333
 Category: blog
-Tags: container, docker, virtual machine
+Tags: docker
 Slug: docker-la-balena-con-i-container
 Status: published
 
