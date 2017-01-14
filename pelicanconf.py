@@ -23,7 +23,7 @@ SOCIAL = (('facebook', 'https://www.facebook.com/fundor333'),
           ('linkedin', 'https://it.linkedin.com/in/matteo-scarpa-78969263'),
           ('github', 'https://github.com/fundor333'),
           ('gitlab', 'https://gitlab.com/fundor333'),
-          ('feed', '/feeds/all.atom.xml'))
+          ('feed', 'feeds/feed.xml'))
 
 # Link edited for more than 2-tuples
 LINKS_F333 = (
