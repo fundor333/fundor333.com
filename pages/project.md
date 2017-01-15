@@ -4,17 +4,24 @@ Author: fundor333
 Slug: project
 Status: published
 
-Informatico con la passione per Python, Git e per il mondo Open Source.\
-Utilizzo molto Docker, Debian e Telegram sopratutto per leggere e
-operare sugli opendata, anche se per ora per progetti con poca o nessuna
-risonanza.
+## Web design 🕸🕷🕸️️
+Ho sviluppato nel tempo dei siti internet per svariate ragioni.
 
-Supporto e preferisco GPL V2.0 rispetto GPL V3.0.
+* [Fundor333](http://fundor333.com/): il mio sito personale. Sviluppato da me interamente in Python, Html5 e CSS3. In particolare è stato usato Bootstrap, Font Awesome, Markdown e Pelican, tutte tecnologie a me molto care e a cui mi sto interessando per applicazioni non standard delle stesse.
+* [Informatica sarà lei](http://test01.danielvedovato.it/): progetto universitario sviluppato per la regione Veneto. Io ho preso parte attiva nel coordinamento dello sviluppo e nello sviluppo della parte grafica. Per lo più il sito utilizza una combinazione di HTML5 e Bootstrap.
+* [Un amico a Venezia](http://www.unamicoavenezia.org/wp_it/): sito di una associazione di volontariato per sostenere le eccellenze veneziane. Al momento dello sviluppo del loro sito finanziano il Centro Regionale Specializzato Biomarcatori Diagnostici,
+Prognostici e Predittivi. Sito sviluppato in Bootstrap e Wordpress.
+* [Veneziano Gas](http://www.venezianogas.net/): sito per il gruppo di acquisto solidale e a km0 di Venezia. Sviluppato intermente in PHP con un database personalizzato in MySQL per la gestione di utenze e servizi connessi.
+* [Isola che non c'è Arte](http://www.isolachenoncearte.it/): sito per la piccola cartoleria di zona. Intermente in HTML5 e CSS3. Attualmente in corso di espansione.
 
-Il nome del blog *Fundor333* viene dal mio nickname storico mentre il
-sottotitolo *import antigravity* viene da una vignetta di
-[xkcd](http://xkcd.com/353/)su Python ed è un pacchetto standard Python.
+***
 
-Se volete potete contattarmi via mail GPG
-[qui](https://keybase.io/fundor333/key.asc) c'è la chiave. L'indirizzo è
-mail@fundor333.com
+## Roba Python 🐍
+Progetti Python da me sviluppati fino ad ora
+* [RUSLE Calculator](https://github.com/fundor333/RUSLECalculator): plugin per QGis che implementa il modello RUSLE per l'erosione del territorio. Sviluppato per la mia tesi universitaria. Interamente basato su QGis, QT, Python e Grass.
+* [MareaBot](https://mareabot.github.io/): insieme di script che gestiscono un gruppo di bot 🤖 che vanno a vedere nelle api del comune di Venezia le previsioni delle maree e segnalano su Twitter 🐦, Facebook 👍 e Telegram. Interamente gestito in Python 🐍, lavora come cronojob. In vista di miglioramento nel prossimo futuro
+***
+
+## Altri progetti 💻
+Progetti che non sono riuscito a inquadrare nelle altre categorie
+* [Template LaTeX per l'Unive](https://github.com/fundor333/TesiUniveLaTeX): template LaTeX per la tesi di laurea dell'università degli studi in domo Foscari. Realizzato per la mia tesi, successivamente pubblicato sotto Licenza Apache v2.0 per libero utilizzo all'interno dell'università.
