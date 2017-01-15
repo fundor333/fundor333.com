@@ -32,7 +32,7 @@ LINKS_F333 = (
     ('dev', '/dev/', 'Il mio diario di sviluppo'),
     ('about', '/about/', 'Chi sono e cosa faccio'),
     ('project', '/project/', 'In sintesi i miei progetti'),
-    ('the code', 'https://github.com/fundor333/fundor333.github.io', 'Il sorgente del sito')
+    ('the source', 'https://github.com/fundor333/fundor333.github.io', 'Il sorgente del sito')
 )
 
 TWITTER_USERNAME = 'fundor333'
