@@ -14,7 +14,7 @@ Supporto e preferisco GPL V2.0 rispetto GPL V3.0.
 
 Il nome del blog *Fundor333* viene dal mio nickname storico mentre il
 sottotitolo *import antigravity* viene da una vignetta di
-[xkcd](http://xkcd.com/353/)su Python ed è un pacchetto standard Python.
+[xkcd](http://xkcd.com/353/) su Python ed è un pacchetto standard Python.
 
 Se volete potete contattarmi via mail GPG
 [qui](https://keybase.io/fundor333/key.asc) c'è la chiave. L'indirizzo è
