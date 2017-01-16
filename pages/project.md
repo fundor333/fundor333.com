@@ -1,4 +1,4 @@
-Title: 🖥project
+Title: 💻project
 Date: 2016-09-26 11:23
 Author: fundor333
 Slug: project
@@ -23,7 +23,7 @@ Progetti Python da me sviluppati fino ad ora.
 * [MareaBot](https://mareabot.github.io/): insieme di script che gestiscono un gruppo di bot 🤖 che vanno a vedere nelle api del comune di Venezia le previsioni delle maree e segnalano su Twitter 🐦, Facebook 👍 e Telegram. Interamente gestito in Python 🐍, lavora come cronojob. In vista di miglioramento nel prossimo futuro
 ***
 
-## Altri progetti 💻
+## Altri progetti ⌨️
 Progetti che non sono riuscito a inquadrare nelle altre categorie.
 
 * [Template LaTeX per l'Unive](https://github.com/fundor333/TesiUniveLaTeX): template LaTeX per la tesi di laurea dell'università degli studi in domo Foscari. Realizzato per la mia tesi, successivamente pubblicato sotto Licenza Apache v2.0 per libero utilizzo all'interno dell'università.

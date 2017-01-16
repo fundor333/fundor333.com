@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}
-{{ article.title|striptags }}
+{% block title %}{{ article.title | striptags }} / {{ SITENAME }}{% endblock %}
 {% endblock %}
 {% block content %}
 <div class="page-container">
