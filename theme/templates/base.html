@@ -32,24 +32,11 @@
     <aside class="col-sm-3 hidden-xs asider">
         <hr>
         <div class="row">
-            {% if DISPLAY_PAGES_ON_MENU %}
-            {% for p in pages %}
-            <div class="col-sm-6 hidden-xs btn btn_f333">
-                <a href="{{ SITEURL }}/{{ p.url }}">
-                    {{ p.title }}
-                </a>
-            </div>
+            {% for title,url,desc in LINKS_F333 %}
+            <a href="{{ url }}" class="col-sm-6 hidden-xs btn btn_f333">
+                    {{ title }}
+          </a>
             {% endfor %}
-            {% endif %}
-            {% if DISPLAY_CATEGORIES_ON_MENU %}
-            {% for cat, null in categories %}
-            <div class="col-sm-6 hidden-xs btn btn_f333">
-                <a href="{{ SITEURL }}/{{ cat.url }}">
-                    {{ cat }}
-                </a>
-            </div>
-            {% endfor %}
-            {% endif %}
         </div>
         <hr>
         <div class="row">
