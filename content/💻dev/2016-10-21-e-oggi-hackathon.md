@@ -1,7 +1,6 @@
 Title: E oggi Hackathon
 Date: 2016-10-21 10:22
 Author: fundor333
-Category: dev
 Tags: hackathon, status
 Slug: e-oggi-hackathon
 Status: published

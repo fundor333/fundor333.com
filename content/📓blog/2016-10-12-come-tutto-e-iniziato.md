@@ -1,7 +1,6 @@
 Title: Come tutto è iniziato
 Date: 2016-10-12 12:56
 Author: fundor333
-Category: blog
 Tags: status, assistenza tecnica
 Slug: come-tutto-e-iniziato
 Status: published
