@@ -1,7 +1,6 @@
 Title: Git, l'albero delle versioni che ci salva il progetto
 Date: 2016-10-10 13:11
 Author: fundor333
-Category: blog
 Tags: git
 Slug: git-lalbero-delle-versioni
 Status: published

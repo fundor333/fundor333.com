@@ -1,7 +1,6 @@
 Title: Orrori delle parentesi
 Date: 2016-11-09 12:24
 Author: fundor333
-Category: blog
 Tags: programmazione
 Slug: orrori-delle-parentesi
 Status: published
