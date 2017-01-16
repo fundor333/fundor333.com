@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Fundor333'
-SITENAME = u'💻Fundor 333💻'
+SITENAME = u'💻Fundor 333'
 SITEURL = ''
 
 TIMEZONE = 'Europe/Paris'
@@ -29,9 +29,9 @@ SOCIAL = (('facebook', 'https://www.facebook.com/fundor333'),
 LINKS_F333 = (
     ('📓blog', '/blog/', 'I miei articoli, ordinati cronologicamente'),
     ('📚everything', '/everything/', 'Tutto il materiale del mio blog, senza distinzioni'),
-    ('️💻dev', '/dev/', 'Il mio diario di sviluppo'),
+    ('️⌨️dev', '/dev/', 'Il mio diario di sviluppo'),
     ('🤵🏻about', '/about/', 'Chi sono e cosa faccio'),
-    ('🖥project', '/project/', 'In sintesi i miei progetti'),
+    ('💻project', '/project/', 'In sintesi i miei progetti'),
     ('📌the source', 'https://github.com/fundor333/fundor333.github.io', 'Il sorgente del sito')
 )
 
