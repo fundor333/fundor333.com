@@ -8988,5 +8988,15 @@ ul.tagcloud {
 .f333_title a {
   color: #D3D3D3;
 }
+.metadata {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+}
+.metadata hr {
+  border-color: black;
+}
 
 /*# sourceMappingURL=style.css.map */

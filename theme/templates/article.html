@@ -4,19 +4,19 @@
 {% endblock %}
 
 {% block head %}
-  {{ super() }}
-  {% if article.summary %}
-    <meta name="summary" content="{{article.summary}}" />
-  {% endif %}
+{{ super() }}
+{% if article.summary %}
+<meta name="summary" content="{{article.summary}}"/>
+{% endif %}
 
-  {% for tag in article.tags %}
-    <meta name="tags" content="{{tag}}" />
-  {% endfor %}
+{% for tag in article.tags %}
+<meta name="tags" content="{{tag}}"/>
+{% endfor %}
 
-  {% if article.author %}
-    <meta name="author" content="{{article.author }}">
+{% if article.author %}
+<meta name="author" content="{{article.author }}">
 {% else%}
-    <meta name="author" content="Fundor 333">
+<meta name="author" content="Fundor 333">
 {% endif %}
 
 {% endblock %}
@@ -24,61 +24,70 @@
 {% block content %}
 <div class="page-container">
     <article>
-    <div class="article-header-container ">
-        <div class="background-image-container ">
-            {# title with big background image #}
-            {% if article.cover %}
-            <div class="background-image"
-                 style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ article.cover }});">
-                <img src="{{ article.cover }}" alt="{{ article.title|striptags }}">
-                <div class="title f333_title">
-                    <h1>
-                        {{ article.title }}
-                    </h1>
-                    {% if article.subtitle %}
-                    <h2>
-                        {{ article.subtitle }}
-                    </h2>
+        <div class="article-header-container ">
+            <div class="background-image-container ">
+                {# title with big background image #}
+                {% if article.cover %}
+                <div class="background-image"
+                     style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ article.cover }});">
+                    <img src="{{ article.cover }}" alt="{{ article.title|striptags }}">
+                    <div class="title f333_title">
+                        <h1>
+                            {{ article.title }}
+                        </h1>
+                        {% if article.subtitle %}
+                        <h2>
+                            {{ article.subtitle }}
+                        </h2>
+                        {% endif %}
+                    </div>
+                </div>
+                {% else %}
+                <div class="background-image-small">
+                    {% if article.thumbnail %}
+                    <img src="{{ article.thumbnail }}" alt="{{ article.title|striptags }}">
                     {% endif %}
+                    <div class="title-container text-center">
+                        <h1>{{ article.title }}</h1>
+                        {% if article.subtitle %}
+                        <h4>{{ article.subtitle }}</h4>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            <div class="metadata">
+                <ol class="breadcrumb center-block text-center">
+                    <li><a href="{{ SITEURL }}/">Home</a></li>
+                    <li><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></li>
+                    <li class="active">{{ article.title }}</li>
+                </ol>
+                <hr>
+                <div class="date_article text-center">
+                    {{ article.locale_date }}
                 </div>
             </div>
-            {% else %}
-            <div class="background-image-small">
-                {% if article.thumbnail %}
-                <img src="{{ article.thumbnail }}" alt="{{ article.title|striptags }}">
-                {% endif %}
-                <div class="title-container">
-                    <h1>{{ article.title }}</h1>
-                    {% if article.subtitle %}
-                    <h4>{{ article.subtitle }}</h4>
-                    {% endif %}
-                </div>
+        </div>
+        <br>
+        <div class="entry-content">
+            {{ article.content }}
+        </div>
+
+        <div>
+            <div class="pure-g post-footer">
+                Postato da Fundor333 il {{ article.locale_date }}
+            </div>
+
+            {% if article.tags %}
+            <hr>
+            <div class="tags">
+                {% for tag in article.tags %}
+                <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag | escape }}</a>
+                {% endfor %}
             </div>
             {% endif %}
         </div>
-        <div class="date_article">
-            {{ article.locale_date }}
-        </div>
-    </div>
-    <br>
-    <div class="entry-content">
-        {{ article.content }}
-    </div>
-
-    <div>
-        <div class="pure-g post-footer">
-            Postato da Fundor333 il {{ article.locale_date }}
-        </div>
-
-        {% if article.tags %}
-        <div class="tags">
-            {% for tag in article.tags %}
-            <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag | escape }}</a>
-            {% endfor %}
-        </div>
-        {% endif %}
-    </div>
-        </article>
+    </article>
     <hr>
     {% if DISQUS_SITENAME %}
     <div class="entry-content">
