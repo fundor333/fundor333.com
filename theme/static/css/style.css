@@ -8760,8 +8760,10 @@ button.close {
 .tag a {
   color: black;
 }
-.boxes {
-  display: flex;
+@media (min-width: 767px) {
+  .boxes {
+    display: flex;
+  }
 }
 .btn_f333 {
   color: black;
