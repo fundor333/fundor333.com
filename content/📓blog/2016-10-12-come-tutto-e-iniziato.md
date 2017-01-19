@@ -4,6 +4,7 @@ Author: fundor333
 Tags: status, assistenza tecnica
 Slug: come-tutto-e-iniziato
 Status: published
+Summary: Presentazione della rubrica "Cosa avete fatto scusa?"
 
 Ho deciso che racconterò alcuni episodi che mi sono accaduti come
 tecnico informatico.
@@ -18,7 +19,7 @@ di cavi. Da qui ho iniziato prima mettendo mano a questo impianto (non
 lo chiamo orrore solo perchè dopo aver letto Lovecraft capisco che non
 siamo arrivati a tanto anche se...) e a assistenze su chiamata.
 
-Da qui nascono i racconti di [Cosa avete fatto scusa?](http://www.fundor333.com/category/posts/assistenza/) rubrica a
+Da qui nascono i racconti di "Cosa avete fatto scusa?" rubrica a
 cadenza variabile in base a cio' che mi accade.
 
 Personalmente spero non spesso ma so per esperienza che

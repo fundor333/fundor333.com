@@ -4,6 +4,7 @@ Author: fundor333
 Tags: docker
 Slug: docker-la-balena-con-i-container
 Status: published
+Summary:Docker, cos'è e come funziona
 
 Docker
 ======

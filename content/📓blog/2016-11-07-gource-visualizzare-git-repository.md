@@ -4,6 +4,7 @@ Author: fundor333
 Tags: git, gource
 Slug: gource-visualizzare-git-repository
 Status: published
+Summary: Gource, cos'è e come usarlo al meglio
 
 Quando hai un progetto Git, normalmente lo usi per fare controllo delle
 versioni.\

@@ -4,6 +4,7 @@ Author: fundor333
 Tags: hackathon, programmazione, tutorial
 Slug: sopravivvere-un-hackathon-programmando
 Status: published
+Summary: Sommario della mia avventura all'Hackathon eodappathon
 
 Esco in questi giorni da un Hackathon organizzato dalla regione Veneto
 ([qui](http://www.energic-od.eu/)info), portando a casa con la mia
