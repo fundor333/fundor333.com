@@ -4,6 +4,7 @@ Author: fundor333
 Tags: hackathon, status
 Slug: e-oggi-hackathon
 Status: published
+Summary: E oggi Hackathon
 
 E oggi si va di hackathon... Per chi non gli conoscono gli hackathon
 sono gare tra gruppi di programmatori in cui viene assegnato un tema e

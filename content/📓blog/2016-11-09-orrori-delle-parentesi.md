@@ -4,6 +4,7 @@ Author: fundor333
 Tags: programmazione
 Slug: orrori-delle-parentesi
 Status: published
+Summary: Digressione sull'uso delle parentesi nei linguaggi di programmazione
 
 (°,,,°)
 

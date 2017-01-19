@@ -4,6 +4,7 @@ Author: fundor333
 Slug: scrivi-push-public
 Tags: github, wordpress, container
 Status: published
+Summary: Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni
 
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.
 

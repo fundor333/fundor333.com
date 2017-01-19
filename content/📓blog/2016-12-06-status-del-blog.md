@@ -4,6 +4,7 @@ Author: fundor333
 Tags: status, firebase, gdg
 Slug: status-del-blog
 Status: published
+Summary: Aggiornamento sullo stato del blog e scuse varie
 
 Questo post inizia con delle scuse🙇.\
 Questo perchè ultimamente non ho scritto niente perchè occupato tra

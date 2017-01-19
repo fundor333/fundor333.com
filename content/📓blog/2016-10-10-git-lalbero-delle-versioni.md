@@ -4,6 +4,7 @@ Author: fundor333
 Tags: git
 Slug: git-lalbero-delle-versioni
 Status: published
+Summary: Git cos'è e come funziona
 
 Spesso e volentieri uno dei problemi dello sviluppo di software è avere
 backup del codice e condividerlo in modo da poterci lavorare in più
