@@ -1,0 +1,3 @@
+[submodule "plugin/timing_post"]
+	path = plugin/timing_post
+	url = https://github.com/fundor333/timing_post.git
