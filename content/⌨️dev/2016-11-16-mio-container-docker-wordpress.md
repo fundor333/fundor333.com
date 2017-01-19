@@ -4,6 +4,7 @@ Author: fundor333
 Slug: mio-container-docker-wordpress
 Tags: docker, wordpress, container
 Status: published
+Summary: Docker implementa un server locale per sviluppare temi e plugin Wordpress
 
 Questo è un progetto nato da una mia necessità: avere wordpress
 installato senza avere tutti i file in */var/www* o simili ma nella

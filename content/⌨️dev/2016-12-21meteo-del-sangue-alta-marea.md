@@ -4,6 +4,7 @@ Author: fundor333
 Tags: bot, facebook, open data, telegram, twitter
 Slug: meteo-del-sangue-alta-marea
 Status: published
+Summary: Bot per telegram e twitter per la donazione del sangue e l'alta marea a Venezia
 
 Ovvero come ho iniziato a scrivere bot per telegram.
 
