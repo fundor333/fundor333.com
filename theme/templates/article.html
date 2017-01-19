@@ -5,8 +5,8 @@
 
 {% block head %}
   {{ super() }}
-  {% if article.description %}
-    <meta name="description" content="{{article.description}}" />
+  {% if article.summary %}
+    <meta name="summary" content="{{article.summary}}" />
   {% endif %}
 
   {% for tag in article.tags %}
