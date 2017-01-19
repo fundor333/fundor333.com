@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Fundor333'
 SITENAME = u'💻Fundor 333'
+SITESUBTITLE = "import antigravity"
 SITEURL = ''
 
 TIMEZONE = 'Europe/Paris'
