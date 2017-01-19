@@ -8998,5 +8998,11 @@ ul.tagcloud {
 .metadata hr {
   border-color: black;
 }
+@media (max-width: 767px) {
+  .no_padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
