@@ -91,7 +91,8 @@ FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 PLUGIN_PATHS = ["plugin"]
 PLUGINS = [
     'tag_cloud',
-    'custom_article_urls'
+    'custom_article_urls',
+    'timing_post'
 ]
 
 # URL settings
