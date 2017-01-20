@@ -5,13 +5,15 @@
 
 {% block head %}
 {{ super() }}
-{% if article.summary %}
-<meta name="description" content="{{article.summary}}"/>
+{% if article.description %}
+    <meta name="description" content="{{ article.description }}" />
+{% else %}
+    <meta name="description" content="{{ article.summary|striptags }}" />
 {% endif %}
 
-{% for tag in article.tags %}
-<meta name="tags" content="{{tag}}"/>
-{% endfor %}
+{% if article.tags %}
+<meta name="tags" content="{% for tag in article.tags %}{{tag}}, {% endfor %}"/>
+{%endif%}
 
 {% if article.author %}
 <meta name="author" content="{{article.author }}">
