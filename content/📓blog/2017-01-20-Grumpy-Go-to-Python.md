@@ -9,6 +9,5 @@ Io sono un pythonista che cerca di rimanere informato di quello che succede nel 
 
 Quindi quando ho visto che Google lancia Grumpy in un articolo nel loro [blog](https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html) non potevo che essere incuriosito  e interessato ad avere ancora più notizie sul questo progetto. E, grazie ad un podcast che ascolto ho avuto ancora più notizie.
 
+Io sono iscritto al podcast [Talk Python](https://talkpython.fm/) dove in un [episodio](https://talkpython.fm/episodes/show/95/grumpy-running-python-on-go) è stato intervistato Dylan Trotter, Ingegniere Youtube e uno dei padri di GoLang
 <!--more-->
-
-https://talkpython.fm/episodes/show/95/grumpy-running-python-on-go
