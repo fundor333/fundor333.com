@@ -19,4 +19,4 @@ sottotitolo *import antigravity* viene da una vignetta di
 
 Se volete potete contattarmi via mail GPG
 [qui](https://keybase.io/fundor333/key.asc) c'è la chiave. L'indirizzo è
-mail@fundor333.com
+fundor333@gmail.com
