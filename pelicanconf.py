@@ -98,5 +98,5 @@ PLUGINS = [
 
 # URL settings
 STATIC_EXCLUDE_SOURCES = True
-STATIC_PATHS = ['extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
+STATIC_PATHS = ['extra/CNAME','extra/keybase.txt']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/keybase.txt':{'path': 'keybase.txt'}
