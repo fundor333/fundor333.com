@@ -1,4 +1,4 @@
-Title: Bot, telegram e programmazione funzionaleDate: 2017-032-11 9:20Tags: bot, python, telegramSlug: bot-telegram-e-programmazione-funzionaleSummary: Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in PythonStatus: published
+Title: Bot, telegram e programmazione funzionaleDate: 2017-02-11 9:20Slug: bot-telegram-e-programmazione-funzionaleTags: bot, python, telegramStatus: publishedSummary: Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python
 Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.
 ## L'inizio di tutto
 Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria [python-telegram-bot](https://python-telegram-bot.org/) e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a "ascoltatore" che la esegue quando riceve il comando.
