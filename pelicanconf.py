@@ -93,10 +93,9 @@ PLUGIN_PATHS = ["plugin"]
 PLUGINS = [
     'tag_cloud',
     'custom_article_urls',
-    'timing_post'
 ]
 
 # URL settings
 STATIC_EXCLUDE_SOURCES = True
-STATIC_PATHS = ['extra/CNAME','extra/keybase.txt']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/keybase.txt':{'path': 'keybase.txt'}}
+STATIC_PATHS = ['extra/CNAME','extra/keybase.txt', 'extra/.pyup.yml']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/keybase.txt':{'path': 'keybase.txt'}, 'extra/.pyup.yml':{'path':'.pyup.yml'}}
