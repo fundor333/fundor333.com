@@ -1,80 +1,90 @@
 {% extends "_base.html" %}
 
 {% block head %}
-  {{ super() }}
-    <meta name="description" content="Programmatore appasionato di Python, Docker e del mondo Open Source. Nel tempo libero cerco di migliorare il mondo, per quanto posso, supportando attività di volontariato e il mondo Open Source. Ho un passato oscuro da PFY e qualche esperienza nel coordinare gruppi di viaggio e volontariato... Questo vuole essere il mio spazio personale/bacheca publica/blog personale dove metto esperienza, progetti e idee... Insomma un diario di un informatico mai cresciuto. Fundor333" />
-    <meta name="author" content="Fundor 333">
+{{ super() }}
+<meta name="description"
+      content="Programmatore appasionato di Python, Docker e del mondo Open Source. Nel tempo libero cerco di migliorare il mondo, per quanto posso, supportando attività di volontariato e il mondo Open Source. Ho un passato oscuro da PFY e qualche esperienza nel coordinare gruppi di viaggio e volontariato... Questo vuole essere il mio spazio personale/bacheca publica/blog personale dove metto esperienza, progetti e idee... Insomma un diario di un informatico mai cresciuto. Fundor333"/>
+<meta name="author" content="Fundor 333">
 
 {% endblock %}
 
 {% block body %}
-    <div class="main-container">
+<div class="main-container">
 
-        <div class="row boxes">
-            <div class="col-xs-12 col-md-3">
-                <a href="{{ SITEURL }}/">
-                    <div class="row">
-                        <div class="col-xs-10 col-xs-offset-1">
-                            <img src="{{ SITEURL }}/theme/img/logo.png" class="img-responsive center-block">
+    <div class="row">
+        <div class="box">
+            <div class="col-xs-12 col-md-3 ">
+                <div class="row page_box inside">
+                    <a href="{{ SITEURL }}/">
+                        <div>
+                            <div class="col-xs-10 col-xs-offset-1">
+                                <img src="{{ SITEURL }}/theme/img/logo.png" class="img-responsive center-block">
+                            </div>
                         </div>
-                    </div>
-                </a>
-
-                <div class="row">
+                    </a>
+                </div>
+                <br class="hidden-xs">
+                <div class="row page_box inside ">
                     <div class="col-xs-12">
-                        <div class="page_box col-xs-12">
+                        <div class="col-xs-12">
                             {% for title, link in SOCIAL %}
-                                <div class="btn btn-f333 btn-circle col-xs-4 ">
-                                    <a href="{{ link }}">
-                                        <i class="fa fa-{{ title }} fa-3x"></i>
-                                    </a>
-                                </div>
+                            <div class="btn btn-f333 btn-circle col-xs-4 ">
+                                <a href="{{ link }}">
+                                    <i class="fa fa-{{ title }} fa-3x"></i>
+                                </a>
+                            </div>
                             {% endfor %}
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-xs-12 col-md-8 col-offset-md-1">
-                <div class="page_box col-xs-12">
-                    <article>
-                        <a href="{{ SITEURL }}/">
-                            <h1 class="f333_title">Fundor333</h1>
-                            <h3 class="f333_title">import antigravity</h3>
-                            <hr>
-                        </a>
+            <div class="col-xs-12 col-md-9">
+                <div class="row page_box inside">
+                    <div class="col-xs-12">
+                        <article>
+                            <a href="{{ SITEURL }}/">
+                                <h1 class="f333_title">Fundor333</h1>
+                                <h3 class="f333_title">import antigravity</h3>
+                                <hr>
+                            </a>
 
-                        <p><strong>Chi sono?</strong> Sono un programmatore 💻 appasionato di <em>Python 🐍, Docker 🐋 e
-                            del mondo Open Source</em>. Nel tempo libero cerco di migliorare il mondo, per quanto posso,
-                            supportando attività di volontariato e il mondo Open Source.</p>
-                        <p>Ho un passato oscuro da <em>PFY</em> e qualche esperienza nel coordinare gruppi di viaggio e
-                            volontariato...</p>
-                        <p>Questo vuole essere il mio spazio personale/bacheca publica/blog personale dove metto
-                            esperienza,
-                            progetti e idee... Insomma un diario di un <em>informatico mai cresciuto</em>.</p>
-                        <p><i>Fundor333</i></p>
-                    </article>
+                            <p><strong>Chi sono?</strong> Sono un programmatore 💻 appasionato di <em>Python 🐍, Docker
+                                🐋 e
+                                del mondo Open Source</em>. Nel tempo libero cerco di migliorare il mondo, per quanto
+                                posso,
+                                supportando attività di volontariato e il mondo Open Source.</p>
+                            <p>Ho un passato oscuro da <em>PFY</em> e qualche esperienza nel coordinare gruppi di
+                                viaggio e
+                                volontariato...</p>
+                            <p>Questo vuole essere il mio spazio personale/bacheca publica/blog personale dove metto
+                                esperienza,
+                                progetti e idee... Insomma un diario di un <em>informatico mai cresciuto</em>.</p>
+                            <p><i>Fundor333</i></p>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-xs-12">
-                {% for title,url,desc in LINKS_F333 %}
-                    <a class="subtitle col-xs-12 col-sm-6 col-md-4 text-center" href="{{ url }}">
-                        <div class="inside page_box col-xs-12">
-                            <div>
-                                <h3>{{ title }}</h3>
-                                <hr class="less">
-                                <article>{{ desc }}</article>
-                            </div>
-                        </div>
+    <div class="row">
+        <div class="col-xs-12">
+            {% for title,url,desc in LINKS_F333 %}
+            <a class="subtitle col-xs-12 col-sm-6 col-md-4 text-center" href="{{ url }}">
+                <div class="inside page_box col-xs-12">
+                    <div>
+                        <h3>{{ title }}</h3>
+                        <hr class="less">
+                        <article>{{ desc }}</article>
+                    </div>
+                </div>
 
-                    </a>
-                {% endfor %}
-            </div>
+            </a>
+            {% endfor %}
         </div>
     </div>
+</div>
 
 
 {% endblock %}
