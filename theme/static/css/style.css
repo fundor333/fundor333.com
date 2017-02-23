@@ -17,6 +17,7 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8740,6 +8741,10 @@ button.close {
   overflow: visible;
   clip: auto;
 }
+body {
+  font-family: 'Special Elite';
+  background-color: #2F4F4F;
+}
 .vcenter {
   position: absolute;
   top: 50%;
@@ -8751,7 +8756,7 @@ button.close {
 }
 .tag {
   color: black;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Special Elite', cursive;
 }
 .tag a:link,
 .tag a:visited,
@@ -8769,7 +8774,7 @@ button.close {
   color: black;
   background-color: #fffeeb;
   border-color: #fffeeb;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Special Elite', cursive;
 }
 .btn_f333:focus,
 .btn_f333.focus {
@@ -8831,7 +8836,7 @@ fieldset[disabled] .btn_f333.focus {
 .maintitle {
   margin-top: 2%;
   margin-bottom: 2%;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Special Elite', cursive;
 }
 .maintitle a:link,
 .maintitle a:visited,
@@ -8843,7 +8848,7 @@ fieldset[disabled] .btn_f333.focus {
 .subtitle {
   margin-top: 2%;
   margin-bottom: 2%;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Special Elite', cursive;
 }
 .subtitle a:link,
 .subtitle a:visited,
@@ -8872,6 +8877,8 @@ fieldset[disabled] .btn_f333.focus {
   color: black;
 }
 .page_box {
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   color: black;
   background-color: #d0d0d0;
 }
@@ -8900,7 +8907,6 @@ fieldset[disabled] .btn_f333.focus {
 }
 #center_body {
   display: flex;
-  background-color: #d0d0d0;
   color: black;
 }
 #feed_title {
@@ -8916,11 +8922,8 @@ fieldset[disabled] .btn_f333.focus {
 .inside {
   margin: 1%;
 }
-body {
-  background-color: #2F4F4F;
-}
 .title {
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Special Elite', cursive;
 }
 #post_title {
   text-align: center;
@@ -8946,7 +8949,7 @@ body {
 }
 .copyright {
   color: #2F4F4F;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Special Elite', cursive;
 }
 #left_copy {
   text-align: left;
@@ -8955,7 +8958,7 @@ body {
   text-align: right;
 }
 article {
-  font-family: 'Roboto';
+  font-family: 'Special Elite';
 }
 ul.tagcloud {
   list-style: none;
@@ -8981,7 +8984,7 @@ ul.tagcloud {
   color: black;
 }
 .f333_title {
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Special Elite', cursive;
 }
 .f333_title a:link,
 .f333_title a:visited,
