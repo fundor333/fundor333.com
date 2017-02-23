@@ -11,11 +11,13 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 */
 @import "boostrap/bootstrap";
 @import "font_awesome/font-awesome";
- @import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
- @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-@font_titles: 'Arima Madurai';
-@font_text: 'Roboto';
+ @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+@font_titles: 'Special Elite';
+@font_text: 'Special Elite';
 
 @main_body_margin: 2%;
 @color_changing: 20%;
@@ -35,6 +37,10 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 
 @color_page_background: #2F4F4F;
 
+body {
+    font-family: @font_text;
+  background-color: @color_page_background;
+}
 .a_link(@color ) {
   a:link, a:visited, a:hover, a:active, a {
     color: @color;
@@ -61,7 +67,8 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 .boxes {
   @media (min-width: @screen-xs-max){
   display: flex;
-}}
+    }
+}
 
 .btn_f333 {
   .button-variant(@color_text; @color_sidebar_lighter; @color_sidebar_lighter);
@@ -98,6 +105,8 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 }
 
 .page_box {
+      box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
   .a_link(@color_text);
   color: @color_text;
   background-color: @color_main;
@@ -123,7 +132,6 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
 
 #center_body {
   display: flex;
-  background-color: @color_main;
   color: @color_text;
 }
 
@@ -142,9 +150,7 @@ License URI: http://creativecommons.org/licenses/by-sa/2.0/
     margin: 1%;
   }
 
-body {
-  background-color: @color_page_background;
-}
+
 
 .title {
   font-family: @font_titles, cursive;

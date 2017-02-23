@@ -29,7 +29,7 @@ SOCIAL = (('facebook', 'https://www.facebook.com/fundor333'),
 # Link edited for more than 2-tuples
 LINKS_F333 = (
     ('📓blog', '/blog/', 'I miei articoli, ordinati cronologicamente'),
-    ('📚everything', '/everything/', 'Tutto il materiale del mio blog, senza distinzioni'),
+    ('📚everything', '/everything/', 'Tutto il materiale del mio blog'),
     ('️⌨️dev', '/dev/', 'Il mio diario di sviluppo'),
     ('🤵🏻about', '/about/', 'Chi sono e cosa faccio'),
     ('💻project', '/project/', 'In sintesi i miei progetti'),
