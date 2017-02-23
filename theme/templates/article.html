@@ -6,9 +6,9 @@
 {% block head %}
 {{ super() }}
 {% if article.description %}
-    <meta name="description" content="{{ article.description }}" />
+<meta name="description" content="{{ article.description }}"/>
 {% else %}
-    <meta name="description" content="{{ article.summary|striptags }}" />
+<meta name="description" content="{{ article.summary|striptags }}"/>
 {% endif %}
 
 {% if article.tags %}
@@ -76,12 +76,14 @@
         </div>
 
         <div>
+            <hr>
             <div class="pure-g post-footer">
-                Postato da Fundor333 il {{ article.locale_date }}
+                <p>
+                    Postato da {{ article.author }} il {{ article.locale_date }}
+                </p>
             </div>
 
             {% if article.tags %}
-            <hr>
             <div class="tags">
                 {% for tag in article.tags %}
                 <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag | escape }}</a>
@@ -103,6 +105,8 @@
                 dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();
+
+
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments
             powered by Disqus.</a></noscript>

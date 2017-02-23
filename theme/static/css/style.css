@@ -8876,6 +8876,10 @@ fieldset[disabled] .btn_f333.focus {
 .footbody a {
   color: black;
 }
+highlight {
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
 .page_box {
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -8998,7 +9002,7 @@ ul.tagcloud {
   margin-bottom: 20px;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 .metadata hr {
   border-color: black;
