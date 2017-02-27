@@ -90,6 +90,8 @@ TAGS_SAVE_AS = 'everything/tags/index.html'
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 
 MARKUP = ('md', 'ipynb')
+IGNORE_FILES = ['.ipynb_checkpoints']
+IPYNB_USE_META_SUMMARY = True
 
 # Specify the plugins
 PLUGIN_PATHS = ["plugin"]
