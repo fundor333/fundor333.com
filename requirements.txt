@@ -68,4 +68,4 @@ widgetsnbextension==1.2.6  # via ipywidgets
 win-unicode-console==0.5  # via ipython
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools                # via cryptography, ipython
+# setuptools
