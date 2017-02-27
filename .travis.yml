@@ -11,7 +11,7 @@ script:
 - make publish github
 
 notifications:
-  slack: f333:OWjfk8trhAlsbc45hIT8PgGj
+  slack: f333:OWjfk8trhAlsbc45hIT8PgGj#blog
 
 env:
   global:
