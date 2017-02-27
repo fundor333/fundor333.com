@@ -2,3 +2,7 @@ cryptography
 ghp-import
 Markdown
 pelican
+jupyter
+ipython
+nbconvert
+beautifulsoup4
