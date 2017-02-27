@@ -24,7 +24,7 @@ SOCIAL = (('facebook', 'https://www.facebook.com/fundor333'),
           ('linkedin', 'https://it.linkedin.com/in/matteo-scarpa-78969263'),
           ('github', 'https://github.com/fundor333'),
           ('gitlab', 'https://gitlab.com/fundor333'),
-          ('feed', 'feeds/feed.xml'))
+          ('feed', 'https://fundor333.com/feeds/feed.xml'))
 
 # Link edited for more than 2-tuples
 LINKS_F333 = (
@@ -33,6 +33,7 @@ LINKS_F333 = (
     ('️⌨️dev', '/dev/', 'Il mio diario di sviluppo'),
     ('🤵🏻about', '/about/', 'Chi sono e cosa faccio'),
     ('💻project', '/project/', 'In sintesi i miei progetti'),
+    #('📕notebook','/notebook/', 'I miei Jupyter Notebook'),
     ('📌the source', 'https://github.com/fundor333/fundor333.github.io', 'Il sorgente del sito')
 )
 
@@ -88,11 +89,15 @@ TAGS_SAVE_AS = 'everything/tags/index.html'
 # Octopress-compatible filename metadata parsing
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 
+MARKUP = ('md', 'ipynb')
+
 # Specify the plugins
 PLUGIN_PATHS = ["plugin"]
 PLUGINS = [
     'tag_cloud',
     'custom_article_urls',
+    'sitemap',
+    'pelican-ipynb.markup',
 ]
 
 # URL settings
