@@ -8745,6 +8745,9 @@ body {
   font-family: 'Special Elite';
   background-color: #2F4F4F;
 }
+.social-link {
+  text-decoration: none!important;
+}
 .vcenter {
   position: absolute;
   top: 50%;
