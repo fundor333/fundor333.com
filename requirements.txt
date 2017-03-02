@@ -6,4 +6,4 @@ jupyter==1.0.0
 ipython==5.3.0
 nbconvert
 beautifulsoup4
-setuptools>=34.3.0
+setuptools==34.3.0
