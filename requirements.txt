@@ -4,7 +4,7 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
-appdirs==1.4.0            # via setuptools
+appdirs==1.4.2            # via setuptools
 backports-abc==0.5        # via tornado
 backports.shutil-get-terminal-size==1.0.0  # via ipython
 beautifulsoup4==4.5.3
@@ -22,7 +22,7 @@ enum34==1.1.6             # via cryptography, traitlets
 feedgenerator==1.9        # via pelican
 functools32==3.2.3.post2  # via jsonschema
 ghp-import==0.5.5
-html5lib==0.9999999       # via bleach
+html5lib==0.999999999       # via bleach
 idna==2.2                 # via cryptography
 ipaddress==1.0.18         # via cryptography
 ipykernel==4.5.2          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
@@ -49,7 +49,7 @@ pickleshare==0.7.4        # via ipython
 prompt-toolkit==1.0.13    # via ipython, jupyter-console
 pyasn1==0.2.2             # via cryptography
 pycparser==2.17           # via cffi
-pygments==2.1.3           # via ipython, jupyter-console, nbconvert, pelican, qtconsole
+pygments==2.2.0           # via ipython, jupyter-console, nbconvert, pelican, qtconsole
 pyparsing==2.1.10         # via packaging
 python-dateutil==2.6.0    # via jupyter-client, pelican
 pytz==2016.10             # via feedgenerator, pelican
@@ -64,7 +64,7 @@ tornado==4.4.2            # via ipykernel, notebook
 traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
 unidecode==0.4.20         # via pelican
 wcwidth==0.1.7            # via prompt-toolkit
-widgetsnbextension==1.2.6  # via ipywidgets
+widgetsnbextension==2.0.0  # via ipywidgets
 win-unicode-console==0.5  # via ipython
 
 # The following packages are considered to be unsafe in a requirements file:
