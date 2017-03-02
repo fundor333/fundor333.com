@@ -28,7 +28,7 @@ ipaddress==1.0.18         # via cryptography
 ipykernel==4.5.2          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
 ipython-genutils==0.1.0   # via nbformat, notebook, traitlets
 ipython==5.3.0
-ipywidgets==5.2.2         # via jupyter
+ipywidgets==6.0.0         # via jupyter
 jinja2==2.9.5             # via nbconvert, notebook, pelican
 jsonschema==2.6.0         # via nbformat
 jupyter-client==5.0.0     # via ipykernel, jupyter-console, notebook, qtconsole
