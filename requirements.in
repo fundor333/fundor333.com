@@ -1,9 +1,0 @@
-cryptography
-ghp-import
-Markdown
-pelican
-jupyter
-ipython
-nbconvert
-beautifulsoup4
-setuptools>=34.3.0
