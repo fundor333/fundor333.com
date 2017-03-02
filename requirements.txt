@@ -4,6 +4,6 @@ Markdown
 pelican
 jupyter
 ipython
-nbconvert
+nbconvert==5.1.1
 beautifulsoup4
 setuptools>=34.3.0
