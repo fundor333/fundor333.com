@@ -64,7 +64,7 @@ tornado==4.4.2            # via ipykernel, notebook
 traitlets==4.3.2          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
 unidecode==0.4.20         # via pelican
 wcwidth==0.1.7            # via prompt-toolkit
-widgetsnbextension==1.2.6  # via ipywidgets
+widgetsnbextension==2.0.0  # via ipywidgets
 win-unicode-console==0.5  # via ipython
 
 # The following packages are considered to be unsafe in a requirements file:
