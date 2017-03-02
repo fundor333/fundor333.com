@@ -122,6 +122,3 @@ github: publish
 	ghp-import -b $(GITHUB_PAGES_BRANCH) -n $(OUTPUTDIR)
 	@git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git $(GITHUB_PAGES_BRANCH) > /dev/null
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
-
-test:
-    pelican content -s pelicanconf.py
