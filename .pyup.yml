@@ -1,4 +1,4 @@
 update: all
 assignees: fundor333
 branch_prefix: hotfix/pyup/
-branch: developer
+branch: develop
