@@ -23,7 +23,7 @@ feedgenerator==1.9        # via pelican
 functools32==3.2.3.post2  # via jsonschema
 ghp-import==0.5.4
 html5lib==0.9999999       # via bleach
-idna==2.2                 # via cryptography
+idna==2.4                 # via cryptography
 ipaddress==1.0.18         # via cryptography
 ipykernel==4.5.2          # via ipywidgets, jupyter, jupyter-console, notebook, qtconsole
 ipython-genutils==0.1.0   # via nbformat, notebook, traitlets
