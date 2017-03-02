@@ -33,7 +33,7 @@ LINKS_F333 = (
     ('️⌨️dev', '/dev/', 'Il mio diario di sviluppo'),
     ('🤵🏻about', '/about/', 'Chi sono e cosa faccio'),
     ('💻project', '/project/', 'In sintesi i miei progetti'),
-    #('📕notebook','/notebook/', 'I miei Jupyter Notebook'),
+    # ('📕notebook','/notebook/', 'I miei Jupyter Notebook'),
     ('📌the source', 'https://github.com/fundor333/fundor333.github.io', 'Il sorgente del sito')
 )
 
@@ -104,5 +104,6 @@ PLUGINS = [
 
 # URL settings
 STATIC_EXCLUDE_SOURCES = True
-STATIC_PATHS = ['extra/CNAME','extra/keybase.txt','images']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/keybase.txt':{'path': 'keybase.txt'}}
+STATIC_PATHS = ['extra/CNAME', 'extra/keybase.txt', 'images', '.pyup.yml']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, 'extra/keybase.txt': {'path': 'keybase.txt'},
+                       '.pyup.yml': {'path': '.pyup.yml'}}
