@@ -5,5 +5,5 @@ pelican
 jupyter
 ipython
 nbconvert
-beautifulsoup4
+beautifulsoup4==4.5.3
 setuptools>=34.3.0
