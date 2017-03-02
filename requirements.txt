@@ -1,6 +1,6 @@
 cryptography
 ghp-import
-Markdown
+Markdown==2.6.8
 pelican
 jupyter
 ipython
