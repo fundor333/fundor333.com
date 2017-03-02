@@ -1,7 +1,7 @@
 cryptography
 ghp-import
 Markdown
-pelican
+pelican==3.7.1
 jupyter
 ipython
 nbconvert
