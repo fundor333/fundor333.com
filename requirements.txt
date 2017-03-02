@@ -2,7 +2,7 @@ cryptography
 ghp-import
 Markdown
 pelican
-jupyter
+jupyter==1.0.0
 ipython
 nbconvert
 beautifulsoup4
