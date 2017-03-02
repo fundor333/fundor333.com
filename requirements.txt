@@ -1,4 +1,4 @@
-cryptography
+cryptography==1.7.2
 ghp-import
 Markdown
 pelican
