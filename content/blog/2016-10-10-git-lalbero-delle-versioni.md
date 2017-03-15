@@ -71,7 +71,7 @@ memoria. Le differenze tra le versioni sono quelle che Git memorizza. Le
 modifiche ai file assumono quindi degli 'stati': registrate, non
 controllate, sotto osservazione.
 
-![](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png){.aligncenter .size-large .img-responsive}
+![](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)
 
 Normalmente le modifiche sono effettuate nella "Working Directory" e
 passano nella "Staging Area" dopo che vengono selezionate con il comando

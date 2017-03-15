@@ -18,6 +18,15 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+
 # Social widget with fontawesome implementation
 SOCIAL = (('facebook', 'https://www.facebook.com/fundor333'),
           ('twitter', 'https://twitter.com/fundor333'),
