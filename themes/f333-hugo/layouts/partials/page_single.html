@@ -1,0 +1,30 @@
+<div class="col-xs-12 no_padding">
+    <section>
+        <div class="col-xs-12 page_box">
+            <div class="page-container">
+                <article>
+                    <div class="article-header-container ">
+                        <div class="background-image-container ">
+                            <div class="background-image-small">
+                                <div class="title-container text-center">
+                                    <h1>{{.Title}}</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="entry-content">
+                        {{.Content}}
+                    </div>
+                </article>
+                <hr>
+                <div class="entry-content">
+                    {{partial "comments.html" .}}
+                </div>
+                <br>
+            </div>
+
+        </div>
+        <br>
+    </section>
+</div>

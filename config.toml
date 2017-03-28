@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313/"
+baseurl = "https://fundor333.com/"
 languageCode = "it"
 title = "💻Fundor 333"
 theme = "f333-hugo"
