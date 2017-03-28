@@ -1,0 +1,75 @@
+<aside class="col-sm-3 hidden-xs asider page_box">
+    <hr>
+    <div class="row">
+        {{ range .Site.Params.main -}}
+        <a href="{{ .url | absLangURL }}" class="col-sm-6 hidden-xs btn btn_f333">{{ .name }}</a> {{end}}
+    </div>
+
+    <hr>
+    <div class="row">
+        {{ range .Site.Menus.social -}}
+        <div class="col-sm-4 hidden-xs btn btn_f333">
+            <a class="social-link" href="{{ .URL }}">
+                <i class="fa fa-{{ .Name }} fa-2x"></i>
+            </a>
+            <br>
+        </div>
+        {{end}}
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12 hidden-xs">
+            <a href="{{ .Site.BaseURL }}/everything/tags/wordpress/" class="tag-2 tag">
+            wordpress</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/bot/" class="tag-2 tag">
+            bot</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/container/" class="tag-2 tag">
+            container</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/open-data/" class="tag-4 tag">
+            open data</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/programmazione/" class="tag-1 tag">
+            programmazione</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/python/" class="tag-2 tag">
+            python</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/status/" class="tag-1 tag">
+            status</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/telegram/" class="tag-2 tag">
+            telegram</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/tutorial/" class="tag-4 tag">
+            tutorial</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/assistenza-tecnica/" class="tag-4 tag">
+            assistenza tecnica</a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/facebook/" class="tag-4 tag">
+            facebook                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/hackathon/" class="tag-2 tag">
+            hackathon                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/golang/" class="tag-4 tag">
+            golang                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/gource/" class="tag-4 tag">
+            gource                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/texteditor/" class="tag-4 tag">
+            texteditor                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/emacs/" class="tag-4 tag">
+            emacs                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/github/" class="tag-4 tag">
+            github                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/grumpy/" class="tag-4 tag">
+            grumpy                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/docker/" class="tag-2 tag">
+            docker                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/pelicanjupyter-notebook/" class="tag-4 tag">
+            pelicanjupyter notebook                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/git/" class="tag-2 tag">
+            git                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/firebase/" class="tag-4 tag">
+            firebase                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/twitter/" class="tag-4 tag">
+            twitter                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/gdg/" class="tag-4 tag">
+            gdg                </a>
+            <a href="{{ .Site.BaseURL }}/everything/tags/google/" class="tag-4 tag">
+            google                </a>
+        </div>
+    </div>
+    <br>
+</aside>
