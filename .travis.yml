@@ -1,13 +1,7 @@
-language: python
-install:
-- pip install setuptools
-- pip install -r requirements.txt
-script:
-- if [ "$TRAVIS_BRANCH" = "source" ]; then make publish github; else make html; fi
+language: go
+install: go get -v github.com/spf13/hugo
 
-notifications:
-  slack: f333:OWjfk8trhAlsbc45hIT8PgGj#blog
-
+script: bash ./deploy.sh
 env:
   global:
-    secure: bXEwnfkKginE13JqGpcE8LqKHaUvcQc7DDFwtqeCXPF6UunIpJ7f/OUTUjCnVhQ0ceJlZA2RwjHnuGBpFXK3C66bA8FVYvZ8xrWsLuldG68dqVsjOmYWJ8VusxAeHrX0LZvLYUS2mAPlSjtzIqAuD80fG6R2MOdUvATz4Ws49Qgib5eARsBIOm1uK+sL8nzb+BOBHub9bUNpUX9pZCxZ6E0ygRSrZYuEompSFhpIDFvI1OvVpb/z6LQlZpGuIYAcSfhC5n8s4ZmpC/Kg4zmk/Ug5IhC2UdnZ6TES/CDj9q/xanA1ZqAGpRkonoh71u9RdmlvZtoPP75rwMPjR7c7bEOG7kQMTVOUcj+r58+dl1GR5wkO46BYqTvbLJ9zSfHn6zaCWf2/YupAmZ+6JBV7ZJTreG4vz0dALiZgT6KlBFePKfBBSHCK1Bo4L+hPiusVBEdczmJDHBS4jski3+RWA/oN/gQINqBwJCFO6E7DAgc32y5ehNUfzvTrukvrKKJsmjaQmrn5VUM0shFsiXf+tuwhibvqRq5RI5f2DoWfTXpDk+ecvxUiXL5CR48FmFO8+Qqxd4n/tC9QBTpk4uGGB0kXIp1cqfu5uymUDEjby7xg+VI1rrED6gCPv4s8gKmEaqb4AzXcHwgVpXbs9GJkPQOMUj/S+3NIoh4FPqij4zg=
+    -  ENCRYPTION_LABEL: "bXEwnfkKginE13JqGpcE8LqKHaUvcQc7DDFwtqeCXPF6UunIpJ7f/OUTUjCnVhQ0ceJlZA2RwjHnuGBpFXK3C66bA8FVYvZ8xrWsLuldG68dqVsjOmYWJ8VusxAeHrX0LZvLYUS2mAPlSjtzIqAuD80fG6R2MOdUvATz4Ws49Qgib5eARsBIOm1uK+sL8nzb+BOBHub9bUNpUX9pZCxZ6E0ygRSrZYuEompSFhpIDFvI1OvVpb/z6LQlZpGuIYAcSfhC5n8s4ZmpC/Kg4zmk/Ug5IhC2UdnZ6TES/CDj9q/xanA1ZqAGpRkonoh71u9RdmlvZtoPP75rwMPjR7c7bEOG7kQMTVOUcj+r58+dl1GR5wkO46BYqTvbLJ9zSfHn6zaCWf2/YupAmZ+6JBV7ZJTreG4vz0dALiZgT6KlBFePKfBBSHCK1Bo4L+hPiusVBEdczmJDHBS4jski3+RWA/oN/gQINqBwJCFO6E7DAgc32y5ehNUfzvTrukvrKKJsmjaQmrn5VUM0shFsiXf+tuwhibvqRq5RI5f2DoWfTXpDk+ecvxUiXL5CR48FmFO8+Qqxd4n/tC9QBTpk4uGGB0kXIp1cqfu5uymUDEjby7xg+VI1rrED6gCPv4s8gKmEaqb4AzXcHwgVpXbs9GJkPQOMUj/S+3NIoh4FPqij4zg="
