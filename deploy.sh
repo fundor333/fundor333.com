@@ -1,5 +1,9 @@
 #!/bin/sh
 
+git config --global user.email "fundor333@gmail.com"
+
+git config --global user.name "Travis F333"
+
 if [[ $(git status -s) ]]
 then
     echo "The working directory is dirty. Please commit any pending changes."
