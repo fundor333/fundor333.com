@@ -1,4 +1,5 @@
-language: generic # don't install any environment
+language: go
+install: go get -v github.com/spf13/hugo
 
 script: bash ./deploy.sh
 env:
