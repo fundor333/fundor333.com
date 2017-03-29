@@ -2,6 +2,7 @@
 title= "Gource, visualizzare Git repository"
 date= "2016-11-07"
 tags= ["git", "gource"]
+categories= ["blog"]
 slug= "gource-visualizzare-git-repository"
 description= "Gource, cos'è e come usarlo al meglio"
 aliases=["blog/2016/11/07/gource-visualizzare-git-repository/"]

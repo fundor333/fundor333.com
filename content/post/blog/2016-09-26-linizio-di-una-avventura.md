@@ -1,8 +1,8 @@
 +++
 title= "L'inizio di una avventura"
 date= "2016-09-26"
+categories= ["blog","status"]
 tags= ["status"]
-section ="blog"
 description = "Inizio del mio blog"
 slug= "linizio-di-una-avventura"
 aliases=["blog/2016/09/26/linizio-di-una-avventura/"]
