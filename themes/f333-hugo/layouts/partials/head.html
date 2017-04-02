@@ -25,7 +25,7 @@
 
     <script language="JavaScript">
         var loc = window.location.href + '';
-        if (loc.indexOf('http://') == 0) {
+        if (loc.indexOf('http://') == 0 && location.hostname != "localhost" ) {
             window.location.href = loc.replace('http://', 'https://');
         }
     </script>
