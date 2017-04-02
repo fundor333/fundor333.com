@@ -1,0 +1,46 @@
++++
+title = "E sono passato a Hugo"
+publishDate = "2017-04-02"
+tags = ["hugo","pelican","blog","golang","https"]
+categories= ["blog","status"]
+description = "Come e perchè sono passato a Hugo da Pelican"
++++
+
+E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa.
+Dopo un po' di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
+
+<!-- more -->
+
+### Problemi personali
+Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
+
+ - La strutturazione del layout, che sento stretta e strutturata in modo "sbagliato"
+ - L'impossibilità di avere multiple _category_ per un singolo post senza implementare io stesso un plugin
+
+A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post "passati" e non "futuri" am credo che questo sia un problema mio.
+
+### La scelta
+Ho scelto Hugo rispetto a Jekyll in quanto non ho interesse a lavorare in Ruby ma, invece, sono incuriosito a lavorare in GoLang (linguaggio in cui è interamente scritto Hugo) e me ne hanno parlato molto bene.
+
+Leggendo anche in giro non mi è sembrava particolarmente difficile la conversione Pelican -> Hugo per cui ho dato una occhiata a come eseguirla.
+
+Per avere un blog di Hugo devi avere:
+
+  1. Una "installazione" aggiornata di Hugo
+  2. Uno spazio web dove poterti connettere
+  3. Un tema per Hugo
+
+### Realizzazione
+
+Scelto il generatore statico di siti è stata la volta di implementareil resto del sito.
+
+#### Installazione
+
+L'installazione di Hugo è la cosa più semplice. Scarichi dal [sito](https://gohugo.io/) e segui le istruzioni per installarlo nel sistema operativo che si possiede.
+
+Una volta installato è stato possibile utilizzare comandi di Hugo da terminale costruendo così lo scheletro del tema e della struttura del blog.
+
+
+#### Contenuto
+
+Bisogna convertire tutto il contenuto in un formato conpatibile con Hugo. Per mia fortuna il formato è sempre un _Markdown_ per i contenuti mentre uso il formato Toml per i metadata. Hugo supporta anche altri formati per i metadata ma quello in cui mi trovo meglio è il Toml
