@@ -1,6 +1,6 @@
 +++
 title = "E sono passato a Hugo"
-publishDate = "2017-04-02"
+publishDate = "2017-04-04"
 tags = ["hugo","pelican","blog","golang","https"]
 categories= ["blog","status"]
 description = "Come e perchè sono passato a Hugo da Pelican"
@@ -43,4 +43,27 @@ Una volta installato è stato possibile utilizzare comandi di Hugo da terminale 
 
 #### Contenuto
 
-Bisogna convertire tutto il contenuto in un formato conpatibile con Hugo. Per mia fortuna il formato è sempre un _Markdown_ per i contenuti mentre uso il formato Toml per i metadata. Hugo supporta anche altri formati per i metadata ma quello in cui mi trovo meglio è il Toml
+Bisogna convertire tutto il contenuto in un formato conpatibile con Hugo. Per mia fortuna il formato è sempre un _Markdown_ per i contenuti mentre uso il formato Toml per i metadata. Hugo supporta anche altri formati per i metadata ma quello in cui mi trovo meglio è il Toml e di conseguenza ho modificato (a mano) tutti i post e le pagine per farli funzionare col nuovo sistema.
+
+
+#### Tema
+Per il porting del sito è stato necessario fare il porting del tema in Hugo da Pelican o usare uno dei temi disponibili online.
+Ho quindi deciso di prendere i css e i js del tema pelican e riscriverlo per Hugo. E' stato retalivamente facile una volta capito il sistema di temi di GoLang che risulta diverso da [Jinja](http://jinja.pocoo.org/), che è il sistema utilizzato da Pelican.
+
+#### Publicazione
+Fatto questo ho portato tutto su GitLab dove ho configurato il settaggio per la compilazione automatica in modo da porter pushare i file e lui pensa a ricompilare tutti il sito.
+
+    image: publysher/hugo
+    pages:
+      script:
+      - hugo
+      artifacts:
+        paths:
+        - public
+      only:
+      - source
+
+Con questa configurazione ogni qual volta viene pushato un commit del branch _source_ lui esegue l'elaborazione del sito nella cartella _public_ che viene a sua volta visualizzata da GitLab come _root_ del sito internet e distribuita online a chiunque richieda la pagina.
+
+#### HTTPS
+Ho utilizzato [Let's Encrypt](https://letsencrypt.org/) per generare un certificato per il dominio associato al sito e lo ho caricato su _static/.well-known_ come indicato dal servizio ottenendo così una connessione https configurata per il mio dominio
