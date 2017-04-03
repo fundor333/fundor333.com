@@ -1,6 +1,7 @@
 +++
 tags = ["telegram", "bot", "python"]
 date = "2017-02-11"
+categories= ["dev"]
 title = "Bot, Telegram e programmazione funzionale"
 slug = "bot-telegram-e-programmazione-funzionale"
 description = "Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python"

@@ -1,6 +1,7 @@
 +++
 title= "Emacs e mai più mouse"
 date= "2017-02-14"
+categories= ["blog"]
 tags= ["emacs", "texteditor", "programmazione"]
 slug= "emacs-e-mai-piu-mouse"
 description= "Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal mio set per il pc"

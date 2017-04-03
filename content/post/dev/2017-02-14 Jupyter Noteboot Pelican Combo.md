@@ -1,6 +1,7 @@
 +++
 title= "Jupyter Notebook Pelican Combo"
 tags= ["pelican","jupyter", "notebook"]
+categories= ["dev","status"]
 date= "2017-02-14"
 slug= "jupyter-notebook-pelican-combo"
 description= "Come ho combinato Jupyter con questo blog in Pelican"

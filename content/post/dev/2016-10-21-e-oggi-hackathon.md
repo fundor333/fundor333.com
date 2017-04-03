@@ -1,7 +1,8 @@
 +++
 title= "E oggi Hackathon"
 date= "2016-10-21"
-tags=["hackathon", "status"]
+categories= ["dev","status"]
+tags=["hackathon"]
 slug= "e-oggi-hackathon"
 description= "E oggi Hackathon"
 aliases=["dev/2016/10/21/e-oggi-hackathon/"]

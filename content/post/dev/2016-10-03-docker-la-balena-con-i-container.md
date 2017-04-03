@@ -1,6 +1,7 @@
 +++
 title= "Docker, la balena con i container per software"
 date= "2016-10-03"
+categories= ["dev"]
 tags= ["docker"]
 description = "Docker, cos'è e come funziona"
 slug= "docker-la-balena-con-i-container"
