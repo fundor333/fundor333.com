@@ -6,9 +6,12 @@ alias= "link"
 type= "page"
 +++
 
+# 🔗resources
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
 
 ## 💭webcomics
+
+Alcune delle Webcomics che seguo e che consiglio a chi è appassionato di informatica e/o ha un minimo senso dell'umorismo.
 
 * [Monkeyuser](http://www.monkeyuser.com/)
 * [TurnOFF](http://turnoff.us/)
