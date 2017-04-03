@@ -55,5 +55,5 @@ disqusShortname = "shortcode-here"
   text="In sintesi i miei progetti"
 [[params.main]]
   name="📌the source"
-  url="https://github.com/fundor333/fundor333.github.io"
+  url="https://gitlab.com/fundor333/fundor333.gitlab.io"
   text="Il sorgente del sito"
