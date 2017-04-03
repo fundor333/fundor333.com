@@ -36,7 +36,11 @@ disqusShortname = "shortcode-here"
 [[params.main]]
   name="📚everything"
   url="/post/"
-  text="Tutto il materiale del mio blog"
+  text="Tutti gli articoli del mio blog"
+[[params.main]]
+  name="🔗resources"
+  url="/resources/"
+  text="Link utili che consiglio"
 [[params.main]]
   name="️⌨️dev"
   url="/categories/dev/"

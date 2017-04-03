@@ -1,5 +1,5 @@
 +++
-title= "resources"
+title= "🔗resources"
 date= "2017-04-02"
 slug= "resources"
 alias= "link"
@@ -17,6 +17,8 @@ Alcune delle Webcomics che seguo e che consiglio a chi è appassionato di inform
 * [TurnOFF](http://turnoff.us/)
 * [Joshuaw Right](http://www.joshuawright.net/)
 * [xkcd](https://xkcd.com/)
+
+---
 
 ## 📻podcast
 
