@@ -1,9 +1,9 @@
 +++
-title = "E sono passato a Hugo"
-publishDate = "2017-04-04"
-tags = ["hugo","pelican","blog","golang","https"]
+title= "E sono passato a Hugo"
+date= "2017-04-04"
+tags= ["hugo","pelican","blog","golang","https"]
 categories= ["blog","status"]
-description = "Come e perchè sono passato a Hugo da Pelican"
+description= "Come e perchè sono passato a Hugo da Pelican"
 +++
 
 E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa.
