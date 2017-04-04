@@ -1,6 +1,5 @@
 +++
 title= "💻project"
-date= "2016-09-26"
 slug= "project"
 type="page"
 +++

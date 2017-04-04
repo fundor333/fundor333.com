@@ -1,7 +1,6 @@
 +++
 title= "🤵🏻about"
 type="page"
-date= "2016-09-26"
 slug= "about"
 +++
 
