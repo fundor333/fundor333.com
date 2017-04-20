@@ -27,7 +27,7 @@ disqusShortname = "shortcode-here"
     url="https://gitlab.com/fundor333"
 [[menu.social]]
     name="feed"
-    url="index.xml"
+    url="https://fundor333.com/index.xml"
 
 [[params.main]]
   name="📓blog"
