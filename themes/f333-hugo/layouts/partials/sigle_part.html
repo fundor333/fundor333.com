@@ -36,8 +36,10 @@
                         </div>
 
                         <div class="tags">
-                            {{ range .Params.tags }}
-                            <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}">#{{ . }} </a> 
+                          {{ range .Params.tags }}
+			  <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}" class="btn btn-default btn-xs" role="button">
+			  <h4>  <span class="fa fa-tags" aria-hidden="true"></span> {{ . }}</h4>
+			  </a> 
                             {{ end }}
                         </div>
                     </div>
