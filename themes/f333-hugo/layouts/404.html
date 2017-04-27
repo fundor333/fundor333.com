@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+<body>
+ <div>
+        <div class="col-xs-12 no_padding up_down_margin">
+            <div class="col-xs-12 no_padding">
+
+                {{ partial "topbox.html" .}}
+
+                <br>
+                <div id="center_body">
+
+<div class="col-xs-12 no_padding">
+    <section>
+        <div class="col-xs-12 page_box">
+            <div class="page-container">
+                <article>
+                    <div class="article-header-container ">
+                        <div class="background-image-container ">
+                            <div class="background-image-small">
+                                <div class="title-container text-center">
+                                    <h1>404 La pagina cercata non esiste</h1>
+                                </div>
+                                <hr/>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="entry-content">
+                     <a href="{{ .Site.BaseURL }}/">
+			  <div class="no_padding row">
+			    <img class="img-responsive center-block " id="header_logo" src="{{ .Site.BaseURL }}/img/logo.png">
+			    <div class="col-xs-4 col-xs-offset-4 text-center">
+			      <h3>Non e' stata trovata la pagina che stavi cercando.<br> Sorry</h3>
+			    </div>
+			  </div>
+			</a>
+                    </div>
+		</article>
+		<hr>
+		<br>	
+            </div>
+	    
+        </div>
+        <br>
+    </section>
+</div>
+{{ partial "aside.html" .}}
+
+                </div>
+                <br>
+                {{ partial "footer.html" .}}
+
+            </div>
+
+        </div>
+    </div>
+{{ partial "script.html" .}}  
+</body>
+</html>

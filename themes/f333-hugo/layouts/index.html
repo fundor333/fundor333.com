@@ -5,7 +5,7 @@
 
 <body>
     <div>
-        <div class="col-xs-12 no_padding up_down_margin">
+        <div class="col-xs-10 col-xs-offset-1 no_padding up_down_margin">
 
             <div class="col-xs-12 no_padding">
                 <div class="main-container">
@@ -26,13 +26,9 @@
                                 <div class="row page_box inside ">
                                     <div class="col-xs-12">
                                         <div class="col-xs-12">
-                                          {{range .Site.Menus.social -}}
-                                            <div class="btn btn-f333 btn-circle col-xs-4 ">
-                                                <a href="{{ .URL }}">
-                                                    <i class="fa fa-{{ .Name }} fa-3x"></i>
-                                                </a>
-                                            </div>
-                                            {{end}}
+
+					  {{ partial "social.html" . }}
+					  
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +51,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
+		    <div class="row">
                         <div class="col-xs-12">
                           {{range .Site.Params.main -}}
                             <a class="subtitle col-xs-12 col-sm-6 col-md-4 text-center" href="{{ .url }}">
@@ -64,6 +60,7 @@
                                         <h3>{{ .name }}</h3>
                                         <hr class="less">
                                         <article>{{ .text }}</article>
+					<br>
                                     </div>
                                 </div>
                             </a>
