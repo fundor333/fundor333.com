@@ -49,13 +49,15 @@ disqusShortname = "shortcode-here"
 	url="/post/"
   	text="Tutti gli articoli del mio blog"
 [[params.main]]
-	name="🔗resources"
-  	url="/resources/"
-  	text="Link utili che consiglio"
-[[params.main]]
 	name="👨‍💻dev"
 	url="/categories/dev/"
 	text="Il mio diario di sviluppo"
+
+[[params.main]]
+	name="🔗resources"
+  	url="/resources/"
+  	text="Link utili che consiglio"
+	
 [[params.main]]
 	name="🤵🏻about"
 	url="/about/"
@@ -65,7 +67,7 @@ disqusShortname = "shortcode-here"
 	url="/project/"
 	text="In sintesi i miei progetti"
 [[params.main]]
-	name="📌the source"
+	name="📌the source code"
 	url="https://gitlab.com/fundor333/fundor333.gitlab.io"
 	text="Il sorgente del sito"
 [[params.main]]
