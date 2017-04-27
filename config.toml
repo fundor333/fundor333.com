@@ -1,59 +1,74 @@
 baseurl = "https://fundor333.com/"
 languageCode = "it"
-title = "💻Fundor 333"
+title = "Fundor 333 💻"
 theme = "f333-hugo"
 disqusShortname = "shortcode-here"
 
 [params]
-    Author = "Fundor 333"
-    disqus_shortname = "fundor333"
-    subtitle = "import antigravity"
+	Author = "Fundor 333"
+	disqus_shortname = "fundor333"
+	subtitle = "import antigravity"
 
-[[menu.social]]
-  name="facebook"
-  url="https://www.facebook.com/fundor333"
-  identifier="facebook"
-[[menu.social]]
-    name="twitter"
-    url="https://twitter.com/fundor333"
-[[menu.social]]
-    name="linkedin"
-    url="https://it.linkedin.com/in/matteo-scarpa-78969263"
-[[menu.social]]
-    name="github"
-    url="https://github.com/fundor333"
-[[menu.social]]
-    name="gitlab"
-    url="https://gitlab.com/fundor333"
-[[menu.social]]
-    name="feed"
-    url="https://fundor333.com/index.xml"
+[[params.social]]
+	name="facebook"
+	color="#3B5998"
+	url="https://www.facebook.com/fundor333"
+
+[[params.social]]
+	name="mastodon"
+	color="#189efc"
+	url="https://mastodon.social/@fundor333"
+
+[[params.social]]
+	name="twitter"
+	color="#1DA1F2"
+    	url="https://twitter.com/fundor333"
+
+[[params.social]]
+	name="linkedin"
+	color="#0077B5"
+    	url="https://it.linkedin.com/in/matteo-scarpa-78969263"
+
+[[params.social]]
+	name="github"
+	color="#181717"
+    	url="https://github.com/fundor333"
+
+[[params.social]]
+	name="gitlab"
+	color="#E24329"
+    	url="https://gitlab.com/fundor333"
+
 
 [[params.main]]
-  name="📓blog"
-  url="/categories/blog/"
-  text="I miei articoli, ordinati cronologicamente"
+	name="📓blog"
+  	url="/categories/blog/"
+  	text="I miei articoli, ordinati cronologicamente"
 [[params.main]]
-  name="📚everything"
-  url="/post/"
-  text="Tutti gli articoli del mio blog"
+	name="📚everything"
+	url="/post/"
+  	text="Tutti gli articoli del mio blog"
 [[params.main]]
-  name="🔗resources"
-  url="/resources/"
-  text="Link utili che consiglio"
+	name="🔗resources"
+  	url="/resources/"
+  	text="Link utili che consiglio"
 [[params.main]]
-  name="️⌨️dev"
-  url="/categories/dev/"
-  text="Il mio diario di sviluppo"
+	name="👨‍💻dev"
+	url="/categories/dev/"
+	text="Il mio diario di sviluppo"
 [[params.main]]
-  name="🤵🏻about"
-  url="/about/"
-  text="Chi sono e cosa faccio"
+	name="🤵🏻about"
+	url="/about/"
+	text="Chi sono e cosa faccio"
 [[params.main]]
-  name="💻project"
-  url="/project/"
-  text="In sintesi i miei progetti"
+	name="💻project"
+	url="/project/"
+	text="In sintesi i miei progetti"
 [[params.main]]
-  name="📌the source"
-  url="https://gitlab.com/fundor333/fundor333.gitlab.io"
-  text="Il sorgente del sito"
+	name="📌the source"
+	url="https://gitlab.com/fundor333/fundor333.gitlab.io"
+	text="Il sorgente del sito"
+[[params.main]]
+	name="📰the feed"
+	url="https://fundor333.com/index.xml"
+	text="Ultime news del sito"
