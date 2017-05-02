@@ -2,7 +2,7 @@ baseurl = "https://fundor333.com/"
 languageCode = "it"
 title = "Fundor 333 💻"
 theme = "f333-hugo"
-disqusShortname = "shortcode-here"
+disqus_shortname = "fundor333"
 
 [params]
 	Author = "Fundor 333"
