@@ -1,4 +1,4 @@
-image: publysher/hugo
+image: fundor333/hugo
 
 pages:
   script:
