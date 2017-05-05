@@ -4,7 +4,7 @@
 name = "F333_theme"
 license = "MIT"
 homepage = "http://siteforthistheme.com/"
-min_version = 0.19
+min_version = 0.20.6
 
 [author]
   name = "Fundor 333"

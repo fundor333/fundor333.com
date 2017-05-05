@@ -10,9 +10,10 @@ description="Diario del mio primo periodo di utilizzo di Emacs"
 Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino  usarlo come editor unico.
 La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.
 
+<!-- more-->
+
 Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento "bloccato e non danneggiabile".
 
-<!-- more-->
 
 Questo primo periodo di utilizzo mi ha permesso di vedere che è un programma completo e molto efficente. In modo particolare ho addirittura iniziato a sviluppare una prima bozza di personalizzazione del mio Emacs attraverso una prima configurazione di _.emacs.d/_ disponibile su [Github](https://github.com/fundor333/emacs.d).
 
@@ -67,40 +68,40 @@ Di base utilizzo _init.el_ ove ho settato le basi e il tema, in modo che sia car
 Con questa configurazione si divide le variabili di ambiente settate da Emacs (che devo ancora capira a cosa servano), il tema scelto ([Dracula](https://draculatheme.com/emacs) in questo caso) e i settaggi per i pacchetti che vengono definiti nel file _init-packages.el_.
 
     (require 'package)
-    
+
     (add-to-list 'package-archives
                  '("elpy" . "http://jorgenschaefer.github.io/packages/"))
-    
+
     (add-to-list 'package-archives
                  '("marmalade" . "http://marmalade-repo.org/packages/"))
-    
+
     (add-to-list 'package-archives
                  '("melpa-stable" . "http://melpa-stable.milkbox.net/packages/") t)
-    
+
     (add-to-list 'package-archives
     	     '("melpa" . "https://melpa.org/package/")t)
-    
-    
+
+
     (add-to-list 'load-path "~/.emacs.d/site-lisp/")
-    
-    
+
+
     ; list the packages you want
     (setq package-list
         '(magit easy-hugo python dracula-theme))
-    
-    
+
+
     ; activate all the packages
     (package-initialize)
-    
+
     ; fetch the list of packages available
     (unless package-archive-contents
       (package-refresh-contents))
-    
+
     ; install the missing packages
     (dolist (package package-list)
       (unless (package-installed-p package)
         (package-install package)))
-    
+
     (when (< emacs-major-version 24)
       ;; For important compatibility libraries like cl-lib
       (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/")))
