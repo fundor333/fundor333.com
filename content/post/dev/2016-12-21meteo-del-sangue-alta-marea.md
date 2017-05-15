@@ -14,13 +14,7 @@ Nasce tutto al Pycon It 2016 ove conosco un programmatore Python.  Così
 chiaccerando entriamo in contatto e iniziamo a interessarci l'uno
 all'altro e così scopro il "Meteo del sangue"
 
-> Aggiornamenti in tempo reale sulla disponibilità di sangue.\
-> \
-> Telegram: <https://t.co/8NNr1NhZxl>\
-> Facebook: <https://t.co/qrYoEhYqev>
->
-> — Meteo del sangue (@MeteoSangue) [16 ottobre
-> 2016](https://twitter.com/MeteoSangue/status/787727168138801154)
+{{x< tweet 787727168138801154 >}}
 
 <p>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
