@@ -1,5 +1,5 @@
 +++
-date = "2017-05-15T12:27:11+02:00"
+date = "2017-05-16T12:27:11+02:00"
 tags = ["docker","hugo","image","container"]
 title = "Hugo into Docker"
 draft="true"
@@ -56,7 +56,7 @@ I do this because the image for _*debian*_ is bigger than the image for _*alpine
 	LABEL maintainer "fundor333@gmail.com"
 
 	# Download and install hugo
-	ENV HUGO_VERSION 0.20.7
+	ENV HUGO_VERSION 0.20.6
 	ENV HUGO_DIRECTORY hugo_${HUGO_VERSION}_Linux-64bit
 	ENV HUGO_BINARY ${HUGO_DIRECTORY}.tar.gz
 
@@ -96,7 +96,7 @@ Whenever you wrote a new line with _*RUN*_ you make the "compiled" into another 
 	LABEL maintainer "fundor333@gmail.com"
 	
 	# Download and install hugo
-	ENV HUGO_VERSION 0.20.7
+	ENV HUGO_VERSION 0.20.6
 	ENV HUGO_DIRECTORY hugo_${HUGO_VERSION}_Linux-64bit
 	ENV HUGO_BINARY ${HUGO_DIRECTORY}.tar.gz
 	
@@ -126,4 +126,11 @@ Whenever you wrote a new line with _*RUN*_ you make the "compiled" into another 
 	# By default, serve site
 	ENV HUGO_BASE_URL http://localhost:1313
 	CMD hugo server -b ${HUGO_BASE_URL} --bind=0.0.0.0
-Size 3,99
+
+Size 3,99 MB in this case.
+
+The maggior part of the total size is caused by the size of the _*Hugo*_ binary itself so I cann't make an image _*lighter*_ than the binary. 
+
+Now the image size and number layers can change update after update so I put this image with the allwayes data about the images.
+
+[![](https://images.microbadger.com/badges/image/fundor333/hugo.svg)](https://microbadger.com/images/fundor333/hugo "Get your own image badge on microbadger.com")
