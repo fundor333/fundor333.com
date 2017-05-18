@@ -108,6 +108,7 @@ Aggiunto un smart text selector che permette di riconoscere il testo che stai se
 
 ** Tenserflow Lite
 Permette di creare reti neuronali per app e permette di utilizzare la nuova api del nuovo framework per potenziare questo lavoro.
+
 ** Vitals
 Linea della Google per migliorare la sicurezza, OS migliorie e miglioramento dello sviluppo.
 
@@ -115,27 +116,38 @@ Automatico controllo delle app installati.
 Ridotto il tempo di avvio delle app e del sistema operativo.
 Possibile aggiungere nuovi vincoli per le app in background.
 Aggiunti servizi di controllo su Android Studio.
+
 *** Google Play Protect
 Permette di scansionare tutte le app del dispositivo e trovare quelle a rischio.
+
 *** Play Console Dashboard
 Per ogni Issiue ci fa una analisi dei problemi e come correggerli. 
+
 *** Kotlin 
     Linguaggio nuovo per lo sviluppo andorid
+
 ** Andorid GO
 Riscrittura di andorid, app e playstore.
 Ottimizzato tutto il core e le app in modo di poter girare con memories piccole.
 VIene in automatico attivato il save data in alcune app conosciute per il "peso".
 Aggiunte api per Bilding for Billions per avere un menù per app nel menù personalizzato di app ottimizzate.
+
 *** Youtube Go
 Youtube per connessioni con pochi dati. In oltre permette di salvare i dati del video e condividerli con un servizio integrato di peer to peer.
+
 * VR
+
 ** Daydream
 Aumento dei servizi che supportano DayDream.
+
 ** Sandalone
 Prodotto da ditte terze completi senza bisogno di altri dispositivi. Pensato completamente per VR permette una ottivizzazione del dispositivo e i sensori al suo interno.
+
 * AR
+
 ** Seconda generazione di Cellulare Tango
 Più piccoli e conpatti.
+
 ** Supporto con Google Maps
 Cerca immagini intorno a te (Google Visual Positional System) che permette di trovare le indicazioni di movimento in un area. 
 Permette, in oltre, di analizzare il mondo che ti circonda e ottenere posizioni reali di oggetti.
