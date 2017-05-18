@@ -1,0 +1,152 @@
+#+TITLE: Google I\O 2017
+#+CATEGORIES: blog, dev
+#+DATE: 2017-05-18
+#+TAGS: google, io17, convention
+#+SLUG: google-io-2017
+
+
+Sono nell'evento del GDG di Venezia a vedermi la _*Google IO 2017*_ in compagnia di altri informatici e interessati.
+Questo è il resoconto dell'evento. 
+
+# more
+
+* Pre evento
+Stiamo soffiando bolle in attesa dell'inizio dell'evento. Il _*GDG*_ fa una piccola presentazione di cos'è il _*GDG*_ e cos'è il _*Google IO 2017*_.
+Tutti siamo in fremente attesa dell'evento, anche se la location risulta essere una distrazione. 
+Il posto è la tesa 94 dell'Arsenale di Venezia, ove Google ha una delle sedi del _*Grand Tour d'Italia*_.
+Nell'attesa Google ci fa soffiare bolle nel nostro telefono che vengono "lanciate" dalla nostra posizione e arrivano nei loro enormi contatori che, città dopo città, mostrano i risultati raccolti.
+E quindi tutto smette e passiamo a un enorme silenzio... E con una delle più fighe animazioni di sempre parte il Google IO 2017.
+
+* Presentazione
+Il Ceo fa il grosso elencando tutti i numeri dei servizi "maggiori" di Google e i loro successi. Ad esempio Android ha raggiunto i 2 Milioni...  Come se avessero ancora bisogno di mostrare i muscoli...
+
+** Mobile to AI first
+Tutti i servizi vengono ripensati per l'utilizzo di IA. Ad esempio per le mail sono riusciti a renderle discorsive le risposte dell'AI in modo da permettere di avere risposte fabbricate al volo per l'occasione.
+E' stato cambiato il sistema di imput, ad esempio Voice, se usato su dispositivi diversi, riconosce comunque la persona che parla e usa le sue impostazioni.
+Invece, per il riconoscimento di immagini hanno mostrato quello per parti e sono risusciti a migliorare il riconoscimento superando quello dell'uomo. 
+In oltre sono riusciti a migliorare le foto e rimuovere pattern ripetuti, ad esempio una grata.
+
+** Google Lens
+Nuovo servizio di Google che utilizza la telecamera. Prima vede il prodotto poi ti dice cos'è. Riconosce i locali, i codici a barre delle reti e i fiori (gli allergici fanno i salti mortali dalla giocia).
+Tutto sviluppato su AI first Data second, come ormai tutti i servizi Google.
+
+** Cloud TPU
+Nuovo dispositivo per la costruzione di clasters per il machine lerning. Pensata per l'educazione e l'inferenza per il machine lerning.
+La struttura, essendo stata pensata per il clouster, viene anche portato sul Google Engigne.
+Si sta lanciando nel Cloud AI computing commerciale... Vuole togliere clienti ad Amazon?
+
+* Google Assistant
+Scott Huffman parla dela semplificazione ottenuta dall'assistente che impara quelo che vuoi e te lo presenta, sempre pronto a chiaccherare e sempre pronto a fare discussione.
+Sono riusciti a creare un sistema sempre più discirsi che riconoscono la persona con cui parla. Ora è possibile anche collegare il cellulare/tablet via Google Lens che permette di interaggire con l'assitente.
+In oltre ora il Google Assistent è sisponibile anche sull'Iphone e esite un SDK per il Google assistent. 
+In questo modo le app di terze parti possono sviluppare il loro supporto per l'assistant.
+
+{{< tweet 864896336247881728 >}}
+
+Il Google Assitant può gestire creazione degli account, pagamenti e discussioni. Per fortuna i pagamenti passano per l'impronta digitale anche se Google ha i tuoi dati delle carte di credito e affini.
+
+* Google Home
+Altro dispositivo che puo' essere abbinato al Google Assistant. 
+Permette di segnalare variazioni del calendario causate dal traffico, segnala notifiche attraverso le luci disposte sopra e permette di fare chiamate attraverso Google gratuitamente verso il Canada e USA.
+E riconosce la voce in modo da personalizzare l'esperienza utilizzando la configurazione personalizzata abbinata alla voce.
+Ora Google Home ha anche una infinità di altri servizi di compagnie video/televisive.
+Permette di mandare le informazioni nel dispositivo preindicato una volta richiesto un servizio. Tutti i dispositivi Cromecast.
+
+** Youtube TV
+Altra alternativa a Netflix... Guerra aperta? Non so'... Ne hanno parlato troppo troppo poco per commenti realmente utili.
+
+* Google Photo
+
+500 Milioni di utenti per utente al mese. Cavolo, tanti...
+
+** Photo sharing
+Ora Google Photo ti suggerisce a chi condividere le foto...
+Questo permette di condividere le foto migliori con le persone corrette.
+E poi, le persone con cui le condivide, possono aggiungere le proprie foto dell'evento.
+In questo modo si riesce a creare un insieme di album personalizzati da gruppi di persone.
+
+** Shared Libraries
+Scelti degli account posso automaticamente condividere con loro le foto che rispondono alla query.
+In oltre permette di produrre degli automatismi per catalogare le foto condivise con questo meccanismo.
+
+** Google Photo Books
+Permette di produrre album fisici di foto scegliendo le migliore e preparandole per la stampa. 
+Per ora SOLO in America :-(...
+
+** Google lens into Google Photo
+Questo permette di avere le informazioni delle foto e e estrarre da essi i dati. 
+Mi ricorda una vecchia app di Google...
+Disponibile verso fine anno su Google Photos.
+
+* Youtube
+Susan Wokcicki presenta le novità per Youtube. 
+Parte tutto dal bilione di utenti al mese che vedono i video. 
+Più di un bilione di ore di video guardate al giorno.
+Ora la maggior parte delle visualizzazioni è da mobile ma la visione dell'aumento delle visualizzazioni viene dai televisori attraverso l'assistant.
+
+** Youtube on Tv
+Aumentato il servizio nella TV con l'aggiunta dei video 360° controllabile col telecomando. 
+Questo è valido anche per alcune console e altre piattaforme che possono essere connesse alla TV.
+
+** Super chat
+Possono essere fatte dei messaggi colorati/personalizzati pagando una piccola cifra che viene, in parte, donata allo streamer.
+Disponibile anche una APi per la SuperApi per ottenere azioni nel mondo reale... 
+
+
+{{< tweet 865118899544739840 >}}
+
+* Android
+Dave Burke presenta la parte di Android. 
+2 bilioni di dispositivi attivi al mese con Andoroid. 
+Questo comprende auto, chromebook, orologi e televisioni.
+Installate 82 Bilioni di app finora.
+Ora è stato aggiunto un sistema _*Picture in picture*_ dove mi permette di ridurre in un angolo una view. 
+Aggiunte le notivication dots che indicano un aumento/attività della app e permette di vedere la notifica tenendoci il dito sopra. 
+Ora è disponibile avere l'autofill di Chrome nelle mie app. Personalizzabile dagli sviluppatori.
+
+Aggiunto un smart text selector che permette di riconoscere il testo che stai selezionando in modo da avere tutto il dato compesso (indirizzo, nomi lunghi, numeri di telefono e email) collegato.
+
+** Tenserflow Lite
+Permette di creare reti neuronali per app e permette di utilizzare la nuova api del nuovo framework per potenziare questo lavoro.
+** Vitals
+Linea della Google per migliorare la sicurezza, OS migliorie e miglioramento dello sviluppo.
+
+Automatico controllo delle app installati. 
+Ridotto il tempo di avvio delle app e del sistema operativo.
+Possibile aggiungere nuovi vincoli per le app in background.
+Aggiunti servizi di controllo su Android Studio.
+*** Google Play Protect
+Permette di scansionare tutte le app del dispositivo e trovare quelle a rischio.
+*** Play Console Dashboard
+Per ogni Issiue ci fa una analisi dei problemi e come correggerli. 
+*** Kotlin 
+    Linguaggio nuovo per lo sviluppo andorid
+** Andorid GO
+Riscrittura di andorid, app e playstore.
+Ottimizzato tutto il core e le app in modo di poter girare con memories piccole.
+VIene in automatico attivato il save data in alcune app conosciute per il "peso".
+Aggiunte api per Bilding for Billions per avere un menù per app nel menù personalizzato di app ottimizzate.
+*** Youtube Go
+Youtube per connessioni con pochi dati. In oltre permette di salvare i dati del video e condividerli con un servizio integrato di peer to peer.
+* VR
+** Daydream
+Aumento dei servizi che supportano DayDream.
+** Sandalone
+Prodotto da ditte terze completi senza bisogno di altri dispositivi. Pensato completamente per VR permette una ottivizzazione del dispositivo e i sensori al suo interno.
+* AR
+** Seconda generazione di Cellulare Tango
+Più piccoli e conpatti.
+** Supporto con Google Maps
+Cerca immagini intorno a te (Google Visual Positional System) che permette di trovare le indicazioni di movimento in un area. 
+Permette, in oltre, di analizzare il mondo che ti circonda e ottenere posizioni reali di oggetti.
+
+** Aggiunto AR to Expeditions
+Permette di aggiungere un oggetto 3d nella classe e di navigare all'interno dello stesso.
+
+* Google for Jobs
+Progetto per connettere persone e ditte per permettere di trovare lavoro più velocemente attraverso il machine learning.
+Ora il cerca permette di trovare lavori on il tag "retail jobs".
+Negli Usa nelle prossime settimane.
+
+* Tensorflow Opensource
+Enormemente contenti dal successo del repository di Tensorflow. 
