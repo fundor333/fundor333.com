@@ -26,6 +26,18 @@ disqus_shortname = "fundor333"
     	url="https://twitter.com/fundor333"
 
 [[params.social]]
+    name="youtube"
+    url="https://www.youtube.com/user/Fundor333"
+
+[[params.social]]
+	name="instagram"
+	url="https://www.instagram.com/fundor333/"
+
+[[params.social]]
+	name="reddit"
+	url="https://www.reddit.com/user/fundor333"
+
+[[params.social]]
 	name="linkedin"
 	color="#0077B5"
     	url="https://it.linkedin.com/in/matteo-scarpa-78969263"
