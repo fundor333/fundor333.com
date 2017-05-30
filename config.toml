@@ -11,44 +11,44 @@ disqus_shortname = "fundor333"
 	subtitle = "import antigravity"
 
 [[params.social]]
-	name="facebook"
+	name="facebook.svg"
 	color="#3B5998"
 	url="https://www.facebook.com/fundor333"
 
 [[params.social]]
-	name="mastodon"
+	name="mastodon.svg"
 	color="#189efc"
 	url="https://mastodon.social/@fundor333"
 
 [[params.social]]
-	name="twitter"
+	name="twitter.svg"
 	color="#1DA1F2"
     	url="https://twitter.com/fundor333"
 
 [[params.social]]
-    name="youtube"
+    name="youtube.svg"
     url="https://www.youtube.com/user/Fundor333"
 
 [[params.social]]
-	name="instagram"
+	name="instagram.svg"
 	url="https://www.instagram.com/fundor333/"
 
 [[params.social]]
-	name="reddit"
+	name="reddit.svg"
 	url="https://www.reddit.com/user/fundor333"
 
 [[params.social]]
-	name="linkedin"
+	name="linkedin.svg"
 	color="#0077B5"
     	url="https://it.linkedin.com/in/matteo-scarpa-78969263"
 
 [[params.social]]
-	name="github"
+	name="github.svg"
 	color="#181717"
     	url="https://github.com/fundor333"
 
 [[params.social]]
-	name="gitlab"
+	name="gitlab.svg"
 	color="#E24329"
     	url="https://gitlab.com/fundor333"
 
