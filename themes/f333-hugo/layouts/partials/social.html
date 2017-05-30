@@ -3,7 +3,8 @@
     <a href="{{ .url }}">
         <div class="social-link">
             <br>
-            <img src="{{.Site.BaseURL}}/img/icons/{{ .name }}.svg"/>
+            <!--     <img src="{{.Site.BaseURL}}/img/icons/{{ .name }}.svg"/> -->
+            {{ partial .name . }}
             <br>
         </div>
     </a>
