@@ -1,0 +1,35 @@
+<nav class="navbar navbar-f333">
+    <div class="container-fluid">
+        <div id="sidebar" class="hidden-xs">
+            <!-- sidebar menu start-->
+            <ul class="nav navbar-nav">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                {{ if .HasChildren }}
+
+                <li class="sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
+                <a href="#" class="dropdown-toggle menu_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    {{ range .Children }}
+                    <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}" class="menu_link"> {{ .Name }} </a> </li>
+                    {{ end }}
+                </ul>
+                {{else}}
+                <li>
+                    <a href="{{.URL}}" class="menu_link">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                    </a>
+
+                    {{end}}
+                </li>
+                {{end}}
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </div>
+</nav>

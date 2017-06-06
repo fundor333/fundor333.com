@@ -1,15 +1,6 @@
 <aside class="col-sm-3 hidden-xs asider page_box">
     <hr>
     <div class="row">
-      {{ range .Site.Params.main -}}
-      <h4>
-        <a href="{{ .url | absLangURL }}" class="col-sm-6 hidden-xs btn btn_f333">{{ .name }}</a>
-      </h4>
-	{{end}}
-    </div>
-
-    <hr>
-    <div class="row">
 
       {{ partial "social.html" . }}
       

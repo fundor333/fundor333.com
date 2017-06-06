@@ -260,3 +260,34 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.dropdown-menu{
+  background-color: transparent;
+  margin: 0;
+  position: relative;
+  border: 0 transparent;
+  -webkit-box-shadow: 0;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.menu_link{
+  font-size: 20px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: @border_rad;
+  margin-left: @border_rad;
+  margin-right: @border_rad;
+  margin-top: @border_rad;
+  .a_link(@color_text);
+  color: @color_text;
+  background-color: @color_main;
+  hr.less {
+    border-bottom: 5px;
+    border-top: 5px;
+    border-color: @color_text;
+  }
+}
+
+.navbar{
+  vertical-align: middle;
+
+}
