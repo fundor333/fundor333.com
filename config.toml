@@ -52,38 +52,41 @@ disqus_shortname = "fundor333"
 	color="#E24329"
     	url="https://gitlab.com/fundor333"
 
-
-[[params.main]]
+[[menu.main]]
+	name="📚everything"
+[[menu.main]]
+    name="📚archive"
+    parent="📚everything"
+    url="/post/"
+[[menu.main]]
 	name="📓blog"
   	url="/categories/blog/"
+  	parent="📚everything"
   	text="I miei articoli, ordinati cronologicamente"
-[[params.main]]
-	name="📚everything"
-	url="/post/"
-  	text="Tutti gli articoli del mio blog"
-[[params.main]]
+[[menu.main]]
 	name="👨‍💻dev"
 	url="/categories/dev/"
+	parent="📚everything"
 	text="Il mio diario di sviluppo"
 
-[[params.main]]
+[[menu.main]]
 	name="🔗resources"
   	url="/resources/"
   	text="Link utili che consiglio"
 	
-[[params.main]]
+[[menu.main]]
 	name="🤵🏻about"
 	url="/about/"
 	text="Chi sono e cosa faccio"
-[[params.main]]
+[[menu.main]]
 	name="💻project"
 	url="/project/"
 	text="In sintesi i miei progetti"
-[[params.main]]
+[[menu.main]]
 	name="📌the source code"
 	url="https://gitlab.com/fundor333/fundor333.gitlab.io"
 	text="Il sorgente del sito"
-[[params.main]]
+[[menu.main]]
 	name="📰the feed"
 	url="https://fundor333.com/index.xml"
 	text="Ultime news del sito"
