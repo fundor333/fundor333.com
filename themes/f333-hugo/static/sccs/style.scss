@@ -10,6 +10,13 @@
   src: url('/themes/f333-hugo/static/css/fonts/GeosansLight.ttf');
 }
 
+.button-variant($color; $background; $border)
+{
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+}
+
 $font_titles: 'Special Elite';
 $font_text: 'Special Elite';
 
