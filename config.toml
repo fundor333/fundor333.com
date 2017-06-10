@@ -11,46 +11,55 @@ disqus_shortname = "fundor333"
 	subtitle = "import antigravity"
 
 [[params.social]]
-	name="facebook.svg"
+    name="facebook"
+	file="facebook.svg"
 	color="#3B5998"
 	url="https://www.facebook.com/fundor333"
 
 [[params.social]]
-	name="mastodon.svg"
+    name="mastodon"
+	file="mastodon.svg"
 	color="#189efc"
 	url="https://mastodon.social/@fundor333"
 
 [[params.social]]
-	name="twitter.svg"
+    name="twitter"
+	file="twitter.svg"
 	color="#1DA1F2"
-    	url="https://twitter.com/fundor333"
+    url="https://twitter.com/fundor333"
 
 [[params.social]]
-    name="youtube.svg"
+    name="youtube"
+    file="youtube.svg"
     url="https://www.youtube.com/user/Fundor333"
 
 [[params.social]]
-	name="instagram.svg"
+    name="instagram"
+	file="instagram.svg"
 	url="https://www.instagram.com/fundor333/"
 
 [[params.social]]
-	name="reddit.svg"
+    name="reddit"
+	file="reddit.svg"
 	url="https://www.reddit.com/user/fundor333"
 
 [[params.social]]
-	name="linkedin.svg"
+    name="linkedin"
+	file="linkedin.svg"
 	color="#0077B5"
-    	url="https://it.linkedin.com/in/matteo-scarpa-78969263"
+    url="https://it.linkedin.com/in/matteo-scarpa-78969263"
 
 [[params.social]]
-	name="github.svg"
+    name="github"
+	file="github.svg"
 	color="#181717"
-    	url="https://github.com/fundor333"
+    url="https://github.com/fundor333"
 
 [[params.social]]
-	name="gitlab.svg"
+    name="gitlab"
+	file="gitlab.svg"
 	color="#E24329"
-    	url="https://gitlab.com/fundor333"
+    url="https://gitlab.com/fundor333"
 
 [[menu.main]]
 	name="📚everything"

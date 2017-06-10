@@ -1,4 +1,3 @@
-@import "../sass/materialize";
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 
 @font-face {
@@ -8,3 +7,8 @@
 
 $font_titles: 'Special Elite';
 $font_text: 'Special Elite';
+
+.black-action{
+    color: gray !important;
+}
+

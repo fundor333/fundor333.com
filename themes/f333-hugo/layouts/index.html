@@ -16,34 +16,27 @@
                 <div class="card-stacked">
                     <div class="card-content">
                         <a href="{{.Site.BaseURL}}">
-                            <span class="card-title">Fundor333</span>
-                            <span class="card-title">import antigravity</span>
+                            <span class="card-title black-text">Fundor333</span>
+                            <span class="card-title black-text">import antigravity</span>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col s12 m4">
-            <div class="card blue-grey lighten-4">
+        <div class="col s12 m5">
+            <div class="card blue-grey lighten-5">
                 <div class="card-content"><p>{{ .Content}}</p></div>
             </div>
         </div>
-    </div>
-
-    <div class="col s-12">
-        <div class="col s-12">
+        <div class="col s12 m4">
+            {{ partial "menu_front.html" .}}
             {{ partial "social.html" . }}
         </div>
     </div>
-    <div class="col s-12">
-        {{partial "menu.html" .}}
-    </div>
-    <div class="col m-2 s-1"></div>
     <div class="col m-8 s-10">
         {{ partial "footer.html" .}}
     </div>
 </div>
 {{ partial "script.html" .}}
 </body>
-
 </html>

@@ -1,12 +1,15 @@
-{{range .Site.Params.social -}}
-<div class="col-md-4 col-xs-3  btn ">
-    <a href="{{ .url }}">
-        <div class="social-link">
-            <br>
-            <!--     <img src="{{.Site.BaseURL}}/img/icons/{{ .name }}.svg"/> -->
-            {{ partial .name . }}
-            <br>
+<div class="row">
+    <div class="col s12">
+        <div class="card blue-grey lighten-4">
+            <div class="card-content">
+                <span class="card-title">Social</span>
+                <p>Ecco dove seguirmi</p>
+            </div>
+            <div class="card-action">
+                {{range .Site.Params.social -}}
+                <a class="black-action" href="{{ .url }}">{{ .name }}</a>
+                {{end}}
+            </div>
         </div>
-    </a>
+    </div>
 </div>
-{{end}}
