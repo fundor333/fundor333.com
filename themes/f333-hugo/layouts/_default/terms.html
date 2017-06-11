@@ -19,8 +19,12 @@
                                 <h1>{{ .Title }}</h1>
                                 {{ $data := .Data }}
                                 {{ range $key,$value := .Data.Terms.ByCount }}
-                                <h2><a class="gray-action" href="{{ $data.Plural }}/{{ $value.Name | urlize }}">{{
-                                    $value.Name }}</a> {{ $value.Count }}</h2>
+                                <h2>
+                                    <a class="gray-action" href="{{ $data.Plural }}/{{ $value.Name | urlize }}">
+                                    {{$value.Name }}
+                                    </a>
+                                    {{ $value.Count }}
+                                </h2>
                                 <ul>
                                     {{ range $value.Pages.ByDate }}
                                     <li><a class="gray-action" href="{{ .Permalink }}">{{ .Title }}</a></li>
