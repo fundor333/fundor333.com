@@ -5,7 +5,9 @@ $font_titles: 'Special Elite';
 $font_text: 'Special Elite';
 
 body{
-  @extend .blue-grey, .darken-2}
+  @extend .blue-grey, .darken-2;
+  font-family: $font_titles;
+}
 
 .gray-action{
     color: gray !important;
@@ -13,4 +15,18 @@ body{
 
 .black-action{
   color: black !important;
+}
+
+.title-action{
+  color: black !important;
+}
+
+.breadcrumb{
+  color: white !important;
+}
+
+article{
+  a{
+    color: blue !important;
+  };
 }

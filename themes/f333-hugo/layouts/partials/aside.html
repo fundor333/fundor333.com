@@ -1,21 +1,17 @@
 <aside class="col m3 hide-on-small-only amber lighten-5">
-    <hr>
+    <br>
     <div class="row">
 
-      {{ partial "social.html" . }}
-      
+        {{ partial "social.html" . }}
+
     </div>
-    <hr>
-    <div class="row">
-      <div class="col m12 hide-on-small-only">
-	<h4>
-	{{ range .Params.tags }}
-	<a class="social-link" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
-            <span class="fa fa-tags" aria-hidden="true">{{.}} </span>
-	</a>
-	{{ end }}
-	</h4>
+    <div class="container">
+        <div class="row">
+            {{ range .Params.tags }}
+            <a class="gray-action" href="{{ " tags/" | relLangURL }}{{ . | urlize }}">
+            <i class="material-icons">label</i> {{ . }}
+            </a>
+            {{ end }}
         </div>
     </div>
-    <br>
 </aside>
