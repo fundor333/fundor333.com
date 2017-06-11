@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col s12">
+        <div class="card blue-grey lighten-4">
+            <div class="card-content white-text">
+                <span class="card-title black-text">Menu</span>
+            </div>
+            <div class="card-content">
+                {{ range .Site.Menus.main }}
+                {{ if .HasChildren }}
+                {{else}}
+                <p><a href="{{.URL}}" class="gray-action">
+                    {{ .Name }}
+                </a>
+                </p>
+                {{end}}
+                {{end}}
+            </div>
+        </div>
+    </div>
+</div>

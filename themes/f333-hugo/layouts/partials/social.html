@@ -1,11 +1,17 @@
-{{range .Site.Params.social -}}
-<div class="col-sm-4 hidden-xs btn ">
-    <a href="{{ .url }}">
-  <div class="col-sm-10 social-link" >
-    <br>
-      <img src="{{.Site.BaseURL}}/img/icons/{{ .name }}.svg" />
-    <br>
-  </div>
-  </a>
+<div class="row">
+    <div class="col s12">
+        <div class="container">
+            <div class="card transparent">
+                <div class="card-content">
+                    <span class="card-title">Social</span>
+                    <p>Ecco dove seguirmi</p>
+                </div>
+                <div class="card-action">
+                    {{range .Site.Params.social -}}
+                    <a class="gray-action" href="{{ .url }}">{{ .name }}</a>
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-{{end}}
