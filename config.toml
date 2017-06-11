@@ -62,20 +62,15 @@ disqus_shortname = "fundor333"
     url="https://gitlab.com/fundor333"
 
 [[menu.main]]
-	name="📚everything"
-[[menu.main]]
     name="📚archive"
-    parent="📚everything"
     url="/post/"
 [[menu.main]]
 	name="📓blog"
   	url="/categories/blog/"
-  	parent="📚everything"
   	text="I miei articoli, ordinati cronologicamente"
 [[menu.main]]
 	name="👨‍💻dev"
 	url="/categories/dev/"
-	parent="📚everything"
 	text="Il mio diario di sviluppo"
 
 [[menu.main]]
