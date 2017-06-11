@@ -7,7 +7,10 @@ $font_text: 'Special Elite';
 body{
   @extend .blue-grey, .darken-2}
 
-.black-action{
+.gray-action{
     color: gray !important;
 }
 
+.black-action{
+  color: black !important;
+}
