@@ -6626,7 +6626,7 @@ body {
   color: black !important; }
 
 .breadcrumb {
-  color: white; }
+  color: white !important; }
 
 article a {
   color: blue !important; }
