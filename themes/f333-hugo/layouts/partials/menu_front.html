@@ -1,20 +1,31 @@
 <div class="row">
     <div class="col s12">
-        <div class="card blue-grey lighten-4">
-            <div class="card-content white-text">
-                <span class="card-title black-text">Menu</span>
-            </div>
+        <div class="container">
+
             <div class="card-content">
-                {{ range .Site.Menus.main }}
-                {{ if .HasChildren }}
-                {{else}}
-                <p><a href="{{.URL}}" class="gray-action">
-                    {{ .Name }}
-                </a>
-                </p>
-                {{end}}
-                {{end}}
+                <span class="card-title">Menu</span>
+                <ul id="nav-mobile" class="left">
+                    {{ range .Site.Menus.main }}
+                    {{ if .HasChildren }}
+                    <li>
+                        <a class="dropdown-button gray-action" href="#!" data-activates="dropdown{{ .Name }}">
+                            {{ .Name }}
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+
+                    <ul id="dropdown{{ .Name }}" class="dropdown-content">
+                        {{ range .Children }}
+                        <li><a href="{{.URL}}" class="menu_link gray-action"> {{ .Name }} </a></li>
+                        {{end}}
+                    </ul>
+                    {{else}}
+                    <li><a href="{{ .URL }}" class="gray-action">{{ .Name }}</a></li>
+                    {{end}}
+                    {{end}}
+                </ul>
             </div>
+
         </div>
     </div>
 </div>
