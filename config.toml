@@ -62,35 +62,49 @@ disqus_shortname = "fundor333"
     url="https://gitlab.com/fundor333"
 
 [[menu.main]]
+	name="📚everything"
+	weight= 20
+[[menu.main]]
     name="📚archive"
+    parent="📚everything"
     url="/post/"
+    weight= 10
 [[menu.main]]
 	name="📓blog"
   	url="/categories/blog/"
+  	parent="📚everything"
+  	weight= 20
   	text="I miei articoli, ordinati cronologicamente"
 [[menu.main]]
 	name="👨‍💻dev"
 	url="/categories/dev/"
+	parent="📚everything"
+	weight= 30
 	text="Il mio diario di sviluppo"
 
 [[menu.main]]
 	name="🔗resources"
   	url="/resources/"
   	text="Link utili che consiglio"
+  	weight= 50
 	
 [[menu.main]]
 	name="🤵🏻about"
 	url="/about/"
 	text="Chi sono e cosa faccio"
+	weight= 30
 [[menu.main]]
 	name="💻project"
 	url="/project/"
 	text="In sintesi i miei progetti"
+	weight= 40
 [[menu.main]]
 	name="📌the source code"
 	url="https://gitlab.com/fundor333/fundor333.gitlab.io"
 	text="Il sorgente del sito"
+	weight= 70
 [[menu.main]]
 	name="📰the feed"
-	url="https://fundor333.com/index.xml"
+	url="https://fundor333.com/post/index.xml"
 	text="Ultime news del sito"
+	weight= 60
