@@ -6631,4 +6631,13 @@ body {
 article a {
   color: blue !important; }
 
+.same_height {
+  display: table;
+  /* Make the container element behave like a table */
+  width: 100%;
+  /* Set full-width to expand the whole page */ }
+  .same_height .f333 {
+    display: table-cell;
+    /* Make elements inside the container behave like table cells */ }
+
 /*# sourceMappingURL=style.css.map */
