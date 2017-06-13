@@ -9,6 +9,10 @@ body{
   font-family: $font_titles;
 }
 
+img{
+  @extend .responsive-img;
+}
+
 .gray-action{
     color: gray !important;
 }

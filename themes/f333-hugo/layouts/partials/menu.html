@@ -3,7 +3,12 @@
         <ul id="nav-mobile" class="left">
             {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
-            <li><a class="dropdown-button gray-action" href="#!" data-activates="dropdown{{ .Name }}">{{ .Name }}<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li>
+                <a class="dropdown-button gray-action" href="#!" data-activates="dropdown{{ .Name }}">
+                    {{ .Name }}
+                    <i class="material-icons right">arrow_drop_down</i>
+                </a>
+            </li>
 
             <ul id="dropdown{{ .Name }}" class="dropdown-content">
                 {{ range .Children }}

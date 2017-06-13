@@ -12,7 +12,7 @@ aliases=["blog/2016/10/03/docker-la-balena-con-i-container/"]
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
 Docker.\
 ![Docker
-logo](http://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png){.alignright .img-responsive}
+logo](http://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png)
 
 <!--more-->\
 La prima volta che ho incontrato Docker è stato leggendo un articolo

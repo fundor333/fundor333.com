@@ -29,20 +29,19 @@
                 <div class="card-content"><p>{{ .Content}}</p>
                 </div>
                 <div class="card-action">
-                    {{ range .Site.Menus.main }}
-                    {{ if .HasChildren }}
-                    {{else}}
-                    <a href="{{.URL}}" class="gray-action">
-                        {{ .Name }}
-                    </a>
-                    {{end}}
-                    {{end}}
+
+                    <div class="card-action">
+                        {{range .Site.Params.social -}}
+                        <a class="gray-action" href="{{ .url }}">{{ .name }}</a>
+                        {{end}}
+                    </div>
+
                 </div>
             </div>
         </div>
         <div class="col s12 m4">
             <div class=" f333 blue-grey lighten-4 card">
-            {{ partial "social_front.html" . }}
+            {{ partial "menu_front.html" . }}
             </div>
         </div>
     </div>
