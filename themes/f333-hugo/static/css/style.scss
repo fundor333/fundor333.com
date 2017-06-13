@@ -30,3 +30,11 @@ article{
     color: blue !important;
   };
 }
+
+.same_height{
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+  .f333{
+    display: table-cell; /* Make elements inside the container behave like table cells */
+  }
+}

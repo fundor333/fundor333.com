@@ -1,6 +1,8 @@
-<script src="{{ .Site.BaseURL }}/js/materialize.min.js"></script>
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.matchHeight.js"/>
+
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -21,5 +23,9 @@
 <script>
     $(document).ready(function () {
         $(".dropdown-button").dropdown();
-    })
+    });
+
+    $(function() {
+        $('.f333').matchHeight();
+    });
 </script>
