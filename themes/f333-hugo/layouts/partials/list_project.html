@@ -1,0 +1,53 @@
+<div class="grey lighten-5 col m9 s12 f333">
+    <div class="col s12">
+        <section>
+            <div class="col s12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s8">
+                            <h1>{{ .Title}}</h1>
+                        </div>
+                        <div class="col s4">
+                            <h1>
+                                <a href="{{.Site.BaseURL}}post/index.xml">
+                                    <i class="material-icons">rss_feed</i>
+                                </a>
+                            </h1>
+                        </div>
+                    </div>
+
+                    {{ range (.Paginator 4).Pages.ByWeight }}
+                    <div class="row">
+                        <div class="card grey lighten-2">
+                            <div class="card-content">
+                            <span class="card-title">
+                                <a href="{{ .Permalink }}" class="title-action" rel="bookmark"
+                                                        title="{{ .Title }}">{{ .Title }}</a>
+                            </span>
+
+                            <div class="entry-content">
+                                <p>{{ .Content }}</p>
+                            </div>
+                            <div class="card-action gray-action">
+                                <a href="{{ .Permalink }}">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    {{ end }}
+
+
+                </div>
+                <div class="row">
+                    {{ if .Paginator.HasPrev }}
+                    <a class="btn" href="{{ .Paginator.Prev.URL }}">
+                        < Previous Page </a>
+                    {{ end }} {{ if .Paginator.HasNext }}
+                    <a class="btn" href="{{ .Paginator.Next.URL }}">
+                        Next Page > </a> {{ end }}
+                </div>
+            </div>
+            <br>
+        </section>
+    </div>
+</div>

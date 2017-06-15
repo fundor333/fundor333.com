@@ -10,7 +10,7 @@ Attualmente utilizzo molto Docker, Debian e Telegram sopratutto per recuperare e
 operare sugli opendata, anche se per ora per progetti con ~~poca~~ nessuna
 risonanza.
 
-Nell header della pagina trovate i link ai miei social e ai miei account di GitHub e GitLab.
+Da qualche parte nella pagina trovate i link ai miei social e ai miei account di GitHub e GitLab.
 
 <!-- Include the library. -->
 <script
@@ -23,8 +23,9 @@ Nell header della pagina trovate i link ai miei social e ai miei account di GitH
   href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
 />
 
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow&style=plastic)](https://github.com/fundor333)
 <!-- Prepare a container for your calendar. -->
-<div class="calendar">
+<div class="calendar hide-on-small-only">
     <!-- Loading stuff -->
     Loading the data just for you.
 </div>
