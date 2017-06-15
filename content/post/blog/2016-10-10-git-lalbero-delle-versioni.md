@@ -4,8 +4,6 @@ date= "2016-10-10"
 tags= ["git"]
 description= "Git cos'è e come funziona"
 slug= "git-lalbero-delle-versioni"
-aliases=["blog/2016/10/10/git-lalbero-delle-versioni/"]
-categories= ["blog"]
 +++
 
 Spesso e volentieri uno dei problemi dello sviluppo di software è avere

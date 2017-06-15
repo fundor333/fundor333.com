@@ -1,11 +1,9 @@
 +++
 title= "Scrivi, push e publica"
 date= "2017-01-14"
-categories= ["dev","status"]
 tags= ["github", "wordpress", "container"]
 slug= "scrivi-push-public"
 description="Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni"
-aliases= ["dev/2017/01/14/scrivi-push-public/"]
 +++
 
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.

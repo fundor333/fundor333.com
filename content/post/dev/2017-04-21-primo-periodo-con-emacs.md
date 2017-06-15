@@ -1,7 +1,6 @@
 +++
 title = "Il primo periodo con Emacs"
 date = "2017-04-21"
-categories=["dev"]
 slug="il-primo-periodo-con-emacs"
 tags=["emacs","editor","ide"]
 description="Diario del mio primo periodo di utilizzo di Emacs"

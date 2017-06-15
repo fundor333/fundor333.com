@@ -1,5 +1,4 @@
 #+TITLE: Google I\O 2017
-#+CATEGORIES: blog, dev
 #+DATE: 2017-05-18
 #+TAGS: google, io17, convention
 #+SLUG: google-io-2017

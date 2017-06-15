@@ -1,11 +1,9 @@
 +++
 title= "Meteo del Sangue e Alta Marea"
 date= "2016-12-21"
-categories= ["dev"]
 tags= ["bot", "facebook", "open data", "telegram", "twitter"]
 slug= "meteo-del-sangue-alta-marea"
 description= "Bot per telegram e twitter per la donazione del sangue e l'alta marea a Venezia"
-aliases=["dev/2016/12/21/meteo-del-sangue-alta-marea/"]
 +++
 
 Ovvero come ho iniziato a scrivere bot per telegram.

@@ -1,11 +1,9 @@
 +++
 title= "E oggi Hackathon"
 date= "2016-10-21"
-categories= ["dev","status"]
 tags=["hackathon"]
 slug= "e-oggi-hackathon"
 description= "E oggi Hackathon"
-aliases=["dev/2016/10/21/e-oggi-hackathon/"]
 +++
 
 E oggi si va di hackathon... Per chi non gli conoscono gli hackathon

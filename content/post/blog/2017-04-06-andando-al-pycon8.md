@@ -3,7 +3,6 @@ description = "Io vado al Pycon e spero di trovare e fare cose utili. Vediamo un
 date = "2017-04-06T15:48:06+02:00"
 title = "Andando al Pycon8"
 tags = ['python','pycon','convention']
-categories= ["blog","status"]
 +++
 
 Mentre sto scrivendo io sono seduto in treno, pronto a partire per il Pycon di quest'anno.

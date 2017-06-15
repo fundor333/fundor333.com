@@ -1,11 +1,9 @@
 +++
 title= "Il mio container Docker Wordpress"
 date= "2016-11-16"
-categories= ["dev"]
 slug= "mio-container-docker-wordpress"
 tags= ["docker", "wordpress", "container"]
 description= "Docker implementa un server locale per sviluppare temi e plugin Wordpress"
-aliases=["dev/2016/11/16/mio-container-docker-wordpress/"]
 +++
 
 Questo è un progetto nato da una mia necessità: avere wordpress
