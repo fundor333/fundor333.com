@@ -4,8 +4,6 @@ date= "2016-11-09"
 tags= ["programmazione"]
 slug= "orrori-delle-parentesi"
 description= "Digressione sull'uso delle parentesi nei linguaggi di programmazione"
-categories= ["blog"]
-aliases=['blog/2016/11/09/orrori-delle-parentesi/']
 +++
 
 (°,,,°)

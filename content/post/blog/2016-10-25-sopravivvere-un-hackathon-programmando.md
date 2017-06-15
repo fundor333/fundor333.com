@@ -2,10 +2,8 @@
 title= "Come sopravivvere a un Hackathon programmando"
 date= "2016-10-25"
 tags= ["hackathon", "programmazione", "tutorial"]
-categories= ["blog","status"]
 slug= "sopravivvere-un-hackathon-programmando"
 description= "Sommario della mia avventura all'Hackathon eodappathon"
-alias=["blog/2016/10/25/sopravivvere-un-hackathon-programmando/"]
 +++
 
 Esco in questi giorni da un Hackathon organizzato dalla regione Veneto

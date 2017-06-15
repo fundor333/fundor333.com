@@ -1,11 +1,9 @@
 +++
 title= "Status del blog"
 date= "2016-12-06"
-categories= ["dev","status"]
 tags= ["status", "firebase", "gdg"]
 slug="status-del-blog"
 description= "Aggiornamento sullo stato del blog e scuse varie"
-aliases=['blog/2016/12/06/status-del-blog/']
 +++
 
 Questo post inizia con delle scuse🙇.\
