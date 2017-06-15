@@ -42,3 +42,10 @@ article{
     display: table-cell; /* Make elements inside the container behave like table cells */
   }
 }
+
+.entry-content{
+  li{
+    list-style: circle !important;
+    list-style-position: inside;
+  }
+}
