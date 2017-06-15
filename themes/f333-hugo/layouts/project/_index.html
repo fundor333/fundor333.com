@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" .}}
+
+<body>
+    <div class="container">
+        <div class="col s12">
+            <div class="col s12">
+
+                {{ partial "topbox.html" .}}
+
+                <br>
+                <div class="row">
+                  {{partial "list_part.html" .}}
+                  {{ partial "aside.html" .}}
+
+                </div>
+                <br>
+                {{ partial "footer.html" .}}
+
+            </div>
+
+        </div>
+    </div>
+{{ partial "script.html" .}}
+</body>
+
+</html>

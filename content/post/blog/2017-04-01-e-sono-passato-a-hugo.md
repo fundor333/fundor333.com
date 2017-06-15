@@ -2,7 +2,6 @@
 title= "E sono passato a Hugo"
 date= "2017-04-04"
 tags= ["hugo","pelican","blog","golang","https"]
-categories= ["blog","status"]
 description= "Come e perchè sono passato a Hugo da Pelican"
 +++
 

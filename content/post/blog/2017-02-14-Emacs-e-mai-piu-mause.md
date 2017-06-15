@@ -1,11 +1,9 @@
 +++
 title= "Emacs e mai più mouse"
 date= "2017-02-14"
-categories= ["blog"]
 tags= ["emacs", "texteditor", "programmazione"]
 slug= "emacs-e-mai-piu-mouse"
 description= "Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal mio set per il pc"
-aliases=["blog/2017/02/14/emacs-e-mai-piu-mouse/"]
 +++
 
 E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è _mouse free_!

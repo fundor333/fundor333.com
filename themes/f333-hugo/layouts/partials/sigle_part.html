@@ -10,9 +10,17 @@
                                 <nav class="blue-grey lighten-4">
                                     <div class="nav-wrapper ">
                                         <div class="col s12 breadcrumb">
-                                            <a href="{{ .Site.BaseURL }}" class="breadcrumb">Home</a>
-                                            <a href="{{ .Site.BaseURL }}post/" class="breadcrumb">post</a>
-                                            <a href="#!" class="breadcrumb">{{ .Title }}</a>
+                                            {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+                                            {{ $.Scratch.Add "path" .Site.BaseURL }}
+
+                                                <a href="/" class="breadcrumb">home</a>
+                                                {{ range $index, $element := split $url "/" }}
+                                                {{ $.Scratch.Add "path" $element }}
+                                                {{ if ne $element "" }}
+                                                <a href='{{ $.Scratch.Get "path" }}' class="breadcrumb">{{ . }}</a>
+                                                {{ $.Scratch.Add "path" "/" }}
+                                                {{ end }}
+                                                {{ end }}
                                         </div>
                                     </div>
                                 </nav>
