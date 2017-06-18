@@ -3,7 +3,7 @@ OUTPUTDIR=$(BASEDIR)/public
 
 FTP_HOST=ftp.fundor333.com
 FTP_USER=fundor333.com
-FTP_TARGET_DIR=/
+FTP_TARGET_DIR=/htdocs
 
 SSH_HOST=localhost
 SSH_PORT=22
