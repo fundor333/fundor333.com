@@ -1,10 +1,10 @@
-+++
-title= "Git, l'albero delle versioni che ci salva il progetto"
-date= "2016-10-10"
-tags= ["git"]
-description= "Git cos'è e come funziona"
-slug= "git-lalbero-delle-versioni"
-+++
+Title: Git, l'albero delle versioni che ci salva il progetto
+Date: 2016-10-10
+Category: blog
+Tags: git
+Slug: git-lalbero-delle-versioni
+
+
 
 Spesso e volentieri uno dei problemi dello sviluppo di software è avere
 backup del codice e condividerlo in modo da poterci lavorare in più

@@ -1,9 +1,8 @@
-+++
-title= "Come sopravivvere a un Hackathon programmando"
-date= "2016-10-25"
-tags= ["hackathon", "programmazione", "tutorial"]
-slug= "sopravivvere-un-hackathon-programmando"
-description= "Sommario della mia avventura all'Hackathon eodappathon"
+Title: Come sopravivvere a un Hackathon programmando
+Date: 2016-10-25
+Tags: hackathon, programmazione, tutorial
+Slug: sopravivvere-un-hackathon-programmando
+Description: Sommario della mia avventura all'Hackathon eodappathon
 +++
 
 Esco in questi giorni da un Hackathon organizzato dalla regione Veneto

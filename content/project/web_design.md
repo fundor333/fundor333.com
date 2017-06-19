@@ -1,8 +1,8 @@
-+++
-title= "Web Design 🕸🕷🕸️️"
-slug= "webdesign"
-weight = "2"
-+++
+Title: Web Design 🕸🕷🕸️️
+Date: 2000-09-09
+Category: project
+Tags: status
+Slug: webdesign
 
 Ho sviluppato nel tempo dei siti internet per svariate ragioni. Per lo più obbligo/volontariato
 

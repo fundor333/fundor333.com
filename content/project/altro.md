@@ -1,8 +1,7 @@
-+++
-title= "Altro ⌨️"
-slug= "altro"
-+++
-***
+Title: Altro ⌨
+Category: project
+Slug: altro
+Date: 2000-09-09
 
 Progetti che non sono riuscito a inquadrare nelle altre categorie.
 
