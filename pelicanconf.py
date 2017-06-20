@@ -3,7 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Fundor333'
-SITENAME = 'Fundor 333'
+SITENAME = 'Fundor333'
+SITESUBTITLE = 'import antigravity'
 SITEURL = ''
 
 PATH = 'content'
@@ -33,3 +34,5 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+THEME = 'theme'
