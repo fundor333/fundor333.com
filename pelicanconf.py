@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Fundor333'
-SITENAME = 'Fundor333'
+SITENAME = 'Fundor 333 💻'
 SITESUBTITLE = 'import antigravity'
 SITEURL = ''
 
@@ -21,14 +21,20 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('facebook', 'https://www.facebook.com/fundor333'),
+    ("mastodon", "https://mastodon.social/@fundor333"),
+    ("twitter", "https://twitter.com/fundor333"),
+    ("youtube", "https://www.youtube.com/user/Fundor333"),
+    ("instagram", "https://www.instagram.com/fundor333/"),
+    ("reddit", "https://www.reddit.com/user/fundor333"),
+    ("linkedin", "https://it.linkedin.com/in/matteo-scarpa-78969263"),
+    ("github", "https://github.com/fundor333"),
+    ("gitlab", "https://gitlab.com/fundor333"),
+)
 
 DEFAULT_PAGINATION = 10
 
