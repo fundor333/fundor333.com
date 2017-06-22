@@ -61,3 +61,5 @@ PLUGINS = [
 
 CATEGORY_URL = 'categories/{slug}/'
 CATEGORY_SAVE_AS = 'categories/{slug}/index.html'
+ARTICLE_URL = 'post/{category}/{slug}/'
+ARTICLE_SAVE_AS = 'post/{category}/{slug}/index.html'
