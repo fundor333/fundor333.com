@@ -42,3 +42,6 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 THEME = 'theme'
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["tag_cloud"]
