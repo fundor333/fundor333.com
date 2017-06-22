@@ -21,7 +21,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = ()
+LINKS = (
+    ("📚archive","/post/"),
+    ("📓blog","/categories/blog/"),
+    ("👨‍💻dev","/categories/dev/"),
+    ("🔗resources","/resources/"),
+    ("🤵🏻about", "/about/"),
+    ("💻project","/project/"),
+    ("📌the source code","https://github.com/fundor333/fundor333.com"),
+    ("📰the feed","https://fundor333.com/post/index.xml"),
+)
 
 # Social widget
 SOCIAL = (
@@ -44,4 +53,11 @@ DEFAULT_PAGINATION = 10
 THEME = 'theme'
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["tag_cloud"]
+PLUGINS = [
+    "tag_cloud",
+    'summary',
+    'custom_article_urls',
+]
+
+CATEGORY_URL = 'categories/{slug}/'
+CATEGORY_SAVE_AS = 'categories/{slug}/index.html'

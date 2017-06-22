@@ -1,7 +1,7 @@
-#+TITLE: Google I\O 2017
-#+DATE: 2017-05-18
-#+TAGS: google, io17, convention
-#+SLUG: google-io-2017
+Title: Google I\O 2017
+Date: 2017-05-18
+Tags: google, io17, convention
+Slug: google-io-2017
 
 
 Sono nell'evento del GDG di Venezia a vedermi la _*Google IO 2017*_ in compagnia di altri informatici e interessati.
