@@ -1,9 +1,7 @@
-+++
-title= "E sono passato a Hugo"
-date= "2017-04-04"
-tags= ["hugo","pelican","blog","golang","https"]
-description= "Come e perchè sono passato a Hugo da Pelican"
-+++
+Title: E sono passato a Hugo
+Date: 2017-04-04
+Tags: hugo, pelican, blog, golang, https
+Description: Come e perchè sono passato a Hugo da Pelican
 
 E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa.
 Dopo un po' di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie

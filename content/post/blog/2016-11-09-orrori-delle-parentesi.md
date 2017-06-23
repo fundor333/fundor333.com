@@ -1,10 +1,8 @@
-+++
-title= "Orrori delle parentesi"
-date= "2016-11-09"
-tags= ["programmazione"]
-slug= "orrori-delle-parentesi"
-description= "Digressione sull'uso delle parentesi nei linguaggi di programmazione"
-+++
+Title: Orrori delle parentesi
+Date: 2016-11-09
+Tags: programmazione
+Slug: orrori-delle-parentesi
+Description: Digressione sull'uso delle parentesi nei linguaggi di programmazione
 
 (°,,,°)
 

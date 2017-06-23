@@ -1,10 +1,8 @@
-+++
-title = "Il primo periodo con Emacs"
-date = "2017-04-21"
-slug="il-primo-periodo-con-emacs"
-tags=["emacs","editor","ide"]
-description="Diario del mio primo periodo di utilizzo di Emacs"
-+++
+Title: Il primo periodo con Emacs
+Date: 2017-04-21
+Slug: il-primo-periodo-con-emacs
+Tags: emacs, editor, ide
+Description: Diario del mio primo periodo di utilizzo di Emacs
 
 Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino  usarlo come editor unico.
 La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.

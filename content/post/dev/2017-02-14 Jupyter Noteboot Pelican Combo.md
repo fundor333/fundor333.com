@@ -1,10 +1,9 @@
-+++
-title= "Jupyter Notebook Pelican Combo"
-tags= ["pelican","jupyter", "notebook"]
-date= "2017-02-14"
-slug= "jupyter-notebook-pelican-combo"
-description= "Come ho combinato Jupyter con questo blog in Pelican"
-+++
+Title: Jupyter Notebook Pelican Combo
+Tags: pelican, jupyter, notebook
+Date: 2017-02-14
+Slug: jupyter-notebook-pelican-combo
+Description: Come ho combinato Jupyter con questo blog in Pelican
+
 
 Si sta avvicinando il **Pycon 8** e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest' anno.
 Visto quello che è successo l'anno scorso ho deciso di preinstallate Jupyter e essere pronto a fare degli appunti direttamente in notebook. Per questo ho cercato un sistema per convertirli in markdown, così da usarli anche nel blog, o farli leggere direttamente da Pelican e ho fatto una stupenda scoperta: esiste già questo plugin.
