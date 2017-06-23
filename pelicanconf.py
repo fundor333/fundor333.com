@@ -54,7 +54,6 @@ THEME = 'theme'
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
-    "tag_cloud",
     'summary',
     'custom_article_urls',
 ]
@@ -63,3 +62,15 @@ CATEGORY_URL = 'categories/{slug}/'
 CATEGORY_SAVE_AS = 'categories/{slug}/index.html'
 ARTICLE_URL = 'post/{category}/{slug}/'
 ARTICLE_SAVE_AS = 'post/{category}/{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+INDEX_SAVE_AS = 'everything/index.html'
+INDEX_URL = 'everything/'
+
+TEMPLATE_PAGES = {
+    '../theme/templates/home.html': 'index.html',
+}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
+                       'extra/.htaccess': {'path': '.htaccess'},
+                       'extra/keybase.txt': {'path': 'keybase.txt'},
+                       }
