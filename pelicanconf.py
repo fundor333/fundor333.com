@@ -70,6 +70,16 @@ INDEX_URL = 'everything/'
 TEMPLATE_PAGES = {
     '../theme/templates/home.html': 'index.html',
 }
+
+HOME_TEXT = '''Chi sono? Sono un programmatore 💻 appasionato di Python 🐍, Docker 🐋 e del mondo Open Source.
+Nel tempo libero cerco di migliorare il mondo, per quanto posso, supportando attività di volontariato e il mondo Open Source.
+Ho un passato oscuro da PFY e qualche esperienza nel coordinare gruppi di viaggio e volontariato...
+
+Questo vuole essere il mio spazio personale/bacheca publica/blog personale dove metto esperienza, progetti e idee... Insomma un diario di un informatico mai cresciuto.
+
+Fundor333
+'''
+
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                        'extra/.htaccess': {'path': '.htaccess'},
                        'extra/keybase.txt': {'path': 'keybase.txt'},
