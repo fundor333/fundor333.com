@@ -1,21 +1,22 @@
-+++
-title= "🔗resources"
-slug= "resources"
-alias= "link"
-type= "page"
-+++
+Title: 🔗resources
+Slug: resources
 
 # 🔗resources
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
+
+---
 
 ## 💭webcomics
 
 Alcune delle Webcomics che seguo e che consiglio a chi è appassionato di informatica e/o ha un minimo senso dell'umorismo.
 
-* [Monkeyuser](http://www.monkeyuser.com/)
-* [TurnOFF](http://turnoff.us/)
-* [Joshuaw Right](http://www.joshuawright.net/)
-* [xkcd](https://xkcd.com/)
++ [Monkeyuser](http://www.monkeyuser.com/)
+
++ [TurnOFF](http://turnoff.us/)
+
++ [Joshuaw Right](http://www.joshuawright.net/)
+
++ [xkcd](https://xkcd.com/)
 
 ---
 
@@ -25,9 +26,11 @@ Ecco le web radio sulla programmazione che io ascolto abitualmente e suggerisco 
 
 ### 🐍python
 
-* [Podcast.__init__](https://www.podcastinit.com)
-* [Talk Python To Me](https://talkpython.fm)
-* [Pythonbytes](https://pythonbytes.fm)
++ [Podcast.__init__](https://www.podcastinit.com)
+
++ [Talk Python To Me](https://talkpython.fm)
+
++ [Pythonbytes](https://pythonbytes.fm)
 
 ### 💻developer
 
@@ -39,3 +42,5 @@ Ecco le web radio sulla programmazione che io ascolto abitualmente e suggerisco 
 
 * [Partially Derivative](http://partiallyderivative.com/)
 * [Go Time](https://changelog.com/gotime)
+
+---

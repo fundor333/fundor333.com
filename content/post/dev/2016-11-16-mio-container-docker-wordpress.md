@@ -1,10 +1,8 @@
-+++
-title= "Il mio container Docker Wordpress"
-date= "2016-11-16"
-slug= "mio-container-docker-wordpress"
-tags= ["docker", "wordpress", "container"]
-description= "Docker implementa un server locale per sviluppare temi e plugin Wordpress"
-+++
+Title: Il mio container Docker Wordpress
+Date: 2016-11-16
+Slug: mio-container-docker-wordpress
+Tags: docker, wordpress, container
+Description: Docker implementa un server locale per sviluppare temi e plugin Wordpress
 
 Questo è un progetto nato da una mia necessità: avere wordpress
 installato senza avere tutti i file in */var/www* o simili ma nella
