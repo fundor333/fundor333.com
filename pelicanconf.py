@@ -51,11 +51,13 @@ DEFAULT_PAGINATION = 7
 # RELATIVE_URLS = True
 
 THEME = 'theme'
+MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     'summary',
     'custom_article_urls',
+    'ipynb.markup',
 ]
 
 CATEGORY_URL = 'categories/{slug}/'

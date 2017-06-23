@@ -1,0 +1,158 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "445c3b4fdf2a5e9b02496ff5d268185351efd4282e7997a6040e0adda6806dac"
+        },
+        "requires": {},
+        "sources": [
+            {
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "beautifulsoup4": {
+            "version": "==4.6.0"
+        },
+        "bleach": {
+            "version": "==2.0.0"
+        },
+        "blinker": {
+            "version": "==1.4"
+        },
+        "decorator": {
+            "version": "==4.0.11"
+        },
+        "docutils": {
+            "version": "==0.13.1"
+        },
+        "entrypoints": {
+            "version": "==0.2.3"
+        },
+        "feedgenerator": {
+            "version": "==1.9"
+        },
+        "html5lib": {
+            "version": "==0.999999999"
+        },
+        "ipykernel": {
+            "version": "==4.6.1"
+        },
+        "ipython": {
+            "version": "==6.1.0"
+        },
+        "ipython-genutils": {
+            "version": "==0.2.0"
+        },
+        "ipywidgets": {
+            "version": "==6.0.0"
+        },
+        "jedi": {
+            "version": "==0.10.2"
+        },
+        "jinja2": {
+            "version": "==2.9.6"
+        },
+        "jsonschema": {
+            "version": "==2.6.0"
+        },
+        "jupyter": {
+            "version": "==1.0.0"
+        },
+        "jupyter-client": {
+            "version": "==5.1.0"
+        },
+        "jupyter-console": {
+            "version": "==5.1.0"
+        },
+        "jupyter-core": {
+            "version": "==4.3.0"
+        },
+        "markdown": {
+            "version": "==2.6.8"
+        },
+        "markupsafe": {
+            "version": "==1.0"
+        },
+        "mistune": {
+            "version": "==0.7.4"
+        },
+        "nbconvert": {
+            "version": "==5.2.1"
+        },
+        "nbformat": {
+            "version": "==4.3.0"
+        },
+        "notebook": {
+            "version": "==5.0.0"
+        },
+        "pandocfilters": {
+            "version": "==1.4.1"
+        },
+        "pelican": {
+            "version": "==3.7.1"
+        },
+        "pexpect": {
+            "version": "==4.2.1"
+        },
+        "pickleshare": {
+            "version": "==0.7.4"
+        },
+        "prompt-toolkit": {
+            "version": "==1.0.14"
+        },
+        "ptyprocess": {
+            "version": "==0.5.2"
+        },
+        "pygments": {
+            "version": "==2.2.0"
+        },
+        "python-dateutil": {
+            "version": "==2.6.0"
+        },
+        "pytz": {
+            "version": "==2017.2"
+        },
+        "pyzmq": {
+            "version": "==16.0.2"
+        },
+        "qtconsole": {
+            "version": "==4.3.0"
+        },
+        "setuptools": {
+            "version": "==36.0.1"
+        },
+        "simplegeneric": {
+            "version": "==0.8.1"
+        },
+        "six": {
+            "version": "==1.10.0"
+        },
+        "terminado": {
+            "version": "==0.6"
+        },
+        "testpath": {
+            "version": "==0.3.1"
+        },
+        "tornado": {
+            "version": "==4.5.1"
+        },
+        "traitlets": {
+            "version": "==4.3.2"
+        },
+        "unidecode": {
+            "version": "==0.04.20"
+        },
+        "wcwidth": {
+            "version": "==0.1.7"
+        },
+        "webencodings": {
+            "version": "==0.5.1"
+        },
+        "widgetsnbextension": {
+            "version": "==2.0.0"
+        }
+    },
+    "develop": {}
+}
