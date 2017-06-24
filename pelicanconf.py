@@ -55,7 +55,6 @@ MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
-    'summary',
     'custom_article_urls',
     'ipynb.markup',
 ]
