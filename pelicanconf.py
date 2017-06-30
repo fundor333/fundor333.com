@@ -39,7 +39,7 @@ SOCIAL = (
     ("twitter", "https://twitter.com/fundor333"),
     ("youtube", "https://www.youtube.com/user/Fundor333"),
     ("instagram", "https://www.instagram.com/fundor333/"),
-    ("flickr","https://www.flickr.com/people/fundor333/"),
+    ("flickr", "https://www.flickr.com/people/fundor333/"),
     ("reddit", "https://www.reddit.com/user/fundor333"),
     ("linkedin", "https://it.linkedin.com/in/matteo-scarpa-78969263"),
     ("github", "https://github.com/fundor333"),
@@ -53,12 +53,13 @@ DEFAULT_PAGINATION = 7
 
 THEME = 'theme'
 MARKUP = ('md', 'ipynb')
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     'custom_article_urls',
     'ipynb.markup',
-    'tipue_search'
+    'tipue_search',
 ]
 
 CATEGORY_URL = 'categories/{slug}/'
