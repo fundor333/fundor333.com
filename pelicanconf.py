@@ -58,6 +58,7 @@ PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     'custom_article_urls',
     'ipynb.markup',
+    'tipue_search'
 ]
 
 CATEGORY_URL = 'categories/{slug}/'
