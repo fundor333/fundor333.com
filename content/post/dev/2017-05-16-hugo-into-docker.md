@@ -131,4 +131,4 @@ The maggior part of the total size is caused by the size of the _*Hugo*_ binary 
 
 Now the image size and number layers can change update after update so I put this image with the allwayes data about the images.
 
-[![](https://images.microbadger.com/badges/image/fundor333/hugo.svg)](https://microbadger.com/images/fundor333/hugo "Get your own image badge on microbadger.com")
+[![hugo_fundor333](https://images.microbadger.com/badges/image/fundor333/hugo.svg)](https://microbadger.com/images/fundor333/hugo "Get your own image badge on microbadger.com")
