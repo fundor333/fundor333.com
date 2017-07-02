@@ -63,6 +63,10 @@ PLUGINS = [
     # 'tipue_search',
 ]
 
+IPYNB_USE_META_SUMMARY = True
+IGNORE_FILES = ['.ipynb_checkpoints']
+IPYNB_IGNORE_CSS = True
+
 CATEGORY_URL = 'categories/{slug}/'
 CATEGORY_SAVE_AS = 'categories/{slug}/index.html'
 ARTICLE_URL = 'post/{category}/{slug}/'
