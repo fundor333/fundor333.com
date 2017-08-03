@@ -1,6 +1,0 @@
-pelican
-Markdown
-jupyter
-ipython
-nbconvert
-beautifulsoup4
