@@ -60,8 +60,11 @@ PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     'custom_article_urls',
     'ipynb.markup',
+    'feed_summary',
     # 'tipue_search',
 ]
+
+FEED_USE_SUMMARY = True
 
 IPYNB_USE_META_SUMMARY = True
 IGNORE_FILES = ['.ipynb_checkpoints']
