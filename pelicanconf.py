@@ -53,7 +53,7 @@ DEFAULT_PAGINATION = 7
 
 THEME = 'theme'
 MARKUP = ('md', 'ipynb')
-DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', #'search'
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'
                      ))
 
 PLUGIN_PATHS = ["plugins"]
@@ -61,7 +61,7 @@ PLUGINS = [
     'custom_article_urls',
     'ipynb.markup',
     'feed_summary',
-    # 'tipue_search',
+     'tipue_search',
 ]
 
 FEED_USE_SUMMARY = True
@@ -92,7 +92,7 @@ Questo vuole essere il mio spazio personale/bacheca publica/blog personale dove 
 Fundor333
 '''
 
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
-                       'extra/.htaccess': {'path': '.htaccess'},
-                       'extra/keybase.txt': {'path': 'keybase.txt'},
+EXTRA_PATH_METADATA = {'extras/CNAME': {'path': 'CNAME'},
+                       'extras/.htaccess': {'path': '.htaccess'},
+                       'extras/keybase.txt': {'path': 'keybase.txt'},
                        }
