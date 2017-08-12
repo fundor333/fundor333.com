@@ -7,7 +7,7 @@ Ho sviluppato nel tempo dei siti internet per svariate ragioni.
 
 Ho sviluppato nel tempo dei siti internet per svariate ragioni. Per lo più obbligo/volontariato
 
-+ [Fundor333](http://fundor333.com/): il mio sito personale. Sviluppato da me interamente in GoLang, Html5 e CSS3. In particolare è stato usato Materialize, Font Awesome, Markdown e Hugo, tutte tecnologie a me molto care e a cui mi sto interessando per applicazioni non standard delle stesse. Realizzato interamente seguendo il mio gusto personale.
++ [Fundor333](http://fundor333.com/): il mio sito personale. Sviluppato da me interamente in Python, Html5 e CSS3. In particolare è stato usato Materialize, Font Awesome, Markdown e Hugo, tutte tecnologie a me molto care e a cui mi sto interessando per applicazioni non standard delle stesse. Realizzato interamente seguendo il mio gusto personale.
 
 + [Informatica sarà lei](http://test01.danielvedovato.it/): progetto universitario sviluppato per la regione Veneto. Io ho preso parte attiva nel coordinamento dello sviluppo e nello sviluppo della parte grafica. Per lo più il sito utilizza una combinazione di HTML5 e Bootstrap.
 
