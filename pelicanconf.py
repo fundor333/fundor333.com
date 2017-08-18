@@ -53,8 +53,9 @@ DEFAULT_PAGINATION = 7
 
 THEME = 'theme'
 MARKUP = ('md', 'ipynb')
-DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search', 'sitemap'
                      ))
+SITEMAP_SAVE_AS = 'sitemap.xml'
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
