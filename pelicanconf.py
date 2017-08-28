@@ -26,7 +26,7 @@ LINKS = (
     ("📓blog", "/categories/blog/"),
     ("👨‍💻dev", "/categories/dev/"),
     ("🔗resources", "/resources/"),
-    ("🤵🏻about", "/about/"),
+    ("⛩about", "/about/"),
     ("💻project", "/project/"),
     ("📌the source code", "https://github.com/fundor333/fundor333.com"),
     ("📰the feed", "https://fundor333.com/post/index.xml"),
