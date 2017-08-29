@@ -22,11 +22,11 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("📚archive", "/everything/"),
-    ("📓blog", "/categories/blog/"),
-    ("👨‍💻dev", "/categories/dev/"),
+    ("archive", "/everything/"),
+    ("blog", "/categories/blog/"),
+    ("dev", "/categories/dev/"),
     ("🔗resources", "/resources/"),
-    ("⛩about", "/about/"),
+    ("about", "/about/"),
     ("💻project", "/project/"),
     ("📌the source code", "https://github.com/fundor333/fundor333.com"),
     ("📰the feed", "https://fundor333.com/post/index.xml"),
