@@ -22,20 +22,19 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("archive", "/everything/"),
-    ("blog", "/categories/blog/"),
-    ("dev", "/categories/dev/"),
-    ("🔗resources", "/resources/"),
-    ("about", "/about/"),
-    ("💻project", "/project/"),
-    ("📌the source code", "https://github.com/fundor333/fundor333.com"),
-    ("📰the feed", "https://fundor333.com/post/index.xml"),
+    ("archive","archive", "/everything/"),
+    ("book","blog", "/categories/blog/"),
+    ("terminal","dev", "/categories/dev/"),
+    ("paperclip","resources", "/resources/"),
+    ("user","about", "/about/"),
+    ("laptop","project", "/project/"),
+    ("code","the source code", "https://github.com/fundor333/fundor333.com"),
+    ("rss","the feed", "https://fundor333.com/post/index.xml"),
 )
 
 # Social widget
 SOCIAL = (
     ('facebook', 'https://www.facebook.com/fundor333'),
-    ("mastodon", "https://mastodon.social/@fundor333"),
     ("twitter", "https://twitter.com/fundor333"),
     ("youtube", "https://www.youtube.com/user/Fundor333"),
     ("instagram", "https://www.instagram.com/fundor333/"),
@@ -44,6 +43,7 @@ SOCIAL = (
     ("linkedin", "https://it.linkedin.com/in/matteo-scarpa-78969263"),
     ("github", "https://github.com/fundor333"),
     ("gitlab", "https://gitlab.com/fundor333"),
+    ('codepen','https://codepen.io/fundor333/'),
 )
 
 DEFAULT_PAGINATION = 7
