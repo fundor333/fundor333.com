@@ -62,6 +62,7 @@ PLUGINS = [
     'custom_article_urls',
     'ipynb.markup',
     'feed_summary',
+    'embed_tweet',
      'tipue_search',
 ]
 

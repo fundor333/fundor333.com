@@ -1,4 +1,5 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 
@@ -9,3 +10,7 @@ jupyter = "*"
 ipython = "*"
 nbconvert = "*"
 beautifulsoup4 = "*"
+[requires]
+python_version = "3.5"
+
+[dev-packages]
