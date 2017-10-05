@@ -6,6 +6,7 @@ verify_ssl = true
 [packages]
 pelican = "*"
 Markdown = "*"
+pygments ="*"
 jupyter = "*"
 ipython = "*"
 nbconvert = "*"
