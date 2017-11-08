@@ -1,7 +1,7 @@
 Title: Docker, la balena con i container per software
 Date: 2016-10-03
 Tags: docker
-Description: Docker, cos'è e come funziona
+Summary: Docker, cos'è e come funziona
 Slug: docker-la-balena-con-i-container
 
 

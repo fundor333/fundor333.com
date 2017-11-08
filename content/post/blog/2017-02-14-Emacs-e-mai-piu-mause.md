@@ -2,7 +2,7 @@ Title: Emacs e mai più mouse
 Date: 2017-02-14
 Tags: emacs, texteditor, programmazione
 Slug: emacs-e-mai-piu-mouse
-Description: Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal mio set per il pc
+Summary: Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal mio set per il pc
 
 
 E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è _mouse free_!

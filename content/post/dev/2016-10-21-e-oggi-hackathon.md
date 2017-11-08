@@ -2,7 +2,7 @@ Title: E oggi Hackathon
 Date: 2016-10-21
 Tags: hackathon
 Slug: e-oggi-hackathon
-Description: E oggi Hackathon
+Summary: E oggi Hackathon
 
 E oggi si va di hackathon... Per chi non gli conoscono gli hackathon
 sono gare tra gruppi di programmatori in cui viene assegnato un tema e

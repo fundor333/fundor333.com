@@ -2,7 +2,7 @@ Title: Orrori delle parentesi
 Date: 2016-11-09
 Tags: programmazione
 Slug: orrori-delle-parentesi
-Description: Digressione sull'uso delle parentesi nei linguaggi di programmazione
+Summary: Digressione sull'uso delle parentesi nei linguaggi di programmazione
 
 (°,,,°)
 

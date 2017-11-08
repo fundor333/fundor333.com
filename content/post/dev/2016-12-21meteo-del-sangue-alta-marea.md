@@ -2,7 +2,7 @@ Title: Meteo del Sangue e Alta Marea
 Date: 2016-12-21
 Tags: bot, facebook, open data, telegram, twitter
 Slug: meteo-del-sangue-alta-marea
-Description: Bot per telegram e twitter per la donazione del sangue e l'alta marea a Venezia
+Summary: Bot per telegram e twitter per la donazione del sangue e l'alta marea a Venezia
 
 Ovvero come ho iniziato a scrivere bot per telegram.
 

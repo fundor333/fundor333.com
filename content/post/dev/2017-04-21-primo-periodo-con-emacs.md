@@ -2,7 +2,7 @@ Title: Il primo periodo con Emacs
 Date: 2017-04-21
 Slug: il-primo-periodo-con-emacs
 Tags: emacs, editor, ide
-Description: Diario del mio primo periodo di utilizzo di Emacs
+Summary: Diario del mio primo periodo di utilizzo di Emacs
 
 Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino  usarlo come editor unico.
 La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.
@@ -128,3 +128,4 @@ Questo è infatti il codice per l'installazione dei pacchetti mancanti.
 Con questa configurazione e l'aggiunta di un _.gitignore_ abbastanza pulito mi è possibile mantenere una versione di ripristino dell'ambiente di lavoro Emacs compatibile con ogni sistema operativo che supporta Emacs.
 
 Questa è la mia prima esperienza con Emacs e ne sono entusiasta anche se devo ancora consultare appunti per certi shortcut ma credo che andando avanti non ne avrò di bisogno.
+

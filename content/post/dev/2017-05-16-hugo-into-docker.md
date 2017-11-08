@@ -1,7 +1,7 @@
 Date: 2017-05-16T12:27:11+02:00
 Tags: docker, hugo, image, container
 Title: Hugo into Docker
-
+Summary: This blog is publish with a docker image with GitLab. But I don't like the image I was using because wasn't update and it's big and havy. So I fork the project for create an update version for my personal blog.
 
 This blog is publish with a docker image with GitLab. But I don't like the image I was using because wasn't update and it's big and havy. So I fork the project for create an update version for my personal blog.
 

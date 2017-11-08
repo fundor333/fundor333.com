@@ -3,7 +3,7 @@ Date: 2016-09-26
 Category: blog
 Tags: status
 Slug: linizio-di-una-avventura
-
+Summary: L'inizio di un blog è sempre difficile
 
 L' inizio di un blog è sempre difficile. Soprattutto se è la 4-5 volta
 che riprovi a scriverne uno. E ancora di più se rimani venti minuti a

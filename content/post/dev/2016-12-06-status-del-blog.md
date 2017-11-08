@@ -2,7 +2,7 @@ Title: Status del blog
 Date: 2016-12-06
 Tags: status, firebase, gdg
 Slug: status-del-blog
-Description: Aggiornamento sullo stato del blog e scuse varie
+Summary: Aggiornamento sullo stato del blog e scuse varie
 
 Questo post inizia con delle scuse🙇.\
 Questo perchè ultimamente non ho scritto niente perchè occupato tra

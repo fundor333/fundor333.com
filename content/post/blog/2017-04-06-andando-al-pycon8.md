@@ -1,4 +1,4 @@
-Description: Io vado al Pycon e spero di trovare e fare cose utili. Vediamo un po' cosa succede a Firenze e quali talk porterò in questo blog
+Summary: Io vado al Pycon e spero di trovare e fare cose utili. Vediamo un po' cosa succede a Firenze e quali talk porterò in questo blog
 Date: 2017-04-06T15:48:06+02:00
 Title: Andando al Pycon8
 Tags: python, pycon, convention

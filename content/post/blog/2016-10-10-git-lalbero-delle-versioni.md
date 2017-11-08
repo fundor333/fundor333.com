@@ -3,8 +3,11 @@ Date: 2016-10-10
 Category: blog
 Tags: git
 Slug: git-lalbero-delle-versioni
-
-
+Summary: Spesso e volentieri uno dei problemi dello sviluppo di software è avere
+backup del codice e condividerlo in modo da poterci lavorare in più
+persone in contemporanea senza sovrapporre le modifiche. Queste due
+richieste vengono soddisfatte con un software di version controlling che
+permetta il lavoro di multipli utenti.
 
 Spesso e volentieri uno dei problemi dello sviluppo di software è avere
 backup del codice e condividerlo in modo da poterci lavorare in più
