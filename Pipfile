@@ -11,7 +11,8 @@ jupyter = "*"
 ipython = "*"
 nbconvert = "*"
 beautifulsoup4 = "*"
+
 [requires]
-python_version = "3.5"
+python_version = "3.6.3"
 
 [dev-packages]
