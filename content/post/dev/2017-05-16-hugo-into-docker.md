@@ -7,7 +7,7 @@ This blog is publish with a docker image with GitLab. But I don't like the image
 
 <!--more--> 
 
-![docker logo](/img/post/docker.png)
+![docker logo]({attach}img/post/docker.png)
 
 
 So I started with updating the old docker image I was using this image
