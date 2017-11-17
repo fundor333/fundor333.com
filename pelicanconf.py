@@ -8,6 +8,7 @@ SITESUBTITLE = 'import antigravity'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Paris'
 
