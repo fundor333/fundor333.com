@@ -4,6 +4,7 @@ Slug: resources
 # 🔗resources
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
 
++ [12Factor Guidelines](https://12factor.net)
 + [Netiquette Guidelines](https://tools.ietf.org/html/rfc1855)
 + [The Jargon File](http://www.catb.org/jargon/)
 
