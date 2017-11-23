@@ -23,14 +23,14 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("archive","archive", "/everything/"),
-    ("book","blog", "/categories/blog/"),
-    ("terminal","dev", "/categories/dev/"),
-    ("paperclip","resources", "/resources/"),
-    ("user","about", "/about/"),
-    ("laptop","project", "/project/"),
-    ("code","the source code", "https://github.com/fundor333/fundor333.com"),
-    ("rss","the feed", "https://fundor333.com/post/index.xml"),
+    ("archive", "archive", "/everything/"),
+    ("book", "blog", "/categories/blog/"),
+    ("terminal", "dev", "/categories/dev/"),
+    ("paperclip", "resources", "/resources/"),
+    ("user", "about", "/about/"),
+    ("laptop", "project", "/project/"),
+    ("code", "the source code", "https://github.com/fundor333/fundor333.com"),
+    ("rss", "the feed", "https://fundor333.com/post/index.xml"),
 )
 
 # Social widget
@@ -45,7 +45,7 @@ SOCIAL = (
     ("linkedin", "https://it.linkedin.com/in/matteo-scarpa-78969263"),
     ("github", "https://github.com/fundor333"),
     ("gitlab", "https://gitlab.com/fundor333"),
-    ('codepen','https://codepen.io/fundor333/'),
+    ('codepen', 'https://codepen.io/fundor333/'),
 )
 
 DEFAULT_PAGINATION = 20
@@ -65,7 +65,7 @@ PLUGINS = [
     'ipynb.markup',
     'feed_summary',
     'embed_tweet',
-     'tipue_search',
+    'tipue_search',
 ]
 
 FEED_USE_SUMMARY = True
