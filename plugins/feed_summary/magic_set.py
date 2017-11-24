@@ -1,6 +1,7 @@
 import inspect
 import six
 
+
 # Modifies class methods (or instances of them) on the fly
 # http://blog.ianbicking.org/2007/08/08/opening-python-classes/
 # http://svn.colorstudy.com/home/ianb/recipes/magicset.py
@@ -52,6 +53,7 @@ Works on both instances and classes.
 >>> c.pr(1)
 1
 """
+
     def decorator(func):
         is_class = isinstance(obj, six.class_types)
         args, varargs, varkw, defaults = inspect.getargspec(func)
@@ -67,6 +69,7 @@ Works on both instances and classes.
             else:
                 def replacement(*args, **kw):
                     return func(obj, *args, **kw)
+
                 try:
                     replacement.__name__ = func.__name__
                 except:
@@ -77,16 +80,18 @@ Works on both instances and classes.
             else:
                 def replacement(*args, **kw):
                     return func(obj.__class__, *args, **kw)
+
                 try:
                     replacement.__name__ = func.__name__
                 except:
                     pass
         setattr(obj, func.__name__, replacement)
         return replacement
+
     return decorator
+
 
 if __name__ == '__main__':
     import doctest
+
     doctest.testmod()
-
-

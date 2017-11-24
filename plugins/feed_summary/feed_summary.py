@@ -11,6 +11,7 @@ from __future__ import unicode_literals
 from jinja2 import Markup
 
 import six
+
 if not six.PY3:
     from urlparse import urlparse
 else:
@@ -21,6 +22,7 @@ from pelican.writers import Writer
 from pelican.utils import set_date_tzinfo
 
 from .magic_set import magic_set
+
 
 class FeedSummaryWriter(Writer):
     def _add_item_to_the_feed(self, feed, item):
@@ -37,9 +39,10 @@ class FeedSummaryWriter(Writer):
                 categories=item.tags if hasattr(item, 'tags') else None,
                 author_name=getattr(item, 'author', ''),
                 pubdate=set_date_tzinfo(item.modified if hasattr(item, 'modified') else item.date,
-                    self.settings.get('TIMEZONE', None)))
+                                        self.settings.get('TIMEZONE', None)))
         else:
             super(FeedSummaryWriter, self)._add_item_to_the_feed(feed, item)
+
 
 def set_feed_use_summary_default(pelican_object):
     # modifying DEFAULT_CONFIG doesn't have any effect at this point in pelican setup
@@ -47,10 +50,12 @@ def set_feed_use_summary_default(pelican_object):
 
     pelican_object.settings.setdefault('FEED_USE_SUMMARY', False)
 
+
 def patch_pelican_writer(pelican_object):
     @magic_set(pelican_object)
     def get_writer(self):
-        return FeedSummaryWriter(self.output_path,settings=self.settings)
+        return FeedSummaryWriter(self.output_path, settings=self.settings)
+
 
 def register():
     signals.initialized.connect(set_feed_use_summary_default)

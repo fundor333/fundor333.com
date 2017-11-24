@@ -15,6 +15,7 @@ import os.path
 import json
 from bs4 import BeautifulSoup
 from codecs import open
+
 try:
     from urlparse import urljoin
 except ImportError:
@@ -24,7 +25,6 @@ from pelican import signals
 
 
 class Tipue_Search_JSON_Generator(object):
-
     def __init__(self, context, settings, path, theme, output_path, *null):
 
         self.output_path = output_path
@@ -34,17 +34,18 @@ class Tipue_Search_JSON_Generator(object):
         self.output_path = output_path
         self.json_nodes = []
 
-
     def create_json_node(self, page):
 
         if getattr(page, 'status', 'published') != 'published':
             return
 
         soup_title = BeautifulSoup(page.title.replace('&nbsp;', ' '), 'html.parser')
-        page_title = soup_title.get_text(' ', strip=True).replace('“', '"').replace('”', '"').replace('’', "'").replace('^', '&#94;')
+        page_title = soup_title.get_text(' ', strip=True).replace('“', '"').replace('”', '"').replace('’', "'").replace(
+            '^', '&#94;')
 
         soup_text = BeautifulSoup(page.content, 'html.parser')
-        page_text = soup_text.get_text(' ', strip=True).replace('“', '"').replace('”', '"').replace('’', "'").replace('¶', ' ').replace('^', '&#94;')
+        page_text = soup_text.get_text(' ', strip=True).replace('“', '"').replace('”', '"').replace('’', "'").replace(
+            '¶', ' ').replace('^', '&#94;')
         page_text = ' '.join(page_text.split())
 
         page_category = page.category.name if getattr(page, 'category', 'None') != 'None' else ''
@@ -57,7 +58,6 @@ class Tipue_Search_JSON_Generator(object):
                 'url': page_url}
 
         self.json_nodes.append(node)
-
 
     def create_tpage_node(self, srclink):
 
@@ -76,7 +76,6 @@ class Tipue_Search_JSON_Generator(object):
                 'url': page_url}
 
         self.json_nodes.append(node)
-
 
     def generate_output(self, writer):
         path = os.path.join(self.output_path, 'tipuesearch_content.json')
