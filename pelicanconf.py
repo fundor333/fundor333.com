@@ -96,7 +96,7 @@ Questo vuole essere il mio spazio personale/bacheca publica/blog personale dove 
 Fundor333
 '''
 
-STATIC_PATHS = ['images', 'pdfs', 'extra/keybase.txt']
+STATIC_PATHS = ['images', 'pdfs', 'extra']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                        'extra/.htaccess': {'path': '.htaccess'},
                        'extra/keybase.txt': {'path': '.well-known/keybase.txt'},
