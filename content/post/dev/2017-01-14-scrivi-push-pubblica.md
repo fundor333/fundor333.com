@@ -10,7 +10,6 @@ Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel serve
 Questo perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.
 
 Così sono passato da un blog dinamico a uno statico.
-<!--more-->
 
 Come mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell'azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine. E' qui che ho iniziato a farmi idee su come potermi sganciare da wordpress e PHP verso qualcosa di più _nel mio stile_ più _mio_. Qui è quando ho visto un blog che seguo da tempo nel mio aggregatore di RSS, il blog di [Eevee](https://eev.ee/). E' un blog di questo programmatore che seguo da un po' appassionato di Python e gaming, con una _leggera_ passione per i PokeMon.
 

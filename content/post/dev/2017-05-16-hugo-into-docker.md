@@ -12,6 +12,7 @@ This blog is publish with a docker image with GitLab. But I don't like the image
 
 So I started with updating the old docker image I was using this image
 
+	#!docker
 	FROM debian:wheezy
 	MAINTAINER yigal@publysher.nl
 
@@ -50,6 +51,7 @@ But I can do better than this because i can use _*alpine*_ in the place of _*deb
 
 I do this because the image for _*debian*_ is bigger than the image for _*alpine*_. But if I will use _*alpine*_ I need to change somethings because I can't install _*.deb*_ into the image. So i use the binary of Hugo for Linux find on Github. And install it on the image
 
+	#!docker
 	FROM alpine
 	LABEL maintainer "fundor333@gmail.com"
 
@@ -89,7 +91,7 @@ This time the size was 33,5 MB. Good but i can do BETTER.
 
 Whenever you wrote a new line with _*RUN*_ you make the "compiled" into another _*layer*_ so, if you have 22 command (like me) you have 22 layer for the image
 
-
+	#!docker
 	FROM alpine
 	LABEL maintainer "fundor333@gmail.com"
 

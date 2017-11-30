@@ -21,6 +21,7 @@ Per rendererizzare i file _.ipynb_ è necessario aver installato il plugin _peli
 
 e settare i tipi di markup supportato con
 
+	#!python
     MARKUP = ('md', 'ipynb')
 
 facendoli vedere così i file _.ipynb_ come file da eseguire e visualizzare come post.

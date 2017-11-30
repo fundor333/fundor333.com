@@ -15,6 +15,7 @@ all'altro e così scopro il "Meteo del sangue"
 <p>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </p>
+
 Questo è un servizio che ha rializzato che crea un sistema di
 segnalazione automatica dei gruppi sangugni in carenza nella regione
 Toscana e posta sui social (Twitter, Facebook e Telegram) i gruppi
