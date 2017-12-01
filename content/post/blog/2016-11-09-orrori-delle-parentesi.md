@@ -12,17 +12,7 @@ Un frammento di codice con parentesi messe allineate in fondo...
 
 <!--more-->
 
-> Use whatever brace style you prefer.
->
-> But not this.
->
-> Don't do this.
->
-> Seek help instead of this.
-> [pic.twitter.com/1EYb7BLHkb](https://t.co/1EYb7BLHkb)
->
-> — Boodell games. (@UdellGames) [19 ottobre> 2016](https://twitter.com/UdellGames/status/788690145822306304)
-![Img](https://pbs.twimg.com/media/CvH9gfFWcAA2knK.jpg)
+@UdellGames/status/788690145822306304
 
 \\|/(x,,,x)\\|/
 
