@@ -4,6 +4,4 @@
 [submodule "plugins/ipynb"]
 	path = plugins/ipynb
 	url = git://github.com/danielfrg/pelican-ipynb.git
-[submodule "plugins/embed-tweet"]
-	path = pluings/embed_tweet
-	url = git@github.com:fundor333/pelican-embed-tweet.git
+
