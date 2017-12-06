@@ -64,7 +64,7 @@ PLUGINS = [
     'custom_article_urls',
     'ipynb.markup',
     'feed_summary',
-    'embed-tweet',
+    'pelican_advance_embed_tweet',
     'tipue_search',
 ]
 
