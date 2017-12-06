@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fbbc85144e281b8d07da12f54850aa24a023149bce5cce27e3d6c7e0acfbcb20"
+            "sha256": "91834a281731cba9deb6afd9a10150bf5c26b3cb94bab4b46e686a4cbf556dd9"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -87,11 +87,10 @@
         },
         "ipykernel": {
             "hashes": [
-                "sha256:188c786b7d1786b10214aa64089e62bb2ee54dd2aa3d17db5bb39ffacf44b21d",
-                "sha256:afe2bebd8b47ac91801f13f26c228897ebd63793e7daa271921fdbc6dd719173",
-                "sha256:2e1825aca4e2585b5adb7953ea16e53f53a62159ed49952a564b1e23507205db"
+                "sha256:606579e1b30ce8eee154c016d6dd5305a77582de4c74c9397cea8d41dde2aa85",
+                "sha256:354986612a38f0555c43d5af2425e2a67506b63b313a0325e38904003b9d977b"
             ],
-            "version": "==4.6.1"
+            "version": "==4.7.0"
         },
         "ipython": {
             "hashes": [
@@ -224,6 +223,13 @@
             ],
             "version": "==3.7.1"
         },
+        "pelican-advance-embed-tweet": {
+            "hashes": [
+                "sha256:87cd429cb68ddc5926e865b73eac51aedbfdc20e3a14fe386ababaea54a6ec68",
+                "sha256:45643bf7ae686a3c634c4afe59ea0592dd44380124789822f48b84c041a49e2a"
+            ],
+            "version": "==1.0.1"
+        },
         "pexpect": {
             "hashes": [
                 "sha256:2b50dd8caa5007b10b0afcf075095814780b104b4a5cf9d8fbdc8bbc754e5ca4",
@@ -252,6 +258,7 @@
                 "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a",
                 "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365"
             ],
+            "markers": "os_name != 'nt'",
             "version": "==0.5.2"
         },
         "pygments": {

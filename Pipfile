@@ -1,18 +1,26 @@
 [[source]]
+
 name = "pypi"
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 
+
 [packages]
+
 pelican = "*"
-Markdown = "*"
-pygments ="*"
+markdown = "*"
+pygments = "*"
 jupyter = "*"
 ipython = "*"
 nbconvert = "*"
-beautifulsoup4 = "*"
+"beautifulsoup4" = "*"
+pelican_advance_embed_tweet = "*"
+
 
 [requires]
+
 python_version = "3.6"
 
+
 [dev-packages]
+
