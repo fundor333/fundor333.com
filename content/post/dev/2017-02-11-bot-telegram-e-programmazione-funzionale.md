@@ -14,7 +14,7 @@ Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi 
 
 Ad esempio se io ho definito prima qi questo frammento di codice una funzione _start_ che mi gestisce il comando omonimo, poi io devo registrarla all'updater attraverso il dispatcher come qui sotto.
 
-
+	#!python
     updater.dispatcher.add_handler(CommandHandler('start', start))
 
 
@@ -30,6 +30,7 @@ Da bravo programmatore ho subito pensato che:
 
 Apro quindi il mio file _prova-stupida-flask.py_
 
+	#!python
 	from flask import Flask
 
 	app = Flask(__name__)
@@ -45,6 +46,7 @@ E capisco che _@app.route("")_ è un decoratore che collega la funzione _hello_ 
 
 Da una sbirciata al sorgente di Flask produco una classe che gestisce il token e contiene il metodo
 
+	#!python
     def command_handler(self, name):
         def decorator(f):
             self.updater.dispatcher.add_handler(CommandHandler(name, f))
@@ -53,6 +55,7 @@ Da una sbirciata al sorgente di Flask produco una classe che gestisce il token e
 
 che mi permette di scrivere una funzione di gestione di un comando con un piccolo decoratore sopra che fa tutto il lavoro
 
+	#!python
 	@mybot.command_handler('start')
     def start(bot,update):
     	/* codice che genera il resto*/
@@ -61,6 +64,7 @@ E qui felice, continuo a scrivere codice fino ad accorgermi che continuavo a ris
 
 Ho quindi scritto un nuovo generatore di funzioni in modo tale
 
+	#!python
 	def location_generator(bot, name, text, lonlat):
     @bot.command_handler(name)
     def decoreted(bot, update):

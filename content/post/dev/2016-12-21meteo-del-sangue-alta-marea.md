@@ -10,19 +10,16 @@ Nasce tutto al Pycon It 2016 ove conosco un programmatore Python.  Così
 chiaccerando entriamo in contatto e iniziamo a interessarci l'uno
 all'altro e così scopro il "Meteo del sangue"
 
-{{< tweet 787727168138801154 >}}
+@MeteoSangue/status/787727168138801154
 
-<p>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
+
 Questo è un servizio che ha rializzato che crea un sistema di
 segnalazione automatica dei gruppi sangugni in carenza nella regione
 Toscana e posta sui social (Twitter, Facebook e Telegram) i gruppi
 sanguigni che necessitano donazioni e quelli che sono a posto attraverso
 una grafica.
 
-E da qui nasce il mio progetto Alta Marea.\
-<!--more-->
+E da qui nasce il mio progetto Alta Marea.
 
 Il progetto Alta Marea è una applicazione diretta degli open data del
 comune di Venezia. Prende i dati dal sito del comune, li formatta e li
@@ -45,4 +42,4 @@ Tutto questo è iniziato mangiando bigne e parlando di Python a una
 convention...
 
 PS: per chi è curioso del progetto [qui](https://mareabot.github.io/)
-trova altre info su questo progetto
+trova altre info su questo progetto o twittatemi a @fundor333

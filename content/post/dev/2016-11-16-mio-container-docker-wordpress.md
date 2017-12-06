@@ -34,6 +34,7 @@ e come interagiscono tra di loro.
 Iniziamo quindi da quello che concettualmente è il primo container:
 *mysql*
 
+	#!docker
     mysql:
         image: mysql:latest
         volumes:
@@ -54,6 +55,7 @@ Iniziamo quindi da quello che concettualmente è il primo container:
 Il secono container *wordpress* contiene, invece, server e installazione
 di Wordpress.
 
+	#!docker
     wordpress:
       image: wordpress
       ports:

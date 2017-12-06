@@ -49,23 +49,13 @@ Passiamo quindi a cosa si fa in gara:
     tempo perso in discussioni inutili (tipo preferisco questo framework
     a quello) e ci si dedica subito allo sviluppo.
 
-<!-- -->
-
 -   Assumere teina/caffeina al giusto ritmo per rimanere svegli. Questo
     ti permetterà di reggere più a lungo anche se poi lo sentirai tutto
     sulla tua pelle finito l'evento
 
-> [\#hackathon](https://twitter.com/hashtag/hackathon?src=hash)
-> [\#eodappathon](https://twitter.com/hashtag/eodappathon?src=hash) Ore
-> 4 del mattino e sono ancora a programmare... Vado avanti a thè
-> [pic.twitter.com/JikmOuWAXc](https://t.co/JikmOuWAXc)
->
-> — 🎃Fundor 333👻 (@fundor333) [22 ottobre
-> 2016](https://twitter.com/fundor333/status/789650434155839489)
 
-<p>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
+@fundor333/status/789650434155839489
+
 -   Cercare che il team non perda il ritmo. L'importante è che il
     progetto non si fermi. Sempre avanzare e portare avanti quanto
     prefissato.
@@ -78,18 +68,8 @@ Passiamo quindi a cosa si fa in gara:
     cose invece di implementare interamente nuove funzionalità. Meglio
     quindi aver tutto già strutturato e sistemare i dettagli
 
-> Ore 6 all
-> [\#hackathon](https://twitter.com/hashtag/hackathon?src=hash)
-> [\#eodappathon](https://twitter.com/hashtag/eodappathon?src=hash) ...
-> Si iniziano a invocare i grandi antichi per sistemare i bug o
-> eliminare il problema alla fonte
->
-> — 🎃Fundor 333👻 (@fundor333) [22 ottobre
-> 2016](https://twitter.com/fundor333/status/789675697757454336)
+@fundor333/status/789675697757454336
 
-<p>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</p>
 Così è come ho vissuto il mio primo (e non ultimo) hackathon e lo reputo
 una delle più belle esperienze mai fatte. Lo consiglio a qualunque
 programmatore che vuole provare a mettersi in gioco e lanciarsi in una
