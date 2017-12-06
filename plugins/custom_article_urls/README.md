@@ -1,9 +1,9 @@
-#Custom Article URLs#
+# Custom Article URLs
 
 This plugin adds support for defining different default URLs for different
 categories, or different subcategories if using the subcategory plugin.
 
-##Usage##
+## Usage
 
 After adding `custom_article_urls` to your `PLUGINS`, add a
 `CUSTOM_ARTICLE_URLS` setting, which is a dictionary of rules. The rules are
@@ -29,7 +29,7 @@ define its rules with::
 
     'Category 1/Sub Category`: ...
 
-##Other Usage: Article Metadata##
+## Other Usage: Article Metadata
 
 If you define `URL` and `Save_as` in your article metadata, then this plugin
 will not alter that value. So you can still specify special one-off URLs as
