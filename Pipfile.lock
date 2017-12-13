@@ -39,10 +39,10 @@
         },
         "bleach": {
             "hashes": [
-                "sha256:7a316eac1eef1e98b9813636ebe05878aab1a658d2708047fb00fe2bcbc49f84",
-                "sha256:760a9368002180fb8a0f4ea48dc6275378e6f311c39d0236d7b904fca1f5ea0d"
+                "sha256:cf567e7ed30ea5e05b31231d88ae170af1c5544758b9d7bebbc20590b7c30b1e",
+                "sha256:38fc8cbebea4e787d8db55d6f324820c7f74362b70db9142c1ac7920452d1a19"
             ],
-            "version": "==2.1.1"
+            "version": "==2.1.2"
         },
         "blinker": {
             "hashes": [
@@ -80,10 +80,10 @@
         },
         "html5lib": {
             "hashes": [
-                "sha256:08a3efc117a4fc8c82c3c6d10d6f58ae266428d57ed50258a1466d2cd88de745",
-                "sha256:0d5fd54d5b2b79b876007a70c033a4023577768d18022c15681c00561432a0f9"
+                "sha256:20b159aa3badc9d5ee8f5c647e5efd02ed2a66ab8d354930bd9ff139fc1dc0a3",
+                "sha256:66cb0dcfdbbc4f9c3ba1a63fdb511ffdbd4f513b2b6d81b80cd26ce6b3fb3736"
             ],
-            "version": "==1.0b10"
+            "version": "==1.0.1"
         },
         "ipykernel": {
             "hashes": [
@@ -225,10 +225,10 @@
         },
         "pelican-advance-embed-tweet": {
             "hashes": [
-                "sha256:87cd429cb68ddc5926e865b73eac51aedbfdc20e3a14fe386ababaea54a6ec68",
-                "sha256:45643bf7ae686a3c634c4afe59ea0592dd44380124789822f48b84c041a49e2a"
+                "sha256:ab4c7a1b12a35bd33a1fe0e5c0b858bfaac1a78b6ebf873ef477da9295c4a6d1",
+                "sha256:ca25d11e6e0a71b9cd19eb366f64f39216aaacfe75f34e0312b0a9e20de7ab4e"
             ],
-            "version": "==1.0.1"
+            "version": "==1.1.1"
         },
         "pexpect": {
             "hashes": [
@@ -258,7 +258,6 @@
                 "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a",
                 "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365"
             ],
-            "markers": "os_name != 'nt'",
             "version": "==0.5.2"
         },
         "pygments": {

@@ -45,7 +45,8 @@ SOCIAL = (
     ("linkedin", "https://it.linkedin.com/in/matteo-scarpa-78969263"),
     ("github", "https://github.com/fundor333"),
     ("gitlab", "https://gitlab.com/fundor333"),
-    ('codepen', 'https://codepen.io/fundor333/'),
+    ('codepen', 'https://codepen.io/fundor333/'),    
+    ('500px', 'https://500px.com/fundor333'),
 )
 
 DEFAULT_PAGINATION = 20
