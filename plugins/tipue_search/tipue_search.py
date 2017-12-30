@@ -11,10 +11,11 @@ Copyright (c) Talha Mansoor
 
 from __future__ import unicode_literals
 
-import os.path
 import json
-from bs4 import BeautifulSoup
+import os.path
 from codecs import open
+
+from bs4 import BeautifulSoup
 
 try:
     from urlparse import urljoin

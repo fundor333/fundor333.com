@@ -1,5 +1,5 @@
 Title: DotFile e le mie config
-Date: 2017-12-27
+Date: 2017-12-04
 Slug: dotfile-e-le-mie-config
 Tags: dotfile, config, repository, dotbot
 Summary: DotFile e la mia configurazione di tutto

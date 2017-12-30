@@ -23,7 +23,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("archive", "archive", "/everything/"),
+    ("archive", "archive", "/blog/"),
     ("book", "blog", "/categories/blog/"),
     ("terminal", "dev", "/categories/dev/"),
     ("paperclip", "resources", "/resources/"),
@@ -45,7 +45,7 @@ SOCIAL = (
     ("linkedin", "https://it.linkedin.com/in/matteo-scarpa-78969263"),
     ("github", "https://github.com/fundor333"),
     ("gitlab", "https://gitlab.com/fundor333"),
-    ('codepen', 'https://codepen.io/fundor333/'),    
+    ('codepen', 'https://codepen.io/fundor333/'),
     ('500px', 'https://500px.com/fundor333'),
 )
 
@@ -70,6 +70,7 @@ PLUGINS = [
 ]
 
 FEED_USE_SUMMARY = True
+WITH_FUTURE_DATES = True
 
 IPYNB_USE_META_SUMMARY = True
 IGNORE_FILES = ['.ipynb_checkpoints']
@@ -77,12 +78,12 @@ IPYNB_IGNORE_CSS = True
 
 CATEGORY_URL = 'categories/{slug}/'
 CATEGORY_SAVE_AS = 'categories/{slug}/index.html'
-ARTICLE_URL = 'post/{category}/{slug}/'
-ARTICLE_SAVE_AS = 'post/{category}/{slug}/index.html'
+ARTICLE_URL = 'blog/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-INDEX_SAVE_AS = 'everything/index.html'
-INDEX_URL = 'everything/'
+INDEX_SAVE_AS = 'blog/index.html'
+INDEX_URL = 'blog/'
 
 TEMPLATE_PAGES = {
     '../theme/templates/home.html': 'index.html',

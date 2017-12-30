@@ -1,1 +1,9 @@
 ErrorDocument 404 /errore/errore404.html
+
+###################
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} blog.fundor333
+RewriteCond %{REQUEST_URI} !blog/
+RewriteRule ^(.*)$ /blog/$1 [L]
+###################

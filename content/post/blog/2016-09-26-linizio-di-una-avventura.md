@@ -8,7 +8,7 @@ Summary: L'inizio di un blog è sempre difficile
 L' inizio di un blog è sempre difficile. Soprattutto se è la 4-5 volta
 che riprovi a scriverne uno. E ancora di più se rimani venti minuti a
 fissare il bianco sullo schermo aspettando che appaia quello che vuoi
-scrivere.<!--more-->\
+scrivere.
 Ma questo non sarà un blog sul mio blocco dello scrittore ma sarà la mia
 vetrina. Qui mostrerò i miei interessi informatici, le mie opinioni
 sulla tecnologia e alcune esperienze vissute riparando pc e altri
