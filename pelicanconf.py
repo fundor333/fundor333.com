@@ -70,7 +70,7 @@ PLUGINS = [
 ]
 
 FEED_USE_SUMMARY = True
-WITH_FUTURE_DATES = True
+WITH_FUTURE_DATES = False
 
 IPYNB_USE_META_SUMMARY = True
 IGNORE_FILES = ['.ipynb_checkpoints']
