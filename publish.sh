@@ -13,6 +13,7 @@ echo
 echo $TARGETFOLDER
 echo
 
+cd $PWD
 make publish
 lftp -f "
 open $HOST
