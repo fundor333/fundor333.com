@@ -49,7 +49,7 @@ SOCIAL = (
     ('500px', 'https://500px.com/fundor333'),
 )
 
-DEFAULT_PAGINATION = 20
+DEFAULT_PAGINATION = 9
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
