@@ -14,7 +14,8 @@ jupyter = "*"
 ipython = "*"
 nbconvert = "*"
 "beautifulsoup4" = "*"
-pelican_advance_embed_tweet = "*"
+pelican-advance-embed-tweet = "*"
+selenium-requests = "*"
 
 
 [requires]

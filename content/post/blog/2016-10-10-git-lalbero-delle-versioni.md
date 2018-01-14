@@ -18,9 +18,9 @@ permetta il lavoro di multipli utenti.
 Dopo una analisi ho capito che [Git](https://git-scm.com/) è quello che
 fa al caso mio.
 
-![Logo git](http://www.fundor333.com/wp-content/uploads/2016/10/git_logo.png "git"){.style-svg .aligncenter .img-responsive}
+![Logo git](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png "git"){.responsive-img .center-align}
 
-<!--more-->
+
 
 **Come sono arrivato a Git?**
 
@@ -74,7 +74,7 @@ memoria. Le differenze tra le versioni sono quelle che Git memorizza. Le
 modifiche ai file assumono quindi degli 'stati': registrate, non
 controllate, sotto osservazione.
 
-![Visualizzazione struttura](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)
+![Visualizzazione struttura](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png){.responsive-img .center-align}
 
 Normalmente le modifiche sono effettuate nella "Working Directory" e
 passano nella "Staging Area" dopo che vengono selezionate con il comando
