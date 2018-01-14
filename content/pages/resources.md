@@ -4,8 +4,6 @@ Slug: resources
 # 🔗resources
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
 
----
-
 ## 📚readings
 
 Alcuni link utili, letture necessarie o utility per informatici
@@ -17,8 +15,6 @@ Alcuni link utili, letture necessarie o utility per informatici
 + [EditorConfig](http://editorconfig.org)
 + [Storie della sala macchine](http://www.soft-land.org)
 
----
-
 ## 💭webcomics
 
 Alcune delle Webcomics che seguo e che consiglio a chi è appassionato di informatica e/o ha un minimo senso dell'umorismo.
@@ -27,8 +23,6 @@ Alcune delle Webcomics che seguo e che consiglio a chi è appassionato di inform
 + [TurnOFF](http://turnoff.us/)
 + [Joshuaw Right](http://www.joshuawright.net/)
 + [xkcd](https://xkcd.com/)
-
----
 
 ## 📻podcast
 
@@ -51,8 +45,6 @@ Ecco le web radio sulla programmazione che io ascolto abitualmente e suggerisco 
 * [Partially Derivative](http://partiallyderivative.com/)
 * [Go Time](https://changelog.com/gotime)
 
----
-
 ### 👹evil overlod
 
 Vecchio sito con i consigli per diventare signore oscuro strutturati come decaloghi
@@ -60,3 +52,4 @@ Vecchio sito con i consigli per diventare signore oscuro strutturati come decalo
 + [Decalogo del signore del male](http://www.eviloverlord.com/lists/overlord.html)
 + [Primo decalogo delle celle](http://www.eviloverlord.com/lists/dungeon_a.html)
 + [Secondo decalogo delle celle](http://www.eviloverlord.com/lists/dungeon_b.html)
+
