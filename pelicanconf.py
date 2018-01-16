@@ -30,7 +30,7 @@ LINKS = (
     ("user", "about", "/about/"),
     ("laptop", "project", "/project/"),
     ("code", "the source code", "https://github.com/fundor333/fundor333.com"),
-    ("rss", "the feed", "https://fundor333.com/post/index.xml"),
+    ("rss", "the feed", "https://fundor333.com/index.xml"),
 )
 
 # Social widget

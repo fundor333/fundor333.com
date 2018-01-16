@@ -16,7 +16,7 @@ sys.path.append(os.curdir)
 SITEURL = 'https://www.fundor333.com'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'post/index.xml'
+FEED_ALL_ATOM = 'index.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
