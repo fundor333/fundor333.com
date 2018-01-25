@@ -14,6 +14,7 @@ Alcuni link utili, letture necessarie o utility per informatici
 + [DotFiles](https://dotfiles.github.io)
 + [EditorConfig](http://editorconfig.org)
 + [Storie della sala macchine](http://www.soft-land.org)
++ [Create Xkcd style diagram in TeX](https://tex.stackexchange.com/questions/74878/create-xkcd-style-diagram-in-tex)
 
 ## 💭webcomics
 
