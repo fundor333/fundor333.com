@@ -16,6 +16,7 @@ nbconvert = "*"
 "beautifulsoup4" = "*"
 pelican-advance-embed-tweet = "*"
 selenium-requests = "*"
+docutils = "*"
 
 
 [requires]

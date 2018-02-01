@@ -54,3 +54,7 @@ Vecchio sito con i consigli per diventare signore oscuro strutturati come decalo
 + [Primo decalogo delle celle](http://www.eviloverlord.com/lists/dungeon_a.html)
 + [Secondo decalogo delle celle](http://www.eviloverlord.com/lists/dungeon_b.html)
 
+
+### others
+
+* Bakemonogatari

@@ -24,7 +24,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ("archive", "archive", "/blog/"),
-    ("book", "blog", "/categories/blog/"),
+    ("book", "rant", "/categories/rant/"),
     ("terminal", "dev", "/categories/dev/"),
     ("paperclip", "resources", "/resources/"),
     ("user", "about", "/about/"),
