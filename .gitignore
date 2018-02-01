@@ -162,4 +162,5 @@ local.properties
 \.project
 .vscode
 
+public
 prepros-6\.config
