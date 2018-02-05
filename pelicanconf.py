@@ -26,7 +26,7 @@ LINKS = (
     ("archive", "archive", "/blog/"),
     ("book", "rant", "/categories/rant/"),
     ("terminal", "dev", "/categories/dev/"),
-    ("paperclip", "resources", "/resources/"),
+    ("bookmark", "resources", "/resources/"),
     ("user", "about", "/about/"),
     ("laptop", "project", "/project/"),
     ("code", "the source code", "https://github.com/fundor333/fundor333.com"),
