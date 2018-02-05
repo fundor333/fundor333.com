@@ -1,7 +1,9 @@
-Summary: Io vado al Pycon e spero di trovare e fare cose utili. Vediamo un po' cosa succede a Firenze e quali talk porterò in questo blog
-Date: 2017-04-06T15:48:06+02:00
-Title: Andando al Pycon8
-Tags: python, pycon, convention
+---
+description: "Io vado al Pycon e spero di trovare e fare cose utili. Vediamo un po' cosa succede a Firenze e quali talk porterò in questo blog"
+date: "2017-04-06"
+title: "Andando al Pycon8"
+tags: ["python", "pycon", "convention"]
+---
 
 Mentre sto scrivendo io sono seduto in treno, pronto a partire per il Pycon di quest'anno.
 Questa è la mia seconda esperienza al Pycon e spero che sia interessante e istruttiva come la precedente.

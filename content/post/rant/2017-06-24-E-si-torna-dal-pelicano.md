@@ -1,8 +1,10 @@
-Title: E si torna dal pelicano
-Date: 2017-06-24
-Tags: aggiornamento, pelican, hugo
-Slug: e-si-torna-dal-pelicano
-Summary:E sono tornato a usare Pelican... Perchè???
+---
+title: "E si torna dal pelicano"
+date: "2017-06-24"
+tags: ["aggiornamento", "pelican", "hugo"]
+slug: "e-si-torna-dal-pelicano"
+description: "E sono tornato a usare Pelican... Perchè???"
+---
 
 E sono tornato a usare Pelican... Perchè???
 

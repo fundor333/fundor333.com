@@ -1,9 +1,10 @@
-Title: Gource, visualizzare Git repository
-Date: 2016-11-07
-Tags: git, gource
-Slug: gource-visualizzare-git-repository
-Summary: Gource, cos'è e come usarlo al meglio
-
+---
+title: "Gource, visualizzare Git repository"
+date: "2016-11-07"
+tags: ["git", "gource"]
+slug: "gource-visualizzare-git-repository"
+description: "Gource, cos'è e come usarlo al meglio"
+---
 
 Quando hai un progetto Git, normalmente lo usi per fare controllo delle
 versioni.\
