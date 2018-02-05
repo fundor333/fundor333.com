@@ -1,9 +1,10 @@
-Title: Scrivi, push e publica
-Date: 2017-01-14
-Tags: github, wordpress, container
-Slug: scrivi-push-public
-Summary: Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni
-
+---
+title: "Scrivi, push e publica"
+date: "2017-01-14"
+tags: ["github", "wordpress", "container"]
+slug: "scrivi-push-public"
+description: "Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni"
+---
 
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.
 

@@ -1,8 +1,10 @@
-Title: Jupyter Notebook Pelican Combo
-Tags: pelican, jupyter, notebook
-Date: 2017-02-14
-Slug: jupyter-notebook-pelican-combo
-Summary: Come ho combinato Jupyter con questo blog in Pelican
+---
+title: "Jupyter Notebook Pelican Combo"
+tags: ["pelican", "jupyter", "notebook"]
+date: "2017-02-14"
+slug: "jupyter-notebook-pelican-combo"
+description: "Come ho combinato Jupyter con questo blog in Pelican"
+---
 
 
 Si sta avvicinando il **Pycon 8** e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest' anno.

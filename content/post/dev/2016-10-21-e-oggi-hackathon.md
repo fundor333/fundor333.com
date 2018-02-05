@@ -1,8 +1,10 @@
-Title: E oggi Hackathon
-Date: 2016-10-21
-Tags: hackathon
-Slug: e-oggi-hackathon
-Summary: E oggi Hackathon
+---
+title: "E oggi Hackathon"
+date: "2016-10-21"
+tags: ["hackathon"]
+slug: "e-oggi-hackathon"
+description: "E oggi Hackathon"
+---
 
 E oggi si va di hackathon... Per chi non gli conoscono gli hackathon
 sono gare tra gruppi di programmatori in cui viene assegnato un tema e
