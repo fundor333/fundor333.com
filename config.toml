@@ -1,0 +1,69 @@
+baseURL = "https://fundor333.com/"
+languageCode = "it-it"
+title = "Fundor 333"
+theme = "f333"
+
+rssLimit= 10
+
+googleAnalytics = "UA-44064318-2"
+disqusShortname = "fundor333"
+
+[params]
+    subtitle = "import antigravity"
+
+[author]
+    name = "Fundor 333"
+    github = "https://github.com/fundor333"
+    facebook = "https://www.facebook.com/fundor333"
+    twitter = "https://twitter.com/fundor333"
+    youtube = "https://www.youtube.com/user/Fundor333"
+    instagram = "https://www.instagram.com/fundor333/"
+    flickr = "https://www.flickr.com/people/fundor333/"
+
+[[menu.main]]
+    name = "archive"
+    identifier = "archive"
+    weight = 1
+    url = "/post/"
+
+[[menu.main]]
+    name = "rant"
+    identifier = "book"
+    weight = 2
+    url = "/categories/rant"
+
+[[menu.main]]
+    name = "dev"
+    identifier = "terminal"
+    weight = 3
+    url = "/categories/dev/"
+
+[[menu.main]]
+    name = "resources"
+    identifier = "bookmark"
+    weight = 4
+    url = "/resources/"
+
+[[menu.main]]
+    name = "about"
+    identifier = "user"
+    weight = 5
+    url = "/about/"
+
+[[menu.main]]
+    name = "project"
+    identifier = "laptop"
+    weight = 6
+    url = "/project/"
+
+[[menu.main]]
+    name = "the source code"
+    identifier = "code"
+    weight = 7
+    url = "https://github.com/fundor333/fundor333.com"
+
+[[menu.main]]
+    name = "the feed"
+    identifier = "rss"
+    weight = 8
+    url = "https://fundor333.com/index.xml"

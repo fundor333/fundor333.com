@@ -5,7 +5,7 @@ USER='fundor333.com'
 PASS="$1"
 
 TARGETFOLDER=/htdocs
-SOURCEFOLDER=$PWD/output
+SOURCEFOLDER=$PWD/public
 
 echo
 echo $SOURCEFOLDER
@@ -14,7 +14,9 @@ echo $TARGETFOLDER
 echo
 
 cd $PWD
-make publish
+rm -r $SOURCEFOLDER
+
+hugo
 lftp -f "
 open $HOST
 user $USER $PASS

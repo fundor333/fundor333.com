@@ -9,7 +9,6 @@ __pycache__/
 /srv.pid
 /output/
 /output-publish/
-.gitignore
 .idea/
 venv/
 /.crunch

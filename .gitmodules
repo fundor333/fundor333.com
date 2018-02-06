@@ -1,6 +1,0 @@
-[submodule "theme"]
-	path = theme
-	url = git@github.com:fundor333/f333_pelican.git
-[submodule "plugins/ipynb"]
-	path = plugins/ipynb
-	url = git://github.com/danielfrg/pelican-ipynb.git
