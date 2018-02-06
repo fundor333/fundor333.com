@@ -50,7 +50,7 @@ Questo significa che viene tutto calcolato attraverso funzioni matematiche basat
 
 Spero di essere stato abbastanza chiaro. Lascio qui un tweet che commenta su come andrebbero fatti i controlli per una nuova criptovaluta e le fonti a quanto scritto nel post
 
-@cstross/status/945944761810202625
+{{< tweet 945944761810202625 >}}
 
 [^1]: [Discussione Reddit](https://www.reddit.com/r/videos/comments/263prz/titcoins_by_pornhub/) in cui viene spiegata che la "campagna pubblicitaria" è una proposta che hanno ricevuto in seguito al contest
 [^2]: [Video inviato al contest](https://vimeo.com/9208710)

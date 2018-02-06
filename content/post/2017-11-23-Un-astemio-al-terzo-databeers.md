@@ -10,7 +10,6 @@ aliases: ["/blog/astemio-al-terzo-databeers/"]
 
 Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il _*[DataBeers di Venezia](https://databeersvce.tumblr.com)*_. 
 
-@fundor333/moments/832705679324352512
 
 Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. 
 Ci sono stati tre interventi di altrettante persone diverse:

@@ -57,8 +57,7 @@ Passiamo quindi a cosa si fa in gara:
     ti permetterà di reggere più a lungo anche se poi lo sentirai tutto
     sulla tua pelle finito l'evento
 
-
-@fundor333/status/789650434155839489
+{{< tweet 789650434155839489 >}}
 
 -   Cercare che il team non perda il ritmo. L'importante è che il
     progetto non si fermi. Sempre avanzare e portare avanti quanto
@@ -72,7 +71,7 @@ Passiamo quindi a cosa si fa in gara:
     cose invece di implementare interamente nuove funzionalità. Meglio
     quindi aver tutto già strutturato e sistemare i dettagli
 
-@fundor333/status/789675697757454336
+{{< tweet 789675697757454336 >}}
 
 Così è come ho vissuto il mio primo (e non ultimo) hackathon e lo reputo
 una delle più belle esperienze mai fatte. Lo consiglio a qualunque

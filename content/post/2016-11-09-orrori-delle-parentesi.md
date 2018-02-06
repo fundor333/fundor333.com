@@ -16,7 +16,7 @@ Un frammento di codice con parentesi messe allineate in fondo...
 
 <!--more-->
 
-@UdellGames/status/788690145822306304
+{{< tweet 788690145822306304 >}}
 
 \\|/(x,,,x)\\|/
 
