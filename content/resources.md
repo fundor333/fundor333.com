@@ -3,7 +3,7 @@ title: "🔗resources"
 type: "pages"
 ---
 
-# 🔗resources
+# 🔖resources
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
 
 ## 📚readings
