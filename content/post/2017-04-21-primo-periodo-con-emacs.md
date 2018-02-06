@@ -5,6 +5,7 @@ slug: "il-primo-periodo-con-emacs"
 tags: ["emacs", "editor", "ide"]
 categories: ["dev"]
 description: "Diario del mio primo periodo di utilizzo di Emacs"
+aliases: ["/dev/il-primo-periodo-con-emacs/"]
 ---
 
 Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino  usarlo come editor unico.

@@ -5,6 +5,7 @@ slug: "astemio-al-terzo-databeers"
 tags: ["databeers", "datascienze"]
 description: "La mia terza esperienza al DataBeers di Venezia, mio quarto Databeers"
 categories: ["rant"]
+aliases: ["/blog/astemio-al-terzo-databeers/"]
 ---
 
 Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il _*[DataBeers di Venezia](https://databeersvce.tumblr.com)*_. 

@@ -5,6 +5,7 @@ tags: ["status", "ruby", "lavoro"]
 slug: "ruby-e-il-mio-lavoro"
 description: "Ho trovato un lavoro e ho dovuto imparare Ruby e la cosa non mi piace"
 categories: ["rant"]
+aliases: ["/blog/ruby-e-il-mio-lavoro/"]
 ---
 
 Come qualcuno avra notato (spero) è un bel po' che non pubblico niente di nuovo nel blog.

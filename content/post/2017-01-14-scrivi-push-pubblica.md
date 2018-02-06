@@ -5,6 +5,7 @@ tags: ["github", "wordpress", "container"]
 slug: "scrivi-push-public"
 categories: ["dev"]
 description: "Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni"
+aliases: ["/dev/scrivi-push-public/"]
 ---
 
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.

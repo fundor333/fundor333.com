@@ -5,6 +5,7 @@ tags: ["status"]
 slug: "linizio-di-una-avventura"
 description: "L'inizio di un blog è sempre difficile"
 categories: ["rant"]
+aliases: ["/blog/linizio-di-una-avventura/"]
 ---
 
 L' inizio di un blog è sempre difficile. Soprattutto se è la 4-5 volta

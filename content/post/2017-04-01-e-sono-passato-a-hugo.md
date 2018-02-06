@@ -1,9 +1,11 @@
 ---
 title: "E sono passato a Hugo"
 date: "2017-04-04"
+slug: "e-sono-passato-a-hugo"
 tags: ["hugo", "pelican", "blog", "golang", "https"]
 description: "Come e perchè sono passato a Hugo da Pelican"
 categories: ["rant"]
+aliases: ["/blog/e-sono-passato-a-hugo/"]
 ---
 
 E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa.

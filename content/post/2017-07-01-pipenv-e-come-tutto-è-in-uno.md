@@ -1,9 +1,10 @@
 ---
 title: "Utilizzi alternativi di Firebase"
-slug: "utilizzi-alternativi-di-farebase"
+slug: "utilizzi-alternativi-di-firebase"
 date: "2017-09-04"
 categories: ["dev"]
 tags: ["firebase", "logging"]
+aliases: ["/dev/utilizzi-altenativi-di-firebase/"]
 description: "Utilizzare le funzionalità di Firebase in modo non 'standard'"
 ---
 

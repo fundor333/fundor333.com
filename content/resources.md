@@ -1,5 +1,6 @@
 ---
 title: "🔗resources"
+type: "pages"
 ---
 
 # 🔗resources

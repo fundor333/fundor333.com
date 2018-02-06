@@ -5,6 +5,7 @@ tags: ["docker"]
 description: "Docker, cos'è e come funziona"
 slug: "docker-la-balena-con-i-container"
 categories: ["dev"]
+aliases: ["/dev/docker-la-balena-con-i-container/"]
 ---
 
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di

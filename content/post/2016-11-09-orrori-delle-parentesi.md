@@ -5,6 +5,7 @@ tags: ["programmazione"]
 slug: "orrori-delle-parentesi"
 description: "Digressione sull'uso delle parentesi nei linguaggi di programmazione"
 categories: ["rant"]
+aliases: ["/blog/orrori-delle-parentesi/"]
 ---
 
 (°,,,°)

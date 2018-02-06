@@ -4,6 +4,8 @@ date: "2017-04-06"
 title: "Andando al Pycon8"
 tags: ["python", "pycon", "convention"]
 categories: ["rant"]
+slug: "andiamo-al-pycon8"
+aliases: ["/blog/andiamo-al-pycon8/"]
 ---
 
 Mentre sto scrivendo io sono seduto in treno, pronto a partire per il Pycon di quest'anno.

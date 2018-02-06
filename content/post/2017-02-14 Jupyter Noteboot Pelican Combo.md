@@ -5,6 +5,7 @@ date: "2017-02-14"
 slug: "jupyter-notebook-pelican-combo"
 categories: ["dev"]
 description: "Come ho combinato Jupyter con questo blog in Pelican"
+aliases: ["/dev/jupyter-notebook-pelican-combo/"]
 ---
 
 

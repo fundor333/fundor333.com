@@ -5,6 +5,7 @@ tags: ["status"]
 slug: "titcoin-perchè-non-possono-funzionare-come-credi"
 description: "Cerco di spiegare cos'è una crittovaluta e perchè non è possibile che tu possa pagare mostrando le tette"
 categories: ["rant"]
+aliases: ["/blog/titcoin-perchè-non-possono-funzionare-come-credi/"]
 ---
 
 Nel 2014 un picolo sito porno decide di lanciare una campagna di raccolta di proposte di campagne pubblicizzarie per rilanciare il marchio con nuove proposte e le raccoglie in un [Creative Director Contest](http://pornhubcampaign.tumblr.com) in cui esce un video in cui viene pubblicizzato un nuovo sistema di pagamento attraverso una moneta "virtuale" chiamata *Titcoin*[^1] .

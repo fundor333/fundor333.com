@@ -4,6 +4,8 @@ tags: ["docker", "hugo", "image", "container"]
 title: "Hugo into Docker"
 categories: ["dev"]
 description: "This blog is publish with a docker image with GitLab. But I don't like the image I was using because wasn't update and it's big and havy. So I fork the project for create an update version for my personal blog."
+slug: "hugo-into-docker"
+aliases: ["/dev/hugo-into-docker/"]
 ---
 
 This blog is publish with a docker image with GitLab. But I don't like the image I was using because wasn't update and it's big and havy. So I fork the project for create an update version for my personal blog.

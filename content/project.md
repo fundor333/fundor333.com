@@ -1,5 +1,6 @@
 ---
 title: "💻project"
+type: "pages"
 ---
 
 ## Web design 🕸🕷🕸️️

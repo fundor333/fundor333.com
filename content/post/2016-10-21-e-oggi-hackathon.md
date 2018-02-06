@@ -5,6 +5,7 @@ tags: ["hackathon"]
 slug: "e-oggi-hackathon"
 description: "E oggi Hackathon"
 categories: ["dev"]
+aliases: ["/dev/e-oggi-hackathon/"]
 ---
 
 E oggi si va di hackathon... Per chi non gli conoscono gli hackathon

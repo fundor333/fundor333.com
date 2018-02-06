@@ -1,5 +1,6 @@
 ---
 title: "🤵🏻about"
+type: "pages"
 ---
 
 Informatico con la passione per Python, GoLang, Git e per il mondo Open Source.

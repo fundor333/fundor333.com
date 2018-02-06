@@ -4,6 +4,8 @@ tags: ["python", "telegram", "paperplane", "status", "framework"]
 title: "Il mio Paperplane"
 description: "Presentazione del mio progetto chiamato Paperplane, framework per Telegram"
 categories: ["rant"]
+slug: "il-mio-paperplane"
+aliases: ["/blog/il-mio-paperplane/"]
 ---
 
 Ultimamente ho cambiato lavoro e ho cambiato alcuni aspetti secondari della mia vita di cui non sento la mancanza ma risulto stare meglio. In tutto ciò ho deciso che sono troppo vecchio (25 anni sono tanti, tutta una vita per me) e che non posso permettermi di perdere altro tempo (e qui sembro una delle vittime dei Signori Grigi di Momo). Per questo motivo mi sono lanciato in un grosso progetto personale:  **Paperplane**.

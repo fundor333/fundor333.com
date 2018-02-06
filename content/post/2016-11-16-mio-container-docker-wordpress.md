@@ -1,8 +1,10 @@
+---
 title: "Il mio container Docker Wordpress"
 date: "2016-11-16"
 slug: "mio-container-docker-wordpress"
 tags: ["docker", "wordpress", "container"]
 categories: ["dev"]
+aliases: ["/dev/mio-container-docker-wordpress"]
 description: "Docker implementa un server locale per sviluppare temi e plugin Wordpress"
 ---
 

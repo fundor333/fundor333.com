@@ -5,6 +5,7 @@ tags: ["hackathon", "programmazione", "tutorial"]
 slug: "sopravivvere-un-hackathon-programmando"
 description: "Sommario della mia avventura all'Hackathon eodappathon"
 categories: ["rant"]
+aliases: ["/blog/sopravivvere-un-hackathon-programmando/"]
 ---
 
 Esco in questi giorni da un Hackathon organizzato dalla regione Veneto

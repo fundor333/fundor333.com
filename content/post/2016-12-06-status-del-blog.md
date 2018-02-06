@@ -4,6 +4,7 @@ date: "2016-12-06"
 tags: ["status", "firebase", "gdg"]
 slug: "status-del-blog"
 categories: ["dev"]
+aliases: ["/dev/status-del-blog/"]
 description: "Aggiornamento sullo stato del blog e scuse varie"
 ---
 

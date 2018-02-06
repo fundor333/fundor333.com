@@ -5,6 +5,7 @@ tags: ["aggiornamento", "pelican", "hugo"]
 slug: "e-si-torna-dal-pelicano"
 description: "E sono tornato a usare Pelican... Perchè???"
 categories: ["rant"]
+aliases: ["/blog/e-si-torna-dal-pelicano/"]
 ---
 
 E sono tornato a usare Pelican... Perchè???

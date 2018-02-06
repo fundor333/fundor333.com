@@ -5,6 +5,7 @@ title: "Bot, Telegram e programmazione funzionale"
 slug: "bot-telegram-e-programmazione-funzionale"
 categories: ["dev"]
 description: "Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python"
+aliases: ["/dev/bot-telegram-e-programmazione-funzionale/"]
 ---
 
 

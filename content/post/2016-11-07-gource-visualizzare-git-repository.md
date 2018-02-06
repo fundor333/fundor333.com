@@ -5,6 +5,7 @@ tags: ["git", "gource"]
 slug: "gource-visualizzare-git-repository"
 description: "Gource, cos'è e come usarlo al meglio"
 categories: ["rant"]
+aliases: ["/blog/gource-visualizzare-git-repository/"]
 ---
 
 Quando hai un progetto Git, normalmente lo usi per fare controllo delle

@@ -5,6 +5,7 @@ slug: "dotfile-e-le-mie-config"
 tags: ["dotfile", "config", "repository", "dotbot"]
 description: "DotFile e la mia configurazione di tutto"
 categories: ["rant"]
+aliases: ["/blog/dotfile-e-le-mie-config/"]
 ---
 
 Da quasi 10 anni io utilizzo _Linux_ o sistemi _Unix_ su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com'era.

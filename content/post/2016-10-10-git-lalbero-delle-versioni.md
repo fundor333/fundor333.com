@@ -9,7 +9,7 @@ persone in contemporanea senza sovrapporre le modifiche. Queste due
 richieste vengono soddisfatte con un software di version controlling che
 permetta il lavoro di multipli utenti."
 categories: ["rant"]
-
+aliases: ["/blog/git-lalbero-delle-versioni/"]
 ---
 
 Spesso e volentieri uno dei problemi dello sviluppo di software è avere
