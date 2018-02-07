@@ -3,6 +3,7 @@ languageCode = "it-it"
 title = "Fundor 333"
 theme = "f333"
 
+pygmentsUseClassic=true
 rssLimit= 10
 
 googleAnalytics = "UA-44064318-2"

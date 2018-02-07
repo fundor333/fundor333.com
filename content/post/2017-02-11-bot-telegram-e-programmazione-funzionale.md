@@ -17,8 +17,9 @@ Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi 
 
 Ad esempio se io ho definito prima qi questo frammento di codice una funzione _start_ che mi gestisce il comando omonimo, poi io devo registrarla all'updater attraverso il dispatcher come qui sotto.
 
-	#!python
-    updater.dispatcher.add_handler(CommandHandler('start', start))
+{{< highlight python "hl_lines=8 15-17">}}
+updater.dispatcher.add_handler(CommandHandler('start', start))
+{{< / highlight  >}}
 
 
 Visto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un "alias" per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.
@@ -33,51 +34,55 @@ Da bravo programmatore ho subito pensato che:
 
 Apro quindi il mio file _prova-stupida-flask.py_
 
-	#!python
-	from flask import Flask
+{{< highlight python "hl_lines=8 15-17" >}}
+from flask import Flask
 
-	app = Flask(__name__)
+app = Flask(__name__)
 
-	@app.route("/")
-	def hello():
-    	return "Hello World!"
+@app.route("/")
+def hello():
+	return "Hello World!"
 
-	if __name__ == "__main__":
-    	app.run()
+if __name__ == "__main__":
+	app.run()
+{{< / highlight >}}
 
 E capisco che _@app.route("")_ è un decoratore che collega la funzione _hello_ a un listener che risponde all'indirizzo _localhost/_. Esattamente quello che mi serve.
 
 Da una sbirciata al sorgente di Flask produco una classe che gestisce il token e contiene il metodo
 
-	#!python
-    def command_handler(self, name):
-        def decorator(f):
-            self.updater.dispatcher.add_handler(CommandHandler(name, f))
-            return f
-        return decorator
+{{< highlight python "hl_lines=8 15-17" >}}
+def command_handler(self, name):
+	def decorator(f):
+		self.updater.dispatcher.add_handler(CommandHandler(name, f))
+		return f
+	return decorator
+{{< / highlight >}}
 
 che mi permette di scrivere una funzione di gestione di un comando con un piccolo decoratore sopra che fa tutto il lavoro
 
-	#!python
-	@mybot.command_handler('start')
-    def start(bot,update):
-    	/* codice che genera il resto*/
+{{< highlight python "hl_lines=8 15-17" >}}
+@mybot.command_handler('start')
+def start(bot,update):
+	/* codice che genera il resto*/
+{{<  / highlight >}}
 
 E qui felice, continuo a scrivere codice fino ad accorgermi che continuavo a riscrivere la stessa funzione a meno di alcuni "parametri".
 
 Ho quindi scritto un nuovo generatore di funzioni in modo tale
 
-	#!python
-	def location_generator(bot, name, text, lonlat):
-    @bot.command_handler(name)
-    def decoreted(bot, update):
-        logging.info("Give the " + name + " info")
-        BOTAN.track(update.message, name)
-        bot.sendMessage(chat_id=update.message.chat_id, text=text,parse_mode=ParseMode.MARKDOWN)
-        lon, lat = lonlat
-        bot.sendLocation(chat_id=update.message.chat_id, latitude=lat, longitude=lon)
+{{< highlight python "hl_lines=8 15-17" >}}
+def location_generator(bot, name, text, lonlat):
+  @bot.command_handler(name)
+  def decoreted(bot, update):
+	  logging.info("Give the " + name + " info")
+	  BOTAN.track(update.message, name)
+	  bot.sendMessage(chat_id=update.message.chat_id, text=text,parse_mode=ParseMode.MARKDOWN)
+	  lon, lat = lonlat
+	  bot.sendLocation(chat_id=update.message.chat_id, latitude=lat, longitude=lon)
+	return decoreted
+{{< / highlight >}}
 
-    return decoreted
 
 In questo modo, una volta passati i parametri corretti, questo genererà una funzione per rispondere con un testo seguito da una location al comando assegnato.
 

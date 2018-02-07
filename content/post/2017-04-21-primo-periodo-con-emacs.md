@@ -24,8 +24,9 @@ Questo primo periodo di utilizzo mi ha permesso di vedere che è un programma co
 Partiamo con ordine: si inizia con l'installazione e comprensione dei config.
 Dopo l'installazione ottenuta attravero il classico
 
-	#!bash
+{{< highlight bash "hl_lines=8 15-17" >}}
 	sudo apt-get install emacs
+{{< / highlight >}}
 
 Fatto questo io mi aspettavo che, dopo il primo avvio generasse i file di configurazione. Per come è stato programmato Emacs l'avvio genera solamente il file _.emacs_ se non presente mentre tutto il resto della "struttura" viene generata man mano che si modificano le impostazioni dei singoli elementi.
 
@@ -46,7 +47,7 @@ La versione storica ha il vantaggio di essere facilmente "condivisa" essendo un 
 Ho impostato Emacs utilizzando una impostazione a progetto, in modo da poterlo condividere facilmente su GitHub o altri servizi di hosting per repository git.
 Di base utilizzo _init.el_ ove ho settato le basi e il tema, in modo che sia caricato senza problemi
 
-    #!lisp
+{{< highlight lisp>}}
     (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
     (load "~/.emacs.d/init-packages")
@@ -66,11 +67,12 @@ Di base utilizzo _init.el_ ove ho settato le basi e il tema, in modo che sia car
      ;; Your init file should contain only one such instance.
      ;; If there is more than one, they won't work right.
      )
+{{< / highlight >}}
 
 
 Con questa configurazione si divide le variabili di ambiente settate da Emacs (che devo ancora capira a cosa servano), il tema scelto ([Dracula](https://draculatheme.com/emacs) in questo caso) e i settaggi per i pacchetti che vengono definiti nel file _init-packages.el_.
 
-    #!lisp
+{{< highlight lisp >}}
     (require 'package)
 
     (add-to-list 'package-archives
@@ -110,27 +112,31 @@ Con questa configurazione si divide le variabili di ambiente settate da Emacs (c
       ;; For important compatibility libraries like cl-lib
       (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/")))
     (package-initialize)
+{{< / highlight >}}
 
 
 Questo script in Lisp permette di elencare nella prima parte tutta una serie di repository extra da aggiungere all'elenco dei plugin disponibili e li aggiunge all'elenco di Emacs.
 
-    #!lisp
+{{< highlight lisp "hl_lines=8 15-17" >}}
     (add-to-list 'package-archives
     	     '("melpa" . "https://melpa.org/package/")t)
+{{< / highlight >}}
 
 Ad esempio questo codice aggiunge il repository [Melpa](https://melpa.org/) all'archivio in modo da rendere disponibili i suoi pacchetti a Emacs.
 
-   #!lisp
+{{< highlight lisp "hl_lines=8 15-17" >}}
    (setq package-list
    	 '(magit easy-hugo python dracula-theme))
+{{< / highlight >}}
 
 Questo comando invece permette di elencare i pacchetti di nostro interesse. Ogni pacchetto elencato verrà installato o aggirnato e successivamente attivato all'avvio del server Emacs
 
-	#!lisp
+{{< highlight lisp "hl_lines=8 15-17" >}}
     ; install the missing packages
     (dolist (package package-list)
       (unless (package-installed-p package)
         (package-install package)))
+{{< / highlight >}}
 
 
 Questo è infatti il codice per l'installazione dei pacchetti mancanti.

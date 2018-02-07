@@ -17,9 +17,7 @@ container docker wordpress.
 
 <!--more-->
 
-[![wordpress\_docker](http://www.fundor333.com/wp-content/uploads/2016/11/Wordpress_Docker.png){.aligncenter
-width="459"
-height="350"}](https://github.com/fundor333/Wordpress-Docker)
+[![wordpress\_docker](/images/post/docker/docker.png)](https://github.com/fundor333/Wordpress-Docker)
 
 Per chi non sa cos'è Docker rimando a un mio articolo
 [qui](http://www.fundor333.com/docker-la-balena-con-i-container/), per
@@ -36,18 +34,19 @@ descrivere come sono configurati i *container* che andremo ad utilizzare
 e come interagiscono tra di loro.
 
 Iniziamo quindi da quello che concettualmente è il primo container:
-*mysql*
 
-	#!docker
-    mysql:
-        image: mysql:latest
-        volumes:
-          - "./.data/db:/var/lib/mysql"
-        environment:
-            MYSQL_ROOT_PASSWORD: secret
-            MYSQL_DATABASE: project
-            MYSQL_USER: project
-            MYSQL_PASSWORD: project
+  {{< highlight Docker >}}
+  mysql:
+	  image: mysql:latest
+	  volumes:
+		- "./.data/db:/var/lib/mysql"
+	  environment:
+		  MYSQL_ROOT_PASSWORD: secret
+		  MYSQL_DATABASE: project
+		  MYSQL_USER: project
+		  MYSQL_PASSWORD: project
+  {{< / highlight >}}
+
     in cui
 
 -   *image* definisce da quale immagine prende la base
@@ -59,7 +58,7 @@ Iniziamo quindi da quello che concettualmente è il primo container:
 Il secono container *wordpress* contiene, invece, server e installazione
 di Wordpress.
 
-	#!docker
+	{{< highlight Docker  >}}
     wordpress:
       image: wordpress
       ports:
@@ -73,6 +72,7 @@ di Wordpress.
         WORDPRESS_DB_PASSWORD: project
         WORDPRESS_DB_USER: project
         WORDPRESS_DB_NAME: project
+    {{< / highlight >}}
 
 in cui
 

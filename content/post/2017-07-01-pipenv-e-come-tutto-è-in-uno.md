@@ -1,11 +1,11 @@
 ---
-title: "Utilizzi alternativi di Firebase"
-slug: "utilizzi-alternativi-di-firebase"
-date: "2017-09-04"
+title: "Pipenv e come tutto è in uno"
+slug: "pipenv-e-come-tutto-e-in-uno"
+date: "2017-07-01"
 categories: ["dev"]
-tags: ["firebase", "logging"]
-aliases: ["/dev/utilizzi-altenativi-di-firebase/"]
-description: "Utilizzare le funzionalità di Firebase in modo non 'standard'"
+tags: ["python", "pipenv","python"]
+aliases: ["/dev/pipenv-e-come-tutto-e-in-uno/"]
+description: "Assistiamo al matrimonio di Pipfile, Pip e PipEnv"
 ---
 
 Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di [Kenneth Reitz](https://www.kennethreitz.org/), autore di svariati moduli python tra cui _Requests_ che tutti i pythonisti conoscono e usano. 
