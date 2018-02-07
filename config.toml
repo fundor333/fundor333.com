@@ -6,8 +6,12 @@ theme = "f333"
 pygmentsUseClassic=true
 rssLimit= 10
 
+DefaultContentLanguage = "it"
 googleAnalytics = "UA-44064318-2"
 disqusShortname = "fundor333"
+
+[outputs]
+    section = ["HTML", "RSS", "Calendar"]
 
 [params]
     subtitle = "import antigravity"
@@ -58,13 +62,25 @@ disqusShortname = "fundor333"
     url = "/project/"
 
 [[menu.main]]
+    name = "talks"
+    identifier = "calendar"
+    weight = 7
+    url = "/talks/"
+
+[[menu.main]]
     name = "the source code"
     identifier = "code"
-    weight = 7
+    weight = 8
     url = "https://github.com/fundor333/fundor333.com"
 
 [[menu.main]]
     name = "the feed"
     identifier = "rss"
-    weight = 8
+    weight = 9
     url = "https://fundor333.com/index.xml"
+
+[[menu.main]]
+    name = "talks calendar"
+    identifier = "tasks"
+    weight = 10
+    url = "/talks/index.ics"
