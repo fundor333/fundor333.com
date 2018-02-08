@@ -1,6 +1,6 @@
 ---
 title: "GDG Venezia Tech Talks @ Ca' Foscari"
-talk: "Le DevFest sono delle vere e proprie "feste degli sviluppatori" organizzate dai GDG di tutto il mondo"
+talk: "Le DevFest sono delle vere e proprie 'feste degli sviluppatori' organizzate dai GDG di tutto il mondo"
 slot:
   start: "2017-12-02 09:00:00"
   end: "2017-12-02 18:00:00"
