@@ -3,8 +3,11 @@ languageCode = "it-it"
 title = "Fundor 333"
 theme = "f333"
 
-pygmentsUseClassic=true
+pygmentsUseClassic = true
+
 rssLimit= 10
+disableRSS = false
+
 
 DefaultContentLanguage = "it"
 googleAnalytics = "UA-44064318-2"
@@ -62,25 +65,14 @@ disqusShortname = "fundor333"
     url = "/project/"
 
 [[menu.main]]
-    name = "talks"
+    name = "convention"
     identifier = "calendar"
     weight = 7
-    url = "/talks/"
+    url = "/event/"
 
 [[menu.main]]
-    name = "the source code"
+    name = "source-code"
     identifier = "code"
     weight = 8
     url = "https://github.com/fundor333/fundor333.com"
 
-[[menu.main]]
-    name = "the feed"
-    identifier = "rss"
-    weight = 9
-    url = "https://fundor333.com/index.xml"
-
-[[menu.main]]
-    name = "talks calendar"
-    identifier = "tasks"
-    weight = 10
-    url = "/talks/index.ics"
