@@ -65,7 +65,7 @@ disqusShortname = "fundor333"
     url = "/project/"
 
 [[menu.main]]
-    name = "talks"
+    name = "convention"
     identifier = "calendar"
     weight = 7
     url = "/event/"
