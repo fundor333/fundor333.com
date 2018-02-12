@@ -162,3 +162,5 @@ local.properties
 .vscode
 
 prepros-6\.config
+
+*.backup
