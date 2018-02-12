@@ -1,4 +1,4 @@
-ErrorDocument 404 /errore/errore404.html
+ErrorDocument 404 /404.html
 
 ###################
 RewriteEngine On
