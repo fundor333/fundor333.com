@@ -29,7 +29,7 @@ disqusShortname = "fundor333"
     flickr = "https://www.flickr.com/people/fundor333/"
 
 [[menu.main]]
-    name = "archive"
+    name = "blog"
     identifier = "archive"
     weight = 1
     url = "/post/"
