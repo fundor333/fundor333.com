@@ -59,4 +59,5 @@ Vecchio sito con i consigli per diventare signore oscuro strutturati come decalo
 
 ### others
 
+* [Octodex](https://octodex.github.com)
 * Bakemonogatari
