@@ -35,3 +35,6 @@ Cheers
 
 Alice, Fabio, Francesco, Marco, Nicola, Rocco
 
+<div class="center">
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/fundor333/albums/72157693993361505" title="DataBeers Ve 4"><img src="https://farm5.staticflickr.com/4755/39841630884_93ba69b7d9_z.jpg" width="640" height="427" alt="DataBeers Ve 4"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
