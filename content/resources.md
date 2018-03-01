@@ -15,7 +15,11 @@ Alcuni link utili, letture necessarie o utility per informatici
 + [The Jargon File](http://www.catb.org/jargon/)
 + [DotFiles](https://dotfiles.github.io)
 + [EditorConfig](http://editorconfig.org)
++ [N-O-D-E.Net](https://n-o-d-e.net)
 + [Storie della sala macchine](http://www.soft-land.org)
+
+## 👨🏻‍🏫tutorial
+
 + [Create Xkcd style diagram in TeX](https://tex.stackexchange.com/questions/74878/create-xkcd-style-diagram-in-tex)
 
 ## 💭webcomics
@@ -48,16 +52,17 @@ Ecco le web radio sulla programmazione che io ascolto abitualmente e suggerisco 
 * [Partially Derivative](http://partiallyderivative.com/)
 * [Go Time](https://changelog.com/gotime)
 
+## 🛸others
+
+### 🕺fun
+* [Octodex](https://octodex.github.com)
+
+### 💬anime
+* [Bakemonogatari](https://www.animeclick.it/anime/2268/bakemonogatari)
+* [Steins Gate](https://www.animeclick.it/anime/3114/steins-gate)
+* [Psycho-Pass](https://www.animeclick.it/anime/4084/psycho-pass)
+
 ### 👹evil overlod
-
-Vecchio sito con i consigli per diventare signore oscuro strutturati come decaloghi
-
 + [Decalogo del signore del male](http://www.eviloverlord.com/lists/overlord.html)
 + [Primo decalogo delle celle](http://www.eviloverlord.com/lists/dungeon_a.html)
 + [Secondo decalogo delle celle](http://www.eviloverlord.com/lists/dungeon_b.html)
-
-
-### others
-
-* [Octodex](https://octodex.github.com)
-* Bakemonogatari
