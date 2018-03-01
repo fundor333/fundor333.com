@@ -1,0 +1,6 @@
+deploy:
+  provider: script
+  script: curl -X POST -d '' https://api.netlify.com/build_hooks/5a97bc51df995349e9708fae
+
+  on:
+    branch: master
