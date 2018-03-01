@@ -4,7 +4,7 @@ https://keybase.io/fundor333
 
 I hereby claim:
 
-  * I am an admin of https://fundor333.com
+  * I am an admin of http://fundor333.com
   * I am fundor333 (https://keybase.io/fundor333) on keybase.
   * I have a public key with fingerprint 641C 5336 7286 37DF 58D2  65B0 334D AEC3 3FAC 5F68
 
@@ -21,17 +21,27 @@ To do so, I am signing this object:
       "uid": "7631d11cb85f486d3dce94ff9aa1bd19",
       "username": "fundor333"
     },
+    "merkle_root": {
+      "ctime": 1519937349,
+      "hash_meta": "01c1e5b30f40d19923aff86601e64c588ad9bc9adc65178a670f3adaceeba184",
+      "seqno": 2172855
+    },
+    "revoke": {
+      "sig_ids": [
+        "6d152ebab8b65be02b32583099fb772f5969f95bb912dedc5bb77f9c294c5b0f0f"
+      ]
+    },
     "service": {
       "hostname": "fundor333.com",
-      "protocol": "https:"
+      "protocol": "http:"
     },
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1518022397,
+  "ctime": 1519937351,
   "expire_in": 157680000,
-  "prev": "0b6231dd3a2885c8a832afec263b8cbeefed1b4de4a631a0f8a8a0f7f8c39020",
-  "seqno": 65,
+  "prev": "ed85a9566461b70a3e8ee5161c8f66166f31154c4637135f1ba37ab732d38ca6",
+  "seqno": 66,
   "tag": "signature"
 }
 
@@ -41,23 +51,26 @@ which yields the signature:
 Version: Keybase OpenPGP v2.0.76
 Comment: https://keybase.io/crypto
 
-yMIjAnicrVJbSBVBGD6aF7I0rSikHmLpKfSwu7M7O3sSwoqCIsqopKhOc9Wt4+7x
-nFUzk4qgrCSigi4PlUmp9dANSQi6HoKIoBsFlRRdEClvUSGU0azUS/TYPMww//99
-33zfz6Ryx4Ry0j7oW1pu5h19mHb/1vGa0JqG8EiDQjxWr0QalE189OAxxpN+dJPD
-lIiiaqrGsGZZlmEhWwUYckNQCwgDa1yDWIU2BSoiOrJtw7AIMYVOsa0zkxNDoxZT
-qaFipUgRjlvBE/GE4/pSFsqeCQC0dASBxYSJmA5NogJgMMwpAAJTU0AkiZVeMmBI
-cwQnedjxZE1eoqP2/oH/z75rRuUsCDSmaZQgUxgIMsAotw0hbIw1wjQ7ACZ5wsVV
-XKJFjcu8BABAaSxSZLnWoTyYbBDlb0iYelWSHU94vke9mGxV+n48GQmofn08wNZx
-Ev2tEiWOy+QkJaOWJ5KO5yoRTSKp7wSymqkhVdeBbRUpfHPcSfCoEyBMCyJVruAd
-XhuMh0BdJmIA6wiZFGEEdCw41SEgiBLOBWcaMRg3sEyOVSERcrcEosBWdVUJclW7
-nhKBpvSJK6Rm0qlwsV+T4Erj7ZtrM0JpOaGszPTgi4Vyxub/+Xipvuyf4dXh7KHy
-/Plmed+j5ajnyIMjfEfB+T0/F5Tl7NvRsPDpi9Jprc27xPCyWW6b0vMoq/D6mbxr
-Jx7Xrd/Y+bJ++5XY4VNGdXNLZWbxopPPZhfv7z81bgVqejDvddecif3Tn39O3n23
-pntSJAxf3d0bym75VLj07YFzH9vPrjtZsLho5ZcFMzcX3Ptxo25u2+kp3TOGpy7e
-OlA58wLZ+35Dy5JY7+FrV5vg9IH0y9+aO+H4wR9b7t1ZVTYCBvW63eVfQgNlF/Mz
-v5fkHTpaMhSPZVUcvMT9jo4J2ydkOAevNMHe0u5pzams9PUlC7va+fPMMiI2fs1N
-S6We7Ny2IvdY/dDkNyHQWvgLdZdAaQ==
-=lc/S
+yMK2AnicrZNbaB1FHMY32hYbVKTUKqKii/UCx8PMzs7tKLZIS5qaUlMFpTEe5pos
+OTl73N0kjenBS63YKASp4KlUo0iraOoFtLWCoZREj1aLNK0v3h+qCMYS8KHEIs4e
+FKH46L7Mzsz3//7f/nZm5pILvfa208HDrxy5tPFl27GjI0Pe1kZfx5gvYz3ql8b8
+AdMaTEWbNCsPRNov+QACqAWklIaUcYAEMaFVFNlQQAOJAIQrBJgMGOdhSKXENlCC
+BxobGUJFNVAhEH7Bt1G1zyS1JKpmzpa4PYwQoQEjiGqLmQ4IlgChUAujELJCYUuY
+K+yP07zChZMiNcUodmtuUm7F+w/9/5x7qGVHCYIaQiUZtiEjGmlleGgtFwJKDXku
+TE1SFYPGqe1QVccJQsivF/xBkwxUTDmJ4yynq7Io10AMOUcUhdx9oUj7y4MmE63c
+ChosEbAhcL48QMJaRgiAhoQKMyY0l4oLrQiGlAlCgUVCC2WMFJCFLkhqHqrGfimA
+Di7GLkFihuMBkzdPoz7HLfVLPT7REAeuRjLpwBsQSBRghgDnVlIaWMwJtxxLyWGg
+jVbujVLLVcBdDAkssH5vPW+WDEeqZZ7/qPMBFFU86CLVkjiLVVxxW/1ZVivlXLLR
+Wi4dMbL8t0lZRlXtjokrGDZJGsVVx8kpz0OGYcE322pRYspRrsCUMOCevI0ZdpZG
+Myw4JiQkUFIgkGHGYEigYpYQSIhFEOJQhe7oQYQtlAJRISkKNGJKkH8ZEuJyij7n
+6chVRTaUGL9+9MgDS7y2dm/Z0gvy++O1L7/sn1u1ad1F3kHvm67dix/cv+b7mWzh
+l2NPzp/9c/7tg/u8yTvkmrn3u3+8vgd+uPTirhsn6Mjip+2L2VWTK2e27/l55qb9
+K54rLl/de/KLx3/o3L1Q7/BK9PDOr6a8Z19t/HpnYV6MVvZuuG7h0NjsjivxmVNn
+nyjefvUbJ+D6Z97q9JovXPvR+kK3efQc5Ke2LFl2a3Pu8uIjExN/LDz12tx9d/W8
++8ns+Lfb0b4Vjebau1des3n6sdc/frB4uLftt+O3sQPfjZ8h2+p7Vn+97oYt93Su
+2nXFmxvKm6YaL20N96/tevH5yo7pA97Y1MbFVZ+P//7OZ7Obp7u8XdV7N95y2v+p
+Y+d7zZeP730anpxsdpND507cDP4CluCBCw==
+=N9ta
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
