@@ -164,3 +164,4 @@ local.properties
 prepros-6\.config
 
 *.backup
+.sass-cache
