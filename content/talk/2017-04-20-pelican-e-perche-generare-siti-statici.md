@@ -1,6 +1,6 @@
 ---
 title: "Pelican E Perche Generare Siti Statici"
-date: "2018-04-20 11:00"
+date: "2018-04-20"
 slug: "pelican-e-perche-generare-siti-statici"
 summary: "Oggi nel web tutti hanno un sito o un blog che aggiornano e mantengono con articoli e informazioni di vario genere ed esistono svariate piattaforme per siti web dinamici."
 convention:
