@@ -61,6 +61,7 @@ Alcune delle Webcomics che seguo e che consiglio a chi è appassionato di inform
 + [TurnOFF](http://turnoff.us/)
 + [Joshuaw Right](http://www.joshuawright.net/)
 + [xkcd](https://xkcd.com/)
++ [FishEye Placebo](https://www.yuumeiart.com/fisheye-placebo/)
 
 
 ### 🕺fun
