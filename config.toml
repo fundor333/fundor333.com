@@ -21,12 +21,42 @@ disqusShortname = "fundor333"
 
 [author]
     name = "Fundor 333"
-    github = "https://github.com/fundor333"
-    facebook = "https://www.facebook.com/fundor333"
-    twitter = "https://twitter.com/fundor333"
-    youtube = "https://www.youtube.com/user/Fundor333"
-    instagram = "https://www.instagram.com/fundor333/"
-    flickr = "https://www.flickr.com/people/fundor333/"
+
+[[menu.social]]
+    name ="github"
+    identifier= "github"
+    weight = 1
+    url = "https://github.com/fundor333"
+
+[[menu.social]]
+    name ="facebook"
+    identifier= "facebook"
+    weight = 2
+    url =  "https://www.facebook.com/fundor333"
+
+[[menu.social]]
+    name ="twitter"
+    identifier= "twitter"
+    weight = 3
+    url = "https://twitter.com/fundor333"
+    
+[[menu.social]]
+    name ="youtube"
+    identifier= "youtube"
+    weight = 4
+    url = "https://www.youtube.com/user/Fundor333"
+
+[[menu.social]]
+    name ="instagram"
+    identifier= "instagram"
+    weight = 5
+    url = "https://www.instagram.com/fundor333/"
+
+[[menu.social]]
+    name ="flicker"
+    identifier= "flicker"
+    weight = 6
+    url = "https://www.flickr.com/people/fundor333/"
 
 [[menu.main]]
     name = "blog"
