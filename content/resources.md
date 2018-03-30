@@ -45,6 +45,12 @@ Ecco le web radio sulla programmazione che io ascolto abitualmente e suggerisco 
 * [Partially Derivative](http://partiallyderivative.com/)
 * [Go Time](https://changelog.com/gotime)
 
+## 🎨stili
+
+* [Fira Code](https://github.com/tonsky/FiraCode)
+* [Dracula Theme](https://draculatheme.com)
+* [Nova Color](https://trevordmiller.com/projects/nova)
+
 ## 🛸others
 
 Non categorizzabili
