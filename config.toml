@@ -8,7 +8,6 @@ pygmentsUseClassic = true
 rssLimit= 10
 disableRSS = false
 
-
 DefaultContentLanguage = "it"
 googleAnalytics = "UA-44064318-2"
 disqusShortname = "fundor333"
