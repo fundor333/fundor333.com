@@ -54,7 +54,7 @@ disqusShortname = "fundor333"
 
 [[menu.social]]
     name ="flicker"
-    identifier= "flicker"
+    identifier= "flickr"
     weight = 6
     url = "https://www.flickr.com/people/fundor333/"
 
@@ -78,13 +78,13 @@ disqusShortname = "fundor333"
 
 [[menu.main]]
     name = "resources"
-    identifier = "bookmark"
+    identifier = "gem"
     weight = 4
     url = "/resources/"
 
 [[menu.main]]
     name = "about"
-    identifier = "user"
+    identifier = "id-card"
     weight = 5
     url = "/about/"
 
@@ -95,14 +95,20 @@ disqusShortname = "fundor333"
     url = "/project/"
 
 [[menu.main]]
+    name = "talk"
+    identifier = "sticky-note"
+    weight = 7
+    url = "/talk/"
+
+[[menu.main]]
     name = "convention"
     identifier = "calendar"
-    weight = 7
+    weight = 8
     url = "/event/"
 
 [[menu.main]]
     name = "source-code"
     identifier = "code"
-    weight = 8
+    weight = 9
     url = "https://github.com/fundor333/fundor333.com"
 
