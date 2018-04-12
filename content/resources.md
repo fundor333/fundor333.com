@@ -15,6 +15,10 @@ Manifesti e decaloghi
 + [The Jargon File](http://www.catb.org/jargon/)
 + [Hacker Manifesto](http://phrack.org/issues/7/3.html#article)
 
+## 📓blogs
+
+* [Kenneth Reitz](https://www.kennethreitz.org)
+
 ## 📚readings
 
 Alcuni link utili, letture necessarie o utility per informatici
@@ -55,6 +59,12 @@ Ecco le web radio sulla programmazione che io ascolto abitualmente e suggerisco 
 
 Non categorizzabili
 
+### 🔧utility
+* [EmojiPedia](https://emojipedia.org)
+* [Shields](http://shields.io)
+* [Carbon Shell for scrennshot](https://carbon.now.sh/)
+* [Kit](https://kit.com)
+
 ### 👨🏻‍🏫tutorial
 
 + [Create Xkcd style diagram in TeX](https://tex.stackexchange.com/questions/74878/create-xkcd-style-diagram-in-tex)
@@ -77,6 +87,9 @@ Alcune delle Webcomics che seguo e che consiglio a chi è appassionato di inform
 * [Bakemonogatari](https://www.animeclick.it/anime/2268/bakemonogatari)
 * [Steins Gate](https://www.animeclick.it/anime/3114/steins-gate)
 * [Psycho-Pass](https://www.animeclick.it/anime/4084/psycho-pass)
+
+### 📽️films
+* [Movies For Hackers](https://hackermovie.club)
 
 ### 👹evil overlod
 + [Decalogo del signore del male](http://www.eviloverlord.com/lists/overlord.html)
