@@ -7,7 +7,7 @@ convention:
   date: "2018-04-20"
   hour: "11:00"
   event: "Pycon9"
-  speakerdeck_url: ""
+  speakerdeck_url: "https://speakerdeck.com/fundor333/pelican-e-perche-generare-siti-statici"
   source: "https://github.com/fundor333/pelican-e-perche-generare-siti-statici"
 ---
 
