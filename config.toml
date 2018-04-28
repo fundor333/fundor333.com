@@ -1,4 +1,4 @@
-baseURL = "https://fundor333.com/"
+baseURL = "https://www.fundor333.com/"
 languageCode = "it-it"
 title = "Fundor 333"
 theme = "f333"
@@ -62,18 +62,6 @@ disqusShortname = "fundor333"
     identifier = "archive"
     weight = 1
     url = "/post/"
-
-[[menu.main]]
-    name = "rant"
-    identifier = "book"
-    weight = 2
-    url = "/categories/rant"
-
-[[menu.main]]
-    name = "dev"
-    identifier = "terminal"
-    weight = 3
-    url = "/categories/dev/"
 
 [[menu.main]]
     name = "resources"
