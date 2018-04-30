@@ -1,6 +1,6 @@
 +++
 categories = ["dev", "rant"]
-date = "2018-05-21 "
+date = "2018-05-21 00:00:00 +0000"
 description = "Racconto della mia esperienza al Pycon 9"
 feature_image = "/uploads/2018/04/30/_1030118.jpg"
 slug = "floppy-pycon-e-generatori-di-siti-statici"
