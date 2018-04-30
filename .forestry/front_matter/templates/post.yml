@@ -41,3 +41,4 @@ fields:
   label: date
   config:
     required: true
+  default: Invalid date
