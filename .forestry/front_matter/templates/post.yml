@@ -7,11 +7,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: text
-  hidden: false
-  default: 
 - name: draft
   label: Draft
   type: boolean
@@ -41,3 +36,8 @@ fields:
   name: feature_image
   label: Feature Image
   description: Immagine di testata
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
