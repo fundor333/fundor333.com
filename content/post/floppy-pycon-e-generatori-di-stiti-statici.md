@@ -5,7 +5,7 @@ description = "Racconto della mia esperienza al Pycon 9"
 draft = true
 feature_image = ""
 slug = "floppy-pycon-e-generatori-di-siti-statici"
-tags = []
+tags = ["pycon", "floppy disk", "convention", "talk"]
 title = "Floppy, Pycon e generatori di siti statici"
 
 +++
