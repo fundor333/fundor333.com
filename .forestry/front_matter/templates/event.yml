@@ -1,0 +1,60 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: talk
+  label: Talk
+  type: textarea
+  hidden: false
+  default: ''
+- name: slot
+  label: Slot
+  type: field_group
+  fields:
+  - name: start
+    label: Start
+    type: datetime
+    hidden: false
+    default: ''
+  - name: end
+    label: End
+    type: datetime
+    hidden: false
+    default: ''
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+  - name: group
+    label: Group
+    type: list
+    hidden: false
+    default: ''
+  - name: location
+    label: Location
+    type: text
+    hidden: false
+    default: ''
+  - name: video
+    label: Video
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: 
