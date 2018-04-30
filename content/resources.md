@@ -1,9 +1,9 @@
 ---
-title: "🔖resources"
-type: "pages"
-layout: "resources"
----
+title: "\U0001F516resources"
+type: pages
+layout: resources
 
+---
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
 
 ## 📝manifesto

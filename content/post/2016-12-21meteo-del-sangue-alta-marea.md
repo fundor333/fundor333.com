@@ -1,13 +1,21 @@
 ---
-title: "Meteo del Sangue e Alta Marea"
-date: "2016-12-21"
-tags: ["bot", "facebook", "open data", "telegram", "twitter"]
-slug: "meteo-del-sangue-alta-marea"
-description: "Bot per telegram e twitter per la donazione del sangue e l'alta marea a Venezia"
-categories: ["dev"]
-aliases: ["/dev/meteo-del-sangue-alta-marea"]
----
+title: Meteo del Sangue e Alta Marea
+date: 2016-12-21 00:00:00 +0000
+tags:
+- bot
+- facebook
+- open data
+- telegram
+- twitter
+slug: meteo-del-sangue-alta-marea
+description: Bot per telegram e twitter per la donazione del sangue e l'alta marea
+  a Venezia
+categories:
+- dev
+aliases:
+- "/dev/meteo-del-sangue-alta-marea"
 
+---
 Ovvero come ho iniziato a scrivere bot per telegram.
 
 Nasce tutto al Pycon It 2016 ove conosco un programmatore Python.  Così

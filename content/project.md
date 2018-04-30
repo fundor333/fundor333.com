@@ -1,8 +1,8 @@
 ---
-title: "💻project"
-type: "pages"
----
+title: "\U0001F4BBproject"
+type: pages
 
+---
 ## Web design 🕸🕷🕸️️
 
 Ho sviluppato nel tempo dei siti internet per svariate ragioni.

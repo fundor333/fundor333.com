@@ -9,6 +9,8 @@ webhook_url:
 sections:
   talk:
     default_front_matter_template: talk
+  post:
+    default_front_matter_template: post
   event:
     default_front_matter_template: event
 version: 0.38.1

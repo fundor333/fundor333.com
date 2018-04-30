@@ -1,13 +1,19 @@
 ---
-title: "Emacs e mai più mouse"
-date: "2017-02-14"
-tags: ["emacs", "texteditor", "programmazione"]
-slug: "emacs-e-mai-piu-mouse"
-description: "Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal mio set per il pc"
-categories: ["rant"]
-aliases: ["/blog/emacs-e-mai-piu-mouse/"]
----
+title: Emacs e mai più mouse
+date: 2017-02-14 00:00:00 +0000
+tags:
+- emacs
+- texteditor
+- programmazione
+slug: emacs-e-mai-piu-mouse
+description: Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal mio
+  set per il pc
+categories:
+- rant
+aliases:
+- "/blog/emacs-e-mai-piu-mouse/"
 
+---
 E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è _mouse free_!
 
 Ok posso capire che per la maggior parte di voi non capirà perchè questo cambiamento è rilevante per me ma, dal mio punto di vista, è un _ENORME_ upgrade tecnico. La possibilità di avere un intero editor di testo personalizzabile, multipiattaforma e completamente open source mi ha sempre particolarmente colpito ma non ho mai trovato uno che lo sentissi mio. Attualmente uso molto Atom ma lo sento molto stretto soprattutto perchè, visto che deve supportare molti linguaggi (e di conseguenza molti plugin), risulta rallentato.

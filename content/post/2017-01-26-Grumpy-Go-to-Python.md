@@ -1,13 +1,19 @@
 ---
-title: "Grumpy, come convertire il serpente nel gopher"
-date: "2017-01-26"
-tags: ["golang", "python", "grumpy", "google"]
-slug: "grumpy-come-convertire-il-serpente-nel-gopher"
-description: "Cos'è Grumpy e come la penso su questo progetto di Google e le sue conseguenze"
-categories: ["rant"]
-aliases: ["/blog/grumpy-come-convertire-il-serpente-nel-gopher/"]
----
+title: Grumpy, come convertire il serpente nel gopher
+date: 2017-01-26 00:00:00 +0000
+tags:
+- golang
+- python
+- grumpy
+- google
+slug: grumpy-come-convertire-il-serpente-nel-gopher
+description: Cos'è Grumpy e come la penso su questo progetto di Google e le sue conseguenze
+categories:
+- rant
+aliases:
+- "/blog/grumpy-come-convertire-il-serpente-nel-gopher/"
 
+---
 Io sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.
 
 Quindi quando ho visto che Google lancia Grumpy in un articolo nel loro [blog](https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html) non potevo che essere incuriosito  e interessato ad avere ancora più notizie sul questo progetto. E, grazie ad un podcast che ascolto ho avuto ancora più notizie.

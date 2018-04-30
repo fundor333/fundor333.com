@@ -1,13 +1,18 @@
 ---
-title: "Pipenv e come tutto è in uno"
-slug: "pipenv-e-come-tutto-e-in-uno"
-date: "2017-07-01"
-categories: ["dev"]
-tags: ["python", "pipenv","python"]
-aliases: ["/dev/pipenv-e-come-tutto-e-in-uno/"]
-description: "Assistiamo al matrimonio di Pipfile, Pip e PipEnv"
----
+title: Pipenv e come tutto è in uno
+slug: pipenv-e-come-tutto-e-in-uno
+date: 2017-07-01 00:00:00 +0000
+categories:
+- dev
+tags:
+- python
+- pipenv
+- python
+aliases:
+- "/dev/pipenv-e-come-tutto-e-in-uno/"
+description: Assistiamo al matrimonio di Pipfile, Pip e PipEnv
 
+---
 Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di [Kenneth Reitz](https://www.kennethreitz.org/), autore di svariati moduli python tra cui _Requests_ che tutti i pythonisti conoscono e usano. 
 L'ultimo progetto suo di mio interesse è PipEnv, _sacro matrimonio di pipfile, pip e virtualenv_.
 

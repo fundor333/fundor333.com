@@ -1,9 +1,9 @@
 ---
-title: "🤵🏻about"
-type: "pages"
-layout: "about"
----
+title: "\U0001F935\U0001F3FBabout"
+type: pages
+layout: about
 
+---
 Informatico con la passione per Python, GoLang, Git e per il mondo Open Source.
 
 Attualmente utilizzo molto Docker, Debian e Telegram sopratutto per recuperare e

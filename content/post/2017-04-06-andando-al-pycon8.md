@@ -1,13 +1,19 @@
 ---
-description: "Io vado al Pycon e spero di trovare e fare cose utili. Vediamo un po' cosa succede a Firenze e quali talk porterò in questo blog"
-date: "2017-04-06"
-title: "Andando al Pycon8"
-tags: ["python", "pycon", "convention"]
-categories: ["rant"]
-slug: "andiamo-al-pycon8"
-aliases: ["/blog/andiamo-al-pycon8/"]
----
+description: Io vado al Pycon e spero di trovare e fare cose utili. Vediamo un po'
+  cosa succede a Firenze e quali talk porterò in questo blog
+date: 2017-04-06 00:00:00 +0000
+title: Andando al Pycon8
+tags:
+- python
+- pycon
+- convention
+categories:
+- rant
+slug: andiamo-al-pycon8
+aliases:
+- "/blog/andiamo-al-pycon8/"
 
+---
 Mentre sto scrivendo io sono seduto in treno, pronto a partire per il Pycon di quest'anno.
 Questa è la mia seconda esperienza al Pycon e spero che sia interessante e istruttiva come la precedente.
 

@@ -1,13 +1,18 @@
 ---
-title: "E si torna dal pelicano"
-date: "2017-06-24"
-tags: ["aggiornamento", "pelican", "hugo"]
-slug: "e-si-torna-dal-pelicano"
-description: "E sono tornato a usare Pelican... Perchè???"
-categories: ["rant"]
-aliases: ["/blog/e-si-torna-dal-pelicano/"]
----
+title: E si torna dal pelicano
+date: 2017-06-24 00:00:00 +0000
+tags:
+- aggiornamento
+- pelican
+- hugo
+slug: e-si-torna-dal-pelicano
+description: E sono tornato a usare Pelican... Perchè???
+categories:
+- rant
+aliases:
+- "/blog/e-si-torna-dal-pelicano/"
 
+---
 E sono tornato a usare Pelican... Perchè???
 
 E' più semplice da configurare ed è più vincolante. Questo mi ha permesso di riscrivere il blog in una settimana mentre un mese mi è stato necessario per alcune modifiche per il blog con Hugo.

@@ -1,14 +1,19 @@
 ---
-tags: ["telegram", "bot", "python"]
-date: "2017-02-11"
-title: "Bot, Telegram e programmazione funzionale"
-slug: "bot-telegram-e-programmazione-funzionale"
-categories: ["dev"]
-description: "Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python"
-aliases: ["/dev/bot-telegram-e-programmazione-funzionale/"]
+tags:
+- telegram
+- bot
+- python
+date: 2017-02-11 00:00:00 +0000
+title: Bot, Telegram e programmazione funzionale
+slug: bot-telegram-e-programmazione-funzionale
+categories:
+- dev
+description: Come un mio tentativo di imparare a usare i decoratori in python è sfociata
+  in un bot in Python
+aliases:
+- "/dev/bot-telegram-e-programmazione-funzionale/"
+
 ---
-
-
 Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.
 
 ## L'inizio di tutto

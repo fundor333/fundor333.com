@@ -1,13 +1,16 @@
 ---
-title: "E oggi Hackathon"
-date: "2016-10-21"
-tags: ["hackathon"]
-slug: "e-oggi-hackathon"
-description: "E oggi Hackathon"
-categories: ["dev"]
-aliases: ["/dev/e-oggi-hackathon/"]
----
+title: E oggi Hackathon
+date: 2016-10-21 00:00:00 +0000
+tags:
+- hackathon
+slug: e-oggi-hackathon
+description: E oggi Hackathon
+categories:
+- dev
+aliases:
+- "/dev/e-oggi-hackathon/"
 
+---
 E oggi si va di hackathon... Per chi non gli conoscono gli hackathon
 sono gare tra gruppi di programmatori in cui viene assegnato un tema e
 del materiale e loro si rinchiudono assieme per 24 ore fino a produrre

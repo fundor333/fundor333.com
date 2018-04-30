@@ -1,13 +1,16 @@
 ---
-title: "L'inizio di una avventura"
-date: "2016-09-26"
-tags: ["status"]
-slug: "linizio-di-una-avventura"
-description: "L'inizio di un blog è sempre difficile"
-categories: ["rant"]
-aliases: ["/blog/linizio-di-una-avventura/"]
----
+title: L'inizio di una avventura
+date: 2016-09-26 00:00:00 +0000
+tags:
+- status
+slug: linizio-di-una-avventura
+description: L'inizio di un blog è sempre difficile
+categories:
+- rant
+aliases:
+- "/blog/linizio-di-una-avventura/"
 
+---
 L' inizio di un blog è sempre difficile. Soprattutto se è la 4-5 volta
 che riprovi a scriverne uno. E ancora di più se rimani venti minuti a
 fissare il bianco sullo schermo aspettando che appaia quello che vuoi

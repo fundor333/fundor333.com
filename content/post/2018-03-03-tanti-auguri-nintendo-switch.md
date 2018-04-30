@@ -1,14 +1,20 @@
 ---
-title: "Tanti Auguri Nintendo Switch"
-date: 2018-03-03
+title: Tanti Auguri Nintendo Switch
+date: 2018-03-03 00:00:00 +0000
 feature_image: "/images/post/switch/nintendo_switch.jpg"
-category: ["rant"]
-tags: ["nintendo", "nintendo switch", "switch", "console", "videogames"] 
-slug: "tanti-auguri-nintendo"
-description: "Esattamente un anno fa veniva rilasciata la Nintendo Switch. Oggi, un anno dopo, vediamo che tipo di mercato ha coperto."
+category:
+- rant
+tags:
+- nintendo
+- nintendo switch
+- switch
+- console
+- videogames
+slug: tanti-auguri-nintendo
+description: Esattamente un anno fa veniva rilasciata la Nintendo Switch. Oggi, un
+  anno dopo, vediamo che tipo di mercato ha coperto.
 
 ---
-
 Esattamente un anno fa, il 3 Marzo 2017, usciva la _Nintendo Switch_, la prima console sia fissa che portatile che la _Nintendo_ abbia mai fatto. In quella stessa data mi è stata regalata una _Nintendo Switch_ con _Zelda Breath of the Wild_, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.[^1]
 
 ![Nintendo Switch](/images/post/switch/nintendo_switch.jpg)

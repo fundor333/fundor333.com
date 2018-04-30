@@ -1,101 +1,81 @@
-baseURL = "https://www.fundor333.com/"
-languageCode = "it-it"
-title = "Fundor 333"
-theme = "f333"
-
-pygmentsUseClassic = true
-
-rssLimit= 10
-disableRSS = false
-
 DefaultContentLanguage = "it"
-googleAnalytics = "UA-44064318-2"
+baseURL = "https://www.fundor333.com/"
+disableRSS = false
 disqusShortname = "fundor333"
-
-[outputs]
-    section = ["HTML", "RSS", "Calendar"]
-
-[params]
-    subtitle = "import antigravity"
-
+googleAnalytics = "UA-44064318-2"
+languageCode = "it-it"
+pygmentsUseClassic = true
+rssLimit = 10
+theme = "f333"
+title = "Fundor 333"
 [author]
-    name = "Fundor 333"
-
+name = "Fundor 333"
+[[menu.main]]
+identifier = "code"
+name = "source-code"
+url = "https://github.com/fundor333/fundor333.com"
+weight = 9
+[[menu.main]]
+identifier = "calendar"
+name = "convention"
+url = "/event/"
+weight = 8
+[[menu.main]]
+identifier = "sticky-note"
+name = "talk"
+url = "/talk/"
+weight = 7
+[[menu.main]]
+identifier = "laptop"
+name = "project"
+url = "/project/"
+weight = 6
+[[menu.main]]
+identifier = "id-card"
+name = "about"
+url = "/about/"
+weight = 5
+[[menu.main]]
+identifier = "gem"
+name = "resources"
+url = "/resources/"
+weight = 4
+[[menu.main]]
+identifier = "archive"
+name = "blog"
+url = "/post/"
+weight = 1
 [[menu.social]]
-    name ="github"
-    identifier= "github"
-    weight = 1
-    url = "https://github.com/fundor333"
-
+identifier = "flickr"
+name = "flicker"
+url = "https://www.flickr.com/people/fundor333/"
+weight = 6
 [[menu.social]]
-    name ="facebook"
-    identifier= "facebook"
-    weight = 2
-    url =  "https://www.facebook.com/fundor333"
-
+identifier = "instagram"
+name = "instagram"
+url = "https://www.instagram.com/fundor333/"
+weight = 5
 [[menu.social]]
-    name ="twitter"
-    identifier= "twitter"
-    weight = 3
-    url = "https://twitter.com/fundor333"
-    
+identifier = "youtube"
+name = "youtube"
+url = "https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A"
+weight = 4
 [[menu.social]]
-    name ="youtube"
-    identifier= "youtube"
-    weight = 4
-    url = "https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A"
-
+identifier = "twitter"
+name = "twitter"
+url = "https://twitter.com/fundor333"
+weight = 3
 [[menu.social]]
-    name ="instagram"
-    identifier= "instagram"
-    weight = 5
-    url = "https://www.instagram.com/fundor333/"
-
+identifier = "facebook"
+name = "facebook"
+url = "https://www.facebook.com/fundor333"
+weight = 2
 [[menu.social]]
-    name ="flicker"
-    identifier= "flickr"
-    weight = 6
-    url = "https://www.flickr.com/people/fundor333/"
-
-[[menu.main]]
-    name = "blog"
-    identifier = "archive"
-    weight = 1
-    url = "/post/"
-
-[[menu.main]]
-    name = "resources"
-    identifier = "gem"
-    weight = 4
-    url = "/resources/"
-
-[[menu.main]]
-    name = "about"
-    identifier = "id-card"
-    weight = 5
-    url = "/about/"
-
-[[menu.main]]
-    name = "project"
-    identifier = "laptop"
-    weight = 6
-    url = "/project/"
-
-[[menu.main]]
-    name = "talk"
-    identifier = "sticky-note"
-    weight = 7
-    url = "/talk/"
-
-[[menu.main]]
-    name = "convention"
-    identifier = "calendar"
-    weight = 8
-    url = "/event/"
-
-[[menu.main]]
-    name = "source-code"
-    identifier = "code"
-    weight = 9
-    url = "https://github.com/fundor333/fundor333.com"
-
+identifier = "github"
+name = "github"
+url = "https://github.com/fundor333"
+weight = 1
+[outputs]
+section = ["HTML", "RSS", "Calendar"]
+[params]
+subtitle = "import antigravity"
