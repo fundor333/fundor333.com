@@ -1,7 +1,7 @@
 +++
-date = "2018-05-07T21:06:33Z"
+date = "2018-05-07T21:06:33+00:00"
 description = "Reading, books, posts, articles and other stuff"
-title = "Reading and books"
+title = "Readings"
 
 +++
 ## 📝manifesto
