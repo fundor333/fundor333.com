@@ -1,6 +1,6 @@
 ---
-title: Resource
-description: Resources list
+title: Podcasts
+description: Podcasts stuff about stuff
 
 ---
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
