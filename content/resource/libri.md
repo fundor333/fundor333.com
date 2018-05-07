@@ -1,8 +1,7 @@
 ---
-title: "\U0001F516resources"
-type: pages
-layout: resources
-
+title: "Resource"
+type: "resource"
+description: "Resources list"
 ---
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
 

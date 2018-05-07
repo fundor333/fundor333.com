@@ -38,7 +38,7 @@ weight = 5
 [[menu.main]]
 identifier = "gem"
 name = "resources"
-url = "/resources/"
+url = "/resource/"
 weight = 4
 [[menu.main]]
 identifier = "archive"
