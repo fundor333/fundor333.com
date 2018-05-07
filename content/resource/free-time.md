@@ -1,7 +1,6 @@
 +++
 date = "2018-05-07T21:11:59+00:00"
 description = "Link about stuff for the freetime: film, anime, comics and others things"
-draft = true
 title = "Free time"
 
 +++
