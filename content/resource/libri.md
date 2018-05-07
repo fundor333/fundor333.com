@@ -1,7 +1,7 @@
 ---
-title: "Resource"
-type: "resource"
-description: "Resources list"
+title: Resource
+description: Resources list
+
 ---
 Link utili, che utilizzo per aggiornarmi, informarmi e occupare parte del mio tempo libero.
 

@@ -11,6 +11,11 @@ title = "Fundor 333"
 [author]
 name = "Fundor 333"
 [[menu.main]]
+identifier = "gem"
+name = "resources"
+url = "/resource/"
+weight = 4
+[[menu.main]]
 identifier = "code"
 name = "source-code"
 url = "https://github.com/fundor333/fundor333.com"
@@ -35,11 +40,6 @@ identifier = "id-card"
 name = "about"
 url = "/about/"
 weight = 5
-[[menu.main]]
-identifier = "gem"
-name = "resources"
-url = "/resource/"
-weight = 4
 [[menu.main]]
 identifier = "archive"
 name = "blog"
