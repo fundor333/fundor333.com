@@ -1,8 +1,8 @@
 +++
 description = "Utility, software and something between"
 title = "Software"
-+++
 
++++
 # 🔧utility
 
 * [EmojiPedia](https://emojipedia.org)

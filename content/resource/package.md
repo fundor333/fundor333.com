@@ -1,8 +1,8 @@
 +++
-title = "Package"
 description = "Package, modules and styles stuffs"
-+++
+title = "Package"
 
++++
 # 🎨style
 
 * [Fira Code](https://github.com/tonsky/FiraCode)

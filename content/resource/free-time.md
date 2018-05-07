@@ -2,8 +2,8 @@
 date = "2018-05-07T21:11:59Z"
 description = "Link about stuff for the freetime: film, anime, comics and others things"
 title = "Free time"
-+++
 
++++
 # 💭webcomics
 
 * [Monkeyuser](http://www.monkeyuser.com/)
