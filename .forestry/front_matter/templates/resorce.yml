@@ -2,11 +2,11 @@
 hide_body: false
 is_partial: false
 fields:
-- name: title
+- type: text
+  name: title
   label: Title
-  type: text
-  hidden: false
-  default: ''
+  config:
+    required: true
 - name: type
   label: Type
   type: text
