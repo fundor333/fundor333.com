@@ -9,21 +9,20 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: date
-  label: Date
-  type: text
-  hidden: false
-  default: 
 - name: draft
   label: Draft
   type: boolean
   hidden: false
   default: true
-- name: feature_image
-  label: Feature image
-  type: text
-  hidden: false
-  default: ''
+- type: datetime
+  name: date
+  label: Date
+  description: Data di publicazione
+  config:
+    required: true
+- type: file
+  name: feature_image
+  label: Immagine
 - name: tags
   label: Tags
   type: tag_list
