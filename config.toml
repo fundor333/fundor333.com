@@ -8,16 +8,6 @@ pygmentsUseClassic = true
 rssLimit = 10
 theme = "f333"
 title = "Fundor 333"
-
-[privacy]
-  [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = false
-    respectDoNotTrack = true
-    useSessionStorage = true
-
 [author]
 name = "Fundor 333"
 [[menu.main]]
@@ -89,3 +79,10 @@ weight = 1
 section = ["HTML", "RSS", "Calendar"]
 [params]
 subtitle = "import antigravity"
+[privacy.disqus]
+disable = false
+[privacy.googleAnalytics]
+anonymizeIP = true
+disable = false
+respectDoNotTrack = true
+useSessionStorage = true

@@ -1,7 +1,4 @@
 ---
-pages:
-- resource/free-time.md
-- resource/reading-and-books.md
 hide_body: false
 is_partial: false
 fields:
@@ -20,3 +17,6 @@ fields:
   type: text
   hidden: false
   default: ''
+pages:
+- resource/free-time.md
+- resource/reading-and-books.md
