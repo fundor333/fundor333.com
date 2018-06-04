@@ -3,7 +3,10 @@ ErrorDocument 404 /404.html
 ###################
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} blog.fundor333
+RewriteCond %{HTTP_HOST} blog.fundor333.com
 RewriteCond %{REQUEST_URI} !blog/
 RewriteRule ^(.*)$ /blog/$1 [L]
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^gitea.fundor333.com 
+RewriteRule ^(.*)$ http://165.227.230.47$1 [L,R=301] 
 ###################
