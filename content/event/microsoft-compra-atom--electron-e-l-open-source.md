@@ -9,4 +9,10 @@ tags = ["github", "microsoft", "electron", "atom"]
 title = "Microsoft compra Atom, Electron e l'Open Source"
 
 +++
+Microsoft ha acquistato GitHub. Partendo da questa cosa ci sono molti discorsi che si possono fare partendo dalla domanda che tutti si fanno: "_Cosa cambierà nella gestione dei progetti Open Source e/o pubblici?_"
 
+La risposta che apparentemente molti sviluppatori hanno date è qualcosa come "_Non mi fido e non voglio rischiare_" e hanno fatto la migrazione su Gitlab
+
+{{< tweet 1004143715844124673 >}}
+
+{{< tweet 430871267881672704 >}}
