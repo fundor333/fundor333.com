@@ -41,5 +41,3 @@ fields:
   type: text
   hidden: false
   default: ''
-pages:
-- event/microsoft-compra-atom--electron-e-l-open-source.md
