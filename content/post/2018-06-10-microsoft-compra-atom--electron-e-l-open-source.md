@@ -1,6 +1,6 @@
 +++
 categories = ["dev"]
-date = "2018-06-11T08:01:14+02:00"
+date = "2018-06-11"
 description = "Cosa succede adesso che Microsoft possiede GitHub e tutti i progetti collegati"
 feature_image = "/uploads/2018/06/09/microsoft-github.png"
 slug = "microsoft-compra-atom-electron-e-l-open-source"
