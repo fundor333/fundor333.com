@@ -11,7 +11,7 @@ title = "Free time"
 * [Joshuaw Right](http://www.joshuawright.net/)
 * [xkcd](https://xkcd.com/)
 * [FishEye Placebo](https://www.yuumeiart.com/fisheye-placebo/)
-
+* [Emily McGovern, My Life As A Background Slytherins](http://emilymcgovern.com)
 # 🕺fun
 
 * [Octodex](https://octodex.github.com)
