@@ -1,0 +1,48 @@
+---
+label: Event
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+- type: text
+  name: talk
+  label: Talk
+  config:
+    required: true
+- type: field_group
+  label: Slot
+  name: slot
+  fields:
+  - type: datetime
+    name: start
+    label: Start
+    config:
+      display_utc: true
+      required: true
+  - type: datetime
+    name: stop
+    label: Stop
+    config:
+      required: true
+      display_utc: true
+  - type: text
+    name: url
+    label: Url
+  - type: tag_list
+    label: Group
+    name: group
+  - type: text
+    name: location
+    label: Location
+  - type: text
+    name: video
+    label: Video
