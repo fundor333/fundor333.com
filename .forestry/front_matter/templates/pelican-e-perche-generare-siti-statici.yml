@@ -13,6 +13,8 @@ fields:
   type: datetime
   hidden: false
   default: ''
+  config:
+    display_utc: true
 - name: slug
   label: Slug
   type: text
