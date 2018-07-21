@@ -1,0 +1,28 @@
+{{ define "body"}}
+
+<div class="card">
+  <div class="card-content">
+    <div class="page-body f333">
+      <div class="page-article">
+        <h1 class="page-title">{{ .Title }}</h1>
+
+        <div class="page-breadcrumb hide-on-small-only">
+          <div class="row">
+            <a href="{{ .Site.BaseURL }}" class="breadcrumb">home</a>
+            <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="breadcrumb">
+              {{ .Title }}
+            </a>
+          </div>
+        </div>
+
+        <div class="article-view">
+          <div class="clearfix">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}

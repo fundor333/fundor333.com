@@ -1,0 +1,81 @@
+{{ define "body"}}
+
+<div class="card hoverable">
+  <div class="card-content">
+    <div class="page-body f333">
+      <div class="page-article">
+        <h1 class="page-title center">{{ .Title }}</h1>
+
+        <div class="page-breadcrumb hide-on-small-only">
+          <div class="row center">
+            <a href="{{ .Site.BaseURL }}" class="breadcrumb">home</a>
+            <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="breadcrumb">
+              {{ .Title }}
+            </a>
+          </div>
+        </div>
+
+        <div class="article-view">
+          <div class="clearfix">
+            {{ .Content }}
+          </div>
+          <div>
+            <div class="pure-g post-footer">
+              <p>
+                by {{ .Site.Author.name }}
+              </p>
+            </div>
+
+            <div class="row">
+
+              {{ with .Params.tags }} {{ range . }}
+              <a class="col s3 center tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>
+                {{ . }}
+              </a>
+              {{ end }} {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="entry-content">
+
+        {{ template "_internal/disqus.html" . }}
+
+
+      </div>
+
+      <div class="fixed-action-btn horizontal click-to-toggle social">
+        <a class="btn-floating btn-large red">
+          <i class="material-icons">share</i>
+        </a>
+        <ul>
+          <li>
+            <a href="http://www.facebook.com/share.php?u={{ .Site.BaseURL }}{{ .URL }}" class="waves-effect center button btn-floating facebook">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/share?url={{ .Site.BaseURL }}{{ .URL }}&amp;text=Read this amazing article &amp;hashtags=f333"
+              target="_blank" class=" waves-effect button btn-floating twitter center" data-show-count="false">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Site.BaseURL }}{{ .URL }} " class="sharer center button btn-floating linkedin ">
+              <i class="fab fa-linkedin " aria-hidden="true "></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/share?url={{ .Site.BaseURL }}{{ .URL }} " class="waves-effect center button btn-floating gplus ">
+              <i class="fab fa-google-plus " aria-hidden="true "></i>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <br>
+    </div>
+  </div>
+</div>
+{{ end }}

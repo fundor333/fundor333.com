@@ -1,0 +1,18 @@
+{{ define "body" }}
+<div class="page-body col s10 offset-s1 f333">
+  <div class="col s12">
+    <div class="row">
+      <article>
+        <header>
+          <h1>{{.Title}}</h1>
+        </header>
+        {{.Content}}
+      </article>
+    </div>
+    <div class="row">
+      <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+      {{ range .Data.Pages }} {{ .Render "summary"}} {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

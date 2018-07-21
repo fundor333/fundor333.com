@@ -1,0 +1,32 @@
+{{ define "body"}}
+<div class="card">
+  <div class="card-content">
+    {{if ne .Content ""}}
+    <h1>{{.Title}}</h1>
+    {{.Content}} {{end}}
+    <table class="bordered responsive-table">
+      <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Event</th>
+        <th></th>
+      </tr>
+      {{range sort .Pages ".Params.convention.date" "desc"}}
+      <td>
+        <a href="{{.Permalink}}">{{.Title}}{{with .Params.convention}}{{end}}</a>
+      </td>
+      <td>{{.Params.convention.date}} {{.Params.convention.hour}}</td>
+      <td>
+        {{ .Params.convention.event}}
+      </td>
+      <td>
+        <a href="{{.Permalink}}">
+          <i class="fa fa-link"></i>
+        </a>
+      </td>
+      </tr>
+      {{end}}
+    </table>
+  </div>
+</div>
+{{ end }}

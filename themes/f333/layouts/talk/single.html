@@ -1,0 +1,76 @@
+{{ define "body"}}
+
+<div class="card">
+  <div class="card-content">
+    <div class="page-body f333">
+      <div class="page-article">
+        <h1 class="page-title">{{ .Title }}</h1>
+
+        <br>
+        <div class="article-view">
+          <div class="clearfix">
+            {{ .Content }}
+          </div>
+          <div class="clearfix">
+            <div id="slide_title" class="col s10">{{ .Title }} - {{ .Params.convention.event }}</div>
+            <div id="slide_date" class="col s2">{{ .Params.convention.date }}</div>
+            {{ if not (eq .Params.convention.source "") }}
+            <div id="slide_source" class="col s12">
+              <a href="{{ .Params.convention.source }}">Link to sorce</a>
+            </div>
+            {{ end }}
+            <br>
+            <script async class="speakerdeck-embed" data-id="{{ .Params.convention.speakerdeck_code }}" data-ratio="1.33333333333333"
+              src="//speakerdeck.com/assets/embed.js"></script>
+          </div>
+          <div>
+            <div class="pure-g post-footer">
+              <p>
+                by {{ .Site.Author.name }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="entry-content">
+
+        {{ template "_internal/disqus.html" . }}
+
+
+      </div>
+
+      <div class="fixed-action-btn horizontal click-to-toggle social">
+        <a class="btn-floating btn-large red">
+          <i class="material-icons">share</i>
+        </a>
+        <ul>
+          <li>
+            <a href="http://www.facebook.com/share.php?u={{ .Site.BaseURL }}{{ .URL }}" class="waves-effect button btn-floating facebook">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/share?url={{ .Site.BaseURL }}{{ .URL }}&amp;text=Read this amazing article &amp;hashtags=f333"
+              target="_blank" class=" waves-effect button btn-floating twitter" data-show-count="false">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Site.BaseURL }}{{ .URL }} " class="sharer button btn-floating linkedin ">
+              <i class="fa fa-linkedin " aria-hidden="true "></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/share?url={{ .Site.BaseURL }}{{ .URL }} " class="waves-effect button btn-floating gplus ">
+              <i class="fa fa-google-plus " aria-hidden="true "></i>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <br>
+    </div>
+  </div>
+</div>
+{{ end }}

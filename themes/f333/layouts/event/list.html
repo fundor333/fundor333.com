@@ -1,0 +1,36 @@
+{{ define "body"}}
+<div class="card">
+  <div class="card-content">
+    {{if ne .Content ""}}
+    <h1>{{.Title}}</h1>
+    {{.Content}} {{end}}
+    <table class="bordered responsive-table">
+      <tr>
+        <th>Start</th>
+        <th>End</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Link</th>
+        <tr>
+        </tr>
+        {{range sort .Pages ".Params.slot.start" "desc"}}
+        <td>{{dateFormat "2006-09-02 15:04" .Params.slot.start}}</td>
+        <td>{{dateFormat "2006-09-02 15:04" .Params.slot.end}}</td>
+
+        <td>
+          <a href="{{.Permalink}}">{{.Title}}{{with .Params.talk}} &mdash; {{.}}{{end}}</a>
+        </td>
+        <td>
+          {{ .Params.slot.location}}
+        </td>
+        <td>
+          <a href="{{ .Params.slot.url }}">
+            <strong>#</strong>
+          </a>
+        </td>
+      </tr>
+      {{end}}
+    </table>
+  </div>
+</div>
+{{ end }}

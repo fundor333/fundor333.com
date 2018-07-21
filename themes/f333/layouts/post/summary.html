@@ -1,0 +1,21 @@
+<div class="col m6 s12 article-preview-container same_hight">
+
+  <div class="card large hoverable">
+    {{with .Params.feature_image}}
+    <div class="card-image">
+      <img src="{{ . }}" \>
+    </div>
+    {{end}}
+    <div class="card-stacked">
+      <div class="card-content">
+        <span class="article-title">{{ .Title }}</span>
+        <p class="article-date">{{ dateFormat "2006 Jan 2" .Date }}</p>
+
+        <p>{{ .Description }}</p>
+      </div>
+    </div>
+    <div class="card-action">
+      <a href="{{ .URL }}">Read more</a>
+    </div>
+  </div>
+</div>
