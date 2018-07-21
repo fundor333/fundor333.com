@@ -33,3 +33,5 @@ fields:
   label: Description
   config:
     required: true
+pages:
+- content/post/2018-06-10-microsoft-compra-atom--electron-e-l-open-source.md
