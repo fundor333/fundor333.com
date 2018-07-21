@@ -12,7 +12,8 @@ fields:
   name: date
   label: Date
   config:
-    required: true
+    required: false
+    display_utc: true
 - type: text
   name: talk
   label: Talk
