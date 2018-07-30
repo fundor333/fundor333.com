@@ -4,21 +4,31 @@ auto_deploy: true
 admin_path: 
 webhook_url: https://api.netlify.com/build_hooks/5b538c47c6aed60dd6a5e548
 sections:
-- path: content
+- type: directory
+  path: content
   label: Pages
   create: all
-- path: content/event
+  match: "*"
+- type: directory
+  path: content/event
   label: Event
   create: all
-- path: content/post
+  match: "**/*"
+- type: directory
+  path: content/post
   label: Post
   create: all
-- path: content/resource
+  match: "**/*"
+- type: directory
+  path: content/resource
   label: Resource
   create: all
-- path: content/talk
+  match: "**/*"
+- type: directory
+  path: content/talk
   label: Talk
   create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/images"
 front_matter_path: ''
