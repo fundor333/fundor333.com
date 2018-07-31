@@ -12,6 +12,8 @@ title = "Free time"
 * [xkcd](https://xkcd.com/)
 * [FishEye Placebo](https://www.yuumeiart.com/fisheye-placebo/)
 * [Emily McGovern, My Life As A Background Slytherins](http://emilymcgovern.com)
+* [Save the princess with a programming language](https://toggl.com/programming-princess/ "Princess and the programming languages")
+
 # 🕺fun
 
 * [Octodex](https://octodex.github.com)
