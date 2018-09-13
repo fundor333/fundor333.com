@@ -19,4 +19,4 @@ title = "Package"
 * **requests** richieste http per umani
 * **xmltodict** conversione di file _xml_ in dizionari _Python_
 * **black** formattatore per _python_
-* **Sickle** OAI-PMH for Humans
+* [**Sickle **](https://github.com/mloesch/sickle "sickle")OAI-PMH for Humans
