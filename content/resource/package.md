@@ -11,12 +11,12 @@ title = "Package"
 
 # 🐍Python
 
-
-* __Django__ framework per generare webapp
-* __Django filter__ modulo per filtrare le view su Django
-* __Django Guardian__ modulo per la gestione dei permessi
-* __Reportlab__ modulo per la generazione di pdf
-* __Beautifulsoup4__ modulo per la elaborazione di _xml_ e _html_ 
-* __requests__ richieste http per umani
-* __xmltodict__ conversione di file _xml_ in dizionari _Python_
-* __black__ formattatore per _python_
+* **Django** framework per generare webapp
+* **Django filter** modulo per filtrare le view su Django
+* **Django Guardian** modulo per la gestione dei permessi
+* **Reportlab** modulo per la generazione di pdf
+* **Beautifulsoup4** modulo per la elaborazione di _xml_ e _html_
+* **requests** richieste http per umani
+* **xmltodict** conversione di file _xml_ in dizionari _Python_
+* **black** formattatore per _python_
+* **Sickle** OAI-PMH for Humans
