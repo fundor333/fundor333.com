@@ -22,8 +22,6 @@ Nasce tutto al Pycon It 2016 ove conosco un programmatore Python.  Così
 chiaccerando entriamo in contatto e iniziamo a interessarci l'uno
 all'altro e così scopro il "Meteo del sangue"
 
-{{< tweet 787727168138801154 >}}
-
 
 Questo è un servizio che ha rializzato che crea un sistema di
 segnalazione automatica dei gruppi sangugni in carenza nella regione
