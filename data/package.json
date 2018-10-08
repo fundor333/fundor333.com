@@ -1,0 +1,20 @@
+{
+	"category": [
+		{
+			"name": "Package",
+			"items": [{
+					"name": "Fira Code",
+					"link": "https://github.com/tonsky/FiraCode"
+				},
+				{
+					"name": "Dracula Theme",
+					"link": "https://draculatheme.com"
+				},
+				{
+					"name": "Nova Color",
+					"link": "https://trevordmiller.com/projects/nova"
+				}
+			]
+		}
+	]
+}
