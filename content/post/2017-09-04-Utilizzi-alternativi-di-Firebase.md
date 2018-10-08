@@ -1,13 +1,17 @@
 ---
-title: "Utilizzi alternativi di Firebase"
-slug: "utilizzi-alternativi-di-farebase"
-date: "2017-09-04" 
-tags: ["firebase","logging"] 
-description: "Utilizzare le funzionalità di Firebase in modo non 'standard'"
-categories: ["rant"]
-aliases: ["/blog/utilizzi-alternativi-di-farebase/"]
----
+title: Utilizzi alternativi di Firebase
+slug: utilizzi-alternativi-di-farebase
+date: 2017-09-04 00:00:00 +0000
+tags:
+- firebase
+- logging
+description: Utilizzare le funzionalità di Firebase in modo non 'standard'
+categories:
+- rant
+aliases:
+- "/blog/utilizzi-alternativi-di-farebase/"
 
+---
 Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all'utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell'utente.
 
 Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l'esecuzione del processo nel caso io voglia vedere come sta andando il alvoro. Questo non sarebbe un problema se ci fosse solo una macchina che svolgie i processi asincroni ma ce ne sono due sempre in funzione che permettono di alleggarire il carico di lavoro e accellerarlo quanto basta per non creare code di task.

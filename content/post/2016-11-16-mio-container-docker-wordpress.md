@@ -1,13 +1,18 @@
 ---
-title: "Il mio container Docker Wordpress"
-date: "2016-11-16"
-slug: "mio-container-docker-wordpress"
-tags: ["docker", "wordpress", "container"]
-categories: ["dev"]
-aliases: ["/dev/mio-container-docker-wordpress"]
-description: "Docker implementa un server locale per sviluppare temi e plugin Wordpress"
----
+title: Il mio container Docker Wordpress
+date: 2016-11-16 00:00:00 +0000
+slug: mio-container-docker-wordpress
+tags:
+- docker
+- wordpress
+- container
+categories:
+- dev
+aliases:
+- "/dev/mio-container-docker-wordpress"
+description: Docker implementa un server locale per sviluppare temi e plugin Wordpress
 
+---
 Questo è un progetto nato da una mia necessità: avere wordpress
 installato senza avere tutti i file in */var/www* o simili ma nella
 cartella corrispondenza al progetto. Questo perchè mi è capitato e mi

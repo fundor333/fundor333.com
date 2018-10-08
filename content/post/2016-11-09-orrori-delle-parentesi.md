@@ -1,13 +1,16 @@
 ---
-title: "Orrori delle parentesi"
-date: "2016-11-09"
-tags: ["programmazione"]
-slug: "orrori-delle-parentesi"
-description: "Digressione sull'uso delle parentesi nei linguaggi di programmazione"
-categories: ["rant"]
-aliases: ["/blog/orrori-delle-parentesi/"]
----
+title: Orrori delle parentesi
+date: 2016-11-09 00:00:00 +0000
+tags:
+- programmazione
+slug: orrori-delle-parentesi
+description: Digressione sull'uso delle parentesi nei linguaggi di programmazione
+categories:
+- rant
+aliases:
+- "/blog/orrori-delle-parentesi/"
 
+---
 (°,,,°)
 
 La mia faccia quando ho aperto twitter...

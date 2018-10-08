@@ -1,13 +1,16 @@
 ---
-title: "Docker, la balena con i container per software"
-date: "2016-10-03"
-tags: ["docker"]
-description: "Docker, cos'è e come funziona"
-slug: "docker-la-balena-con-i-container"
-categories: ["dev"]
-aliases: ["/dev/docker-la-balena-con-i-container/"]
----
+title: Docker, la balena con i container per software
+date: 2016-10-03 00:00:00 +0000
+tags:
+- docker
+description: Docker, cos'è e come funziona
+slug: docker-la-balena-con-i-container
+categories:
+- dev
+aliases:
+- "/dev/docker-la-balena-con-i-container/"
 
+---
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
 Docker.\
 ![Docker

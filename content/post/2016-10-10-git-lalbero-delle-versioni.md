@@ -1,17 +1,19 @@
 ---
-title: "Git, l'albero delle versioni che ci salva il progetto"
-date: "2016-10-10"
-tags: ["git"]
-slug: "git-lalbero-delle-versioni"
-description: "Spesso e volentieri uno dei problemi dello sviluppo di software è avere
-backup del codice e condividerlo in modo da poterci lavorare in più
-persone in contemporanea senza sovrapporre le modifiche. Queste due
-richieste vengono soddisfatte con un software di version controlling che
-permetta il lavoro di multipli utenti."
-categories: ["rant"]
-aliases: ["/blog/git-lalbero-delle-versioni/"]
----
+title: Git, l'albero delle versioni che ci salva il progetto
+date: 2016-10-10 00:00:00 +0000
+tags:
+- git
+slug: git-lalbero-delle-versioni
+description: Spesso e volentieri uno dei problemi dello sviluppo di software è avere
+  backup del codice e condividerlo in modo da poterci lavorare in più persone in contemporanea
+  senza sovrapporre le modifiche. Queste due richieste vengono soddisfatte con un
+  software di version controlling che permetta il lavoro di multipli utenti.
+categories:
+- rant
+aliases:
+- "/blog/git-lalbero-delle-versioni/"
 
+---
 Spesso e volentieri uno dei problemi dello sviluppo di software è avere
 backup del codice e condividerlo in modo da poterci lavorare in più
 persone in contemporanea senza sovrapporre le modifiche. Queste due

@@ -1,14 +1,16 @@
 ---
-title: "DataBeers Tuscany 3"
-talk: "Birre e presentazioni di dati in Toscana"
+title: DataBeers Tuscany 3
+talk: Birre e presentazioni di dati in Toscana
 slot:
-  start: "2017-04-06 19:00:00"
-  end: "2017-04-06 23:00:00"
-  url: "https://databeerstus.tumblr.com"
-  group: ["PyData Italia","Pycon Italy"]
-  location: "Pycon8 c/o Grand Hotel Mediterraneo, Lungarno del Tempio 44, Firenze"
----
+  start: 2017-04-06 00:00:00 +0000
+  end: 2017-04-06 00:00:00 +0000
+  url: https://databeerstus.tumblr.com
+  group:
+  - PyData Italia
+  - Pycon Italy
+  location: Pycon8 c/o Grand Hotel Mediterraneo, Lungarno del Tempio 44, Firenze
 
+---
 Lo spirito dei DataBeers è quello di dare la possibilità a appassionati, smanettoni e professionisti dei dati di raccontare quello che hanno scoperto su un data base a loro disposizione, come hanno impiegato una certa API, come hanno impiegato in modo "smart" i dati per risolvere un problema, cosa hanno scoperto analizzando twitter .... e molto altro!
 
 DATABEERS TUSCANY

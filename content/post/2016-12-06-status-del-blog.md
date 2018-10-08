@@ -1,13 +1,18 @@
 ---
-title: "Status del blog"
-date: "2016-12-06"
-tags: ["status", "firebase", "gdg"]
-slug: "status-del-blog"
-categories: ["dev"]
-aliases: ["/dev/status-del-blog/"]
-description: "Aggiornamento sullo stato del blog e scuse varie"
----
+title: Status del blog
+date: 2016-12-06 00:00:00 +0000
+tags:
+- status
+- firebase
+- gdg
+slug: status-del-blog
+categories:
+- dev
+aliases:
+- "/dev/status-del-blog/"
+description: Aggiornamento sullo stato del blog e scuse varie
 
+---
 Questo post inizia con delle scuse🙇.\
 Questo perchè ultimamente non ho scritto niente perchè occupato tra
 lavoro (sito per una associazione), esami e compiti da rappresentante

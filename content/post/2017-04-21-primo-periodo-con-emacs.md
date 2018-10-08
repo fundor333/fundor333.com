@@ -1,13 +1,18 @@
 ---
-title: "Il primo periodo con Emacs"
-date: "2017-04-21"
-slug: "il-primo-periodo-con-emacs"
-tags: ["emacs", "editor", "ide"]
-categories: ["dev"]
-description: "Diario del mio primo periodo di utilizzo di Emacs"
-aliases: ["/dev/il-primo-periodo-con-emacs/"]
----
+title: Il primo periodo con Emacs
+date: 2017-04-21 00:00:00 +0000
+slug: il-primo-periodo-con-emacs
+tags:
+- emacs
+- editor
+- ide
+categories:
+- dev
+description: Diario del mio primo periodo di utilizzo di Emacs
+aliases:
+- "/dev/il-primo-periodo-con-emacs/"
 
+---
 Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino  usarlo come editor unico.
 La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.
 

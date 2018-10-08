@@ -1,13 +1,18 @@
 ---
-title: "Ruby e il mio attuale lavoro"
-date: "2017-08-17"
-tags: ["status", "ruby", "lavoro"]
-slug: "ruby-e-il-mio-lavoro"
-description: "Ho trovato un lavoro e ho dovuto imparare Ruby e la cosa non mi piace"
-categories: ["rant"]
-aliases: ["/blog/ruby-e-il-mio-lavoro/"]
----
+title: Ruby e il mio attuale lavoro
+date: 2017-08-17 00:00:00 +0000
+tags:
+- status
+- ruby
+- lavoro
+slug: ruby-e-il-mio-lavoro
+description: Ho trovato un lavoro e ho dovuto imparare Ruby e la cosa non mi piace
+categories:
+- rant
+aliases:
+- "/blog/ruby-e-il-mio-lavoro/"
 
+---
 Come qualcuno avra notato (spero) è un bel po' che non pubblico niente di nuovo nel blog.
 Questo succede per due motivi:
 

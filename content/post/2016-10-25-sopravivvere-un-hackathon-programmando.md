@@ -1,13 +1,18 @@
 ---
-title: "Come sopravivvere a un Hackathon programmando"
-date: "2016-10-25"
-tags: ["hackathon", "programmazione", "tutorial"]
-slug: "sopravivvere-un-hackathon-programmando"
-description: "Sommario della mia avventura all'Hackathon eodappathon"
-categories: ["rant"]
-aliases: ["/blog/sopravivvere-un-hackathon-programmando/"]
----
+title: Come sopravivvere a un Hackathon programmando
+date: 2016-10-25 00:00:00 +0000
+tags:
+- hackathon
+- programmazione
+- tutorial
+slug: sopravivvere-un-hackathon-programmando
+description: Sommario della mia avventura all'Hackathon eodappathon
+categories:
+- rant
+aliases:
+- "/blog/sopravivvere-un-hackathon-programmando/"
 
+---
 Esco in questi giorni da un Hackathon organizzato dalla regione Veneto
 ([qui](http://www.energic-od.eu/)info), portando a casa con la mia
 squadra un felice e molto sudato terzo posto. Si ok abbiamo programmato

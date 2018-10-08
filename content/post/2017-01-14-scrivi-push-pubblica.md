@@ -1,13 +1,19 @@
 ---
-title: "Scrivi, push e publica"
-date: "2017-01-14"
-tags: ["github", "wordpress", "container"]
-slug: "scrivi-push-public"
-categories: ["dev"]
-description: "Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni"
-aliases: ["/dev/scrivi-push-public/"]
----
+title: Scrivi, push e publica
+date: 2017-01-14 00:00:00 +0000
+tags:
+- github
+- wordpress
+- container
+slug: scrivi-push-public
+categories:
+- dev
+description: Come scrivere un blog interamente in pelican, gestito in github e travis
+  con autopubblicazioni
+aliases:
+- "/dev/scrivi-push-public/"
 
+---
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.
 
 Questo perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.

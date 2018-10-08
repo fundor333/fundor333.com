@@ -1,0 +1,23 @@
+<nav class="page-navbar">
+  <div class="nav-wrapper">
+    <a href="#" data-activates="mobile-demo" class="button-collapse">
+      <i class="material-icons">menu</i>
+    </a>
+    <ul class="hide-on-med-and-down">
+      {{ $currentPage := . }} {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}">
+          <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i> {{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}">
+          <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i> {{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>

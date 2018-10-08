@@ -1,14 +1,15 @@
 ---
-title: "DataBeers VCE 2"
-talk: "Tre presentazioni da speacker di vario tipo"
+title: DataBeers VCE 2
+talk: Tre presentazioni da speacker di vario tipo
 slot:
-  start: "2017-05-19 18:00:00"
-  end: "2017-05-19 21:00:00"
-  url: "https://databeersvce.tumblr.com/post/160223833870/databeers-venezia-2-190517-negozio-piave-67"
-  group:  ["DataBeers Venezia"]
-  location: "Negozio Piave 67, Via Piave 67, Venezia"
----
+  start: 2017-05-19 00:00:00 +0000
+  end: 2017-05-19 00:00:00 +0000
+  url: https://databeersvce.tumblr.com/post/160223833870/databeers-venezia-2-190517-negozio-piave-67
+  group:
+  - DataBeers Venezia
+  location: Negozio Piave 67, Via Piave 67, Venezia
 
+---
 Hey Data Lovers! Following the huge success of the first edtion… we’re back! Databeers Venice #2 is live! We’re waiting for you next Friday, May 19th @ Negozio Piave 67, via Piave 67, Venezia, starting at 18:00 sharp!
 
 Five stunning speakers will drive the scene for you:
