@@ -12,19 +12,17 @@ aliases:
 
 ---
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
-Docker.\
-![Docker
-logo](http://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png)
+Docker.  
+![Docker](https://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png)
 
-<!--more-->\
+<!--more-->  
 La prima volta che ho incontrato Docker è stato leggendo un articolo
 sulle macchine virtuali e su come rendere uguale l'ambiente di develop,
 testing e di produzione. Quando lo ho letto non capivo bene come
 funzionasse ma poi ho trovato degli esempi più semplici che spiegano
 bene la differenza tra i due.
 
-La macchina virtuale
---------------------
+## La macchina virtuale
 
 La macchina virtuale solitamente la possiamo vedere come i vecchi hard
 disk a cassettoni: installo il sistema operativo, installo tutte le
@@ -44,14 +42,12 @@ identiche che fanno girare due applicazioni diverse sulla stessa
 macchina io ho due copie delle librerie, del sistema operativo e delle
 configurazioni.
 
-![virtual
-machine](https://www.docker.com/sites/default/files/WhatIsDocker_2_VMs_0-2_2.png)\
+![virtual](https://www.docker.com/sites/default/files/WhatIsDocker_2_VMs_0-2_2.png)  
 Questa immagine mostra bene come il "guest os" risuta essere duplicato
 (in questo caso triplicato) e non possa essere "riutilizzato" dalle
 altre applicazioni.
 
-Docker
-------
+## Docker
 
 Sul serio è un servizio differente? Si e no.
 
@@ -70,7 +66,7 @@ Puoi distribuire il file di configurazione (semplice file di testo,
 solitamente anche molto breve) al posto che condividere un intero disco
 virtuale e è più compatto rispetto alla virtual machine per quanto
 riguarda lo spazio occupato, in quanto c'è solo le librerie richieste e
-nessun altra componente del sistema operativo o delle librerie.\
+nessun altra componente del sistema operativo o delle librerie.  
 In oltre, in caso di multiple istanze di docker risulta spesso più
 performante, sopratutto quanto più sono simili le immagini.
 
@@ -78,7 +74,7 @@ performante, sopratutto quanto più sono simili le immagini.
 
 Bisogna imparare a fare i file docker e, nel caso di una solo istanza di
 docker in funzione sulla macchina potrebbe essere più pesante di una
-macchina virtuale.\
+macchina virtuale.  
 ![docker](https://www.docker.com/sites/default/files/WhatIsDocker_3_Containers_2_0.png)
 
 Personalmente ultimamente lo uso molto per sviluppare siti web. Questo

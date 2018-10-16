@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: true
-admin_path: 
+admin_path: ''
 webhook_url: https://api.netlify.com/build_hooks/5b538c47c6aed60dd6a5e548
 sections:
 - type: directory
@@ -34,4 +34,4 @@ public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-version: '0.44'
+version: 0.49.2
