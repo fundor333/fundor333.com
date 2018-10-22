@@ -1,49 +1,18 @@
-$f333_black: #272429;
+$f333_black: #001427;
 $f333_white: #ddddd6;
-$f333_gray: #AAADB7;
-$f333_light_blue: #1da1f2;
-$f333_blue: #0077B5;
-$f333_red: #902a23;
-$f333_orange: #d47b37;
-$f333_green: #608743;
-$f333_red_brown: #713027;
-$f333_brown:#9D8366;
-//
-$col_primary: $f333_red;
-$col_info: $f333_black;
-$col_success: $f333_green;
-$col_warning: $f333_orange;
-$col_danger: $f333_red;
-//
+$f333_gray: #cad2c5;
+$f333_yellow: #f4d58d;
+$f333_red: #8d0801;
+$f333_green: #8ed081;
+
 $f333_color_background_primary: $f333_black;
-$f333_color_background_secondary: $f333_white;
-$f333_color_background_primary_light: lighten($f333_color_background_primary, 10%);
-$f333_color_background_primary_lighter:lighten($f333_color_background_primary, 20%);
+$f333_color_background_secondary: $f333_gray;
 //
-$f333_color_font_primary: $f333_white;
-$f333_font_title_color: $f333_black;
-$f333_color_font_secondary: $f333_black;
+$f333_color_font_primary: $f333_color_background_secondary;
+$f333_color_font_secondary: $f333_color_background_primary;
 //
-$col_social: $f333_orange;
-$col_social_secondary: $f333_gray;
-$f333_color_link: $f333_orange;
-$f333_color_link_article: $f333_orange;
-$f333_color_link_article_secondary: $f333_red_brown;
-$f333_color_title_page: $f333_orange;
-$f333_color_card: $f333_orange;
-$f333_color_card_text: $f333_gray;
-$f333_color_footer: $f333_brown;
-$f333_color_navbar: $f333_color_footer;
-$f333_color_article_title: $f333_white;
-//
-$f333_color_breadcrumb: $f333_gray;
-$f333_color_breadcrumb_secondary: $f333_orange;
-$f333_color_tag: $f333_gray;
-$f333_color_tag_secondary: $f333_orange;
-//
-$col_facebook: #3B5998;
-$col_twitter: #1DA1F2;
-$col_linkedin: #0077B5;
-$col_gplus: #DC4E41;
+$col_facebook: #3b5998;
+$col_twitter: #1da1f2;
+$col_linkedin: #0077b5;
+$col_gplus: #dc4e41;
 $col_mail: green;
-$colors: ( "gray": $f333_gray, "black": $f333_black, "orange": $f333_orange, "primary": $col_primary, "info": $col_info, "success":$col_success, "warning": $col_warning, "danger": $col_danger, );
