@@ -44,7 +44,7 @@ body {
 	transition: box-shadow 0.25s;
 	box-shadow: 0;
 	background-color: f333_color_background_secondary;
-
+	color: f333_color_font_secondary;
 	&:hover {
 		transition: box-shadow 0.25s;
 		box-shadow: 8px 8px 17px 8px rgba(0, 0, 0, 0.2),
