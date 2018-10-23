@@ -1,7 +1,7 @@
 <header>
   <br>
-  <div class="row">
-    <a href="{{ .Site.BaseURL }}">
+  <div class="row card">
+    <a href="{{ .Site.BaseURL }}" class="valign-wrapper">
       <div class="col m3 s12">
         <img class='circle responsive-img center-block' id="header_logo" src='/img/pilogo.jpg'>
       </div>
@@ -14,5 +14,10 @@
         </div>
       </div>
     </a>
+    {{ $currentPage := . }} {{ range .Site.Menus.social }}
+    <a href="{{ .URL }}" class="social-icon hide-on-med-and-down center-align btn-floating waves-effect waves-light">
+      <i class="fab fa-{{ .Identifier }}" aria-hidden="true"></i> &nbsp;&nbsp;
+    </a>
+    {{ end }}
   </div>
 </header>

@@ -1,13 +1,12 @@
 <div class="col s12 article-preview-container">
 
   <div class="card">
-      <span class="card-title row">
-        <span class="article-title left">{{ .Title }}</span>
-        <span class="article-date right">{{ dateFormat "2006 Jan 2" .Date }}</span>
-      </span>
-      <p class="row">{{ .Description }}</p>
-    <div class="card-action">
-      <a href="{{ .URL }}">Read more</a>
-    </div>
+    <span class="card-title row">
+      <span class="article-title left">{{ .Title }}</span>
+      <span class="article-date right">{{ dateFormat "2006 Jan 2" .Date }}</span>
+    </span>
+    <p class="row">{{ .Description }}</p>
+    <a href="{{ .URL }}" class="btn-floating waves-effect waves-light"><i class="material-icons">add</i></a>
   </div>
+</div>
 </div>
