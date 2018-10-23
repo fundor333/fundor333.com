@@ -2,7 +2,7 @@
 categories = ["dev"]
 date = "2018-09-24T09:03:37+02:00"
 description = "Diario di una personale avventura nel mondo dei filtri e sorting in django"
-feature_image = "/images/1_OI27tJZHNeQ3Loy9UNyPuw.jpeg"
+feature_image = "/uploads/1_OI27tJZHNeQ3Loy9UNyPuw.jpeg"
 slug = "sperimentando_con_filtri_paginator_e_sorting_in_django"
 tags = ["django,", "sorting,", "filters", "module", "paginator"]
 title = "Sperimentando col filtri, paginator e sorting in Django"
