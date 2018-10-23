@@ -4,6 +4,29 @@
 @import "_colors";
 @import "_sizes";
 @import "_switch";
+
+@mixin inverted {
+	color: $f333_color_font_secondary;
+	background-color: $f333_color_background_secondary;
+}
+
+@mixin hover_shadow($font_c, $back_c) {
+	transition: box-shadow 0.25s;
+	box-shadow: 0;
+	background-color: $back_c;
+	color: $font_c;
+	&:hover {
+		background-color: $back_c;
+		transition: box-shadow 0.25s;
+		box-shadow: 8px 8px 17px 8px $shadow_color,
+			6px 6px 20px 6px $shadow_color;
+	}
+}
+
+a {
+	color: $f333_green;
+}
+
 body {
 	font-family: "Fira Code";
 	background-color: $f333_color_background_primary;
@@ -31,26 +54,26 @@ body {
 	font-synthesis: weight style;
 }
 
+footer,
+nav {
+	color: $f333_color_font_secondary;
+	background-color: $f333_red;
+}
+
 .btn-floating {
 	border-radius: 0;
 	position: relative;
 	width: 40px;
 	height: 173.21px;
 	height: 40px;
+	@include hover_shadow($f333_color_font_primary, $f333_red);
 }
 
-.card,
-.btn-floating {
-	transition: box-shadow 0.25s;
-	box-shadow: 0;
-	background-color: f333_color_background_secondary;
-	color: f333_color_font_secondary;
-	&:hover {
-		transition: box-shadow 0.25s;
-		box-shadow: 8px 8px 17px 8px rgba(0, 0, 0, 0.2),
-			6px 6px 20px 6px rgba(0, 0, 0, 0.19);
-	}
-
+.card {
+	@include hover_shadow(
+		$f333_color_font_secondary,
+		$f333_color_background_secondary
+	);
 	.card-title {
 		color: $f333_color_font_secondary !important;
 	}
@@ -59,8 +82,30 @@ body {
 		color: $f333_color_font_secondary !important;
 
 		a {
-			background: $f333_green;
-			color: $f333_color_font_secondary;
+			color: $f333_color_background_secondary;
+			background-color: $f333_color_font_secondary;
 		}
 	}
+}
+.page-social {
+	a {
+		color: $f333_color_font_secondary;
+	}
+}
+.page-footer {
+	background-color: $f333_red;
+}
+.pagination {
+	li.active {
+		background-color: $f333_red;
+	}
+}
+
+.social-icon {
+	color: $f333_color_font_primary;
+}
+
+#title,
+#subtitle {
+	color: $f333_color_font_secondary !important;
 }
