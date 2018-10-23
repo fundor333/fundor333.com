@@ -2,12 +2,12 @@
 categories = ["dev"]
 date = "2018-09-24T09:03:37+02:00"
 description = "Diario di una personale avventura nel mondo dei filtri e sorting in django"
+feature_image = "/images/1_OI27tJZHNeQ3Loy9UNyPuw.jpeg"
 slug = "sperimentando_con_filtri_paginator_e_sorting_in_django"
 tags = ["django,", "sorting,", "filters", "module", "paginator"]
 title = "Sperimentando col filtri, paginator e sorting in Django"
 
 +++
-
 Ultimamente sto lavorando a tempo pieno a un progetto Django per la mia ditta. Lo abbiamo chiamato Celebro e per ora ha un grossissimo problema: filtri, sorting e paginator.
 
 Fondamentalmente il problema si riassume con la rubrica del personale: deve essere ordinabile, filtrabile e visibile 20 elementi alla volta. Le tre cose assieme risultano essere difficili soprattutto se usi le Class View di Django.
