@@ -65,6 +65,52 @@ img {
 	height: auto;
 }
 
+.card-content {
+	a {
+		color: $f333_red;
+	}
+}
+
+.page-breadcrumb {
+	color: $f333_color_breadcrumb;
+	vertical-align: bottom;
+	margin: 0;
+	&:last-child {
+		color: $f333_color_breadcrumb;
+	}
+	.breadcrumb {
+		color: $f333_color_breadcrumb;
+		text-transform: lowercase;
+		&:before {
+			margin: 0;
+			content: "<<";
+			color: $f333_color_breadcrumb_secondary !important;
+			display: inline-block;
+			font-weight: normal;
+			font-style: normal;
+			-webkit-font-smoothing: antialiased;
+		}
+		&:first-child:before {
+			margin: 0;
+			display: float;
+		}
+		&:last-child:after {
+			margin: 0;
+			display: float;
+			content: ">>" !important;
+		}
+		&:after {
+			margin: 0;
+			color: $f333_color_breadcrumb_secondary !important;
+			content: ">> <~> " !important;
+		}
+	}
+	&:after,
+	&:before {
+		color: $f333_color_font_primary;
+	}
+}
+
 .btn-floating {
 	border-radius: 0;
 	position: relative;
