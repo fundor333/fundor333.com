@@ -60,6 +60,11 @@ nav {
 	background-color: $f333_red;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .btn-floating {
 	border-radius: 0;
 	position: relative;
@@ -87,11 +92,19 @@ nav {
 		}
 	}
 }
+
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .page-social {
 	a {
 		color: $f333_color_font_secondary;
 	}
 }
+
 .page-footer {
 	background-color: $f333_red;
 }
