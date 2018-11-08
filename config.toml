@@ -46,11 +46,6 @@ name = "blog"
 url = "/post/"
 weight = 1
 [[menu.social]]
-identifier = "git"
-name = "git"
-url = "http://gitea.fundor333.com"
-weight = 7
-[[menu.social]]
 identifier = "flickr"
 name = "flicker"
 url = "https://www.flickr.com/people/fundor333/"
