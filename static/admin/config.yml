@@ -29,3 +29,4 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Titolo", name: "title", widget: "string"}
       - {label: "Type", name: "type", widget: "string",default:"pages"}
+      - {label: "Body", name: "body", widget: "markdown"}
