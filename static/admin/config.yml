@@ -19,7 +19,8 @@ collections:
       - {label: "Tags",  name: "tags",  widget: "list",  default: []}
       - {label: "Categorie",  name: "categories",  widget: "list",  default: []}
       - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Descrizione", name: "description", widget: "string"}
+      - {label: "Descrizione", name: "description", widget: "string"}      
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "page" # Used in routes, e.g., /admin/collections/blog
     label: "Pagine" # Used in the UI
     folder: "content" # The path to the folder where the documents are stored
