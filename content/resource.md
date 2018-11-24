@@ -1,8 +1,6 @@
 ---
-title: "resource"
+title: "\U0001F5D2️resource"
 type: pages
-layout: resources
-
 ---
 # Package
 
