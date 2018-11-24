@@ -1,5 +1,5 @@
 ---
-title: "\U0001F5D2️resource"
+title: "\U0001F48Eresource"
 type: pages
 ---
 # Package
