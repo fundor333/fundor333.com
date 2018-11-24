@@ -20,4 +20,4 @@ collections:
       - {label: "Categorie",  name: "categories",  widget: "list",  default: []}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Descrizione", name: "description", widget: "string"}      
-			- {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
