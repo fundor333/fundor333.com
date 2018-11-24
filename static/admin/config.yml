@@ -20,3 +20,11 @@ collections:
       - {label: "Categorie",  name: "categories",  widget: "list",  default: []}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Descrizione", name: "description", widget: "string"}
+  - name: "page" # Used in routes, e.g., /admin/collections/blog
+    label: "Pagine" # Used in the UI
+    folder: "content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Type", name: "type", widget: "string",default:"pages"}
