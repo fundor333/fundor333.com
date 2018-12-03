@@ -1,18 +1,19 @@
 <header>
-  <br>
-  <div class="row card">
-    <a href="{{ .Site.BaseURL }}" class="valign-wrapper">
-      <div class="col m3 s12">
-        <img class='circle responsive-img center-block' id="header_logo" src='/img/pilogo.jpg'>
-      </div>
-      <div class="col m8 offset-m1 s12">
-        <div id="title">
-          <h1>{{ .Site.Title }}</h1>
-          <h2 id="subtitle">
-            {{ .Site.Params.subtitle }}
-          </h2>
+  <div class="row">
+    <div class="card-content">
+      <a href="{{ .Site.BaseURL }}" class="valign-wrapper">
+        <div class="col m3 s12">
+          <img class='circle responsive-img center-block' id="header_logo" src='/img/pilogo.jpg'>
         </div>
-      </div>
+        <div class="col m8 offset-m1 s12">
+          <div id="title">
+            <h2>{{ .Site.Title }}</h2>
+            <h3 id="subtitle">
+              {{ .Site.Params.subtitle }}
+            </h3>
+          </div>
+        </div>
+    </div>
     </a>
     {{ $currentPage := . }} {{ range .Site.Menus.social }}
     <a href="{{ .URL }}" class="social-icon hide-on-med-and-down center-align btn-floating waves-effect waves-light">
