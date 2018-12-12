@@ -22,4 +22,10 @@
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ else }}
   <link href="https://www.fundor333.com/post/index.xml" ref="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
+
+  {{ if .description }}
+  <meta name="description" content="{{ .description }}">
+  {{ else if .IsPage }}
+  <meta name="description" content="{{ .title | plainify }}">
+  {{ end }}
 </head>
