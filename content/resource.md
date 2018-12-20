@@ -63,6 +63,11 @@ type: pages
 * [EditorConfig](http://editorconfig.org)
 * [N-O-D-E.Net](https://n-o-d-e.net)
 * [Storie della sala macchine](http://www.soft-land.org)
+* [Jed Henry art](http://jedhenry.tumblr.com/)
+* [Transit Map](http://transitmap.net/)
+* [UnixPorn](https://unixporn.tumblr.com/)
+* [Lettering Daily](https://lettering-daily.tumblr.com/)
+* [Time Blur - Heather Penn's art](http://happydorid.tumblr.com/)
 
 ## 📚readings
 
@@ -86,6 +91,7 @@ type: pages
 * [xkcd](https://xkcd.com/)
 * [FishEye Placebo](https://www.yuumeiart.com/fisheye-placebo/)
 * [Emily McGovern, My Life As A Background Slytherins](http://emilymcgovern.com)
+* [Belzebubs](http://belzebubsofficial.tumblr.com/)
 
 # Dev Comics
 
