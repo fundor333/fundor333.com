@@ -30,3 +30,11 @@
     });
   }
 </script>
+
+<script>
+  if (date.getMonth() == 11 || date.getMonth() == 0) {
+    flag = true;
+  }
+  else { flag = false }
+  snowStorm.autoStart = flag;
+</script>
