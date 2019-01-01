@@ -1,8 +1,6 @@
 ---
-title: "resource"
+title: "\U0001F48Eresource"
 type: pages
-layout: resources
-
 ---
 # Package
 
@@ -22,7 +20,7 @@ layout: resources
 * [**requests**](http://docs.python-requests.org/en/master/) richieste http per umani
 * [**xmltodict**](https://github.com/martinblech/xmltodict) conversione di file _xml_ in dizionari _Python_
 * [**black**](https://black.readthedocs.io/en/stable/) formattatore per _python_
-* [**Sickle **](https://sickle.readthedocs.io/en/latest/)OAI-PMH for Humans
+* [**Sickle**](https://sickle.readthedocs.io/en/latest/)OAI-PMH for Humans
 
 # Podcast
 
@@ -65,6 +63,11 @@ layout: resources
 * [EditorConfig](http://editorconfig.org)
 * [N-O-D-E.Net](https://n-o-d-e.net)
 * [Storie della sala macchine](http://www.soft-land.org)
+* [Jed Henry art](http://jedhenry.tumblr.com/)
+* [Transit Map](http://transitmap.net/)
+* [UnixPorn](https://unixporn.tumblr.com/)
+* [Lettering Daily](https://lettering-daily.tumblr.com/)
+* [Time Blur - Heather Penn's art](http://happydorid.tumblr.com/)
 
 ## 📚readings
 
@@ -78,6 +81,7 @@ layout: resources
 * [Shields](http://shields.io)
 * [Carbon Shell for scrennshot](https://carbon.now.sh/)
 * [Kit](https://kit.com)
+* [Freelancer email generator](https://toggl.com/freelance-email-generator/)
 
 # 💭webcomics
 
@@ -87,7 +91,16 @@ layout: resources
 * [xkcd](https://xkcd.com/)
 * [FishEye Placebo](https://www.yuumeiart.com/fisheye-placebo/)
 * [Emily McGovern, My Life As A Background Slytherins](http://emilymcgovern.com)
+* [Belzebubs](http://belzebubsofficial.tumblr.com/)
+
+# Dev Comics
+
 * [Save the princess with a programming language](https://toggl.com/programming-princess/ "Princess and the programming languages")
+* [How To Build A Horse With Programming ](https://blog.toggl.com/build-horse-programming/)
+* [How to kill a dragon with 9 programming language](https://blog.toggl.com/kill-dragon-comic/)
+* [The Seven Circles of Developer Hell](https://blog.toggl.com/seven-levels-developer-hell/)
+* [IT Jobs Explained With A Broken Lightbulb](https://blog.toggl.com/lightbulb-cartoon-developers/)
+* [Terrible clients explained with pirates](https://toggl.com/worst-client-types-infographic/)
 
 # 🕺fun
 

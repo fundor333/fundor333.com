@@ -34,5 +34,5 @@ fields:
   config:
     required: true
 pages:
-- content/post/Sperimentando-col-filtri-e-sorting-in-Django.md
 - content/post/2018-06-10-microsoft-compra-atom--electron-e-l-open-source.md
+- content/post/Sperimentando-col-filtri-e-sorting-in-Django.md

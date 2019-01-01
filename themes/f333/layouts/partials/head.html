@@ -11,6 +11,8 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
     crossorigin="anonymous"></script>
 
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="/js/snowstorm.js"></script>
 
   <link rel="stylesheet" type="text/css" href="/css/style.css" />
 
@@ -19,5 +21,7 @@
   <meta name="author" content="{{ with .Params.author.name }}{{ end }}"> {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ else }}
-  <link href="https://www.fundor333.com/post/index.xml" ref="feed" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
+  <link href="https://www.fundor333.com/post/index.xml" ref="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+
 </head>

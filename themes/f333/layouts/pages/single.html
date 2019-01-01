@@ -1,37 +1,34 @@
 {{ define "body"}}
-<div class="card">
-  <div class="card-content">
-    <div class="page-body f333">
-      <div class="page-article">
-        <div class="article-view">
-          <div class="page-view">
-            {{ .Content }}
-          </div>
-          <div>
-            <div class="pure-g post-footer">
-            </div>
 
-            <div class="card-action">
+<div class="page-body f333">
+  <div class="page-article">
+    <div class="article-view">
+      <div class="page-view">
+        {{ .Content }}
+      </div>
+      <div>
+        <div class="pure-g post-footer">
+        </div>
 
-
-              {{ with .Params.tags }} {{ range . }}
-              <a class="gray-action" href='{{ " tags" | absURL }}{{ . | urlize }}'>
-                <i class="fa fa-tag" aria-hidden="true"></i>{{ . }}
-              </a>
-              {{ end }} {{ end }} {{ with .Params.tags }} {{ range . }}
-              <a class="gray-action" href='{{ " tags" | absURL }}{{ . | urlize }}'>
-                <i class="fa fa-tag" aria-hidden="true"></i> {{ . }}
-              </a>
-              {{ end }} {{ end }}
+        <div class="card-action">
 
 
-            </div>
-          </div>
+          {{ with .Params.tags }} {{ range . }}
+          <a class="gray-action" href='{{ " tags" | absURL }}{{ . | urlize }}'>
+            <i class="fa fa-tag" aria-hidden="true"></i>{{ . }}
+          </a>
+          {{ end }} {{ end }} {{ with .Params.tags }} {{ range . }}
+          <a class="gray-action" href='{{ " tags" | absURL }}{{ . | urlize }}'>
+            <i class="fa fa-tag" aria-hidden="true"></i> {{ . }}
+          </a>
+          {{ end }} {{ end }}
+
+
         </div>
       </div>
-
-      <br>
     </div>
   </div>
+
+  <br>
 </div>
 {{ end }}

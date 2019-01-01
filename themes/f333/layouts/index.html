@@ -21,54 +21,36 @@
       </div>
     </div>
 
-    <div class="col s12 m6">
-
-      <div class="card valign-wrapper">
-        <div class="card-content">
-
-          <div class="row page-social">
-            {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}" class="black-action col s6 m4">
-              <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i>{{ .Name }}</a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-
-      <br>
-
-      <div class="card valign-wrapper">
-        <div class="card-content">
-
-          <p class="center-align">Chi sono? Sono un programmatore 💻 appasionato di Python 🐍, Docker 🐋 e del mondo
-            Open Source. Nel tempo libero
-            cerco di migliorare il mondo, per quanto posso, supportando attività di volontariato e il mondo Open
-            Source.
-            Ho un passato oscuro da PFY e qualche esperienza nel coordinare gruppi di viaggio e volontariato... Questo
-            vuole
-            essere il mio spazio personale/bacheca publica/blog personale dove metto esperienza, progetti e idee...
-            Insomma
-            un diario di un informatico mai cresciuto. Fundor333</p>
-        </div>
-      </div>
-
-      <br>
-
-      <div class="card valign-wrapper">
-        <div class="card-content">
-
-          <div class="row page-social center ">
-            {{ $currentPage := . }} {{ range .Site.Menus.social }}
-
-            <a href="{{ .URL }}" class="social-icon col s4">
-              <i class="fab fa-{{ .Identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
-            </a>
-            {{ end }}
-          </div>
-
-
+    <div class="col s12 m6 card">
+      <div class="card-content">
+        <div class="row page-social center-align">
+          {{ range .Site.Menus.main }}
+          <a href="{{ .URL }}" class="black-action col s6">
+            <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i>{{ .Name }}</a>
+          {{ end }}
         </div>
 
+        <br>
+
+        <p class="center-align">Chi sono? Sono un programmatore 💻 appasionato di Python 🐍, Docker 🐋 e del mondo
+          Open Source. Nel tempo libero
+          cerco di migliorare il mondo, per quanto posso, supportando attività di volontariato e il mondo Open
+          Source.
+          Ho un passato oscuro da PFY e qualche esperienza nel coordinare gruppi di viaggio e volontariato... Questo
+          vuole
+          essere il mio spazio personale/bacheca publica/blog personale dove metto esperienza, progetti e idee...
+          Insomma
+          un diario di un informatico mai cresciuto. Fundor333</p>
+
+        <br>
+
+        <div class="row page-social center ">
+          {{ $currentPage := . }} {{ range .Site.Data.social }}
+          <a href="{{ .url }}" class="social-icon col s4">
+            <i class="fab fa-{{ .identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
+          </a>
+          {{ end }}
+        </div>
       </div>
     </div>
     {{ end }}
