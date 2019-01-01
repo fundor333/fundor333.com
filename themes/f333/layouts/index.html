@@ -32,25 +32,18 @@
 
         <br>
 
-        <p class="center-align">Chi sono? Sono un programmatore 💻 appasionato di Python 🐍, Docker 🐋 e del mondo
-          Open Source. Nel tempo libero
-          cerco di migliorare il mondo, per quanto posso, supportando attività di volontariato e il mondo Open
-          Source.
-          Ho un passato oscuro da PFY e qualche esperienza nel coordinare gruppi di viaggio e volontariato... Questo
-          vuole
-          essere il mio spazio personale/bacheca publica/blog personale dove metto esperienza, progetti e idee...
-          Insomma
-          un diario di un informatico mai cresciuto. Fundor333</p>
+        <p class="center-align">{{ .Site.Data.index.descriptiom | markdownify }}</p>
+      </div>
 
-        <br>
 
-        <div class="row page-social center ">
-          {{ $currentPage := . }} {{ range .Site.Data.social }}
-          <a href="{{ .url }}" class="social-icon col s4">
-            <i class="fab fa-{{ .identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
-          </a>
-          {{ end }}
-        </div>
+
+      <div class="row page-social center ">
+        {{ $currentPage := . }} {{ range .Site.Data.social }}
+        <a href="{{ .url }}" class="social-icon col s4">
+          <i class="fab fa-{{ .identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
+        </a>
+        {{ end }}
       </div>
     </div>
-    {{ end }}
+  </div>
+  {{ end }}
