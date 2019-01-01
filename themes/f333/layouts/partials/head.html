@@ -7,9 +7,8 @@
 
   <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css'>
 
-  <link rel="stylesheet" type="text/css" href="/sass/materialize.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
 
   <link rel="stylesheet" type="text/css" href="/css/style.css" />
@@ -19,5 +18,6 @@
   <meta name="author" content="{{ with .Params.author.name }}{{ end }}"> {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ else }}
-  <link href="https://www.fundor333.com/post/index.xml" ref="feed" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
+  <link href="https://www.fundor333.com/post/index.xml" ref="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
 </head>
