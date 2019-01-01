@@ -45,14 +45,12 @@
         <br>
 
         <div class="row page-social center ">
-          {{ $currentPage := . }} {{ range .Site.Menus.social }}
-
-          <a href="{{ .URL }}" class="social-icon col s4">
-            <i class="fab fa-{{ .Identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
+          {{ $currentPage := . }} {{ range .Site.Data.social }}
+          <a href="{{ .url }}" class="social-icon col s4">
+            <i class="fab fa-{{ .identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
           </a>
           {{ end }}
         </div>
       </div>
-
     </div>
     {{ end }}

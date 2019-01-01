@@ -15,10 +15,12 @@
         </div>
     </div>
     </a>
-    {{ $currentPage := . }} {{ range .Site.Menus.social }}
-    <a href="{{ .URL }}" class="social-icon hide-on-med-and-down center-align btn-floating waves-effect waves-light">
-      <i class="fab fa-{{ .Identifier }}" aria-hidden="true"></i> &nbsp;&nbsp;
+    {{ $currentPage := . }} {{ range .Site.Data.social }}
+    <a href="{{ .url }}" class="social-icon hide-on-med-and-down center-align btn-floating waves-effect waves-light">
+      <i class="fab fa-{{ .identifier }}" aria-hidden="true"></i> &nbsp;&nbsp;
     </a>
     {{ end }}
+
+
   </div>
 </header>

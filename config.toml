@@ -45,36 +45,6 @@ identifier = "archive"
 name = "blog"
 url = "/post/"
 weight = 1
-[[menu.social]]
-identifier = "flickr"
-name = "flicker"
-url = "https://www.flickr.com/people/fundor333/"
-weight = 6
-[[menu.social]]
-identifier = "instagram"
-name = "instagram"
-url = "https://www.instagram.com/fundor333/"
-weight = 5
-[[menu.social]]
-identifier = "youtube"
-name = "youtube"
-url = "https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A"
-weight = 4
-[[menu.social]]
-identifier = "twitter"
-name = "twitter"
-url = "https://twitter.com/fundor333"
-weight = 3
-[[menu.social]]
-identifier = "facebook"
-name = "facebook"
-url = "https://www.facebook.com/fundor333"
-weight = 2
-[[menu.social]]
-identifier = "github"
-name = "github"
-url = "https://github.com/fundor333"
-weight = 1
 [outputs]
 section = ["HTML", "RSS", "Calendar"]
 [params]
