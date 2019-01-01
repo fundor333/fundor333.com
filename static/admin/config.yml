@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: fundor333/fundor333.com # Path to your GitHub repository
+# These lines should *not* be indented
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "post" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "content/post" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Data", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default:true}
+      - {label: "Immagine", name: "feature_image", widget: "image"}
+      - {label: "Tags",  name: "tags",  widget: "list",  default: []}
+      - {label: "Categorie",  name: "categories",  widget: "list",  default: []}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Descrizione", name: "description", widget: "string"}      
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "page" # Used in routes, e.g., /admin/collections/blog
+    label: "Pagine" # Used in the UI
+    folder: "content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titolo", name: "title", widget: "string"}
+      - {label: "Type", name: "type", widget: "string",default:"pages"}
+      - {label: "Body", name: "body", widget: "markdown"}

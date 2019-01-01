@@ -18,3 +18,23 @@
     </div>
   </div>
 </footer>
+<script>
+
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+<script>
+  if (date.getMonth() == 11 || date.getMonth() == 0) {
+    flag = true;
+  }
+  else { flag = false }
+  snowStorm.autoStart = flag;
+</script>
