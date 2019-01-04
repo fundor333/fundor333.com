@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 {{range .Pages -}}
 BEGIN:VEVENT
-ORGANIZER;CN="Brian Hicks":mailto:brian@brianthicks.com
+ORGANIZER;CN="Fundor333":mailto:blog@fundor333.com
 SUMMARY:{{.Title}}{{with .Params.talk}} – {{.}}{{end}}
 UID:{{.Params.slot.start}}@2017.elm-conf.us
 SEQUENCE:0
