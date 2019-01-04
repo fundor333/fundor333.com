@@ -1,5 +1,72 @@
 {{ define "mainbody" }}
 <br>
+
+<section class="hero is-success is-fullheight">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroC" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              Home
+            </a>
+            <a class="navbar-item">
+              Examples
+            </a>
+            <a class="navbar-item">
+              Documentation
+            </a>
+            <span class="navbar-item">
+              <a class="button is-success is-inverted">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Download</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        {{ .Site.Title }}
+      </h1>
+      <h2 class="subtitle">
+        {{ .Site.Params.subtitle }}
+      </h2>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a>Overview</a></li>
+          <li><a>Modifiers</a></li>
+          <li><a>Grid</a></li>
+          <li><a>Elements</a></li>
+          <li><a>Components</a></li>
+          <li><a>Layout</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+
 <div class='container'>
   <br>
   <div class="row">
@@ -32,25 +99,18 @@
 
         <br>
 
-        <p class="center-align">Chi sono? Sono un programmatore 💻 appasionato di Python 🐍, Docker 🐋 e del mondo
-          Open Source. Nel tempo libero
-          cerco di migliorare il mondo, per quanto posso, supportando attività di volontariato e il mondo Open
-          Source.
-          Ho un passato oscuro da PFY e qualche esperienza nel coordinare gruppi di viaggio e volontariato... Questo
-          vuole
-          essere il mio spazio personale/bacheca publica/blog personale dove metto esperienza, progetti e idee...
-          Insomma
-          un diario di un informatico mai cresciuto. Fundor333</p>
+        <p class="center-align">{{ .Site.Data.index.descriptiom | markdownify }}</p>
+      </div>
 
-        <br>
 
-        <div class="row page-social center ">
-          {{ $currentPage := . }} {{ range .Site.Data.social }}
-          <a href="{{ .url }}" class="social-icon col s4">
-            <i class="fab fa-{{ .identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
-          </a>
-          {{ end }}
-        </div>
+
+      <div class="row page-social center ">
+        {{ $currentPage := . }} {{ range .Site.Data.social }}
+        <a href="{{ .url }}" class="social-icon col s4">
+          <i class="fab fa-{{ .identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
+        </a>
+        {{ end }}
       </div>
     </div>
-    {{ end }}
+  </div>
+  {{ end }}
