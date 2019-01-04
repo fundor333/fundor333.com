@@ -9,4 +9,3 @@ slot:
   location: Campus Scientifico, Via Torino 30170 Mestre, Venezia
 
 ---
-PyCon Italia è la conferenza nazionale che raccoglie professionisti, ricercatori e appassionati del linguaggio di programmazione più bello che ci sia. Nella splendida cornice di Firenze, PyCon è un weekend per imparare, confrontarsi e scoprire.
