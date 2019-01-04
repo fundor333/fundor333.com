@@ -14,8 +14,8 @@
         <tr>
         </tr>
         {{range sort .Pages ".Params.slot.start" "desc"}}
-        <td>{{dateFormat "2006-09-02 15:04" .Params.slot.start}}</td>
-        <td>{{dateFormat "2006-09-02 15:04" .Params.slot.end}}</td>
+        <td>{{dateFormat "2006-12-02 15:04" .Params.slot.start}}</td>
+        <td>{{dateFormat "2006-12-02 15:04" .Params.slot.end}}</td>
 
         <td>
           <a href="{{.Permalink}}">{{.Title}}{{with .Params.talk}} &mdash; {{.}}{{end}}</a>
