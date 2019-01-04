@@ -5,10 +5,10 @@ title: >-
 date: 2018-06-07T16:25:00.000Z
 talk: Follow UP
 slot:
-  end: 2019-01-04T21:25:54.252Z
+  end:  2018-06-07T16:25:00.000Z
   group: []
   location: Forte Marghera
-  start: 2019-01-04T21:25:54.239Z
+  start:  2018-06-07T16:25:00.000Z
   url: >-
     https://www.eventbrite.it/e/biglietti-visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-al-forte-marghera-46694717156#
 ---
