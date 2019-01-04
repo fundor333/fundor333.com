@@ -69,6 +69,10 @@ type: pages
 * [Lettering Daily](https://lettering-daily.tumblr.com/)
 * [Time Blur - Heather Penn's art](http://happydorid.tumblr.com/)
 
+## blogs about transports
+* [Tube Map Central](http://www.tubemapcentral.com/)
+* [Transit Map - Showing you how to get from here to there](http://www.transitmap.net/)
+
 ## 📚readings
 
 * [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)

@@ -30,3 +30,20 @@ collections:
       - {label: "Titolo", name: "title", widget: "string"}
       - {label: "Type", name: "type", widget: "string",default:"pages"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "talk"
+    labe: "Talks"
+    folder: "content/talk"
+    create: true
+    slug: "{{title}}"
+    fields:
+     - {label: "Titolo", name: "title", widget : "string"}
+     - {label: "Data", name: "date", widget: "datetime"}
+     - {label: "Sunto", name: "summary", widget: "string"}      
+     - label: Convention
+       name: convention
+       widget: list
+       fields:
+        - {label: "Data", name: "date", widget: "date"}
+	- {label: "Event", name: "event", widget: "string"}  
+	- {label: "Speakerdeck code", name: "speakerdeck_code", widget: "string"}  
+	- {label: "Source", name: "source", widget: "string"}  
