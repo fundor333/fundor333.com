@@ -13,7 +13,7 @@ STATUS:CONFIRMED
 DTSTAMP:{{dateFormat "20060102T150405Z" .Date}}
 DTSTART;TZID=Europe/Rome:{{dateFormat "20060102T150405" .Params.slot.start}}
 DTEND;TZID=Europe/Rome:{{dateFormat "20060102T150405" .Params.slot.end}}
-LOCATION:{{with .Params.location}}{{.}}{{else}}Main Ballroom{{end}}
+LOCATION:{{with .Params.location}}{{.}}{{else}}{{end}}
 URL:{{.Permalink}}
 END:VEVENT
 {{end -}}
