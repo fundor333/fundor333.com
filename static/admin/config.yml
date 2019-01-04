@@ -58,6 +58,7 @@ collections:
      - {label: "Titolo", name: "title", widget : "string"}
      - {label: "Data", name: "date", widget: "datetime"}
      - {label: "Talk", name: "talk", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
      - label: "Slot"
        name: "slot"
        widget: object
