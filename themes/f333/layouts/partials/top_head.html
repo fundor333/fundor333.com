@@ -1,18 +1,33 @@
 <header>
   <div class="row">
     <div class="card-content">
-      <a href="{{ .Site.BaseURL }}" class="valign-wrapper">
-        <div class="col m3 s12">
-          <img class='circle responsive-img center-block' id="header_logo" src='/img/pilogo.jpg'>
-        </div>
-        <div class="col m8 offset-m1 s12">
-          <div id="title">
-            <h2>{{ .Site.Title }}</h2>
-            <h3 id="subtitle">
-              {{ .Site.Params.subtitle }}
-            </h3>
+
+      <div class="show-on-small">
+        <a href="{{ .Site.BaseURL }}" class="valign-wrapper">
+          <div class="center-align">
+            <img class='circle responsive-img center-block' id="header_logo" src='/img/pilogo.jpg'>
           </div>
-        </div>
+          <div class="center-align">
+            <div id="title">
+              <h2>{{ .Site.Title }}</h2>
+
+            </div>
+          </div>
+      </div>
+      <div class="hide-on-med-and-down">
+        <a href="{{ .Site.BaseURL }}" class="valign-wrapper">
+          <div class="col m3 s12">
+            <img class='circle responsive-img center-block' id="header_logo" src='/img/pilogo.jpg'>
+          </div>
+          <div class="col m8 offset-m1 s12">
+            <div id="title">
+              <h2>{{ .Site.Title }}</h2>
+              <h3 id="subtitle">
+                {{ .Site.Params.subtitle }}
+              </h3>
+            </div>
+          </div>
+      </div>
     </div>
     </a>
     {{ $currentPage := . }} {{ range .Site.Data.social }}

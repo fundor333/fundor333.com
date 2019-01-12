@@ -19,6 +19,10 @@
   </div>
 </footer>
 <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems);
+  });
 
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -29,12 +33,6 @@
       }
     });
   }
-</script>
 
-<script>
-  if (date.getMonth() == 11 || date.getMonth() == 0) {
-    flag = true;
-  }
-  else { flag = false }
-  snowStorm.autoStart = flag;
 </script>
+<script type="text/javascript" src="/js/materialize.min.js"></script>
