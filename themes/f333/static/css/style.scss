@@ -15,6 +15,7 @@
 	box-shadow: 0;
 	background-color: $back_c;
 	color: $font_c;
+
 	&:hover {
 		background-color: $back_c;
 		transition: box-shadow 0.25s;
@@ -34,22 +35,30 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+
 	@media #{$small-and-down} {
 		font-size: 16px;
 	}
+
 	@media #{$medium-only} {
 		font-size: 18px;
 	}
+
 	@media #{$large-and-up} {
 		font-size: 16px;
 	}
+
 	/* don't display digraphs in languages that don't support it */
 	font-language-override: normal;
 	/* use font-defined kerning info */
 	font-kerning: auto;
 	/* opentype options: kerning, ligatures, horiz ligatures,
 	 * discretionary ligatures, contextual swash */
-	font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
+	font-feature-settings: "kern",
+	"liga",
+	"dlig",
+	"hlig",
+	"cswh";
 	/* allow browser to auto-infer missing glyphs */
 	font-synthesis: weight style;
 }
@@ -75,12 +84,15 @@ img {
 	color: $f333_color_breadcrumb;
 	vertical-align: bottom;
 	margin: 0;
+
 	&:last-child {
 		color: $f333_color_breadcrumb;
 	}
+
 	.breadcrumb {
 		color: $f333_color_breadcrumb;
 		text-transform: lowercase;
+
 		&:before {
 			margin: 0;
 			content: "<<";
@@ -90,24 +102,34 @@ img {
 			font-style: normal;
 			-webkit-font-smoothing: antialiased;
 		}
+
 		&:first-child:before {
 			margin: 0;
 			display: float;
 		}
+
 		&:last-child:after {
 			margin: 0;
 			display: float;
 			content: ">>" !important;
 		}
+
 		&:after {
 			margin: 0;
 			color: $f333_color_breadcrumb_secondary !important;
 			content: ">> <~> " !important;
 		}
 	}
+
 	&:after,
 	&:before {
 		color: $f333_color_font_primary;
+	}
+}
+
+.footer-copyright {
+	a {
+		color: $f333_white;
 	}
 }
 
@@ -122,10 +144,9 @@ img {
 }
 
 .card {
-	@include hover_shadow(
-		$f333_color_font_secondary,
-		$f333_color_background_secondary
-	);
+	@include hover_shadow($f333_color_font_secondary,
+	$f333_color_background_secondary);
+
 	.card-title {
 		color: $f333_color_font_secondary !important;
 	}
@@ -155,6 +176,7 @@ img {
 .page-footer {
 	background-color: $f333_red;
 }
+
 .pagination {
 	li.active {
 		background-color: $f333_red;

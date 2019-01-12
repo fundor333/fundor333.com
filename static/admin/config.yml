@@ -19,7 +19,7 @@ collections:
       - {label: "Tags",  name: "tags",  widget: "list",  default: []}
       - {label: "Categorie",  name: "categories",  widget: "list",  default: []}
       - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Descrizione", name: "description", widget: "string"}      
+      - {label: "Descrizione", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "page" # Used in routes, e.g., /admin/collections/blog
     label: "Pagine" # Used in the UI
@@ -31,19 +31,41 @@ collections:
       - {label: "Type", name: "type", widget: "string",default:"pages"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "talk"
-    labe: "Talks"
+    label: "Talks"
     folder: "content/talk"
     create: true
     slug: "{{title}}"
     fields:
      - {label: "Titolo", name: "title", widget : "string"}
      - {label: "Data", name: "date", widget: "datetime"}
-     - {label: "Sunto", name: "summary", widget: "string"}      
-     - label: Convention
-       name: convention
-       widget: list
+     - {label: "Sunto", name: "summary", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+     - label: "Convention"
+       name: "convention"
+       widget: object
        fields:
         - {label: "Data", name: "date", widget: "date"}
-	- {label: "Event", name: "event", widget: "string"}  
-	- {label: "Speakerdeck code", name: "speakerdeck_code", widget: "string"}  
-	- {label: "Source", name: "source", widget: "string"}  
+        - {label: "Event", name: "event", widget: "string"}
+        - {label: "Speakerdeck code", name: "speakerdeck_code", widget: "string"}
+        - {label: "Source", name: "source", widget: "string"}
+
+  - name: "event"
+    label: "Eventi"
+    folder: "content/event"
+    create: true
+    slug: "{{title}}"
+    fields:
+     - {label: "Titolo", name: "title", widget : "string"}
+     - {label: "Data", name: "date", widget: "datetime"}
+     - {label: "Talk", name: "talk", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+     - label: "Slot"
+       name: "slot"
+       widget: object
+       fields:
+        - {label: "Start", name: "start", widget: "date"}
+        - {label: "End", name: "end", widget: "date"}
+        - {label: "Url", name: "url", widget: "string"}
+        - {label: "Location", name: "location", widget: "string"}
+        - {label: "Video", name: "video", widget: "string"}
+        - {label: "Group",  name: "group",  widget: "list",  default: []}
