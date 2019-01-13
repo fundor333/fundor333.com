@@ -1,56 +1,45 @@
-<nav>
+<nav class="navbar mx-auto">
   {{ $paginator := .Paginator }}
 
   <!-- If there's more than one page. -->
   {{ if gt $paginator.TotalPages 1 }}
 
-  <ul class="pagination justify-content-center">
 
-    <!-- First page. -->
-    {{ if ne $paginator.PageNumber 1 }}
-    <li class="pagination__item pagination__item--first">
-      <a class="page-link page-link--first" href="{{ $paginator.First.URL }}">
-        ««
-      </a>
-    </li>
-    {{ end }}
+  <!-- First page. -->
+  {{ if ne $paginator.PageNumber 1 }}
+  <a class=" nav-item nav-link" href="{{ $paginator.First.URL }}">
+    ««
+  </a>
+  {{ end }}
 
-    <!-- Previous page. -->
-    {{ if $paginator.HasPrev }}
-    <li class="pagination__item pagination__item--previous">
-      <a href="{{ $paginator.Prev.URL }}" class="page-link page-link--previous">
-        «
-      </a>
-    </li>
-    {{ end }}
+  <!-- Previous page. -->
+  {{ if $paginator.HasPrev }}
+  <a class=" nav-item nav-link" href="{{ $paginator.Prev.URL }}">
+    «
+  </a>
+  {{ end }}
 
-    <!-- Page numbers. -->
-    {{ range $paginator.Pagers }}
-    <li class="pagination__item{{ if eq . $paginator }} pagination__item--current{{ end }}">
-      <a href="{{ .URL }}" class="page-link">
-        {{ .PageNumber }}
-      </a>
-    </li>
-    {{ end }}
+  <!-- Page numbers. -->
+  {{ range $paginator.Pagers }}
+  <a href="{{ .URL }}" class=" nav-item nav-link">
+    {{ .PageNumber }}
+  </a>
+  {{ end }}
 
-    <!-- Next page. -->
-    {{ if $paginator.HasNext }}
-    <li class="pagination__item pagination__item--next">
-      <a href="{{ $paginator.Next.URL }}" class="page-link page-link--next">
-        »
-      </a>
-    </li>
-    {{ end }}
+  <!-- Next page. -->
+  {{ if $paginator.HasNext }}
 
-    <!-- Last page. -->
-    {{ if ne $paginator.PageNumber $paginator.TotalPages }}
-    <li class="pagination__item pagination__item--last">
-      <a class="page-link page-link--last" href="{{ $paginator.Last.URL }}">
-        »»
-      </a>
-    </li>
-    {{ end }}
+  <a class=" nav-item nav-link" href="{{ $paginator.Next.URL }}">
+    »
+  </a>
+  {{ end }}
 
-  </ul><!-- .pagination -->
+  <!-- Last page. -->
+  {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+
+  <a class=" nav-item nav-link" href="{{ $paginator.Last.URL }}">
+    »»
+  </a>
+  {{ end }}
   {{ end }}
 </nav>

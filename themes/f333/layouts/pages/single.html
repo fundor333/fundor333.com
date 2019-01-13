@@ -1,34 +1,16 @@
 {{ define "body"}}
-
-<div class="page-body f333">
-  <div class="page-article">
-    <div class="article-view">
-      <div class="page-view">
-        {{ .Content }}
-      </div>
-      <div>
-        <div class="pure-g post-footer">
-        </div>
-
-        <div class="card-action">
-
-
-          {{ with .Params.tags }} {{ range . }}
-          <a class="gray-action" href='{{ " tags" | absURL }}{{ . | urlize }}'>
-            <i class="fa fa-tag" aria-hidden="true"></i>{{ . }}
-          </a>
-          {{ end }} {{ end }} {{ with .Params.tags }} {{ range . }}
-          <a class="gray-action" href='{{ " tags" | absURL }}{{ . | urlize }}'>
-            <i class="fa fa-tag" aria-hidden="true"></i> {{ . }}
-          </a>
-          {{ end }} {{ end }}
-
-
-        </div>
-      </div>
-    </div>
+<div class="row">
+  <div class="col-8">
+    <h2>{{ .Title }}</h2>
   </div>
-
-  <br>
+  <div class="col-4 float-right">
+    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
+    <a>~</a>
+    <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="bricciole">{{ .Title }}</a>
+  </div>
 </div>
+<hr>
+
+{{ .Content }}
+
 {{ end }}

@@ -13,8 +13,12 @@
       </div>
     </div>
     <hr>
-    <div class="row mt-5">
-      {{ block "body" . }} {{ end }}
+    <div class="row mt-2 mb-2">
+      <div class="container">
+        <div class="container">
+          {{ block "body" . }} {{ end }}
+        </div>
+      </div>
     </div>
     <hr>
     {{ partial "footer.html" . }}

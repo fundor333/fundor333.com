@@ -42,6 +42,10 @@ type: pages
 * [Partially Derivative](http://partiallyderivative.com/)
 * [Go Time](https://changelog.com/gotime)
 
+## altro
+
+* [The ground up show](http://mattdavella.com/podcast)
+
 # Reading
 
 ## 👨🏻‍🏫tutorial
