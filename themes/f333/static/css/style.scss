@@ -26,7 +26,12 @@
 
 a {
 	color: $f333_red;
+
+	&:hover {
+		color: $f333_white;
+	}
 }
+
 
 body {
 	font-family: "Fira Code";
@@ -63,74 +68,22 @@ body {
 	font-synthesis: weight style;
 }
 
-footer,
-nav {
-	color: $f333_color_font_secondary;
-	background-color: $f333_red;
+footer {
+	color: $f333_red;
 }
 
+footer,
 img {
 	max-width: 100%;
 	height: auto;
 }
 
-.card-content {
-	a {
-		color: $f333_red;
-	}
-}
-
-.page-breadcrumb {
-	color: $f333_color_breadcrumb;
-	vertical-align: bottom;
-	margin: 0;
-
-	&:last-child {
-		color: $f333_color_breadcrumb;
-	}
-
-	.breadcrumb {
-		color: $f333_color_breadcrumb;
-		text-transform: lowercase;
-
-		&:before {
-			margin: 0;
-			content: "<<";
-			color: $f333_color_breadcrumb_secondary !important;
-			display: inline-block;
-			font-weight: normal;
-			font-style: normal;
-			-webkit-font-smoothing: antialiased;
-		}
-
-		&:first-child:before {
-			margin: 0;
-			display: float;
-		}
-
-		&:last-child:after {
-			margin: 0;
-			display: float;
-			content: ">>" !important;
-		}
-
-		&:after {
-			margin: 0;
-			color: $f333_color_breadcrumb_secondary !important;
-			content: ">> <~> " !important;
-		}
-	}
-
-	&:after,
-	&:before {
-		color: $f333_color_font_primary;
-	}
-}
-
-.footer-copyright {
-	a {
-		color: $f333_white;
-	}
+hr {
+	display: block;
+	height: 1px;
+	border-top: 1px solid $f333_white;
+	padding: 0;
+	color: $f333_white
 }
 
 .btn-floating {
@@ -144,20 +97,15 @@ img {
 }
 
 .card {
-	@include hover_shadow($f333_color_font_secondary,
-	$f333_color_background_secondary);
+	@include hover_shadow($f333_color_font_primary,
+	$f333_color_background_primary);
 
-	.card-title {
-		color: $f333_color_font_secondary !important;
-	}
 
-	.card-action {
-		color: $f333_color_font_secondary !important;
+}
 
-		a {
-			color: $f333_color_background_secondary;
-			background-color: $f333_color_font_secondary;
-		}
+.card-content {
+	a {
+		color: $f333_red;
 	}
 }
 
@@ -167,14 +115,22 @@ img {
 	margin-right: auto;
 }
 
-.page-social {
-	a {
-		color: $f333_color_font_secondary;
+
+.bricciole {
+	&:before {
+		content: "<<";
+	}
+
+	&:after {
+		content: ">>" !important;
 	}
 }
 
-.page-footer {
-	background-color: $f333_red;
+
+.page-social {
+	a {
+		color: $f333_color_font_primary;
+	}
 }
 
 .pagination {
@@ -183,11 +139,22 @@ img {
 	}
 }
 
+.tag {
+	&:before {
+		content: "<";
+	}
+
+	&:after {
+		content: ">" !important;
+	}
+}
+
+
 .social-icon {
 	color: $f333_color_font_primary;
 }
 
 #title,
 #subtitle {
-	color: $f333_color_font_secondary !important;
+	color: $f333_red !important;
 }

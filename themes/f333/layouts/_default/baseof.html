@@ -5,22 +5,23 @@
 
 <body>
   {{ block "mainbody" . }}
-  <div class="col container">
-    <div class="card">
-      <div class="col offset-m1 s12">
-        {{ partial "top_head.html" . }}
-        <div class="row">
-          {{ partial "navbar.html" . }}
-        </div>
-
-        <div class="row">
-          <div class="col s10 offset-s1">
-            {{ block "body" . }} {{ end }}
-          </div>
-        </div>
-        <br> {{ partial "footer.html" . }}
+  <div class="container">
+    <div class="row">
+      {{ partial "top_head.html" . }}
+      <div class="row">
+        {{ partial "navbar.html" . }}
       </div>
     </div>
+    <hr>
+    <div class="row mt-2 mb-2">
+      <div class="container">
+        <div class="container">
+          {{ block "body" . }} {{ end }}
+        </div>
+      </div>
+    </div>
+    <hr>
+    {{ partial "footer.html" . }}
   </div>
   {{ end }} {{ partial "script.html" . }}
 </body>

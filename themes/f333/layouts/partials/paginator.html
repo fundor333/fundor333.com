@@ -1,0 +1,45 @@
+<nav class="navbar mx-auto">
+  {{ $paginator := .Paginator }}
+
+  <!-- If there's more than one page. -->
+  {{ if gt $paginator.TotalPages 1 }}
+
+
+  <!-- First page. -->
+  {{ if ne $paginator.PageNumber 1 }}
+  <a class=" nav-item nav-link" href="{{ $paginator.First.URL }}">
+    ««
+  </a>
+  {{ end }}
+
+  <!-- Previous page. -->
+  {{ if $paginator.HasPrev }}
+  <a class=" nav-item nav-link" href="{{ $paginator.Prev.URL }}">
+    «
+  </a>
+  {{ end }}
+
+  <!-- Page numbers. -->
+  {{ range $paginator.Pagers }}
+  <a href="{{ .URL }}" class=" nav-item nav-link">
+    {{ .PageNumber }}
+  </a>
+  {{ end }}
+
+  <!-- Next page. -->
+  {{ if $paginator.HasNext }}
+
+  <a class=" nav-item nav-link" href="{{ $paginator.Next.URL }}">
+    »
+  </a>
+  {{ end }}
+
+  <!-- Last page. -->
+  {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+
+  <a class=" nav-item nav-link" href="{{ $paginator.Last.URL }}">
+    »»
+  </a>
+  {{ end }}
+  {{ end }}
+</nav>

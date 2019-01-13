@@ -1,17 +1,22 @@
 {{ define "body" }}
 
-<div class="page-body col s12 f333">
-  <div class="col s12">
-    <div class="row">
-      {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
+<div class="card-columns">
+  {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
 
-      <div class="row article-list">
-        {{ range $paginator.Pages }} {{ .Render "summary" }} {{ end }}
-      </div>
-      <div class="row center">
-        {{ template "_internal/pagination.html" . }}
-      </div>
+  {{ range $paginator.Pages }}
+  <div class="card">
+    {{with .Params.feature_image}}
+
+    <img class="card-img-top" src="{{ . }}" alt="Card image cap">
+    {{end}}
+
+    <div class="card-body">
+      <h5 class="card-title">{{ .Title }}</h5>
+      <p class="card-text">{{ dateFormat "2006 Jan 2" .Date }}</p>
+      <p class="card-text">{{ .Description }}</p>
+      <a href="{{ .URL }}" class="btn">More</a>
     </div>
   </div>
+  {{ end }}
 </div>
-{{ end }}
+{{ partial "paginator.html" . }}{{ end }}

@@ -1,23 +1,20 @@
-<nav class="page-navbar">
-  <div class="nav-wrapper">
-    <a href="#" data-activates="mobile-demo" class="button-collapse">
-      <i class="material-icons">menu</i>
-    </a>
-    <ul class="hide-on-med-and-down">
+<div class="container">
+  <nav class="nav mx-auto">
+    {{ $currentPage := . }} {{ range .Site.Data.social }}
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="{{ .url }}">
+        <i class="fab fa-{{ .identifier }}" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    {{ end }}
+  </nav>
+  <nav class="mx-auto">
+    <ul class="nav mx-auto">
       {{ $currentPage := . }} {{ range .Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ .URL }}">
           <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i> {{ .Name }}</a>
       </li>
       {{ end }}
     </ul>
-    <ul class="side-nav" id="mobile-demo">
-      {{ range .Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">
-          <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i> {{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-</nav>
+  </nav>
+</div>
