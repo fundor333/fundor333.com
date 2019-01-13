@@ -98,11 +98,6 @@ img {
 	margin-right: auto;
 }
 
-.footer-copyright {
-	a {
-		color: $f333_white;
-	}
-}
 
 .page-breadcrumb {
 	color: $f333_color_breadcrumb;
@@ -148,6 +143,12 @@ img {
 	&:after,
 	&:before {
 		color: $f333_color_font_primary;
+	}
+}
+
+.page-footer {
+	a {
+		color: $f333_white;
 	}
 }
 
