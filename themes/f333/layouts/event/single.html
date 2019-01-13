@@ -1,24 +1,18 @@
 {{ define "body"}}
-<div class="card">
-  <div class="card-content event-body">
-    <h1 class="center event-title">{{.Title}}{{with .Params.talk}} &mdash; {{.}}{{end}}</h1>
-    <div class="center event-date">
-      <p>{{dateFormat "2006-09-02 15:04" .Params.slot.start}}
-        <-->{{dateFormat "2006-09-02 15:04" .Params.slot.end}}</p>
-    </div>
-    <br>
-    <div class="event-content">
-      {{.Content}}
-    </div>
-    <br> {{if ne .Summary .Content}}
-    <div class="card-action event-action">
-      <a class="left" href="{{ .Params.slot.url }}">Full Event Details</a> {{end}}
-      <!--
+
+<h1 class="text-center">{{.Title}}{{with .Params.talk}} &mdash; {{.}}{{end}}</h1>
+<p>{{dateFormat "2006-09-02 15:04" .Params.slot.start}} -- {{dateFormat "2006-09-02 15:04" .Params.slot.end}}</p>
+<hr>
+<div class="event-content">
+  {{.Content}}
+</div>
+<hr>
+{{if ne .Summary .Content}}
+<a class="left" href="{{ .Params.slot.url }}">Full Event Details</a> {{end}}
+<!--
       {{if .Params.slot.video }}
       <a class="right" href="{{ .Params.slot.video }}"> Video</a>
       {{end}}
       -->
-    </div>
-  </div>
-</div>
+
 {{ end }}
