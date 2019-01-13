@@ -12,9 +12,11 @@
         {{ partial "navbar.html" . }}
       </div>
     </div>
-    <div class="row">
+    <hr>
+    <div class="row mt-5">
       {{ block "body" . }} {{ end }}
     </div>
+    <hr>
     {{ partial "footer.html" . }}
   </div>
   {{ end }} {{ partial "script.html" . }}

@@ -26,7 +26,12 @@
 
 a {
 	color: $f333_red;
+
+	&:hover {
+		color: $f333_white;
+	}
 }
+
 
 body {
 	font-family: "Fira Code";
@@ -63,10 +68,22 @@ body {
 	font-synthesis: weight style;
 }
 
+footer {
+	color: $f333_red;
+}
+
 footer,
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border-top: 1px solid $f333_white;
+	padding: 0;
+	color: $f333_white
 }
 
 .btn-floating {
@@ -146,20 +163,11 @@ img {
 	}
 }
 
-.page-footer {
-	a {
-		color: $f333_white;
-	}
-}
 
 .page-social {
 	a {
 		color: $f333_color_font_primary;
 	}
-}
-
-.page-footer {
-	background-color: $f333_red;
 }
 
 .pagination {
