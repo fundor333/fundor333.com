@@ -1,31 +1,14 @@
-{{ define "mainbody" }}
+{{ define "body" }}
 <br>
 <div class='container'>
   <br>
   <div class="row">
 
-    <div class="col s12 m6 valign-wrapper">
-      <a href="https://www.fundor333.com/post/">
-        <div id="title_home" class="waves-effect waves-block waves-light">
-          <img class="responsive-img" src='/img/pilogo.jpg'>
-          <h1 id="title">{{ .Site.Title }}</h1>
-          <h3 id="subtitle">
-            {{ .Site.Params.subtitle }}
-          </h3>
-        </div>
-      </a>
-    </div>
+
 
     <div class="col s12 m6 card">
       <div class="card-content">
-        <div class="row page-social center-align">
-          {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}" class="col s6">
-            <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i>{{ .Name }}</a>
-          {{ end }}
-        </div>
 
-        <br>
 
         <p class="center-align">Chi sono? Sono un programmatore 💻 appasionato di Python 🐍, Docker 🐋 e del mondo
           Open Source. Nel tempo libero
@@ -37,15 +20,8 @@
           Insomma
           un diario di un informatico mai cresciuto. Fundor333</p>
 
-        <br>
 
-        <div class="row page-social center ">
-          {{ $currentPage := . }} {{ range .Site.Data.social }}
-          <a href="{{ .url }}" class="social-icon col s4">
-            <i class="fab fa-{{ .identifier }} fa-3x" aria-hidden="true"></i> &nbsp;&nbsp;
-          </a>
-          {{ end }}
-        </div>
       </div>
     </div>
-    {{ end }}
+  </div>
+  {{ end }}

@@ -1,22 +1,18 @@
-<nav class="page-navbar">
-  <div class="nav-wrapper">
-    <ul class="hide-on-med-and-down">
-      {{ $currentPage := . }} {{ range .Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">
-          <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i> {{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
-
-
-    <ul class="side-nav" id="mobile-demo">
-      {{ range .Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">
-          <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i> {{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
+<nav class="nav justify-content-center">
+  {{ $currentPage := . }} {{ range .Site.Data.social }}
+  <li class="nav-item">
+    <a class="nav-link" href="{{ .url }}">
+      <i class="fab fa-{{ .identifier }}" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+  </li>
+  {{ end }}
+</nav>
+<nav>
+  <ul class="nav nav-tabs justify-content-center">
+    {{ $currentPage := . }} {{ range .Site.Menus.main }}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ .URL }}">
+        <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i> {{ .Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
 </nav>

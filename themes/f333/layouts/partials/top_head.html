@@ -1,26 +1,26 @@
-<header>
-  <div class="row">
-    <div class="card-content">
-      <a href="{{ .Site.BaseURL }}" class="valign-wrapper">
-        <div class="col m3 s12">
-          <img class='circle responsive-img center-block' id="header_logo" src='/img/pilogo.jpg'>
+<header class="mt-5">
+  <nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm mt-2">
+          <a href="{{ .Site.BaseURL }}">
+            <img id="header_logo" src='/img/pilogo.jpg'>
+          </a>
         </div>
-        <div class="col m8 offset-m1 s12">
-          <div id="title">
-            <h2>{{ .Site.Title }}</h2>
-            <h3 id="subtitle">
-              {{ .Site.Params.subtitle }}
-            </h3>
+        <div class="col-sm mt-5">
+          <div class="row">
+            <a href="{{ .Site.BaseURL }}">
+              <div id="title">
+                <h2>{{ .Site.Title }}</h2>
+                <h3 id="subtitle">
+                  {{ .Site.Params.subtitle }}
+                </h3>
+              </div>
+            </a>
           </div>
         </div>
+      </div>
+
     </div>
-    </a>
-    {{ $currentPage := . }} {{ range .Site.Data.social }}
-    <a href="{{ .url }}" class="social-icon hide-on-med-and-down center-align btn-floating waves-effect waves-light">
-      <i class="fab fa-{{ .identifier }}" aria-hidden="true"></i> &nbsp;&nbsp;
-    </a>
-    {{ end }}
-
-
-  </div>
+  </nav>
 </header>
