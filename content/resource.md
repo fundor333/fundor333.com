@@ -111,6 +111,7 @@ type: pages
 * [The Seven Circles of Developer Hell](https://blog.toggl.com/seven-levels-developer-hell/)
 * [IT Jobs Explained With A Broken Lightbulb](https://blog.toggl.com/lightbulb-cartoon-developers/)
 * [Terrible clients explained with pirates](https://toggl.com/worst-client-types-infographic/)
+* [Hacker Scripts Repo](https://github.com/NARKOZ/hacker-scripts)
 
 # 🕺fun
 
