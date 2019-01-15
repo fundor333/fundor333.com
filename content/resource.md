@@ -92,6 +92,7 @@ type: pages
 * [Freelancer email generator](https://toggl.com/freelance-email-generator/)
 * [The Bastard Operator From Hell -Style Excuse Server
 ](http://pages.cs.wisc.edu/~ballard/bofh/)
+* [Hacker Scripts Repo](https://github.com/NARKOZ/hacker-scripts)
 
 # 💭webcomics
 
@@ -111,7 +112,6 @@ type: pages
 * [The Seven Circles of Developer Hell](https://blog.toggl.com/seven-levels-developer-hell/)
 * [IT Jobs Explained With A Broken Lightbulb](https://blog.toggl.com/lightbulb-cartoon-developers/)
 * [Terrible clients explained with pirates](https://toggl.com/worst-client-types-infographic/)
-* [Hacker Scripts Repo](https://github.com/NARKOZ/hacker-scripts)
 
 # 🕺fun
 
