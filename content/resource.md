@@ -90,7 +90,7 @@ type: pages
 * [Carbon Shell for scrennshot](https://carbon.now.sh/)
 * [Kit](https://kit.com)
 * [Freelancer email generator](https://toggl.com/freelance-email-generator/)
-* [The Bastard Operator From Hell -Style Excuse Server
+* [The Bastard Operator From Hell - Style Excuse Server
 ](http://pages.cs.wisc.edu/~ballard/bofh/)
 * [Hacker Scripts Repo](https://github.com/NARKOZ/hacker-scripts)
 
