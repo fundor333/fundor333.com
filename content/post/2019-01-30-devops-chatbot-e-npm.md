@@ -27,3 +27,6 @@ Questo ha portato alla creazione di _N_ sistemi di notifica, deployment e automa
 
 ## Scelta delle tecnologie ovvero di che morte devo morire
 
+Qui cade la parte divertente e parte quella pesante. Per far funzionare i nostri sistemi ci siamo affidati per prima cosa a dei linguaggi con cui preparavamo degli script che, una volta lanciati, buildavano o facevano cose per la messa in produzione. Questi erano in Python e Bash e fondamentalmente ogni progetto aveva comandi diversi per la messa in opera con parametri diversi e path diversi. Una volta che si inizia ad avere tanti progetti diventa quindi necessario rivederli e unificarli in modo da stare tranquilli. Questo vale anche per il sistema di logging e notifica degli errori.
+
+### 
