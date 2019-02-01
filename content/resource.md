@@ -126,6 +126,8 @@ type: pages
 # 📽️films
 
 * [Movies For Hackers](https://hackermovie.club)
+* [The Mysterious Life Of UX Designers](https://youtu.be/gfHcnig8Lo4)
+* [The Mysterious Life of Developers](https://youtu.be/Ey3Ix7QuKPs)
 
 # 👹evil overlod
 
