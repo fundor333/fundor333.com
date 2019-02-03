@@ -81,6 +81,7 @@ type: pages
 
 * [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
 * [No Company Is So Important Its Existence Justifies Setting Up a Police State](http://nymag.com/selectall/2018/04/richard-stallman-rms-on-privacy-data-and-free-software.html)
+* [La Tigre Ed Il SysAdmin](https://www.soft-land.org//storie/06/story26)
 
 
 # 🔧utility
