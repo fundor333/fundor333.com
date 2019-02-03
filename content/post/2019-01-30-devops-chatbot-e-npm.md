@@ -1,7 +1,7 @@
 ---
 title: 'DevOps, ChatBot e NPM'
 date: 2019-01-31T10:11:07.668Z
-draft: false
+draft: true
 feature_image: /images/uploads/octocat.png
 tags:
   - devops
