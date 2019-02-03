@@ -21,7 +21,7 @@ type: pages
 * [**xmltodict**](https://github.com/martinblech/xmltodict) conversione di file _xml_ in dizionari _Python_
 * [**black**](https://black.readthedocs.io/en/stable/) formattatore per _python_
 * [**Sickle**](https://sickle.readthedocs.io/en/latest/)OAI-PMH for Humans
-* [**Tabulate**](https://bitbucket.org/astanin/python-tabulate)
+* [**Tabulate** ](https://bitbucket.org/astanin/python-tabulate)Output tabellare
 # Podcast
 
 ## 🐍python
