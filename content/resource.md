@@ -81,7 +81,8 @@ type: pages
 
 * [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
 * [No Company Is So Important Its Existence Justifies Setting Up a Police State](http://nymag.com/selectall/2018/04/richard-stallman-rms-on-privacy-data-and-free-software.html)
-* [La Tigre Ed Il SysAdmin](https://www.soft-land.org//storie/06/story26)
+* [La Tigre Ed Il SysAdmin
+](https://www.soft-land.org//storie/06/story26)
 
 
 # 🔧utility
@@ -93,7 +94,8 @@ type: pages
 * [Freelancer email generator](https://toggl.com/freelance-email-generator/)
 * [The Bastard Operator From Hell - Style Excuse Server
 ](http://pages.cs.wisc.edu/~ballard/bofh/)
-* [Hacker Scripts Repo](https://github.com/NARKOZ/hacker-scripts)
+* [Hacker Scripts
+ Repo](https://github.com/NARKOZ/hacker-scripts)
 
 # 💭webcomics
 
@@ -117,6 +119,7 @@ type: pages
 # 🕺fun
 
 * [Octodex](https://octodex.github.com)
+* [Order Dragons](http://lizardshuffle.tumblr.com)
 
 # 💬anime
 
@@ -127,7 +130,8 @@ type: pages
 # 📽️films
 
 * [Movies For Hackers](https://hackermovie.club)
-* [The Mysterious Life Of UX Designers](https://youtu.be/gfHcnig8Lo4)
+* [The Mysterious Life Of UX Designers
+](https://youtu.be/gfHcnig8Lo4)
 * [The Mysterious Life of Developers](https://youtu.be/Ey3Ix7QuKPs)
 
 # 👹evil overlod

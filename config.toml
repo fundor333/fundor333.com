@@ -11,37 +11,27 @@ title = "Fundor 333"
 [author]
 name = "Fundor 333"
 [[menu.main]]
-identifier = "gem"
-name = "resources"
-url = "/resource/"
+identifier = "🐉"
+name = "hoarding"
+url = "/hoarding/"
 weight = 4
 [[menu.main]]
-identifier = "code"
-name = "source-code"
-url = "https://github.com/fundor333/fundor333.com"
-weight = 9
-[[menu.main]]
-identifier = "calendar"
+identifier = "📅"
 name = "convention"
 url = "/event/"
 weight = 8
 [[menu.main]]
-identifier = "sticky-note"
+identifier = "💬"
 name = "talk"
 url = "/talk/"
 weight = 7
 [[menu.main]]
-identifier = "laptop"
-name = "project"
-url = "/project/"
-weight = 6
-[[menu.main]]
-identifier = "id-card"
+identifier = "👨🏻‍💻"
 name = "about"
 url = "/about/"
 weight = 5
 [[menu.main]]
-identifier = "archive"
+identifier = "📚"
 name = "blog"
 url = "/post/"
 weight = 1

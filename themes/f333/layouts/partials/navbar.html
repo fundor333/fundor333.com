@@ -12,7 +12,7 @@
       {{ $currentPage := . }} {{ range .Site.Menus.main }}
       <li class="nav-item">
         <a class="nav-link" href="{{ .URL }}">
-          <i class="fa fa-{{ .Identifier }}" aria-hidden="true"></i> {{ .Name }}</a>
+          {{ .Identifier }} {{ .Name }}</a>
       </li>
       {{ end }}
     </ul>

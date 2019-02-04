@@ -28,7 +28,7 @@ a {
 	color: $f333_red;
 
 	&:hover {
-		color: $f333_white;
+		color: $f333_color_background_secondary;
 	}
 }
 
@@ -81,9 +81,9 @@ img {
 hr {
 	display: block;
 	height: 1px;
-	border-top: 1px solid $f333_white;
+	border-top: 1px solid $f333_color_font_primary;
 	padding: 0;
-	color: $f333_white
+	color: $f333_color_font_primary
 }
 
 .btn-floating {
