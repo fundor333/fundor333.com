@@ -1,5 +1,5 @@
 ---
-title: "\U0001F48Eresource"
+title: "🐉hoarding"
 type: pages
 ---
 # Package
