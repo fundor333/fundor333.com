@@ -12,31 +12,6 @@ pygmentsUseClasses = true
 enableRobotsTXT = true
 [author]
 name = "Fundor 333"
-[[menu.main]]
-identifier = "🐉"
-name = "hoarding"
-url = "/hoarding/"
-weight = 4
-[[menu.main]]
-identifier = "📅"
-name = "convention"
-url = "/event/"
-weight = 8
-[[menu.main]]
-identifier = "💬"
-name = "talk"
-url = "/talk/"
-weight = 7
-[[menu.main]]
-identifier = "👨🏻‍💻"
-name = "about"
-url = "/about/"
-weight = 5
-[[menu.main]]
-identifier = "📚"
-name = "blog"
-url = "/post/"
-weight = 1
 [outputs]
 section = ["HTML", "RSS", "Calendar"]
 [params]
