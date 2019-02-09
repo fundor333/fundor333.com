@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 @import "_fira_code";
-@import "_pygment";
 @import "_colors";
 @import "_sizes";
 @import "_switch";
+@import "_syntax";
 
 @mixin inverted {
 	color: $f333_color_font_secondary;
@@ -157,4 +157,8 @@ hr {
 #title,
 #subtitle {
 	color: $f333_red !important;
+}
+
+.highlight {
+	text-align: left !important;
 }

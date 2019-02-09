@@ -8,6 +8,8 @@ pygmentsUseClassic = true
 rssLimit = 10
 theme = "f333"
 title = "Fundor 333"
+pygmentsUseClasses = true
+enableRobotsTXT = true
 [author]
 name = "Fundor 333"
 [[menu.main]]
