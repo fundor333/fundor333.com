@@ -23,3 +23,5 @@ anonymizeIP = true
 disable = false
 respectDoNotTrack = true
 useSessionStorage = true
+pygmentsUseClassic=true
+pygmentsOptions=["linenos = 'table'"]

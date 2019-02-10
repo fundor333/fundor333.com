@@ -12,38 +12,29 @@ type: pages
 
 ## 🐍Python
 
-* **Django** framework per generare webapp
-* **Django filter** modulo per filtrare le view su Django
-* **Django Guardian** modulo per la gestione dei permessi
-* **Reportlab** modulo per la generazione di pdf
+* [**Django**](https://www.djangoproject.com/) framework per generare webapp
+* [**Flask**](http://flask.pocoo.org/) framework per generare webapp microservices
+* [**Django filter**](https://django-filter.readthedocs.io) modulo per filtrare le view su Django
+* [**Django Guardian**](https://django-guardian.readthedocs.io) modulo per la gestione dei permessi
+* [**Reportlab**](https://www.reportlab.com/) modulo per la generazione di pdf
 * [**Beautifulsoup4**](https://beautiful-soup-4.readthedocs.io/en/latest/) modulo per la elaborazione di _xml_ e _html_
 * [**requests**](http://docs.python-requests.org/en/master/) richieste http per umani
 * [**xmltodict**](https://github.com/martinblech/xmltodict) conversione di file _xml_ in dizionari _Python_
 * [**black**](https://black.readthedocs.io/en/stable/) formattatore per _python_
 * [**Sickle**](https://sickle.readthedocs.io/en/latest/)OAI-PMH for Humans
 * [**Tabulate** ](https://bitbucket.org/astanin/python-tabulate)Output tabellare
-# Podcast
 
-## 🐍python
+# Podcast
 
 * [Podcast.**init**](https://www.podcastinit.com)
 * [Talk Python To Me](https://talkpython.fm)
 * [Pythonbytes](https://pythonbytes.fm)
 * [Import This](https://www.kennethreitz.org/import-this/)
-
-## 💻developer
-
 * [Test and Code](http://pythontesting.net)
 * [The Changelog](https://changelog.com)
 * [Request For Commits](https://changelog.com/rfc)
-
-## 👨‍💻informatica e affini
-
 * [Partially Derivative](http://partiallyderivative.com/)
 * [Go Time](https://changelog.com/gotime)
-
-## altro
-
 * [The ground up show](http://mattdavella.com/podcast)
 
 # Reading
@@ -63,17 +54,14 @@ type: pages
 ## 📓blogs
 
 * [Kenneth Reitz](https://www.kennethreitz.org)
-* [DotFiles](https://dotfiles.github.io)
-* [EditorConfig](http://editorconfig.org)
 * [N-O-D-E.Net](https://n-o-d-e.net)
 * [Storie della sala macchine](http://www.soft-land.org)
 * [Jed Henry art](http://jedhenry.tumblr.com/)
-* [Transit Map](http://transitmap.net/)
 * [UnixPorn](https://unixporn.tumblr.com/)
 * [Lettering Daily](https://lettering-daily.tumblr.com/)
 * [Time Blur - Heather Penn's art](http://happydorid.tumblr.com/)
 
-## blogs about transports
+## transports
 * [Tube Map Central](http://www.tubemapcentral.com/)
 * [Transit Map - Showing you how to get from here to there](http://www.transitmap.net/)
 
@@ -93,6 +81,8 @@ type: pages
 * [Freelancer email generator](https://toggl.com/freelance-email-generator/)
 * [The Bastard Operator From Hell - Style Excuse Server](http://pages.cs.wisc.edu/~ballard/bofh/)
 * [Hacker Scripts Repo](https://github.com/NARKOZ/hacker-scripts)
+* [DotFiles](https://dotfiles.github.io)
+* [EditorConfig](http://editorconfig.org)
 
 # 💭webcomics
 
