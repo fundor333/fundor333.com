@@ -1,4 +1,4 @@
-{
+[{
 	"language": "python",
 	"package": [{
 		"subtype": "web develop",
@@ -52,10 +52,11 @@
 				"url": "https://black.readthedocs.io/en/stable/",
 				"description": "formattatore per _python_"
 			}, {
-				"name": "Tabulate ](https://bitbucket.org/astanin/python-tabulate",
+				"name": "Tabulate",
+				"url": "https://bitbucket.org/astanin/python-tabulate",
 				"description": "Output tabellare"
 			}
 
 		]
 	}]
-}
+}]
