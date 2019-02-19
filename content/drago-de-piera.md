@@ -1,5 +1,5 @@
 ---
-title: Drago de piera
-type: page
+title: "dragodepiera"
+type: pages
 ---
 # Privacy
