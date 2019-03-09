@@ -87,6 +87,7 @@ type: pages
 * [IT Jobs Explained With A Broken Lightbulb](https://blog.toggl.com/lightbulb-cartoon-developers/)
 * [Terrible clients explained with pirates](https://toggl.com/worst-client-types-infographic/)
 * [If The World Was Created By A Programmer](https://blog.toggl.com/world-created-programmer/)
+* [Patch friday](https://patchfriday.com)
 
 # 🕺fun
 
