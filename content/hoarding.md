@@ -87,6 +87,8 @@ type: pages
 * [IT Jobs Explained With A Broken Lightbulb](https://blog.toggl.com/lightbulb-cartoon-developers/)
 * [Terrible clients explained with pirates](https://toggl.com/worst-client-types-infographic/)
 * [If The World Was Created By A Programmer](https://blog.toggl.com/world-created-programmer/)
+* [Tech carrers of the future](https://blog.toggl.com/tech-careers-future/)
+* [11 Types of Employees You Meet at a Tech Company](https://blog.toggl.com/tech-employee-stereotypes-comic/)
 * [Patch friday](https://patchfriday.com)
 
 # 🕺fun
