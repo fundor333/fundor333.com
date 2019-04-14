@@ -20,7 +20,10 @@ You need to follow the tutorial from the official documentation of [**Django Res
 
 After this you have a _MyModel_, MyModelSerializer and a view class MyModelListPost
 
-{{< highlight python >}} from rest_framework.response import Response from rest_framework.views i_port APIView from rest.models import MyModel_ from rest.serializer import MyModelSerializer
+{{< highlight python >}} 
+from rest_framework.response import Response f
+
+rom rest_framework.views i_port APIView from rest.models import MyModel_ from rest.serializer import MyModelSerializer
 
 class MyModelListPost(generics.GenericAPIView, APIView): 
     queryset = MyModel.objects.all() 
