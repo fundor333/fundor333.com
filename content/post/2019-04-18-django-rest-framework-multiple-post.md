@@ -12,23 +12,18 @@ slug: django-rest-framework-multiple-post
 description: How to make a massive put with Django Rest Framework
 
 ---
-I need to have a massive __put__ in my rest endpoint and Django Rest Framework doesn't do it. So I make my personal method for mycase.
+I need to have a massive **put** in my rest endpoint and Django Rest Framework doesn't do it. So I make my personal method for mycase.
 
 ## Setup fo the project
 
-You need to follow the tutorial from the official documentation of __[Django Rest Framework](https://www.django-rest-framework.org)__.
+You need to follow the tutorial from the official documentation of [**Django Rest Framework**](https://www.django-rest-framework.org).
 
-After this you have a _MyModel_,
+After this you have a _MyModel_, MyModelSerializer and a view class MyModelListPost
 
-{{< highlight python >}}
-from rest_framework.response import Response
-from rest_framework.views import APIView
-from rest.models import MyModel
-from rest.serializer import MyModelSerializer
+{{< highlight python >}} from rest_framework.response import Response from rest_framework.views i_port APIView from rest.models import MyModel_ from rest.serializer import MyModelSerializer
 
-
-class MyModelListPost(generics.GenericAPIView, APIView):
-    queryset = MyModel.objects.all()
+class MyModelListPost(generics.GenericAPIView, APIView): 
+    queryset = MyModel.objects.all() 
     serializer_class = MyModelSerializer
 
     def put(self, request, *args, **kwargs):
@@ -56,7 +51,7 @@ class MyModelListPost(generics.GenericAPIView, APIView):
                     stato=data["stato"],
                 )
                 created = True
-
+    
             if created:
                 serializer = self.get_serializer(data=data)
             else:
@@ -67,4 +62,5 @@ class MyModelListPost(generics.GenericAPIView, APIView):
             else:
                 output.append(serializer._errors)
         return Response(output, status=status.HTTP_200_OK)
+
 {{< / highlight >}}
