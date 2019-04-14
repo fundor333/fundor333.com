@@ -1,18 +1,17 @@
 ---
 title: 'Django Rest Framework: Multiple post'
-date: 2019-04-05T10:00:00Z
-draft: false
-feature_image: /images/uploads/octocat.png
+date: 2019-04-05 10:00:00 +0000
+feature_image: ''
 tags:
-  - django
-  - rest
-  - post
+- django
+- rest
+- post
 categories:
-  - dev
+- dev
 slug: django-rest-framework-multiple-post
 description: How to make a massive put with Django Rest Framework
----
 
+---
 I need to have a massive __put__ in my rest endpoint and Django Rest Framework doesn't do it. So I make my personal method for mycase.
 
 ## Setup fo the project
