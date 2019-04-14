@@ -1,7 +1,7 @@
 ---
 title: 'Django Rest Framework: Multiple post'
 date: 2019-04-05 10:00:00 +0000
-feature_image: ''
+feature_image: "/uploads/Apisssss.gif"
 tags:
 - django
 - rest
