@@ -1,0 +1,35 @@
+{{ define "body"}}
+<div class="row">
+  <div class="col-8">
+    <h2>package</h2>
+  </div>
+  <div class="col-4 float-right">
+    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
+    <a>~</a>
+    <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="bricciole">package</a>
+  </div>
+</div>
+<hr>
+{{ range $.Site.Data.packages }}
+
+<div class="container">
+  <h3>{{.language}}</h3>
+  <div class="row">
+    {{ range .package }}
+    <div class="col col-sm-10 offset-sm-1">
+
+      <h4>{{.subtype}}</h4>
+      {{ range .detail }}
+      <div class="col col-sm-10 offset-sm-1">
+        <a href="{{.url}}">
+          <p><b>{{.name}}</b> - {{.description}}</p>
+        </a></div>
+      {{end}}
+    </div>
+    {{end}}
+  </div>
+</div>
+
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,27 @@
+---
+label: Posts
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: feature_image
+  label: feature_image
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: description
+  label: description
+pages:
+- content/post/2019-04-18-django-rest-framework-multiple-post.md

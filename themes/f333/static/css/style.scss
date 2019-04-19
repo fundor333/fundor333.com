@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 @import "_fira_code";
-@import "_pygment";
 @import "_colors";
 @import "_sizes";
 @import "_switch";
@@ -28,7 +27,7 @@ a {
 	color: $f333_red;
 
 	&:hover {
-		color: $f333_white;
+		color: $f333_color_background_secondary;
 	}
 }
 
@@ -81,9 +80,9 @@ img {
 hr {
 	display: block;
 	height: 1px;
-	border-top: 1px solid $f333_white;
+	border-top: 1px solid $f333_color_font_primary;
 	padding: 0;
-	color: $f333_white
+	color: $f333_color_font_primary
 }
 
 .btn-floating {
@@ -157,4 +156,12 @@ hr {
 #title,
 #subtitle {
 	color: $f333_red !important;
+}
+
+.highlight {
+	text-align: left !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }

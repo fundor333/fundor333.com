@@ -1,49 +1,24 @@
 ---
-title: "\U0001F48Eresource"
+title: "\U0001F409hoarding"
 type: pages
 ---
-# Package
-
-## 🎨style
+# 🎨style
 
 * [Fira Code](https://github.com/tonsky/FiraCode)
 * [Dracula Theme](https://draculatheme.com)
 * [Nova Color](https://trevordmiller.com/projects/nova)
 
-## 🐍Python
-
-* **Django** framework per generare webapp
-* **Django filter** modulo per filtrare le view su Django
-* **Django Guardian** modulo per la gestione dei permessi
-* **Reportlab** modulo per la generazione di pdf
-* [**Beautifulsoup4**](https://beautiful-soup-4.readthedocs.io/en/latest/) modulo per la elaborazione di _xml_ e _html_
-* [**requests**](http://docs.python-requests.org/en/master/) richieste http per umani
-* [**xmltodict**](https://github.com/martinblech/xmltodict) conversione di file _xml_ in dizionari _Python_
-* [**black**](https://black.readthedocs.io/en/stable/) formattatore per _python_
-* [**Sickle**](https://sickle.readthedocs.io/en/latest/)OAI-PMH for Humans
-
 # Podcast
-
-## 🐍python
 
 * [Podcast.**init**](https://www.podcastinit.com)
 * [Talk Python To Me](https://talkpython.fm)
 * [Pythonbytes](https://pythonbytes.fm)
 * [Import This](https://www.kennethreitz.org/import-this/)
-
-## 💻developer
-
 * [Test and Code](http://pythontesting.net)
 * [The Changelog](https://changelog.com)
 * [Request For Commits](https://changelog.com/rfc)
-
-## 👨‍💻informatica e affini
-
 * [Partially Derivative](http://partiallyderivative.com/)
 * [Go Time](https://changelog.com/gotime)
-
-## altro
-
 * [The ground up show](http://mattdavella.com/podcast)
 
 # Reading
@@ -63,17 +38,14 @@ type: pages
 ## 📓blogs
 
 * [Kenneth Reitz](https://www.kennethreitz.org)
-* [DotFiles](https://dotfiles.github.io)
-* [EditorConfig](http://editorconfig.org)
 * [N-O-D-E.Net](https://n-o-d-e.net)
 * [Storie della sala macchine](http://www.soft-land.org)
 * [Jed Henry art](http://jedhenry.tumblr.com/)
-* [Transit Map](http://transitmap.net/)
 * [UnixPorn](https://unixporn.tumblr.com/)
 * [Lettering Daily](https://lettering-daily.tumblr.com/)
 * [Time Blur - Heather Penn's art](http://happydorid.tumblr.com/)
 
-## blogs about transports
+## transports
 * [Tube Map Central](http://www.tubemapcentral.com/)
 * [Transit Map - Showing you how to get from here to there](http://www.transitmap.net/)
 
@@ -81,6 +53,7 @@ type: pages
 
 * [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
 * [No Company Is So Important Its Existence Justifies Setting Up a Police State](http://nymag.com/selectall/2018/04/richard-stallman-rms-on-privacy-data-and-free-software.html)
+* [La Tigre Ed Il SysAdmin](https://www.soft-land.org//storie/06/story26)
 
 
 # 🔧utility
@@ -90,6 +63,10 @@ type: pages
 * [Carbon Shell for scrennshot](https://carbon.now.sh/)
 * [Kit](https://kit.com)
 * [Freelancer email generator](https://toggl.com/freelance-email-generator/)
+* [The Bastard Operator From Hell - Style Excuse Server](http://pages.cs.wisc.edu/~ballard/bofh/)
+* [Hacker Scripts Repo](https://github.com/NARKOZ/hacker-scripts)
+* [DotFiles](https://dotfiles.github.io)
+* [EditorConfig](http://editorconfig.org)
 
 # 💭webcomics
 
@@ -109,10 +86,15 @@ type: pages
 * [The Seven Circles of Developer Hell](https://blog.toggl.com/seven-levels-developer-hell/)
 * [IT Jobs Explained With A Broken Lightbulb](https://blog.toggl.com/lightbulb-cartoon-developers/)
 * [Terrible clients explained with pirates](https://toggl.com/worst-client-types-infographic/)
+* [If The World Was Created By A Programmer](https://blog.toggl.com/world-created-programmer/)
+* [Tech carrers of the future](https://blog.toggl.com/tech-careers-future/)
+* [11 Types of Employees You Meet at a Tech Company](https://blog.toggl.com/tech-employee-stereotypes-comic/)
+* [Patch friday](https://patchfriday.com)
 
 # 🕺fun
 
 * [Octodex](https://octodex.github.com)
+* [Order Dragons](http://lizardshuffle.tumblr.com)
 
 # 💬anime
 
@@ -123,6 +105,8 @@ type: pages
 # 📽️films
 
 * [Movies For Hackers](https://hackermovie.club)
+* [The Mysterious Life Of UX Designers](https://youtu.be/gfHcnig8Lo4)
+* [The Mysterious Life of Developers](https://youtu.be/Ey3Ix7QuKPs)
 
 # 👹evil overlod
 

@@ -1,0 +1,62 @@
+[{
+	"language": "python",
+	"package": [{
+		"subtype": "web develop",
+		"detail": [{
+			"name": "Django",
+			"description": "framework per generare webapp",
+			"url": "https://www.djangoproject.com/"
+		}, {
+			"name": "Flask",
+			"description": "framework per generare webapp microservices",
+			"url": "http://flask.pocoo.org/"
+		}]
+	}, {
+		"subtype": "django module",
+		"detail": [{
+			"name": "Django filter",
+			"url": "https://django-filter.readthedocs.io",
+			"description": "modulo per filtrare le view su Django"
+		}, {
+			"name": "Django Guardian",
+			"url": "https://django-guardian.readthedocs.io",
+			"description": "modulo per la gestione dei permessi"
+		}]
+	}, {
+		"subtype": "web tools",
+		"detail": [{
+			"name": "Beautifulsoup4",
+			"url": "https://beautiful-soup-4.readthedocs.io/en/latest/",
+			"description": "modulo per la elaborazione di _xml_ e _html_"
+		}, {
+			"name": "requests",
+			"url": "http://docs.python-requests.org/en/master/",
+			"description": "richieste http per umani"
+		}, {
+			"name": "Sickle",
+			"url": "https://sickle.readthedocs.io/en/latest/",
+			"description": "OAI-PMH for Humans"
+		}]
+	}, {
+		"subtype": "generic tools",
+		"detail": [{
+				"name": "Reportlab",
+				"url": "https://www.reportlab.com/",
+				"description": "modulo per la generazione di pdf"
+			}, {
+				"name": "xmltodict",
+				"url": "https://github.com/martinblech/xmltodict",
+				"description": "conversione di file _xml_ in dizionari _Python_"
+			}, {
+				"name": "black",
+				"url": "https://black.readthedocs.io/en/stable/",
+				"description": "formattatore per _python_"
+			}, {
+				"name": "Tabulate",
+				"url": "https://bitbucket.org/astanin/python-tabulate",
+				"description": "Output tabellare"
+			}
+
+		]
+	}]
+}]

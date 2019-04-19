@@ -1,0 +1,31 @@
+{{ define "body"}}
+<div class="row">
+  <div class="col-8">
+    <h2>project</h2>
+  </div>
+  <div class="col-4 float-right">
+    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
+    <a>~</a>
+    <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="bricciole">project</a>
+  </div>
+</div>
+<hr>
+
+
+{{ range $i, $r := $.Site.Data.project }}
+<div class="container">
+  <h3>{{.type}}</h3>
+  <div class="row">
+    {{ range .package }}
+    <div class="col col-sm-10 offset-sm-1">
+      <a href="{{.url}}">
+        <p><b>{{.name}}</b> - {{.description}}</p>
+      </a>
+    </div>
+    {{end}}
+  </div>
+</div>
+
+{{ end }}
+
+{{ end }}

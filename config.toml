@@ -8,43 +8,9 @@ pygmentsUseClassic = true
 rssLimit = 10
 theme = "f333"
 title = "Fundor 333"
+enableRobotsTXT = true
 [author]
 name = "Fundor 333"
-[[menu.main]]
-identifier = "gem"
-name = "resources"
-url = "/resource/"
-weight = 4
-[[menu.main]]
-identifier = "code"
-name = "source-code"
-url = "https://github.com/fundor333/fundor333.com"
-weight = 9
-[[menu.main]]
-identifier = "calendar"
-name = "convention"
-url = "/event/"
-weight = 8
-[[menu.main]]
-identifier = "sticky-note"
-name = "talk"
-url = "/talk/"
-weight = 7
-[[menu.main]]
-identifier = "laptop"
-name = "project"
-url = "/project/"
-weight = 6
-[[menu.main]]
-identifier = "id-card"
-name = "about"
-url = "/about/"
-weight = 5
-[[menu.main]]
-identifier = "archive"
-name = "blog"
-url = "/post/"
-weight = 1
 [outputs]
 section = ["HTML", "RSS", "Calendar"]
 [params]
@@ -56,3 +22,5 @@ anonymizeIP = true
 disable = false
 respectDoNotTrack = true
 useSessionStorage = true
+pygmentsCodeFences = true
+pygmentsStyle = "native"
