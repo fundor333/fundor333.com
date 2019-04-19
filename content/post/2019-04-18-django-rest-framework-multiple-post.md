@@ -1,11 +1,12 @@
 ---
 title: 'Django Rest Framework: Multiple post'
-date: 2119-04-05 10:00:00 +0000
+date: 2019-04-23 10:00:00 +0000
 feature_image: "/uploads/Apisssss.gif"
 tags:
 - django
 - rest
 - post
+- api
 categories:
 - dev
 slug: django-rest-framework-multiple-post
@@ -18,12 +19,23 @@ I need to have a massive **put** in my rest endpoint and Django Rest Framework d
 
 You need to follow the tutorial from the official documentation of [**Django Rest Framework**](https://www.django-rest-framework.org).
 
-After this you have a _MyModel_, MyModelSerializer and a view class MyModelListPost
+After this you have a _MyModel_, MyModelSerializer and a view class MyModelListPost.
+
+## Why I can't use the default?
+
+After you did the tutorial you have a base for a __standard__ Django Rest Framework. This mean that you have only a get massive not an update massive. So we make one from scratch.
+
+## The __CODE__
+
+This is the code for __massive put__. You need to map your classes and your fields for make this code working
 
 {{< highlight python >}} 
+# Code from https://fundor333.com
+
 from rest_framework.response import Response 
 from rest_framework.views i_port APIView 
 from rest.models import MyModel_ 
+from rest_framework import generics
 from rest.serializer import MyModelSerializer
 
 class MyModelListPost(generics.GenericAPIView, APIView): 
@@ -32,27 +44,14 @@ class MyModelListPost(generics.GenericAPIView, APIView):
 
     def put(self, request, *args, **kwargs):
         output = []
-        log.error("put")
-        log.error(str(request.data))
         for data in request.data:
             try:
                 instance = MyModel.objects.get(unique_id=data["unique_id"])
                 created = False
             except Exception:
                 instance = MyModel.objects.create(
-                    codice_MyModel=data["codice_MyModel"],
-                    codice_tratta=data["codice_tratta"],
-                    data_partenza=data["data_partenza"][:4]
-                    + "-"
-                    + data["data_partenza"][4:6]
-                    + "-"
-                    + data["data_partenza"][6:],
-                    ora_partenza=data["ora_partenza"][:2]
-                    + ":"
-                    + data["ora_partenza"][2:],
-                    codici_lingua=data["codici_lingua"],
-                    meeting_point=data["meeting_point"],
-                    stato=data["stato"],
+                    field1=data["field1"],
+                    field2=data["field2"],
                 )
                 created = True
     
@@ -68,3 +67,6 @@ class MyModelListPost(generics.GenericAPIView, APIView):
         return Response(output, status=status.HTTP_200_OK)
 
 {{< / highlight >}}
+
+In this case we use the __unique_id__ to find any instance and update one by one with the __get__ method. 
+I know it's not very Python Way but if you have some better solution please write below. Thanks

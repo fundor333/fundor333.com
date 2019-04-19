@@ -23,4 +23,4 @@ disable = false
 respectDoNotTrack = true
 useSessionStorage = true
 pygmentsCodeFences = true
-pygmentsStyle = "monokai"
+pygmentsStyle = "native"
