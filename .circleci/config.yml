@@ -3,9 +3,9 @@ jobs:
   build:
     docker:
       - image: fundor333/hugo
-    working_directory: ~/
+    working_directory: ~/project
     steps:
       - checkout
       - run:
           name: "Run Hugo"
-          command: hugo
+          command: HUGO_ENV=production hugo -v -s ~/project/src/
