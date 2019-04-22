@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: fundor333/hugo
+    working_directory: ~/
+    steps:
+      - checkout
+      - run:
+          name: "Run Hugo"
+          command: hugo
