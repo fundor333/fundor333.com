@@ -12,7 +12,7 @@ jobs:
       - checkout
 
       - run:
-          name: build static pages with Pelican
+          name: build static pages with Hugo
           command: hugo
 
 
@@ -21,6 +21,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
               echo -e "Starting to deploy to Github Pages\n"
+              apk add --update git
               cd ~/repo
               git config --global user.email "builds@circleci.com"
               git config --global user.name "CircleCI"
