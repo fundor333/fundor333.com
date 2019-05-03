@@ -1,8 +1,0 @@
-language: python
-python: "3.6"
-install: echo "Installed"
-script: curl -X POST -d '' https://api.netlify.com/build_hooks/5a97bc51df995349e9708fae
-
-branches:
-  only:
-    - master
