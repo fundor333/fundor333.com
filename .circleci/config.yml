@@ -28,13 +28,13 @@ jobs:
           cd ~/repo
           git config --global user.email "builds@circleci.com"
           git config --global user.name "CircleCI"
-          #using token clone gh-pages branch
+
           git clone --quiet --branch=$CIRCLE_BRANCH https://${GH_TOKEN}@github.com/$TARGET_REPO built_website > /dev/null
-          #go into directory and copy data we're interested in to that directory
+
           cd built_website
           echo "rsync built code with checked out code..."
           rsync -r --exclude=.git --delete ../$HUGO_OUTPUT_FOLDER/ ./
-          #add, commit and push files
+
           echo "add files to git..."
           git add -f .
           echo "commit files to git repository..."
