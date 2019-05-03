@@ -9,6 +9,7 @@ jobs:
       TARGET_REPO: fundor333/fundor333.github.io.git
       HUGO_OUTPUT_FOLDER: public
     steps:
+      - checkout
 
       - run:
           name: build static pages with Hugo
