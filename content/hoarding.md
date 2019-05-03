@@ -77,6 +77,7 @@ type: pages
 * [FishEye Placebo](https://www.yuumeiart.com/fisheye-placebo/)
 * [Emily McGovern, My Life As A Background Slytherins](http://emilymcgovern.com)
 * [Belzebubs](http://belzebubsofficial.tumblr.com/)
+* [Patch friday](https://patchfriday.com)
 
 # Dev Comics
 
@@ -89,7 +90,7 @@ type: pages
 * [If The World Was Created By A Programmer](https://blog.toggl.com/world-created-programmer/)
 * [Tech carrers of the future](https://blog.toggl.com/tech-careers-future/)
 * [11 Types of Employees You Meet at a Tech Company](https://blog.toggl.com/tech-employee-stereotypes-comic/)
-* [Patch friday](https://patchfriday.com)
+* [SysAdmin vs Terrorist](https://xkcd.com/705/)
 
 # 🕺fun
 
