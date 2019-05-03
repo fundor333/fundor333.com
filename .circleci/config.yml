@@ -22,14 +22,12 @@ jobs:
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
               echo -e "Starting to deploy to Github Pages\n"
               apk add --update git
+              apk add --update rsync
               cd ~/repo
               git config --global user.email "builds@circleci.com"
               git config --global user.name "CircleCI"
               #using token clone gh-pages branch
               git clone --quiet --branch=$CIRCLE_BRANCH https://${GH_TOKEN}@github.com/$TARGET_REPO built_website > /dev/null
-              # Installing rsync
-              echo "Installing rsync"
-              sudo apt-get -y install rsync
               #go into directory and copy data we're interested in to that directory
               cd built_website
               echo "rsync built code with checked out code..."
