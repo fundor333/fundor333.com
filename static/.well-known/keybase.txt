@@ -22,13 +22,13 @@ To do so, I am signing this object:
       "username": "fundor333"
     },
     "merkle_root": {
-      "ctime": 1556951623,
-      "hash_meta": "013fb37ac2ae75b65b78e2915e9565bc030282e6fcbc8ae51c4f8c8f1a061ef7",
-      "seqno": 5294922
+      "ctime": 1556952299,
+      "hash_meta": "c22813149e38f480594b9120d0d499c2a5b289f990d27837a7066c0371fde20c",
+      "seqno": 5294944
     },
     "revoke": {
       "sig_ids": [
-        "289a47ff8dc3d3fd3cb517146e763efe5e41d04597cbc97a1bbe59bfaa7dc85f0f"
+        "769bd4c9c4c460028c85797520659a0ba1ab87fb0c28840eaeda55564785d9840f"
       ]
     },
     "service": {
@@ -38,10 +38,10 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1556951757,
+  "ctime": 1556952358,
   "expire_in": 157680000,
-  "prev": "a9e6de5e872116f0405ebdceb42cf239edbefd42e15af37cd5c1c5503e18b472",
-  "seqno": 89,
+  "prev": "7578a63f0c0cb497d8a853dedb9bdfd9d8bfb9cdf2f6a922c345dda475c8365b",
+  "seqno": 90,
   "tag": "signature"
 }
 
@@ -49,26 +49,26 @@ which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owGtU11oHUUYvTemaRKIFUEl0iBuI1iMZedvZ+cKxp+HvLRGLa2tml7mN1nuvbu3
-u5ubxhhRjFCDihJsUypItVCxoAkWbFViUYJibOtv6EOrLcm1Cj60paJiq84Giyg+
-ui/LzJzvfOecb+b5tityzfk6fGTP4SsnP8vP/SByDx+BJ0YcEalhpzDilPTST5eV
-TtJiKVBOwXGBCxQHlFJMfeYi7mlsJEUGc6CBx12PSeT6AvqMYUyFIAZKzqAiWmAg
-qXIldrnT5Zgg7NdxNQ7C1NJ69owg5FHoe4gqQ3wFPSJchLDiWiJkuCTG823hQJRk
-FVac4IleE0R2zy6KS/L+A/8/6x5coqMeAgoAKXxisO8ppKRm2BjGORAKsAyY6Djk
-FW3RZjBUUYwQcka7nIqOS2VdjKMozdKVaZBhACEeI8CDyDrkyUCxolO+pBsZgSiX
-kGtKhM2E+hoyQDQjdiFd5EIfas9IIX2uCZDY+NI3wDoC2lArJNFbw8gpEMgwg9Aq
-iHUtKumseRL029wSp/CQY40fHuaYGuMriRQyCklBAAXY09atNppoDJSLCaO2F6PW
-qNCECcM5VdLm4BqnbzRrF9cCuUSfjerfEayRUcWKqsZRGsmobI8G0rSaFLJo0uFq
-hh3SovgXS1EEobI3xVbUdJwEUWijssh/pkYJ7XL0tmoQ62KQIQj1fNd+WR9ds5Sc
-aU9ZBz6FAHjGxa6dq52ZwFAaiJhWQhuFoQaEG0SlItJeSOIiDXyBKfw7Rp9Znbzf
-ctrwQp4OxtoZbX06jxpz+eZcx7U3Nu5ouO/B0zvll2unyxcuv65lDdnTyrW2XHV5
-J/xw+R9DN50/+cJ4b/29tte/QrUt397zcvf3P91qzu57dGNw4hw7OSd2rzKznWcO
-dK8+dnHXOz8Pzx5pW1n/4uKLc3sOjKw7umJsoWPgwhMLt61auWzt+r3w6sovK6a2
-ne65+/fuZEN557NR+29vvLVQmTl06EfsODNNfOx4SdUW172/efypzz997OPWHaub
-p+7sO9YxXh86dXD7hpeu2XQm39OyePbUR+N3MZwcvzd5paWpyUws31qbb+up9B11
-9k9P5qOh60dvfrXRQ7ffn/u197v6lpnpg7s3fjC2ff91z01tWn+ufsuTkyObeyY6
-Gx6fnXimq37pzV2vtSfnL+2b/7qzsFj6prd9/t073r4hfOCTPwE=
-=8LrC
+owGtU11oXEUU3m1SSKOGlNKASKu9rX8Qytz5uTMTKSrigyZYA7bYNrLOb3LNZu/m
+3rvbbGsoJQ8lihpKG0UQN/7QWh9qaWuKYEyh8SVGtNGAUMRaAgZtWlAUiohzg0UU
+H52XYc585zvf+c7M2G0Nuab8Itw3Md3y2hf52SWZ65kjO/d7MtI1r2O/129WNlPU
+JkkL/aH2OjzgA18Ln1KKKeMAicBgqyiyWPjGDwQIuEKAScg4x5hKSSxUgkNNjMS+
+ohooDITX7tmw1GvichyWUkcbuDuCUEAhCxDVljANAyIBQlgLoxCyQhEbMJfYFyVZ
+hhMnRWK2hpGLuUNhRd5/4P9n3ZUVOhogX/u+koxYzAKNtDIcW8uF8KX2eQZMTFwS
+A8ahbaWkoxgh5A23ewMm7i+aQhxFaeauSsMM4xMScAIh565DkfQVBkwqXKqCkPnI
+x9wg5ioBwrHkPgQaaMy5goJkki3nQEPKEBUUBIECiPpWGwiUE5KYwVLkdRDIsWvN
+KYhNNeo3WfEk7HW+JV7HHtcRn65JjRVXWOEAAMgUI5RTAkFAuABS+EIyaiVQkDEM
+jDBaECfbGUo0dxHrPTOclYuroVqhz0b1bwu2qmjAiSrHURqpqOiu+tK0nHRk1qS1
+cobda2ThL5aCDEvavRSXUTVxEkYlZ5VD/tM1RFi7Z4bKYWwKYYYgNGDArayOqWbz
+IpSJAFmggJKYU80EI0gbLbnUVnPNpJVcaQtt4KYOFcJEa4EpUQy5h/i3jdyRpqLX
+cTrzSiKtxMYbbh7No8Zcvim3oW1T4/iq7t2XX1XzXaeKv9z8XatXZV8r17ym9Wbk
+zZmm3Psndt0/EdXfeO/kk6ffen5y4tpdD6/fNjW0cbR72/WFrvzStxta9jYeKR89
+cGvDWI2XBpu3kCX5UeVLUvzwu6d33z31wNfL997yTleOHbLfRNuPbFy+eui36IO1
+k9Pzqw8er/cv+CcXf98X/XimrbN+6fzMiZFHD4/kWk8vtfTNfvXZS2vpmUsPnqpt
+vhAnSduz95x76soBuOVntK71SvXxx3pu8D+m7OGuc/Xx7ldGGxbQyOKvy8d/qHdf
+vXE9Gqqvp9vnN+9qb3373U1nr63j+TtKd97+gjq245Oxh87vfOKnj5OZTx+pdV5o
+nnv94iDs+jx87uCaozt6Xu78fq73vsr45YuTbUsLsy/2/gk=
+=Vyj9
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
