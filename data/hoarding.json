@@ -1,0 +1,380 @@
+[{
+	"category": "Nome category",
+	"types": [{
+
+			"type": "🎨style",
+			"elements": [{
+				"name": "Fira Code",
+				"url": "https://github.com/tonsky/FiraCode",
+				"description": "Font per sviluppatori"
+			}, {
+				"name": "Dracula Theme",
+				"url": "https://draculatheme.com",
+				"description": "Tema scuro multipiattaforma-multiprogramma"
+			}, {
+				"name": "Nova Color",
+				"url": "https://trevordmiller.com/projects/nova",
+				"description": "Tema alternativo scuro"
+			}]
+		},
+		{
+			"type": "podcast",
+			"elements": [{
+					"name": "Podcast.init",
+					"url": "https://www.podcastinit.com",
+					"description": ""
+				},
+				{
+					"description": "",
+					"name": "Talk Python To Me",
+					"url": "https://talkpython.fm"
+				},
+				{
+					"description": "",
+					"name": "Pythonbytes",
+					"url": "https://pythonbytes.fm"
+				},
+				{
+					"description": "",
+					"name": "Import This",
+					"url": "https://www.kennethreitz.org/import-this/"
+				},
+				{
+					"description": "",
+					"name": "Test and Code",
+					"url": "http://pythontesting.net"
+				},
+				{
+					"description": "",
+					"name": "The Changelog",
+					"url": "https://changelog.com"
+				},
+				{
+					"description": "",
+					"name": "Request For Commits",
+					"url": "https://changelog.com/rfc"
+				},
+				{
+					"description": "",
+					"name": "Partially Derivative",
+					"url": "http://partiallyderivative.com/"
+				},
+				{
+					"description": "",
+					"name": "Go Time",
+					"url": "https://changelog.com/gotime"
+				},
+				{
+					"description": "",
+					"name": "The ground up show",
+					"url": "http://mattdavella.com/podcast"
+				}
+			]
+		}, {
+			"type": "👨🏻‍🏫tutorial",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "Create Xkcd style diagram in TeX",
+					"url": "https://tex.stackexchange.com/questions/74878/create-xkcd-style-diagram-in-tex"
+				}
+			]
+		}, {
+
+
+			"type": "📝manifesto",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "12Factor Guidelines",
+					"url": "https://12factor.net"
+				},
+				{
+					"description": "",
+					"name": "Netiquette Guidelines",
+					"url": "https://tools.ietf.org/html/rfc1855"
+				},
+				{
+					"description": "",
+					"name": "The Jargon File",
+					"url": "http://www.catb.org/jargon/"
+				},
+				{
+					"description": "",
+					"name": "Hacker Manifesto",
+					"url": "http://phrack.org/issues/7/3.html"
+				}
+			]
+		}, {
+
+			"type": "📓blogs",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "Kenneth Reitz",
+					"url": "https://www.kennethreitz.org"
+				},
+				{
+					"description": "",
+					"name": "N-O-D-E.Net",
+					"url": "https://n-o-d-e.net"
+				},
+				{
+					"description": "",
+					"name": "Storie della sala macchine",
+					"url": "http://www.soft-land.org"
+				},
+				{
+					"description": "",
+					"name": "Jed Henry art",
+					"url": "http://jedhenry.tumblr.com/"
+				},
+				{
+					"description": "",
+					"name": "UnixPorn",
+					"url": "https://unixporn.tumblr.com/"
+				},
+				{
+					"description": "",
+					"name": "Lettering Daily",
+					"url": "https://lettering-daily.tumblr.com/"
+				},
+				{
+					"description": "",
+					"name": "Time Blur - Heather Penn's art",
+					"url": "http://happydorid.tumblr.com/"
+				}
+			]
+		}, {
+
+			"type": "transports",
+			"elements": [{
+				"description": "",
+				"name": "Tube Map Central",
+				"url": "http://www.tubemapcentral.com/"
+			}, {
+				"description": "",
+				"name": "Transit Map - Showing you how to get from here to there",
+				"url": "http://www.transitmap.net/"
+			}]
+		}, {
+			"type": "📚readings",
+			"elements": [{
+				"description": "",
+				"name": "Spurious Correlations",
+				"url": "http://www.tylervigen.com/spurious-correlations"
+			}, {
+				"description": "",
+				"name": "No Company Is So Important Its Existence Justifies Setting Up a Police State",
+				"url": "http://nymag.com/selectall/2018/04/richard-stallman-rms-on-privacy-data-and-free-software.html"
+			}, {
+				"description": "",
+				"name": "La Tigre Ed Il SysAdmin",
+				"url": "https://www.soft-land.org//storie/06/story26"
+			}]
+		}, {
+
+			"type": "🔧utility",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "EmojiPedia",
+					"url": "https://emojipedia.org"
+				}, {
+					"description": "",
+					"name": "Shields",
+					"url": "http://shields.io"
+				}, {
+					"description": "",
+					"name": "Carbon Shell for scrennshot",
+					"url": "https://carbon.now.sh/"
+				}, {
+					"description": "",
+					"name": "Kit",
+					"url": "https://kit.com"
+				}, {
+					"description": "",
+					"name": "Freelancer email generator",
+					"url": "https://toggl.com/freelance-email-generator/"
+				}, {
+					"description": "",
+					"name": "The Bastard Operator From Hell - Style Excuse Server",
+					"url": "http://pages.cs.wisc.edu/~ballard/bofh/"
+				}, {
+					"description": "",
+					"name": "Hacker Scripts Repo",
+					"url": "https://github.com/NARKOZ/hacker-scripts"
+				}, {
+					"description": "",
+					"name": "DotFiles",
+					"url": "https://dotfiles.github.io"
+				}, {
+					"description": "",
+					"name": "EditorConfig",
+					"url": "http://editorconfig.org"
+				}
+			]
+		}, {
+
+			"type": "💭webcomics",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "Monkeyuser",
+					"url": "http://www.monkeyuser.com/"
+				}, {
+					"description": "",
+					"name": "TurnOFF",
+					"url": "http://turnoff.us/"
+				}, {
+					"description": "",
+					"name": "Joshuaw Right",
+					"url": "http://www.joshuawright.net/"
+				}, {
+					"description": "",
+					"name": "xkcd",
+					"url": "https://xkcd.com/"
+				}, {
+					"description": "",
+					"name": "FishEye Placebo",
+					"url": "https://www.yuumeiart.com/fisheye-placebo/"
+				}, {
+					"description": "",
+					"name": "Emily McGovern, My Life As A Background Slytherins",
+					"url": "http://emilymcgovern.com"
+				}, {
+					"description": "",
+					"name": "Belzebubs",
+					"url": "http://belzebubsofficial.tumblr.com/"
+				}, {
+					"description": "",
+					"name": "Patch friday",
+					"url": "https://patchfriday.com"
+				}
+			]
+		}, {
+
+			"type": "Dev Comics",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "Save the princess with a programming language",
+					"url": "https://toggl.com/programming-princess/"
+				}, {
+					"description": "",
+					"name": "How To Build A Horse With Programming ",
+					"url": "https://blog.toggl.com/build-horse-programming/"
+				}, {
+					"description": "",
+					"name": "How to kill a dragon with 9 programming language",
+					"url": "https://blog.toggl.com/kill-dragon-comic/"
+				}, {
+					"description": "",
+					"name": "The Seven Circles of Developer Hell",
+					"url": "https://blog.toggl.com/seven-levels-developer-hell/"
+				}, {
+					"description": "",
+					"name": "IT Jobs Explained With A Broken Lightbulb",
+					"url": "https://blog.toggl.com/lightbulb-cartoon-developers/"
+				}, {
+					"description": "",
+					"name": "Terrible clients explained with pirates",
+					"url": "https://toggl.com/worst-client-types-infographic/"
+				}, {
+					"description": "",
+					"name": "If The World Was Created By A Programmer",
+					"url": "https://blog.toggl.com/world-created-programmer/"
+				}, {
+					"description": "",
+					"name": "Tech carrers of the future",
+					"url": "https://blog.toggl.com/tech-careers-future/"
+				}, {
+					"description": "",
+					"name": "11 Types of Employees You Meet at a Tech Company",
+					"url": "https://blog.toggl.com/tech-employee-stereotypes-comic/"
+				}, {
+					"description": "",
+					"name": "SysAdmin vs Terrorist",
+					"url": "https://xkcd.com/705/"
+				}
+			]
+		}, {
+
+			"type": "🤪fun",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "Octodex",
+					"url": "https://octodex.github.com"
+				}, {
+					"description": "",
+					"name": "Order Dragons",
+					"url": "http://lizardshuffle.tumblr.com"
+				}
+			]
+		}, {
+
+			"type": "💬anime",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "Bakemonogatari",
+					"url": "https://www.animeclick.it/anime/2268/bakemonogatari"
+				}, {
+					"description": "",
+					"name": "Steins Gate",
+					"url": "https://www.animeclick.it/anime/3114/steins-gate"
+				}, {
+					"description": "",
+					"name": "Psycho-Pass",
+					"url": "https://www.animeclick.it/anime/4084/psycho-pass"
+				}
+			]
+		}, {
+
+			"type": "🎥films",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "Movies For Hackers",
+					"url": "https://hackermovie.club"
+				}, {
+					"description": "",
+					"name": "The Mysterious Life Of UX Designers",
+					"url": "https://youtu.be/gfHcnig8Lo4"
+				}, {
+					"description": "",
+					"name": "The Mysterious Life of Developers",
+					"url": "https://youtu.be/Ey3Ix7QuKPs"
+				}
+			]
+		}, {
+			"type": "👹evil overlod",
+			"elements": [
+
+				{
+					"description": "",
+					"name": "Decalogo del signore del male",
+					"url": "http://www.eviloverlord.com/lists/overlord.html"
+				}, {
+					"description": "",
+					"name": "Primo decalogo delle celle",
+					"url": "http://www.eviloverlord.com/lists/dungeon_a.html"
+				}, {
+					"description": "",
+					"name": "Secondo decalogo delle celle",
+					"url": "http://www.eviloverlord.com/lists/dungeon_b.html"
+				}
+			]
+		}
+	]
+}]

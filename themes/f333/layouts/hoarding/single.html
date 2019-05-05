@@ -1,0 +1,39 @@
+{{ define "body"}}
+<div class="row">
+  <div class="col-8">
+    <h2>🐉hoarding</h2>
+  </div>
+  <div class="col-4 float-right">
+    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
+    <a>~</a>
+    <a href='{{ .Site.BaseURL }}/{{ .Permalink }}' class="bricciole">hoarding</a>
+  </div>
+</div>
+<hr>
+
+
+{{ range $i, $r := $.Site.Data.hoarding }}
+
+
+<div class="container">
+  <h3>{{.category}}</h3>
+  <div class="row">
+    {{ range .types }}
+    <div class="col col-sm-10 offset-sm-1">
+
+      <h4>{{.type}}</h4>
+      {{ range .elements }}
+      <div class="col col-sm-10 offset-sm-1">
+        <a href="{{.url}}">
+          <p><b>{{.name}}</b> {{ if .description }}- {{ .description }}{{ end }}</p>
+        </a></div>
+      {{end}}
+    </div>
+    {{end}}
+  </div>
+</div>
+
+
+{{ end }}
+
+{{ end }}
