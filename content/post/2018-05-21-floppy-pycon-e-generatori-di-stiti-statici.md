@@ -2,7 +2,7 @@
 categories = ["dev", "rant"]
 date = "2018-05-03T23:00:00Z"
 description = "Racconto della mia esperienza al Pycon 9"
-feature_image = "/uploads/2018/04/30/_1030118.jpg"
+feature_image = "/uploads/_1030118.jpg"
 slug = "floppy-pycon-e-generatori-di-siti-statici"
 tags = ["pycon", "floppy disk", "convention", "talk", "qrcode"]
 title = "Floppy, Pycon e generatori di siti statici"
