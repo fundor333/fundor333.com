@@ -31,6 +31,19 @@ a {
 	}
 }
 
+article {
+	img {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		display: block !important;
+	}
+}
+
+.twitter-tweet {
+	margin: auto;
+	text-align: right;
+}
+
 
 body {
 	font-family: "Fira Code";
@@ -97,7 +110,7 @@ hr {
 
 .card {
 	@include hover_shadow($f333_color_font_primary,
-	$f333_color_background_primary);
+		$f333_color_background_primary);
 
 
 }

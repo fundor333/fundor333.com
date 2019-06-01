@@ -1,25 +1,30 @@
 {{ define "body"}}
 
-<div class="row">
+<div class="row mx-auto d-block">
   <h2 class="text-center">{{ .Title }}</h2>
 </div>
-<div class="row mx-auto">
+<div class="row mx-auto d-block">
   <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
   <a>~</a>
   <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="bricciole">{{ .Title }}</a>
 </div>
-<hr>
+<br>
+{{with .Params.feature_image}}
+<img class="rounded mx-auto d-block" src="{{ . }}" alt="Card image cap">
+<br>
+{{end}}
 
 <article>
-{{ .Content }}
-<p>by {{ .Site.Author.name }}</p>
+  {{ .Content }}
+  <p>by {{ .Site.Author.name }}</p>
 </article>
 
 <hr>
-
-{{ with .Params.tags }} {{ range . }}
-<a class="tag col-4" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
-{{ end }} {{ end }}
+<div class="mx-auto d-block">
+  {{ with .Params.tags }} {{ range . }}
+  <a class="tag col-4" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+  {{ end }} {{ end }}
+</div>
 <hr>
 
 {{ template "_internal/disqus.html" . }}

@@ -17,8 +17,6 @@ description: Esattamente un anno fa veniva rilasciata la Nintendo Switch. Oggi, 
 ---
 Esattamente un anno fa, il 3 Marzo 2017, usciva la _Nintendo Switch_, la prima console sia fissa che portatile che la _Nintendo_ abbia mai fatto. In quella stessa data mi è stata regalata una _Nintendo Switch_ con _Zelda Breath of the Wild_, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.[^1]
 
-![Nintendo Switch](/images/post/switch/nintendo_switch.jpg)
-
 Oggi, a un anno dopo, mi metto a fare i conti su com'è la console e su che parte del mercato si è posizionata la console ibrida.
 
 ## Caratteristiche tecniche

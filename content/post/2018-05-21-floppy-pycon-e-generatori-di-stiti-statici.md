@@ -10,7 +10,7 @@ title = "Floppy, Pycon e generatori di siti statici"
 +++
 Anche quest'anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
 
-![Pc, penna e traveler jurnal](/uploads/2018/04/30/_1030118.jpg "Postazione da Pycon")Quest'anno, infatti, ho fatto svariate cose diverse dal solito:
+Pc, penna e traveler jurnal, questa é la postazione da PyconQuest'anno, infatti, ho fatto svariate cose diverse dal solito:
 
 * ho tenuto un talk
 * ho partecipato a una competizione interna
