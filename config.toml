@@ -1,5 +1,5 @@
 DefaultContentLanguage = "it"
-baseURL = "https://www.fundor333.com/"
+baseURL = "https://fundor333.com/"
 disableRSS = false
 disqusShortname = "fundor333"
 googleAnalytics = "UA-44064318-2"
