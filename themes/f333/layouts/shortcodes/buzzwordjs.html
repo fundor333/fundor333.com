@@ -1,0 +1,17 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    count = 0;
+    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
+      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
+      "Wev 3.0", "Buzzword",
+    ];
+    setInterval(function () {
+      count++;
+      $(".buzzword").fadeOut(400, function () {
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
+      });
+    }, 4000);
+  });
+
+</script>
