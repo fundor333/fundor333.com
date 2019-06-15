@@ -4,9 +4,11 @@
   <h2 class="text-center">{{ .Title }}</h2>
 </div>
 <div class="row mx-auto d-block">
-  <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
-  <a>~</a>
-  <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="bricciole">{{ .Title }}</a>
+  <div class="mx-auto d-block">
+    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
+    <a>~</a>
+    <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="bricciole">{{ .Title }}</a>
+  </div>
 </div>
 <br>
 {{with .Params.feature_image}}
