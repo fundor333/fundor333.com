@@ -1,5 +1,5 @@
 ---
-title: Pelican E Perche Generare Siti Statici
+title: Pelican E Perchè Generare Siti Statici
 date: 2018-04-20 00:00:00 +0000
 slug: pelican-e-perche-generare-siti-statici
 summary: Oggi nel web tutti hanno un sito o un blog che aggiornano e mantengono con
