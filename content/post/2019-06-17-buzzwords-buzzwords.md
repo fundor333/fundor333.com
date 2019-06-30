@@ -2,6 +2,8 @@
 title: 'Buzzwords buzzwords'
 date: 2019-06-15 10:00:00 +0000
 feature_image: "/uploads/words.jpg"
+feature_link: "https://unsplash.com/photos/GkinCd2enIY"
+feature_text: "Photo by Raphael Schaller on Unsplash"
 tags:
 - tecnology
 - buzzword

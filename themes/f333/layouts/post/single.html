@@ -4,7 +4,7 @@
   <h2 class="text-center">{{ .Title }}</h2>
 </div>
 <div class="row mx-auto d-block">
-  <div class="mx-auto d-block">
+  <div class="d-flex justify-content-center">
     <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
     <a>~</a>
     <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="bricciole">{{ .Title }}</a>
@@ -13,8 +13,9 @@
 <br>
 {{with .Params.feature_image}}
 <img class="rounded mx-auto d-block" src="{{ . }}" alt="Card image cap">
-<br>
 {{end}}
+<a class="d-flex justify-content-center" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
+<br>
 
 <article>
   {{ .Content }}
