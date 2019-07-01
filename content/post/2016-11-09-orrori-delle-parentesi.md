@@ -3,12 +3,17 @@ title: Orrori delle parentesi
 date: 2016-11-09 00:00:00 +0000
 tags:
 - programmazione
+- rant
 slug: orrori-delle-parentesi
 description: Digressione sull'uso delle parentesi nei linguaggi di programmazione
 categories:
 - rant
 aliases:
 - "/blog/orrori-delle-parentesi/"
+
+feature_image: "/images/post/orrori_della_parentesi.jpg"
+feature_link: "https://unsplash.com/photos/XMpXzzWrJ6g"
+feature_text: "Photo by Annie Spratt on Unsplash"
 
 ---
 (°,,,°)

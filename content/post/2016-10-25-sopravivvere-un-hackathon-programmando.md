@@ -11,10 +11,11 @@ categories:
 - rant
 aliases:
 - "/blog/sopravivvere-un-hackathon-programmando/"
+feature_image: "/images/post/hackathon.jpg"
 
 ---
 Esco in questi giorni da un Hackathon organizzato dalla regione Veneto
-([qui](http://www.energic-od.eu/)info), portando a casa con la mia
+([qui](http://www.energic-od.eu/) info), portando a casa con la mia
 squadra un felice e molto sudato terzo posto. Si ok abbiamo programmato
 in modo continuo per 24 ore ma seguendo poche regole capite
 successivamente dopo aver recuperto le ore di sonno.
@@ -84,4 +85,4 @@ programmatore che vuole provare a mettersi in gioco e lanciarsi in una
 corsa contro il tempo per realizzare un piccolo progetto e divertirsi.
 
 In ogni caso, il giorno dopo l'hackathon è perso causa recupero delle
-ore di sonno della gara
+ore di sonno della gara...

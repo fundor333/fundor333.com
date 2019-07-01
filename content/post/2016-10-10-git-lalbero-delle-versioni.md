@@ -12,6 +12,10 @@ categories:
 - rant
 aliases:
 - "/blog/git-lalbero-delle-versioni/"
+
+feature_image: "/images/post/git-albero-versioni.jpg"
+feature_link: "https://unsplash.com/photos/EwKXn5CapA4"
+feature_text: "Photo by Jeremy Bishop on Unsplash"
 ---
 
 Spesso e volentieri uno dei problemi dello sviluppo di software è avere
