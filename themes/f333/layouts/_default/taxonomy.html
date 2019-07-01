@@ -1,18 +1,35 @@
 {{ define "body" }}
-<div class="page-body col s10 offset-s1 f333">
-  <div class="col s12">
-    <div class="row">
-      <article>
-        <header>
-          <h1>{{.Title}}</h1>
-        </header>
-        {{.Content}}
-      </article>
-    </div>
-    <div class="row">
-      <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
-      {{ range .Data.Pages }} {{ .Render "summary"}} {{ end }}
-    </div>
+<div class="row">
+  <div class="col-8">
+    <h2>{{.Title}}</h2>
   </div>
+  <div class="col-4 float-right">
+    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
+    <a>~</a>
+    <a href='{{ .Site.BaseURL }}/{{ .URL }}' class="bricciole">{{ .Title }}</a>
+  </div>
+</div>
+<div>
+  <div class="card-columns">
+    {{ range .Data.Pages }}
+    <div class="card">
+      {{with .Params.feature_image}}
+
+      <img class="card-img-top" src="{{ . }}" alt="Card image cap">
+      {{end}}
+
+      <div class="card-body">
+        <h5 class="card-title">{{ .Title }}</h5>
+        <p class="card-text">{{ dateFormat "2006 Jan 2" .Date }}</p>
+        <p class="card-text">{{ .Description }}</p>
+        <a href="{{ .URL }}" class="btn">More</a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ partial "paginator.html" . }}
+</div>
+</div>
+</div>
 </div>
 {{ end }}
