@@ -4,6 +4,7 @@ date: 2016-10-03 00:00:00 +0000
 tags:
 - docker
 - virtual machine
+- tool
 description: Docker, cos'è e come funziona
 slug: docker-la-balena-con-i-container
 categories:

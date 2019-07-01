@@ -4,6 +4,7 @@ date: 2016-11-07 00:00:00 +0000
 tags:
 - git
 - gource
+- tool
 slug: gource-visualizzare-git-repository
 description: Gource, cos'è e come usarlo al meglio
 categories:
@@ -11,6 +12,9 @@ categories:
 aliases:
 - "/blog/gource-visualizzare-git-repository/"
 
+feature_image: "/images/post/gource-git.jpg"
+feature_link: "https://unsplash.com/photos/TYUS-cXzy50"
+feature_text: "Photo by Mark Tegethoff on Unsplash"
 ---
 Quando hai un progetto Git, normalmente lo usi per fare controllo delle
 versioni.\

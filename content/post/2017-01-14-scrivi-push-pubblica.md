@@ -5,6 +5,9 @@ tags:
 - github
 - wordpress
 - container
+- pelican
+- travis
+- git
 slug: scrivi-push-public
 categories:
 - dev

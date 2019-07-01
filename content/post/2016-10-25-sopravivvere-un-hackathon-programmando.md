@@ -5,6 +5,7 @@ tags:
 - hackathon
 - programmazione
 - tutorial
+- rant
 slug: sopravivvere-un-hackathon-programmando
 description: Sommario della mia avventura all'Hackathon eodappathon
 categories:
