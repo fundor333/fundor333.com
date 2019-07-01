@@ -13,6 +13,9 @@ description: Come un mio tentativo di imparare a usare i decoratori in python è
 aliases:
 - "/dev/bot-telegram-e-programmazione-funzionale/"
 
+feature_image: "/images/post/bot-telegram.jpg"
+feature_link: "https://unsplash.com/photos/3WLcQWnHB_Q"
+feature_text: "Photo by Mae Mu on Unsplash"
 ---
 Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.
 

@@ -15,7 +15,9 @@ description: Come scrivere un blog interamente in pelican, gestito in github e t
   con autopubblicazioni
 aliases:
 - "/dev/scrivi-push-public/"
-
+feature_image: "/images/post/scrivi-push.jpg"
+feature_link: "https://unsplash.com/photos/ICW6QYOcdlg"
+feature_text: "Photo by Galymzhan Abdugalimov on Unsplash"
 ---
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.
 
