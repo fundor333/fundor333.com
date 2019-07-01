@@ -2,9 +2,8 @@
 title: Ruby e il mio attuale lavoro
 date: 2017-08-17 00:00:00 +0000
 tags:
-- status
+- rant 
 - ruby
-- lavoro
 slug: ruby-e-il-mio-lavoro
 description: Ho trovato un lavoro e ho dovuto imparare Ruby e la cosa non mi piace
 categories:

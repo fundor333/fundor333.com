@@ -10,8 +10,9 @@ slug: grumpy-come-convertire-il-serpente-nel-gopher
 description: Cos'è Grumpy e come la penso su questo progetto di Google e le sue conseguenze
 categories:
 - rant
-aliases:
-- "/blog/grumpy-come-convertire-il-serpente-nel-gopher/"
+feature_image: "/images/post/grumpy-go.jpg"
+feature_link: "https://unsplash.com/photos/ICW6QYOcdlg"
+feature_text: "Photo by Marius Masalar on Unsplash"
 
 ---
 Io sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.
