@@ -19,10 +19,32 @@
 
   <link rel="stylesheet" type="text/css" href="/css/style.css" />
 
-  <title> {{ .Title }} | {{ .Site.Title }} </title>
-  <meta name="description" content="">
+  <title>{{ .Title | default .Site.Title }}
+      {{ if not .IsHome }} - {{ .Site.Params.Shorttitle }}{{ end }}
+      </title>  <meta name="description" content="">
   <meta name="author" content="{{ with .Params.author.name }}{{ end }}">
 
+  <meta name="description" content="{{ with .Description }}
+  {{ . }}
+  {{ else }}
+  {{if .IsPage}}{{ .Summary }}
+  {{ else }}{{ with .Site.Params.description }}
+  {{ . }}
+  {{ end }}{{ end }}{{ end }}">
+
+  {{ if and (eq .Kind "taxonomy") (eq .Type "categories")}}
+  <meta name="robots" content="noindex, follow"/>
+  {{ else }}
+  <meta name="robots" content="index, follow"/>
+  {{ end }}
+
+  {{ if or (eq .Kind "home") (eq .Kind "page")}}
+  {{ if isset .Params "canonical" }}
+  <link rel="canonical" href="{{ .Params.Canonical}}" />
+  {{ else }}
+  <link rel="canonical" href="{{ .Permalink}}" />
+  {{ end }}
+  {{ end }}
 
   {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
