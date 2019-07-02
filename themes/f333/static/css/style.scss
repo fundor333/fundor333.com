@@ -3,6 +3,7 @@
 @import "_colors";
 @import "_sizes";
 @import "_switch";
+@import "_breaking_points";
 
 @mixin inverted {
 	color: $f333_color_font_secondary;
@@ -22,6 +23,14 @@
 			6px 6px 20px 6px $shadow_color;
 	}
 }
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
 
 a {
 	color: $f333_red;
@@ -120,6 +129,15 @@ hr {
 		color: $f333_red;
 	}
 }
+
+.card-columns {
+      @include media-breakpoint-down(xl) {
+	  column-count: 2;
+	}
+	@include media-breakpoint-only(xl) {
+	  column-count: 3;
+	}
+      }
 
 .center-img {
 	display: block;
