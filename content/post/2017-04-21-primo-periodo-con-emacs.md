@@ -13,7 +13,6 @@ description: Diario del mio primo periodo di utilizzo di Emacs
 aliases:
 - "/dev/il-primo-periodo-con-emacs/"
 
-
 feature_image: "/images/post/primo-periodo-emacs.jpg"
 feature_link: "https://unsplash.com/photos/xf6_UOfnwLw"
 feature_text: "Photo by Joshua Oluwagbemiga on Unsplash"
