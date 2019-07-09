@@ -21,6 +21,7 @@ feature_text: "Photo by Daniil Kuželev on Unsplash"
 E per caso mi ritrovo a dover parlare al Pycon... E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
 
 Facciamo un po' di ordine:
+
 * Ho un blog gestito attraverso un *generatore di siti statici*
 * Passo spesso tra *Pelican* e *Hugo* come generatore del blog, in quanto non mi trovo con entrambi
 * Ho una passione per il formato file .TeX e per LaTeX
