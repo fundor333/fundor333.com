@@ -20,7 +20,7 @@
   <link rel="stylesheet" type="text/css" href="/css/style.css" />
 
   <title>{{ .Title | default .Site.Title }}
-      {{ if not .IsHome }} - {{ .Site.Params.Shorttitle }}{{ end }}
+      {{ if not .IsHome }} - {{ .Site.Title }}{{ end }}
       </title>  <meta name="description" content="">
   <meta name="author" content="{{ with .Params.author.name }}{{ end }}">
 
