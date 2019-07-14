@@ -52,7 +52,27 @@ article {
 	margin: auto;
 	text-align: right;
 }
-
+   
+// Blockquote CSS
+blockquote {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3em;
+	position: relative;
+	padding-left: 1em;
+	border-left: 0.2em solid lighten($f333_red, 40%);
+	font-family: 'Coda', cursive;
+	font-weight: 100;
+	font-style: italic;
+	&:before, &:after {
+	    content: '\201C';
+	    font-family: 'Sanchez';
+	    color: lighten($f333_red, 40%);
+	 }
+	 &:after {
+	    content: '\201D';
+	 }
+      }
 
 body {
 	font-family: "Fira Code";
