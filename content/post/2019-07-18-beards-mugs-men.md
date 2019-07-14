@@ -83,7 +83,32 @@ They allways have the same fu__ing mug
 
 Allways clean and with black coffee but allways the same fu__ing mug because *"it's original"*[^2]. Because the owner is a front-end developer the owner keep the mug in pristine state.
 
+## BackEnd Mug
 
+A mug. Inside there is *the darkness* a concentrated black coffee or a black stuff (old cofee) merged with the inside of the mug. Outside there is one of this:
+
+* *__:q! for exit__* The most difficult task ever: exit vim
+* *__Logo of framework brought at somethingconvention__* When the backend dev is also a fanboy
+* *__Joke moking FrontEnd__* Because backend is the *real* thing
+
+## Helpdesk first level/noob's Mug
+
+A *new* mug with *Linux inside* or *powered by Linux*. Sometime the mug is a *Debian* or *Ubuntu* mug. Nothing special like the owner...
+
+## Helpdesk second level's Mug
+
+An *old* mug with *Linux inside* or *powered by Linux*. Sometime the mug is a *Debian* or *Ubuntu* mug. The mug has seen better days. Usualy full of pen and dust.
+
+## Helpdesk third level's Mug
+
+It *was* a mug with a penguin/debian logo/ubuntu logo printed on it but now look like more a mug with cave painting on it. Full of broken pen and *a* pencil which is the only thingworking in the "mug". Sometime the mug is a little broken.
+
+## Sysadmin's Mug
+
+A mug with coffe in it. Sometime Irish coffee, sometime only wishky. On the outside there is a frase like "fuck off", "sysadmin give, sysadmin take away" or "open a ticket then i look at it" or, my preferite, "if you have a problem it is your problem not mine".
+Only sometime you will find a sysadmin with the *vim command sheet*'s mug.
+
+This are some of the type of mug I find in my worklife. If i find other i will create a second part of this post.
 
 
 [^1]: An exquisite tea from the Fujian province, where it is grown in gardens. Its name is due to its pearl-like shape. With a pronounced jasmine aroma, it has a soft taste and digestive properties that make it very recommendable for drinking on its own after meals. 
