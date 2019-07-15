@@ -91,6 +91,8 @@ A mug. Inside there is *the darkness* a concentrated black coffee or a black stu
 * *__Logo of framework brought at somethingconvention__* When the backend dev is also a fanboy
 * *__Joke moking FrontEnd__* Because backend is the *real* thing
 
+![Darkness Mug](/images/post/mug-darkness.jpg)
+
 ## Helpdesk first level/noob's Mug
 
 A *new* mug with *Linux inside* or *powered by Linux*. Sometime the mug is a *Debian* or *Ubuntu* mug. Nothing special like the owner...
