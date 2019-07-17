@@ -3,8 +3,11 @@ jobs:
   build:
     docker:
       - image: fundor333/hugo
+        environment:
+          TZ: "Europe/Rome"
     working_directory: ~/repo
     environment:
+      TZ: "Europe/Rome"
       BRANCH: master
       TARGET_REPO: fundor333/fundor333.github.io.git
       HUGO_OUTPUT_FOLDER: public
