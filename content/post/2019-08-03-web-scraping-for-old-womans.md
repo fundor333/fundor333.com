@@ -27,7 +27,7 @@ Fist, a lot of grannies didn't understand *the net* or *the internet* and what y
 
 Second you need to give her something of value for her day to day life if you want to impress her.
 
-So I find her some Knitting Patterns! And I found a *__lot__* of site with _free_ knitting patterns so I choose a site for start the scraping.
+So I find her some Knitting Patterns! And I found a *__lot__* of site with _free_ knitting patterns so I choose a site for start the scraping [this site](https://www.yarn.com/categories/free-knitting-patterns).
 
 Ok it's look like something too obvious for a granny to love knitting but remember: also Dumbledors *loves* knitting.
 
