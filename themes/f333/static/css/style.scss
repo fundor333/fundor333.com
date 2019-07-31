@@ -24,13 +24,11 @@
 	}
 }
 
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
-);
+$grid-breakpoints: (xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px);
 
 a {
 	color: $f333_red;
@@ -48,11 +46,7 @@ article {
 	}
 }
 
-.twitter-tweet {
-	margin: auto;
-	text-align: right;
-}
-   
+
 // Blockquote CSS
 blockquote {
 	margin-left: 5%;
@@ -64,15 +58,18 @@ blockquote {
 	font-family: 'Coda', cursive;
 	font-weight: 100;
 	font-style: italic;
-	&:before, &:after {
-	    content: '\201C';
-	    font-family: 'Sanchez';
-	    color: lighten($f333_red, 40%);
-	 }
-	 &:after {
-	    content: '\201D';
-	 }
-      }
+
+	&:before,
+	&:after {
+		content: '\201C';
+		font-family: 'Sanchez';
+		color: lighten($f333_red, 40%);
+	}
+
+	&:after {
+		content: '\201D';
+	}
+}
 
 body {
 	font-family: "Fira Code";
@@ -122,9 +119,9 @@ img {
 hr {
 	display: block;
 	height: 1px;
-	border-top: 1px solid $f333_color_font_primary;
+	border-top: 1px solid $f333_red;
 	padding: 0;
-	color: $f333_color_font_primary
+	color: $f333_red;
 }
 
 .btn-floating {
@@ -137,38 +134,6 @@ hr {
 	@include hover_shadow($f333_color_font_primary, $f333_red);
 }
 
-.card {
-	@include hover_shadow($f333_color_font_primary,
-		$f333_color_background_primary);
-
-
-}
-
-.card-content {
-	a {
-		color: $f333_red;
-	}
-}
-
-.card-columns {
-	@include media-breakpoint-down(sm){
-		column-count: 1;
-	}
-      @include media-breakpoint-between(sm,xl) {
-	  column-count: 2;
-	}
-	@include media-breakpoint-only(xl) {
-	  column-count: 3;
-	}
-      }
-
-.center-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
 .bricciole {
 	&:before {
 		content: "<<";
@@ -179,6 +144,54 @@ hr {
 	}
 }
 
+.card {
+	@include hover_shadow($f333_color_font_primary,
+		$f333_color_background_primary);
+	border-radius: 50px 50px 50px 50px !important;
+
+	.card-img-top {
+		border-radius: 50px 50px 5px 5px !important;
+	}
+
+	.card-img-top-post {
+		border-radius: 50px 50px 0px 0px !important;
+	}
+}
+
+.card-content {
+	a {
+		color: $f333_red;
+	}
+}
+
+.card-columns {
+	@include media-breakpoint-down(sm) {
+		column-count: 1;
+	}
+
+	@include media-breakpoint-between(sm, xl) {
+		column-count: 2;
+	}
+
+	@include media-breakpoint-only(xl) {
+		column-count: 3;
+	}
+}
+
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.highlight {
+	text-align: left !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 .page-social {
 	a {
@@ -207,15 +220,13 @@ hr {
 	color: $f333_color_font_primary;
 }
 
+
+.twitter-tweet {
+	margin: auto;
+	text-align: right;
+}
+
 #title,
 #subtitle {
 	color: $f333_red !important;
-}
-
-.highlight {
-	text-align: left !important;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
 }
