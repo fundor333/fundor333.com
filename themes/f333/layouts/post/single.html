@@ -11,15 +11,19 @@
   </div>
 </div>
 <br>
-{{with .Params.feature_image}}
-<img class="rounded mx-auto d-block" src="{{ . }}" alt="Card image cap">
-{{end}}
-<a class="d-flex justify-content-center" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
+
+<div class="card">
+  <img class="rounded mx-auto d-block card-img-top-post" src="{{ .Params.feature_image }}" alt="Card image cap">
+  <br>
+  <a class="d-flex justify-content-center card-link" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
+  <br>
+</div>
 <br>
 
+<br>
 <article>
-  {{ .Content }}
-  <p>by {{ .Site.Author.name }}</p>
+      {{ .Content }}
+      <p>by {{ .Site.Author.name }}</p>
 </article>
 
 <hr>
