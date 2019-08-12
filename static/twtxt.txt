@@ -1,2 +1,3 @@
 2019-08-12T14:38:00+02:00   Hello world!
 2019-08-12T16:00:00+02:00   [Blog Post: Beards, Mugs and Men] "A response about mugs to a rant about beards" https://fundor333.com/post/beards-mugs-men/
+2019-08-12T23:24:26+02:00	And now I have unstalled TwTXT in my machine
