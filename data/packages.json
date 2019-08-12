@@ -10,6 +10,10 @@
 			"name": "Flask",
 			"description": "framework per generare webapp microservices",
 			"url": "http://flask.pocoo.org/"
+		},{
+			"name": "Twtxt",
+			"description": "twtxt is a decentralised, minimalist microblogging service for hackers",
+			"url": "https://twtxt.readthedocs.io"
 		}]
 	}, {
 		"subtype": "django module",
