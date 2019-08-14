@@ -16,7 +16,8 @@ jobs:
 
       - run:
           name: build static pages with Hugo
-          command: hugo
+          command: |
+            apk add --update py-pygments && hugo
 
 
       - deploy:
