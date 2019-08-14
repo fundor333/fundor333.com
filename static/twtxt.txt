@@ -1,3 +1,4 @@
 2019-08-12T14:38:00+02:00   Hello world!
 2019-08-13T14:24:00+02:00   Thanks @<ckipp https://chronica.xyz/hallway.txt> 
 2019-08-13T17:24:00+02:00   Thanks @<ckipp https://chronica.xyz/hallway.txt> for the fix. Now I can chat
+2019-08-14T22:30:00+02:00   I am thinking about an Android app for read twtxt chats. Suggestions?
