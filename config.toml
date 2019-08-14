@@ -12,7 +12,7 @@ enableRobotsTXT = true
 [author]
 name = "Fundor 333"
 [outputs]
-section = ["HTML", "RSS", "Calendar"]
+section = ["HTML", "RSS"]
 [params]
 subtitle = "import antigravity"
 [privacy.disqus]
