@@ -14,7 +14,7 @@
       <h5 class="card-title">{{ .Title }}</h5>
       <p class="card-text">{{ dateFormat "2006 Jan 2" .Date }}</p>
       <p class="card-text">{{ .Description }}</p>
-      <a href="{{ .URL }}" class="btn">More</a>
+      <a href="{{ .Permalink }}" class="btn">More</a>
     </div>
   </div>
   {{ end }}
