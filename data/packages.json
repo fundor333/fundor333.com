@@ -25,6 +25,10 @@
 			"name": "Django Guardian",
 			"url": "https://django-guardian.readthedocs.io",
 			"description": "modulo per la gestione dei permessi"
+		},{
+			"name": "Django Datatables view",
+			"url": " django-datatables-view ",
+			"description": "Django implementation for Datatables"
 		}]
 	}, {
 		"subtype": "web tools",
