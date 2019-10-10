@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import "_fira_code";
 @import "_colors";
 @import "_sizes";
 @import "_switch";
 @import "_breaking_points";
+
 
 @mixin inverted {
 	color: $f333_color_font_secondary;
@@ -72,7 +74,7 @@ blockquote {
 }
 
 body {
-	font-family: "Fira Code";
+	font-family: 'Raleway', sans-serif;
 	background-color: $f333_color_background_primary;
 	color: $f333_color_font_primary;
 	display: flex;
