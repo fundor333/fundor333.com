@@ -185,15 +185,14 @@ hr {
 	    box-shadow: 0px -7px 6px -9px black;
 	    transform: rotate(135deg);
 	}
-	.card-img-top {
-		border-radius: 0px !important;
+	.card-img-top , .card-img-top-post {
+		padding: 15px;
 	}
-
-	.card-img-top-post {
-		border-radius: 0px !important;
+	.card-link{
+		padding-bottom: 10px;
 	}
     }
-    
+
 
 .card-content {
 	a {
