@@ -33,7 +33,7 @@ $grid-breakpoints: (xs: 0,
 	xl: 1200px);
 
 a {
-	color: $f333_red;
+	color: $f333_color_link;
 
 	&:hover {
 		color: $f333_color_background_secondary;
@@ -56,7 +56,7 @@ blockquote {
 	margin-bottom: 3em;
 	position: relative;
 	padding-left: 1em;
-	border-left: 0.2em solid lighten($f333_red, 40%);
+	border-left: 0.2em solid lighten($f333_color_link, 40%);
 	font-family: 'Coda', cursive;
 	font-weight: 100;
 	font-style: italic;
@@ -65,7 +65,7 @@ blockquote {
 	&:after {
 		content: '\201C';
 		font-family: 'Sanchez';
-		color: lighten($f333_red, 40%);
+		color: lighten($f333_color_link, 40%);
 	}
 
 	&:after {
@@ -109,7 +109,7 @@ body {
 }
 
 footer {
-	color: $f333_red;
+	color: $f333_color_link;
 }
 
 footer,
@@ -118,12 +118,14 @@ img {
 	height: auto;
 }
 
+h1,h2,h3,h4,h5,h6{color: $f333_color_title;}
+
 hr {
 	display: block;
 	height: 1px;
-	border-top: 1px solid $f333_red;
+	border-top: 1px solid $f333_color_link;
 	padding: 0;
-	color: $f333_red;
+	color: $f333_color_link;
 }
 
 .btn-floating {
@@ -133,7 +135,7 @@ hr {
 	width: 40px;
 	height: 173.21px;
 	height: 40px;
-	@include hover_shadow($f333_color_font_primary, $f333_red);
+	@include hover_shadow($f333_color_font_primary, $f333_color_link);
 }
 
 .bricciole {
@@ -157,10 +159,11 @@ hr {
 	position: relative;
 	margin: auto;
 	top: 30px;
-    
 	box-shadow: 0 0 0;
-    
 	webkit-box-shadow: 0;
+
+	background-color: $color2;
+	color: $f333_color_background_primary;
     
 	::after {
 	    content: "";
@@ -196,7 +199,7 @@ hr {
 
 .card-content {
 	a {
-		color: $f333_red;
+		color: $f333_color_link;
 	}
 }
 
@@ -237,7 +240,7 @@ hr {
 
 .pagination {
 	li.active {
-		background-color: $f333_red;
+		background-color: $f333_color_link;
 	}
 }
 
@@ -269,5 +272,5 @@ hr {
 
 #title,
 #subtitle {
-	color: $f333_red !important;
+	color: $f333_color_link !important;
 }
