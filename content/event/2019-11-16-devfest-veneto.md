@@ -1,6 +1,6 @@
 ---
 title: 'DevFest Veneto 2019'
-date: 2019-11-16T09:30:00.000Z
+date: 2019-11-15T09:30:00.000Z
 talk: DataBeers
 slot:
   end: 2019-11-16T07:00:00.000Z
