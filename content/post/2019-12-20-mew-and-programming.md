@@ -10,6 +10,7 @@ tags:
 - programming
 categories:
 - dev
+- zeta target
 slug: mew-and-programming
 description: Why you can find a Mew under a truck
 ---
@@ -34,8 +35,17 @@ Like in this gif.
 
 ![A gif about the myth](/images/post/mew/mew.gif)
 
+This is a Myth. The only way you can do it in this way you need do inject some code into the savefile/game and run it. After doing so you can use the pokemon with *Surf* and *Stength* as explained before.
+
+This is a video where the gamer inject code in a Pokemon game and make this *MythGlich* happen.
 
 {{< youtube i2x3pIvVnP4 >}}
+
+# The fact
+
+You can get Mew in the game without *GameShark*[^2] or other methods of injecting code into it.
+
+1. Official Pokemon Event for Red/Blue[^3]
 
 ## Bibliography
 - [How to find a Mew in Pokemon Red/Blue](https://www.wikihow.com/Find-Mew-in-Pok%C3%A9mon-Red/Blue)
@@ -43,4 +53,5 @@ Like in this gif.
 
 [^1]: The first event pokemon, a pokemon you can find only going to a GameFreak Pokemon Event, the famouse 151° Pokemon
 [^biblio1]: The link I wrote in my old schoolbook... 
-[^2]: Altro
+[^2]: Cheat enging hardware for many console [wiki](https://en.wikipedia.org/wiki/GameShark)
+[^3]: Not in program in any future time
