@@ -11,18 +11,19 @@
     <th></th>
   </tr>
   {{range sort .Pages ".Params.convention.date" "desc"}}
-  <td>
-    <a href="{{.Permalink}}">{{.Title}}{{with .Params.convention}}{{end}}</a>
-  </td>
-  <td>{{.Params.convention.date}} {{.Params.convention.hour}}</td>
-  <td>
-    {{ .Params.convention.event}}
-  </td>
-  <td>
-    <a href="{{.Permalink}}">
-      <i class="fa fa-link"></i>
-    </a>
-  </td>
+  <tr>
+    <td>
+      <a href="{{.Permalink}}">{{.Title}}{{with .Params.convention}}{{end}}</a>
+    </td>
+    <td>{{dateFormat "2006-01-02" .Params.convention.date}} {{.Params.convention.hour}}</td>
+    <td>
+      {{ .Params.convention.event}}
+    </td>
+    <td>
+      <a href="{{.Permalink}}">
+        <i class="fa fa-link"></i>
+      </a>
+    </td>
   </tr>
   {{end}}
 </table>
