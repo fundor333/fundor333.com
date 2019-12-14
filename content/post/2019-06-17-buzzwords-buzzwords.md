@@ -9,6 +9,7 @@ tags:
 - buzzword
 - rant
 categories:
+- zeta target
 - dev
 slug: buzzwords-buzzwords
 description: Un rant sulle buzzwords

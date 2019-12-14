@@ -9,6 +9,7 @@ tags:
 - devrant
 categories:
 - dev
+- zeta target
 slug: beards-mugs-men
 description: A response about mugs to a rant about beards 
 

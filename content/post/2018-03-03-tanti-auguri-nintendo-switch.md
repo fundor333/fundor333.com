@@ -4,6 +4,7 @@ date: 2018-03-03 00:00:00 +0000
 feature_image: "/images/post/switch/nintendo_switch.jpg"
 category:
 - rant
+- zeta target
 tags:
 - nintendo
 - nintendo switch
@@ -23,16 +24,16 @@ Oggi, a un anno dopo, mi metto a fare i conti su com'è la console e su che part
 Partiamo dalla parte completamente oggettiva: le specifiche tecniche.
 
 
-Tipo | Dettagli 
---- | --- 
-**Dimensioni** | 102 mm x 239 mm x 13,9 mm
-**Peso** | 400 g con controller attaccati
-**Schermo** | Touch screen capacitivo / 6,2 pollici LCD / risoluzione 1280 x 720
-**GPU/CPU** | Processore NVIDIA Tegra
-**Memoria** | 32 GB di cui almeno 6,2 GB occupati dal sistema operativo
-**Connessione** | Wireless LAN (compatibile IEEE 802.11 a/b/g/n/ac) / Bluetooth 4.1 (solo per la modalità TV)
-**Uscita Video** | 1920x1080 con 60 fps via HDMI su TV. 1280x720 con 60 fps sullo schermo integrato
-**Sensori** | Accelerometro / giroscopio / sensore di luminosità
+| Tipo             | Dettagli                                                                                    |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| **Dimensioni**   | 102 mm x 239 mm x 13,9 mm                                                                   |
+| **Peso**         | 400 g con controller attaccati                                                              |
+| **Schermo**      | Touch screen capacitivo / 6,2 pollici LCD / risoluzione 1280 x 720                          |
+| **GPU/CPU**      | Processore NVIDIA Tegra                                                                     |
+| **Memoria**      | 32 GB di cui almeno 6,2 GB occupati dal sistema operativo                                   |
+| **Connessione**  | Wireless LAN (compatibile IEEE 802.11 a/b/g/n/ac) / Bluetooth 4.1 (solo per la modalità TV) |
+| **Uscita Video** | 1920x1080 con 60 fps via HDMI su TV. 1280x720 con 60 fps sullo schermo integrato            |
+| **Sensori**      | Accelerometro / giroscopio / sensore di luminosità                                          |
 
 Semplicemente da questi dati si capisce che la console risulta essere meno _potente_ delle rivali della _Sony_ e _Windows_. Questo però è causato dalla possibilità di giocare "al volo" con la modalità portatile e quindi, dal mio punto di vista, è uno scambio equo per permettere alla batteria di avere una durata _più che accettabile_.
 
