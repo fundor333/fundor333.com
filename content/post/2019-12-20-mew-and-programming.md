@@ -43,9 +43,12 @@ This is a video where the gamer inject code in a Pokemon game and make this *Myt
 
 # The fact
 
-You can get Mew in the game without *GameShark*[^2] or other methods of injecting code into it.
+You can get Mew in the game:
 
-1. Official Pokemon Event for Red/Blue[^3]
+1. *GameShark*[^2] or other methods of injecting code into it (*GameShark* was the easy one)
+2. Official Pokemon Event for Red/Blue[^3]
+3. Make a glitch wich spawn Mew
+
 
 ## Bibliography
 - [How to find a Mew in Pokemon Red/Blue](https://www.wikihow.com/Find-Mew-in-Pok%C3%A9mon-Red/Blue)
