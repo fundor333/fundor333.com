@@ -71,6 +71,41 @@ blockquote {
 	&:after {
 		content: '\201D';
 	}
+
+	&.twitter-tweet {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		line-height: 16px;
+		border-color: #eee #ddd #bbb;
+		border-radius: 5px;
+		border-style: solid;
+		border-width: 1px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+		padding: 0 16px 16px 16px;
+		max-width: 468px;
+
+		p {
+			font-size: 16px;
+			font-weight: normal;
+			line-height: 20px;
+		}
+
+		a {
+			color: inherit;
+			font-weight: normal;
+			text-decoration: none;
+			outline: 0 none;
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
 }
 
 body {
@@ -157,41 +192,44 @@ hr {
 	position: relative;
 	margin: auto;
 	top: 30px;
-    
+
 	box-shadow: 0 0 0;
-    
+
 	webkit-box-shadow: 0;
-    
+
 	::after {
-	    content: "";
-	    display: block;
-	    position: absolute;
-	    border: 50px solid transparent;
-	    border-bottom: 50px solid $f333_color_background_primary;
-	    bottom: -60px;
-	    right: -65px;
-	    box-shadow: 0px 7px 6px -9px black;
-	    transform: rotate(135deg);
+		content: "";
+		display: block;
+		position: absolute;
+		border: 50px solid transparent;
+		border-bottom: 50px solid $f333_color_background_primary;
+		bottom: -60px;
+		right: -65px;
+		box-shadow: 0px 7px 6px -9px black;
+		transform: rotate(135deg);
 	}
-    
+
 	::before {
-	    content: "";
-	    display: block;
-	    position: absolute;
-	    border: 50px solid transparent;
-	    border-top: 50px solid $f333_color_background_primary;
-	    top: -60px;
-	    left: -65px;
-	    box-shadow: 0px -7px 6px -9px black;
-	    transform: rotate(135deg);
+		content: "";
+		display: block;
+		position: absolute;
+		border: 50px solid transparent;
+		border-top: 50px solid $f333_color_background_primary;
+		top: -60px;
+		left: -65px;
+		box-shadow: 0px -7px 6px -9px black;
+		transform: rotate(135deg);
 	}
-	.card-img-top , .card-img-top-post {
+
+	.card-img-top,
+	.card-img-top-post {
 		padding: 15px;
 	}
-	.card-link{
+
+	.card-link {
 		padding-bottom: 10px;
 	}
-    }
+}
 
 
 .card-content {
@@ -263,8 +301,8 @@ hr {
 }
 
 
-.webring{
-	max-width:  20px !important;	
+.webring {
+	max-width: 20px !important;
 }
 
 #title,
