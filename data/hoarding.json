@@ -311,8 +311,15 @@
 					"description": "",
 					"name": "SysAdmin vs Terrorist",
 					"url": "https://xkcd.com/705/"
-				}
-			]
+				},
+				{
+				"description": "",
+				"name": "Explaining Software Development Methods By Flying To Mars",
+				"url": "https://blog.toggl.com/mars-software-development/"}
+			,				{
+				"description": "",
+				"name": "9 Crucial Employees Every Startup Should Have In Their Deck",
+				"url": "https://blog.toggl.com/startup-employees-deck/"}]
 		}, {
 
 			"type": "🤪fun",
