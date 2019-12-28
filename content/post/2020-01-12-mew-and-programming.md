@@ -1,6 +1,6 @@
 ---
 title: "Mew and programming"
-date: 2019-12-21 00:00:00 +0000
+date: 2020-01-12 00:00:00 +0000
 feature_image: "/images/post/pokemon.jpg"
 feature_link: "https://unsplash.com/photos/Sb2FkPFiadg"
 feature_text: "Photo by Ryan Quintal on Unsplash"
@@ -12,7 +12,7 @@ categories:
     - dev
     - zeta target
 slug: mew-and-programming
-description: Why you can find a Mew under a truck
+description: Why you can find a Mew under a truck on Pokemon Blue, Red and Green
 ---
 
 This is a story about a myth about how to find Mew[^1].
@@ -50,12 +50,25 @@ You can get Mew in the game:
 2. Official Pokemon Event for Red/Blue[^3]
 3. Make a glitch wich spawn Mew
 
-## Bibliography
+We don't want to use a _GameShark_ or similar so #1 is not a possibility.
 
--   [How to find a Mew in Pokemon Red/Blue](https://www.wikihow.com/Find-Mew-in-Pok%C3%A9mon-Red/Blue)
--   [How to find a Mew in Pokemon Red/Blue, old link](http://pokedex.kary.ca/catchmew.shtml) [^biblio1]
+A Nintendo event with a direct trade is not appening for Red/Blue so #2 is not a possibility any more.
+
+You can make a glitch wich spaw Mew in many way. If you want to do it use the guide [^biblio] [^biblio1]
+
+But why it's work?
+
+## The HOW TO
+
+When a loading appen in the game (open a menu, enter into a battle, enter into a house/cave/door or a random encounter) the game reade a _memory slot_. This has an adress and it is also in an other memory slot so if you can change the adress in the memory you can use other part of the memory of the game. So when you use one of the guide you are editing one or more memory adress so, the normal loading change because the adress is loading is not what are you suppose to load.
+
+This is also the way of the video linked in the post works.
+He pass a glitch/edited pokemon which change a lot of _memory slot_ so happens a lots of not standard stuff (like moving the truck).
+
+If i find some specifical data about this i will post about it
 
 [^1]: The first event pokemon, a pokemon you can find only going to a GameFreak Pokemon Event, the famouse 151° Pokemon
-[^biblio1]: The link I wrote in my old schoolbook...
 [^2]: Cheat enging hardware for many console [wiki](https://en.wikipedia.org/wiki/GameShark)
 [^3]: Not in program in any future time
+[^biblio]: The "official link" into WikiHow [How to find a Mew in Pokemon Red/Blue](https://www.wikihow.com/Find-Mew-in-Pok%C3%A9mon-Red/Blue)
+[^biblio1]: The link I wrote in my old schoolbook... [How to find a Mew in Pokemon Red/Blue, old link](http://pokedex.kary.ca/catchmew.shtml)
