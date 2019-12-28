@@ -11,6 +11,10 @@ tags:
 slug: "make-tea-not-big-data"
 categories: 
     - rant
-description: "A rant about workspace and data managment"
+description: "A rant about workspace and data managment with tea"
 ---
+
+# The story
+
+I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
 
