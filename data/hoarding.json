@@ -221,6 +221,11 @@
 					"name": "EditorConfig",
 					"url": "http://editorconfig.org"
 				}
+				, {
+					"description": "",
+					"name": "Python Release cycle",
+					"url": "https://python-release-cycle.glitch.me/"
+				}
 			]
 		}, {
 
