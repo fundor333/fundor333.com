@@ -41,4 +41,4 @@ This one is where you have some space for progress for the big data
 
 ## Assam Black Tea - Generic DB with Web app
 
-> We start in a good way
+> We start in a good way but this is a generic solution
