@@ -110,6 +110,11 @@
 					"description": "",
 					"name": "Hacker Manifesto",
 					"url": "http://phrack.org/issues/7/3.html"
+				},
+				{
+					"description": "",
+					"name": "Repair Manifesto",
+					"url": "https://www.ifixit.com/Manifesto"
 				}
 			]
 		}, {
