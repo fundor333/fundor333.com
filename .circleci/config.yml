@@ -19,7 +19,6 @@ jobs:
           command: |
             apk add --update py-pygments && hugo
 
-
       - deploy:
           name: Deploy static pages to Github Pages
           command: |
@@ -50,7 +49,6 @@ jobs:
             else
               echo "Not master branch, dry run only"
             fi
-
 
 workflows:
   version: 2
