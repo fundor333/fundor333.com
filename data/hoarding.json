@@ -237,17 +237,14 @@
 				}
 			]
 		}, {
-			"type": "🧰toolbox", 
-			"elements": [
-				{
-					"description": "",
-					"name": "Gitea, OpenSource Version Controll Host",
-					"url": "https://gitea.io/"
-				}
-			]
-		}
-						,
-						{
+			"type": "🧰toolbox",
+			"elements": [{
+				"description": "",
+				"name": "Gitea, OpenSource Version Controll Host",
+				"url": "https://gitea.io/"
+			}]
+		},
+		{
 
 			"type": "💭webcomics",
 			"elements": [
