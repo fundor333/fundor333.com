@@ -1,41 +1,40 @@
 +++
 categories = ["dev"]
 date = "2018-06-11"
-description = "Cosa succede adesso che Microsoft possiede GitHub e tutti i progetti collegati"
+description = "Now what appen because Microsoft own Github and all theire project?"
 feature_image = "/uploads/2018/06/09/microsoft-github.png"
-slug = "microsoft-compra-atom-electron-e-l-open-source"
+slug = "microsoft-buy-atom-electron-and-open-source"
 tags = ["github", "microsoft", "electron", "atom"]
-title = "Microsoft compra Atom, Electron e l'Open Source"
+title = "Microsoft buy Atom, Electron and Open Source"
 
-+++
-Microsoft ha acquistato GitHub. Partendo da questa cosa ci sono molti discorsi che si possono fare partendo dalla domanda che tutti si fanno: "_Cosa cambierà nella gestione dei progetti Open Source e/o pubblici?_"
++++Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: "_Whas are going to change into the OpenSource comunity or into the public code?_"
 
-La risposta che apparentemente molti sviluppatori hanno date è qualcosa come "_Non mi fido e non voglio rischiare_" e hanno fatto la migrazione su Gitlab dei loro progetti.
+Many developer thinks about this and say something similar to "_I do not want to risc my project so goodby_" and the move to GitLab all theire code.
 
 {{< tweet 1004143715844124673 >}}
 
-Personalmente l'acquisto di Github mi ha fatto molto pensare. Quanto del mio codice affiderei ad una ditta terzi che non controllo?
-E questo mi ha fatto pensare. Ci sono dei progetti che io ritengo molto importanti e che sento la necessità di avere comunque io.
-Questo mi ha portato a crearmi un host per i miei repo, o per lo meno quelli che ritengo importanti.
+I think a lot about this acquisition of Github and I have a lot of dubts. How much code am I willing to give to a company that i not controll or own?
+And this make me think more and more. I have some project I feel value more so I feel the need to have in mi controll.
+And now I own a self hosting for my code or realy my personal important work.
 
+And sometime after, I find on twitter an four year old retweet that talk about the acquisition and, for years ago, only Microsot will buy it. And this leave me with more "_I don't understand_" than before
 
-E poi, su twitter trovo un retweet vecchio di 4 anni che afferma che l'unico che potrebbe acquistare Github è Microsoft. E questo mi ha fatto pensare ancora di più.
 {{< tweet 430871267881672704 >}}
 
-Questo tweet mi ha fatto pensare a cosa realmente è l'acquisto di Github, ovvero l'acquisto di più servizi, non solo il codice del sito Github.
+And this make mi understand that owning Github you don't own Github code (site) but all the service make arrown Github.
 
-* [_Electron_](https://electronjs.org) Libreria JS e motore di Visual Studio Code, a cui Microsoft partecipa allo sviluppo
-* [_Atom_](https://atom.io) Edito di testo, attualmente alternativa a Visual Studio Code, altamente customizzabile
-* [_HuBot_](https://hubot.github.com) Framework per bot integrabili con Github
+-   [_Electron_](https://electronjs.org) JS Library for building desktop app
+-   [_Atom_](https://atom.io) Text Editor, alternative to Visual Studio Code by Microsoft, with lots of plugin
+-   [_HuBot_](https://hubot.github.com) Framework for bot for Slack and other services
 
-I miei dubbi si esplicano in alcune domande:
+My questions are:
 
-* Dato che Github aveva problemi Microsoft la ha acquistata per mantenerla a galla e funzionante?
-* Sono interessati a prendere il controllo del mondo OpenSource? O vogliono solo contribuire?
-* Vogliono controllare più pesantemente lo sviluppo di Electron?
-* Vogliono controllare lo sviluppo di Atom?
-* Vogliono aumentare i servizi collegati ad Azure legando Github e tutto il marketplace?
+-   Github has problems. Microsoft buying it will solve the problems or kill GitHub?
+-   The want to controll the OpenSource word or the only want to work with it?
+-   They want more contoll over Electron and his development?
+-   They want to controll Atom development?
+-   They want to make more Azure into Github service and all the marketplace?
 
-Solo il tempo ce lo dirà e sono curioso di cosa faranno con Github e posso solo dire di essere triste che questo colosso dell'Open Source ora è legato a uno dei Big 5[^1]
+Only time will tell and i am curious about what will do with GitHub and I only be sad because one of the Big 5[^1] of Tecnology own this OpenSource Colossum.
 
 [^1]: Apple, Microsoft, Amazon, Facebook, Google
