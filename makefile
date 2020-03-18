@@ -1,8 +1,8 @@
 develop:
-	hugo server --disableFastRender & sass --watch themes/f333/static/css/style.scss:themes/f333/static/css/style.css --style compressed
+	hugo server --disableFastRender 
 
 developfuture:
-	hugo server --disableFastRender --buildFuture & sass --watch themes/f333/static/css/style.scss:themes/f333/static/css/style.css --style compressed
+	hugo server --disableFastRender --buildFuture 
 
 developall:
-	hugo server --disableFastRender --buildFuture --buildDrafts & sass --watch themes/f333/static/css/style.scss:themes/f333/static/css/style.css --style compressed
+	hugo server --disableFastRender --buildFuture --buildDrafts
