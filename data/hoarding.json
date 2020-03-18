@@ -1,23 +1,6 @@
 [{
 	"category": "Nome category",
 	"types": [{
-
-			"type": "🎨style",
-			"elements": [{
-				"name": "Fira Code",
-				"url": "https://github.com/tonsky/FiraCode",
-				"description": "Font per sviluppatori"
-			}, {
-				"name": "Dracula Theme",
-				"url": "https://draculatheme.com",
-				"description": "Tema scuro multipiattaforma-multiprogramma"
-			}, {
-				"name": "Nova Color",
-				"url": "https://trevordmiller.com/projects/nova",
-				"description": "Tema alternativo scuro"
-			}]
-		},
-		{
 			"type": "podcast",
 			"elements": [{
 					"name": "Podcast.init",

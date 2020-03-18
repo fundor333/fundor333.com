@@ -10,7 +10,7 @@
 			"name": "Flask",
 			"description": "framework per generare webapp microservices",
 			"url": "http://flask.pocoo.org/"
-		},{
+		}, {
 			"name": "Twtxt",
 			"description": "twtxt is a decentralised, minimalist microblogging service for hackers",
 			"url": "https://twtxt.readthedocs.io"
@@ -25,7 +25,7 @@
 			"name": "Django Guardian",
 			"url": "https://django-guardian.readthedocs.io",
 			"description": "modulo per la gestione dei permessi"
-		},{
+		}, {
 			"name": "Django Datatables view",
 			"url": " django-datatables-view ",
 			"description": "Django implementation for Datatables"
@@ -66,5 +66,24 @@
 			}
 
 		]
+	}]
+}, {
+	"language": "others",
+	"package": [{
+
+		"subtype": "style",
+		"detail": [{
+			"name": "Fira Code",
+			"url": "https://github.com/tonsky/FiraCode",
+			"description": "Font per sviluppatori"
+		}, {
+			"name": "Dracula Theme",
+			"url": "https://draculatheme.com",
+			"description": "Tema scuro multipiattaforma-multiprogramma"
+		}, {
+			"name": "Nova Color",
+			"url": "https://trevordmiller.com/projects/nova",
+			"description": "Tema alternativo scuro"
+		}]
 	}]
 }]
