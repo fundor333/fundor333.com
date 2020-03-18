@@ -165,3 +165,5 @@ prepros-6\.config
 
 *.backup
 .sass-cache
+
+resources/_gen/
