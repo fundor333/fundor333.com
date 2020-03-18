@@ -9,6 +9,7 @@ rssLimit = 10
 theme = "f333"
 title = "Fundor 333"
 enableRobotsTXT = true
+linenos = true
 [author]
 name = "Fundor 333"
 [outputs]
