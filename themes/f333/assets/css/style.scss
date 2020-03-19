@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import "_fira_code";
 @import "_colors";
 @import "_sizes";
 @import "_switch";
-@import "_breaking_points";
 
+$break-small: 600px;
+$break-large: 1200px;
 
 @mixin inverted {
 	color: $f333_color_font_secondary;
@@ -239,15 +239,20 @@ hr {
 }
 
 .card-columns {
-	@include media-breakpoint-down(sm) {
+
+	@media mobile {
 		column-count: 1;
 	}
 
-	@include media-breakpoint-between(sm, xl) {
+	@media (max-width: $break-small) {
+		column-count: 1;
+	}
+
+	@media (min-width: $break-small) and (max-width: $break-large) {
 		column-count: 2;
 	}
 
-	@include media-breakpoint-only(xl) {
+	@media (min-width: $break-large) {
 		column-count: 3;
 	}
 }
