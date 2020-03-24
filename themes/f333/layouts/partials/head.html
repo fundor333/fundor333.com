@@ -32,29 +32,20 @@
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-  {{ $options := (dict "outputStyle" "compressed") }} {{ $style := resources.Get
-  "css/style.scss" | resources.ToCSS $options }}
+  {{ $options := (dict "outputStyle" "compressed") }} {{ $style := resources.Get "css/style.scss" | resources.ToCSS $options }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
   <title>
-    {{ .Title | default .Site.Title }} {{ if not .IsHome }} - {{ .Site.Title
-    }}{{ end }}
+    {{ .Title | default .Site.Title }} {{ if not .IsHome }} - {{ .Site.Title }}{{ end }}
   </title>
   <meta name="author" content="Fundor333" />
 
   <meta
     name="description"
-    content="{{ with .Description }}
-  {{ . }}
-  {{ else }}
-  {{if .IsPage}}{{ .Summary }}
-  {{ else }}{{ with .Site.Params.description }}
-  {{ . }}
-  {{ end }}{{ end }}{{ end }}"
+    content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"
   />
 
-  {{ if or (eq .Kind "home") (eq .Kind "page")}} {{ if isset .Params "canonical"
-  }}
+  {{ if or (eq .Kind "home") (eq .Kind "page")}} {{ if isset .Params "canonical" }}
   <link rel="canonical" href="{{ .Params.Canonical}}" />
   {{ else }}
   <link rel="canonical" href="{{ .Permalink}}" />
@@ -63,7 +54,8 @@
   ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end -}}
 
   <!-- layouts/partials/head.html -->
-  {{ template "_internal/opengraph.html" . }} {{ template
-  "_internal/google_news.html" . }} {{ template "_internal/schema.html" . }} {{
-  partial "seo/twitter.html" . }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template  "_internal/google_news.html" . }}
+  {{ template "_internal/schema.html" . }}
+  {{  partial "seo/twitter.html" . }}
 </head>
