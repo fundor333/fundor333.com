@@ -1,35 +1,32 @@
 {{ define "body"}}
-<div class="row">
-  <div class="col-8">
-    <h2>package</h2>
-  </div>
-  <div class="col-4 float-right">
-    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
-    <a>~</a>
-    <a href='{{ .Permalink }}' class="bricciole">package</a>
-  </div>
-</div>
-<hr>
-{{ range $.Site.Data.packages }}
+<article class="ph3 ph3-m ph6-l">
+  <h2 class="f3 f1-m f-headline-l center mw8">package</h2>
 
-<div class="container">
-  <h3>{{.language}}</h3>
-  <div class="row">
-    {{ range .package }}
-    <div class="col col-sm-10 offset-sm-1">
+  <a href="{{ .Site.BaseURL }}" class="link dim black b">home</a>
+  <a>~</a>
+  <a href='{{ .Permalink }}' class="link dim black b">package</a>
 
-      <h4>{{.subtype}}</h4>
-      {{ range .detail }}
-      <div class="col col-sm-10 offset-sm-1">
-        <a href="{{.url}}">
-          <p><b>{{.name}}</b> - {{.description}}</p>
-        </a></div>
-      {{end}}
-    </div>
+
+  <hr>
+  {{ range $.Site.Data.packages }}
+
+  <h3 class="f1 f1-m">{{.language}}</h3>
+  {{ range .package }}
+
+  <dl class="lh-title pa4 mt0">
+
+    <dt class="f3 b">{{.subtype}}</dt>
+    {{ range .detail }}
+    <a href="{{.url}}" class="link dim black b">
+      <dd class="20">
+        <p><b>{{.name}}</b> - {{.description}}</p>
+      </dd>
+    </a>
     {{end}}
-  </div>
-</div>
+  </dl>
+  {{end}}
+  </dl>
 
-{{ end }}
-
+  {{ end }}
+</article>
 {{ end }}

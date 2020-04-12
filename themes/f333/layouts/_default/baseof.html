@@ -5,21 +5,22 @@
 
 <body>
   {{ block "mainbody" . }}
-  <div class="container">
-    <div class="row">
-      {{ partial "top_head.html" . }}
-    </div>
-    <div class="row">
-      {{ partial "navbar.html" . }}
-    </div>
-  </div>
-  <hr>
-  <div class="container">
+  <header class="tc">
+    <a href="{{ .Site.BaseURL }}" class="f4 fw7 dib pa2 no-underline black">
+      <img src="/img/pilogo.jpg" class="br-100 pa1  b--black-10 h4 w4" alt="avatar">
+      <h1 class="f5 f4-ns fw6">{{ .Site.Title }}</h1>
+      <h2 class="f6 fw2">{{ .Site.Params.subtitle }}</h2>
+    </a>
+  </header>
+
+  {{ partial "navbar.html" . }}
+
+  <br>
+  <div class="center mw8 mv4">
     {{ block "body" . }} {{ end }}
   </div>
-  <hr>
+  <br>
   {{ partial "footer.html" . }}
-  </div>
   {{ end }} {{ partial "script.html" . }}
 </body>
 

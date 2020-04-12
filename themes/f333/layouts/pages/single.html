@@ -1,16 +1,13 @@
 {{ define "body"}}
-<div class="row">
-  <div class="col-8">
-    <h2>{{ .Title }}</h2>
-  </div>
-  <div class="col-4 float-right">
-    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
-    <a>~</a>
-    <a href='{{ .Permalink }}' class="bricciole">{{ .Title }}</a>
-  </div>
-</div>
-<hr>
+<article class="ph3 ph3-m ph6-l">
+  <h2 class="f3 f1-m f-headline-l">{{ .Title }}</h2>
 
-{{ .Content }}
+  <a href="{{ .Site.BaseURL }}" class="link dim black b">home</a>
+  <a>~</a>
+  <a href='{{ .Permalink }}' class="link dim black b">{{ .Title }}</a>
+  <hr>
 
-{{ end }}
+  {{ .Content }}
+
+
+  {{ end }}

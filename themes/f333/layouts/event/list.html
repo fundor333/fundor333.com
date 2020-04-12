@@ -1,32 +1,40 @@
 {{ define "body"}}
-{{if ne .Content ""}}
-<h1>{{.Title}}</h1>
-{{.Content}} {{end}}
-<table>
-  <tr>
-    <th>Start</th>
-    <th>End</th>
-    <th>Name</th>
-    <th>Location</th>
-    <th>Link</th>
-  </tr>
-  {{range sort .Pages ".Params.slot.start" "desc"}}
-  <tr>
-    <td>{{dateFormat "2006-01-02" .Params.slot.start}}</td>
-    <td>{{dateFormat "2006-01-02" .Params.slot.end}}</td>
+<article class="ph3 ph3-m ph6-l">
 
-    <td>
-      <a href="{{.Permalink}}">{{.Title}}{{with .Params.talk}} &mdash; {{.}}{{end}}</a>
-    </td>
-    <td>
-      {{ .Params.slot.location}}
-    </td>
-    <td>
-      <a href="{{ .Params.slot.url }}">
-        <strong>#</strong>
-      </a>
-    </td>
-  </tr>
+  {{if ne .Content ""}}
+  <h2 class="f5 mw8 f1-m f-headline-l center">{{.Title}}</h2>
+  {{ .Content | replaceRE "<p>" "<p class=\"f4 mb4 center measure\">" | safeHTML }}
   {{end}}
-</table>
+  <table class="f5 w-100 mw8 center">
+    <thead>
+      <tr>
+        <th class="fw6 bb b--black-20 tl pb3 pr3">Start</th>
+        <th class="fw6 bb b--black-20 tl pb3 pr3">End</th>
+        <th class="fw6 bb b--black-20 tl pb3 pr3">Name</th>
+        <th class="fw6 bb b--black-20 tl pb3 pr3">Location</th>
+        <th class="fw6 bb b--black-20 tl pb3 pr3">Link</th>
+      </tr>
+    </thead>
+    <tbody class="lh-copy">
+      {{range sort .Pages ".Params.slot.start" "desc"}}
+      <tr>
+        <td class="pv3 pr3 bb b--black-20">{{dateFormat "2006-01-02" .Params.slot.start}}</td>
+        <td class="pv3 pr3 bb b--black-20">{{dateFormat "2006-01-02" .Params.slot.end}}</td>
+
+        <td class="pv3 pr3 bb b--black-20">
+          <a class="link dim black" href="{{.Permalink}}">{{.Title}}{{with .Params.talk}} &mdash; {{.}}{{end}}</a>
+        </td>
+        <td class="pv3 pr3 bb b--black-20">
+          {{ .Params.slot.location}}
+        </td>
+        <td class="pv3 pr3 bb b--black-20">
+          <a class="link dim black" href="{{ .Params.slot.url }}">
+            <strong>#</strong>
+          </a>
+        </td>
+      </tr>
+      {{end}}
+  </table>
+
+</article>
 {{ end }}

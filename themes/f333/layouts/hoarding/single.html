@@ -1,38 +1,24 @@
 {{ define "body"}}
-<div class="row">
-  <div class="col-8">
-    <h2>🐉hoarding</h2>
-  </div>
-  <div class="col-4 float-right">
-    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
-    <a>~</a>
-    <a href='{{ .Permalink }}' class="bricciole">hoarding</a>
-  </div>
-</div>
-<hr>
+<article class="ph3 ph3-m ph6-l">
+  <h2 class="f3 f1-m f-headline-l">🐉hoarding</h2>
+  <a href="{{ .Site.BaseURL }}" class="link dim black b">home</a>
+  <a>~</a>
+  <a href='{{ .Permalink }}' class="link dim black b">package</a>
+  <hr>
+
+  {{ range $i, $r := $.Site.Data.hoarding }}
 
 
-{{ range $i, $r := $.Site.Data.hoarding }}
-
-
-<div class="container">
-  <div class="row">
-    {{ range .types }}
-    <div class="col col-sm-10 offset-sm-1">
-
-      <h4>{{.type}}</h4>
-      {{ range .elements }}
-      <div class="col col-sm-10 offset-sm-1">
-        <a href="{{.url}}">
-          <p><b>{{.name}}</b> {{ if .description }}- {{ .description }}{{ end }}</p>
-        </a></div>
-      {{end}}
-    </div>
-    {{end}}
-  </div>
-</div>
-
-
-{{ end }}
-
+  {{ range .types }}
+  <h3 class="f3 b ph6">{{.type}}</h3>
+  {{ range .elements }}
+  <a href="{{.url}}" class="link dim black">
+    <dd class="ph6">
+      <p><b>{{.name}}</b> {{ if .description }}- {{ .description }}{{ end }}</p>
+    </dd>
+  </a>
+  {{end}}
+  {{end}}
+  {{ end }}
+</article>
 {{ end }}

@@ -1,20 +1,15 @@
-<div class="container">
-  <nav class="nav mx-auto">
-    {{ $currentPage := . }} {{ range .Site.Data.social }}
-    <li class="nav-item mx-auto">
-      <a class="nav-link" href="{{ .url }}">
-        <i class="fab fa-{{ .identifier }}" aria-hidden="true"></i> &nbsp;&nbsp;</a>
-    </li>
-    {{ end }}
-  </nav>
-  <nav class="mx-auto">
-    <ul class="nav d-flex justify-content-center">
-      {{ $currentPage := . }} {{ range .Site.Data.menu }}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ .url }}">
-          {{ .name }}</a>
-      </li>
-      {{ end }}
-    </ul>
-  </nav>
-</div>
+<nav class="tc pv2">
+  {{ $currentPage := . }} {{ range .Site.Data.social }}
+  <a class="link dim black b f6 f5-ns dib mr3" href="{{ .url }}">
+    <i class="fab fa-{{ .identifier }}" aria-hidden="true">
+    </i>
+  </a>
+  {{ end }}
+</nav>
+<nav class="tc pv2">
+  {{ $currentPage := . }} {{ range .Site.Data.menu }}
+  <a class="link dim black b f6 f5-ns dib mr3" href="{{ .url }}">
+    {{ .name }}
+  </a>
+  {{ end }}
+</nav>

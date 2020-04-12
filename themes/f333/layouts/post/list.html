@@ -1,23 +1,28 @@
 {{ define "body" }}
-<hr>
-<div class="card-columns">
+<section class="ph3 ph3-m ph6-l">
   {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
 
   {{ range $paginator.Pages }}
-  <div class="card">
-    {{with .Params.feature_image}}
 
-    <img class="card-img-top" src="{{ . }}" alt="Card image cap">
-    {{end}}
-
-    <div class="card-body">
-      <h5 class="card-title">{{ .Title }}</h5>
-      <p class="card-text">{{ dateFormat "2006 Jan 2" .Date }}</p>
-      <p class="card-text">{{ .Description }}</p>
-      <a href="{{ .Permalink }}" class="btn">More</a>
+  <article class="center mw8  mv4">
+    <div class="pv2 ph3">
+      <h1 class="f6 ttu tracked">{{ .Title }}</h1>
     </div>
-  </div>
+    <a href="{{ .Permalink }}" class="link dim black b">
+      {{with .Params.feature_image}}
+      <img src="{{ . }}" class="w-100 db" alt="Card image cap">
+      {{end}}
+    </a>
+    <div class="pa3">
+      <a href="{{ .Permalink }}" class="link dim black b">{{ .Description }}</a>
+      <small class="gray db pv2">{{ dateFormat "2006 Jan 2" .Date }}</small>
+    </div>
+  </article>
+  <hr>
+
   {{ end }}
-</div>
-<hr>
-{{ partial "paginator.html" . }}{{ end }}
+
+
+  {{ partial "paginator.html" . }}
+
+  {{ end }}

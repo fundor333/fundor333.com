@@ -4,7 +4,7 @@ disableRSS = false
 disqusShortname = "fundor333"
 googleAnalytics = "UA-44064318-2"
 languageCode = "it-it"
-pygmentsUseClassic = true
+
 rssLimit = 10
 theme = "f333"
 title = "Fundor 333"
@@ -30,3 +30,14 @@ pygmentsStyle = "native"
   changefreq = "dayly"
   filename = "sitemap.xml"
   priority = 0.8
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    style = "monokai"
+    tabWidth = 4

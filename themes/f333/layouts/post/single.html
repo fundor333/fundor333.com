@@ -1,40 +1,34 @@
 {{ define "body"}}
 
-<div class="row mx-auto d-block">
-  <h2 class="text-center">{{ .Title }}</h2>
-</div>
-<div class="row mx-auto d-block">
-  <div class="d-flex justify-content-center">
-    <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
-    <a>~</a>
-    <a href='{{ .Permalink }}' class="bricciole">{{ .Title }}</a>
-  </div>
-</div>
-<br>
-
-<div class="card">
-  <img class="rounded mx-auto d-block card-img-top-post" src="{{ .Params.feature_image }}" alt="Card image cap">
+<article class="ph3 ph3-m ph6-l">
+  <h2 class="f2">{{ .Title }}</h2>
+  <a href="{{ .Site.BaseURL }}" class="link dim black b">home</a>
+  <a>~</a>
+  <a href='{{ .Permalink }}' class="link dim black b">{{ .Title }}</a>
   <br>
-  <a class="d-flex justify-content-center card-link" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
+  <hr>
+
+  <article class="center mw8 ba b--black-10 mv4">
+    {{with .Params.feature_image}}
+    <img src="{{ . }}" class="w-100 db" alt="Card image cap">
+    {{end}}
+    </a>
+    <div class="pa3">
+      <a href="{{ .Params.feature_link}}" class="link dim black b">{{.Params.feature_text}}</a>
+    </div>
+  </article>
+
   <br>
-</div>
-<br>
+  {{ .Content  }}
+  <p>by {{ .Site.Author.name }}</p>
 
-<br>
-<article>
-      {{ .Content }}
-      <p>by {{ .Site.Author.name }}</p>
-</article>
 
-<hr>
-<div class="mx-auto d-block">
+  <hr>
   {{ with .Params.tags }} {{ range . }}
-  <a class="tag col-4" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+  <a class="link dim black b tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
   {{ end }} {{ end }}
-</div>
-<hr>
-
-{{ template "_internal/disqus.html" . }}
-<hr>
-
+  <hr>
+  {{ template "_internal/disqus.html" . }}
+  <hr>
+</article>
 {{ end }}

@@ -1,18 +1,15 @@
 {{ define "body"}}
 
-<h1 class="text-center">{{.Title}}{{with .Params.talk}} &mdash; {{.}}{{end}}</h1>
-<p>{{dateFormat "2006-09-02 15:04" .Params.slot.start}} -- {{dateFormat "2006-09-02 15:04" .Params.slot.end}}</p>
-<hr>
-<div class="event-content">
-  {{.Content}}
-</div>
-<hr>
-{{if ne .Summary .Content}}
-<a class="left" href="{{ .Params.slot.url }}">Full Event Details</a> {{end}}
-<!--
-      {{if .Params.slot.video }}
-      <a class="right" href="{{ .Params.slot.video }}"> Video</a>
-      {{end}}
-      -->
+<article class="ph3 ph3-m ph6-l">
+  <h2 class="f2">{{.Title}}</h2>
+  {{with .Params.talk}}<h2 class="f3">{{.}}</h2>{{end}}
+  <p class="f4 mb4 center measure ">{{dateFormat "2006-09-02 15:04" .Params.slot.start}} --
+    {{dateFormat "2006-09-02 15:04" .Params.slot.end}}</p>
+  <hr>
+  {{ .Content | replaceRE "<p>" "<p class=\"f4 mb4 center measure\">" | safeHTML }}
+  <hr>
+  {{if ne .Summary .Content}}
+  <a class="link dim black" href="{{ .Params.slot.url }}">Full Event Details</a> {{end}}
 
+</article>
 {{ end }}

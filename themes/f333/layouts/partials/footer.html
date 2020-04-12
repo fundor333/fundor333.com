@@ -1,55 +1,14 @@
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="container">
-        <div class="nav mx-auto">
-          <p class="nav-item mx-auto">
-            Made by
-            <a href="{{ .Site.BaseURL }}">Fundor333</a> with
-            <i class="fa fa-heart" aria-hidden="true"></i> GoLang
-            <i class="fa fa-laptop" aria-hidden="true"></i>
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="nav mx-auto">
-          <p class="nav-item mx-auto">
-            Powered by
-            <a href="https://gohugo.io">Go Hugo</a> =>
-            <a href="https://github.com/fundor333/fundor333.com">Source code
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="nav mx-auto">
-          <p class="nav-item mx-auto">
-            Part of Webring
-            <a href='https://webring.xxiivv.com/#random' target='_blank'>
-              <img class="webring" src='https://webring.xxiivv.com/icon.black.svg' /></a>
-          </div>
-        </div>
-      </div>
-    </div>
+<footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+  <small class="f6 db tc"><img class="pa1 b--black-10 h2 w2" src='https://webring.xxiivv.com/icon.black.svg' /></small>
+  <small class="f6 db tc">© 2020 <b class="ttu">Fundor333</b></small>
+  <div class="tc mt3">
+    <a href="{{ .Site.BaseURL }}" class="f6 dib ph2 link mid-gray dim">Made by Fundor333 with
+      <i class="fa fa-heart" aria-hidden="true"></i> GoLang
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+    </a>
+    <a href="https://gohugo.io" class="f6 dib ph2 link mid-gray dim">Powered by Go Hugo</a>
+    <a href="https://github.com/fundor333/fundor333.com" class="f6 dib ph2 link mid-gray dim">Source code
+    </a>
+
   </div>
 </footer>
-
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-
-</script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
