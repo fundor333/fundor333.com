@@ -1,9 +1,9 @@
 {{ define "body"}}
 <article class="ph3 ph3-m ph6-l">
   <h2 class="f3 f1-m f-headline-l">🐉hoarding</h2>
-  <a href="{{ .Site.BaseURL }}" class="link dim black b">home</a>
+  <a href="{{ .Site.BaseURL }}">home</a>
   <a>~</a>
-  <a href='{{ .Permalink }}' class="link dim black b">package</a>
+  <a href='{{ .Permalink }}'>package</a>
   <hr>
 
   {{ range $i, $r := $.Site.Data.hoarding }}

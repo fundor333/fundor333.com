@@ -8,13 +8,13 @@
     <div class="pv2 ph3">
       <h1 class="f6 ttu tracked">{{ .Title }}</h1>
     </div>
-    <a href="{{ .Permalink }}" class="link dim black b">
+    <a href="{{ .Permalink }}">
       {{with .Params.feature_image}}
       <img src="{{ . }}" class="w-100 db" alt="Card image cap">
       {{end}}
     </a>
     <div class="pa3">
-      <a href="{{ .Permalink }}" class="link dim black b">{{ .Description }}</a>
+      <a href="{{ .Permalink }}">{{ .Description }}</a>
       <small class="gray db pv2">{{ dateFormat "2006 Jan 2" .Date }}</small>
     </div>
   </article>

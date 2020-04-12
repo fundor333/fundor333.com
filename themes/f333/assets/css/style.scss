@@ -1,16 +1,13 @@
 @import "_switch";
 @import "colors";
 
-.baskerville {
-	font-family: baskerville,
-		serif;
-}
+a {
+	color: $f333_red;
+	text-decoration: none;
 
-code,
-.code {
-	font-family: Consolas,
-		monaco,
-		monospace;
+	&:hover {
+		color: $f333_color_background_secondary;
+	}
 }
 
 body {
@@ -20,6 +17,19 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+}
+
+code,
+
+.baskerville {
+	font-family: baskerville,
+		serif;
+}
+
+.code {
+	font-family: Consolas,
+		monaco,
+		monospace;
 }
 
 .tag {

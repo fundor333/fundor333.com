@@ -2,9 +2,9 @@
 
 <article class="ph3 ph3-m ph6-l">
   <h2 class="f2">{{ .Title }}</h2>
-  <a href="{{ .Site.BaseURL }}" class="link dim black b">home</a>
+  <a href="{{ .Site.BaseURL }}">home</a>
   <a>~</a>
-  <a href='{{ .Permalink }}' class="link dim black b">{{ .Title }}</a>
+  <a href='{{ .Permalink }}'>{{ .Title }}</a>
   <br>
   <hr>
 
@@ -14,7 +14,7 @@
     {{end}}
     </a>
     <div class="pa3">
-      <a href="{{ .Params.feature_link}}" class="link dim black b">{{.Params.feature_text}}</a>
+      <a href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
     </div>
   </article>
 
@@ -25,7 +25,7 @@
 
   <hr>
   {{ with .Params.tags }} {{ range . }}
-  <a class="link dim black b tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+  <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
   {{ end }} {{ end }}
   <hr>
   {{ template "_internal/disqus.html" . }}

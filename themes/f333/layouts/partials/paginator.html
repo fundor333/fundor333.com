@@ -7,21 +7,21 @@
 
   <!-- First page. -->
   {{ if ne $paginator.PageNumber 1 }}
-  <a class="link dim black b f6 f5-ns dib mr3" href="{{ $paginator.First.URL }}">
+  <a class="f6 f5-ns dib mr3" href="{{ $paginator.First.URL }}">
     ««
   </a>
   {{ end }}
 
   <!-- Previous page. -->
   {{ if $paginator.HasPrev }}
-  <a class="link dim black b f6 f5-ns dib mr3" href="{{ $paginator.Prev.URL }}">
+  <a class="f6 f5-ns dib mr3" href="{{ $paginator.Prev.URL }}">
     «
   </a>
   {{ end }}
 
   <!-- Page numbers. -->
   {{ range $paginator.Pagers }}
-  <a href="{{ .URL }}" class="link dim black b f6 f5-ns dib mr3">
+  <a href="{{ .URL }}" class="f6 f5-ns dib mr3">
     {{ .PageNumber }}
   </a>
   {{ end }}
@@ -29,7 +29,7 @@
   <!-- Next page. -->
   {{ if $paginator.HasNext }}
 
-  <a class="link dim black b f6 f5-ns dib mr3" href="{{ $paginator.Next.URL }}">
+  <a class="f6 f5-ns dib mr3" href="{{ $paginator.Next.URL }}">
     »
   </a>
   {{ end }}
@@ -37,7 +37,7 @@
   <!-- Last page. -->
   {{ if ne $paginator.PageNumber $paginator.TotalPages }}
 
-  <a class="link dim black b f6 f5-ns dib mr3" href="{{ $paginator.Last.URL }}">
+  <a class="f6 f5-ns dib mr3" href="{{ $paginator.Last.URL }}">
     »»
   </a>
   {{ end }}

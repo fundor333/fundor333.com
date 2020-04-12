@@ -1,6 +1,6 @@
 <nav class="tc pv2">
   {{ $currentPage := . }} {{ range .Site.Data.social }}
-  <a class="link dim black b f6 f5-ns dib mr3" href="{{ .url }}">
+  <a class="f6 f5-ns dib mr3" href="{{ .url }}">
     <i class="fab fa-{{ .identifier }}" aria-hidden="true">
     </i>
   </a>
@@ -8,7 +8,7 @@
 </nav>
 <nav class="tc pv2">
   {{ $currentPage := . }} {{ range .Site.Data.menu }}
-  <a class="link dim black b f6 f5-ns dib mr3" href="{{ .url }}">
+  <a class="f6 f5-ns dib mr3" href="{{ .url }}">
     {{ .name }}
   </a>
   {{ end }}
