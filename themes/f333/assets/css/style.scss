@@ -10,6 +10,14 @@ a {
 	}
 }
 
+article {
+	img {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		display: block !important;
+	}
+}
+
 body {
 	font-family: baskerville, sans-serif;
 	background-color: $f333_color_background_primary;

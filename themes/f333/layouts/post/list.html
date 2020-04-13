@@ -1,10 +1,11 @@
 {{ define "body" }}
-<section class="ph3 ph3-m ph6-l">
+<hr class="ph3 ph3-m ph6-l">
+<section class="ph3 ph3-m ph6-l flex flex-wrap">
   {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
 
   {{ range $paginator.Pages }}
 
-  <article class="center mw8  mv4">
+  <article class="center mw5 pa2">
     <div class="pv2 ph3">
       <h1 class="f6 ttu tracked">{{ .Title }}</h1>
     </div>
@@ -18,11 +19,13 @@
       <small class="gray db pv2">{{ dateFormat "2006 Jan 2" .Date }}</small>
     </div>
   </article>
-  <hr>
+
 
   {{ end }}
+</section>
+<hr class="ph3 ph3-m ph6-l">
 
 
-  {{ partial "paginator.html" . }}
+{{ partial "paginator.html" . }}
 
-  {{ end }}
+{{ end }}
