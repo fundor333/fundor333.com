@@ -1,8 +1,0 @@
-pull_request_rules:
-  - name: automatic merge for ImgBot pull requests
-    conditions:
-      - author=imgbot[bot]
-      - status-success=ci/circleci: validate
-    actions:
-      merge:
-        method: merge
