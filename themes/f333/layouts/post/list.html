@@ -10,9 +10,9 @@
       <h1 class="f6 ttu tracked">{{ .Title }}</h1>
     </div>
     <a href="{{ .Permalink }}">
-      {{with .Params.feature_image}}
-      <img src="{{ . }}" class="w-100 db" alt="Card image cap">
-      {{end}}
+
+      <img data-src="{{ .Params.feature_image }}" alt="Card image cap" class="w-100 db lazy" loading="lazy">
+
     </a>
     <div class="pa3">
       <a href="{{ .Permalink }}">{{ .Description }}</a>
