@@ -18,6 +18,8 @@
       {{ $image := .Resources.GetMatch ( print .Params.feature_image_name ) }}
       {{ $resource := $image}}
       {{ $image := $image.Resize "600x q10" }}
+      {{ $image = $image.Filter (images.GaussianBlur 60 ) }}
+      {{ $image := $image.Resize "600x q30" }}
 
       {{ $image = $image.Filter (images.GaussianBlur 20 ) }}
 
