@@ -11,8 +11,20 @@
     </div>
     <a href="{{ .Permalink }}">
 
-      <img src="/img/pilogo.jpg" data-src="{{ .Params.feature_image }}" alt="Card image cap" class="w-100 db lazy"
+
+
+
+      {{ if .Params.feature_image_name }}
+      {{ $image := .Resources.GetMatch ( print .Params.feature_image_name ) }}
+      {{ $resource := $image}}
+      {{ $image := $image.Resize "600x q20" }}
+
+      {{ $image = $image.Filter (images.GaussianBlur 20) }}
+
+      <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}" class="w-100 db lazy"
         loading="lazy">
+      {{ end }}
+
 
     </a>
     <div class="pa3">
