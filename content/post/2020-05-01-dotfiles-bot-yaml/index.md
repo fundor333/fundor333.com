@@ -202,7 +202,7 @@ If you want to copy some part of my config you can do it but remember:
 
 >Dotfiles are supposed to contain your personal settings — what works for someone else isn’t necessarily optimal for you. If certain configurations worked for everybody, those settings would have been built into programs as defaults. Blindly cloning someone else’s dotfiles, especially without having an understanding of how everything works, is not the optimal approach.
 >
->[Anish Athalye](https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
+>[Anish Athalye - Managing Your Dotfiles](https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
 
 [^1]: As describe in the wiki I rename the file as _install-profile_
 [^2]: Be carefull, if you put a path after the *:* the bot use the path. If you don't the bot will search a file in the dotfile folder for the same path without the starting dot (if present)
