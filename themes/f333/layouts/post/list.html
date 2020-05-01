@@ -22,8 +22,7 @@
 
       {{ $image = $image.Filter (images.GaussianBlur 20 ) }}
 
-      <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}" class="w-100 db lazy"
-        loading="lazy">
+      <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}" class="w-100 db lazy">
       {{ end }}
 
 
