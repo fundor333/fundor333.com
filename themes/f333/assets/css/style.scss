@@ -16,6 +16,12 @@ article {
 		margin-right: auto !important;
 		display: block !important;
 	}
+
+	.highlight {
+		overflow: hidden;
+		position: relative;
+		width: 100%;
+	}
 }
 
 
@@ -82,9 +88,6 @@ body {
 	font-family: baskerville, sans-serif;
 	background-color: $f333_color_background_primary;
 	color: $f333_color_font_primary;
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
 }
 
 code,
