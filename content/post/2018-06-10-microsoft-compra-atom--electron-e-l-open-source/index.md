@@ -3,6 +3,7 @@ categories = ["dev"]
 date = "2018-06-11"
 description = "Now what appen because Microsoft own Github and all theire project?"
 feature_image = "/post/microsoft-buy-atom-electron-and-open-source/microsoft-github.png"
+feature_image_name = "microsoft-github.png"
 slug = "microsoft-buy-atom-electron-and-open-source"
 tags = ["github", "microsoft", "electron", "atom"]
 title = "Microsoft buy Atom, Electron and Open Source"

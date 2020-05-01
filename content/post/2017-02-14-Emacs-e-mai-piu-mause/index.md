@@ -13,6 +13,7 @@ description: Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal 
 categories:
 - rant
 feature_image: "/post/emacs-e-mai-piu-mouse/emacs-mouse.jpg"
+feature_image_name: "emacs-mouse.jpg"
 feature_link: "https://unsplash.com/photos/oZMUrWFHOB4"
 feature_text: "Photo by Paul Esch-Laurent on Unsplash"
 

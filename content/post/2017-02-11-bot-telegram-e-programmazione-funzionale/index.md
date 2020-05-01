@@ -16,6 +16,7 @@ aliases:
 - "/dev/bot-telegram-e-programmazione-funzionale/"
 
 feature_image: "/post/bot-telegram-e-programmazione-funzionale/bot-telegram.jpg"
+feature_image_name: "bot-telegram.jpg"
 feature_link: "https://unsplash.com/photos/3WLcQWnHB_Q"
 feature_text: "Photo by Mae Mu on Unsplash"
 ---

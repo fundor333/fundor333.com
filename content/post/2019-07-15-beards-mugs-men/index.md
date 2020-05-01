@@ -2,6 +2,7 @@
 title: 'Beards, mugs and men'
 date: 2019-07-15 00:00:00 +0000
 feature_image: "/post/beards-mugs-men/beards-mugs.jpg"
+feature_image_name: "beards-mugs.jpg"
 feature_link: "https://unsplash.com/photos/NEc3YEN1FFw"
 feature_text: "Photo by Chris Scott on Unsplash"
 tags:

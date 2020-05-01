@@ -12,6 +12,7 @@ aliases:
 - "/blog/utilizzi-alternativi-di-farebase/"
 
 feature_image: "/post/utilizzi-alternativi-di-farebase/alternativi-firebase.jpg"
+feature_image_name: "alternativi-firebase.jpg"
 feature_link: "https://unsplash.com/photos/pKeF6Tt3c08"
 feature_text: "Photo by Brendan Church on Unsplash"
 ---

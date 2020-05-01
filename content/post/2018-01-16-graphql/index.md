@@ -16,6 +16,7 @@ description: 'This is an article about the future of the api: GraphQL. This is t
   of the data in the API'
 
 feature_image: "/post/graphql-and-working-with-it/graphql-working.jpg"
+feature_image_name: "graphql-working.jpg"
 feature_link: "https://unsplash.com/photos/MWXKz_o1Ls0"
 feature_text: "Photo by Bryan Trogdon on Unsplash"
 ---

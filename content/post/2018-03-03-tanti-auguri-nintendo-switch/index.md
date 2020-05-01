@@ -2,6 +2,7 @@
 title: Tanti Auguri Nintendo Switch
 date: 2018-03-03 00:00:00 +0000
 feature_image: "/post/tanti-auguri-nintendo/nintendo_switch.jpg"
+feature_image_name: "nintendo_switch.jpg"
 category:
 - rant
 - zeta target

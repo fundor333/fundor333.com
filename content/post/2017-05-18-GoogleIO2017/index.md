@@ -14,6 +14,7 @@ aliases:
 - "/blog/google-io-2017/"
 
 feature_image: "/post/google-io-2017/testa-vr.jpg"
+feature_image_name: "testa-vr.jpg"
 ---
 Sono nell&rsquo;evento del GDG di Venezia a vedermi il <span class="underline">**Google IO 2017**</span> in compagnia di altri informatici e interessati.
 Questo è il resoconto dell&rsquo;evento.

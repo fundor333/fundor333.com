@@ -15,6 +15,7 @@ aliases:
 - "/blog/git-lalbero-delle-versioni/"
 
 feature_image: "/post/git-lalbero-delle-versioni/git-albero-versioni.jpg"
+feature_image_name: "git-albero-versioni.jpg"
 feature_link: "https://unsplash.com/photos/EwKXn5CapA4"
 feature_text: "Photo by Jeremy Bishop on Unsplash"
 ---

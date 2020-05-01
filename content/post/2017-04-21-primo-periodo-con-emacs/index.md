@@ -14,6 +14,7 @@ aliases:
 - "/dev/il-primo-periodo-con-emacs/"
 
 feature_image: "/post/il-primo-periodo-con-emacs/primo-periodo-emacs.jpg"
+feature_image_name: "primo-periodo-emacs.jpg"
 feature_link: "https://unsplash.com/photos/xf6_UOfnwLw"
 feature_text: "Photo by Joshua Oluwagbemiga on Unsplash"
 ---

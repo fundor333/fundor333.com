@@ -2,6 +2,7 @@
 title: "Mew and programming"
 date: 2019-12-28 15:00:00 +0000
 feature_image: "/post/mew-and-programming/pokemon.jpg"
+feature_image_name: "pokemon.jpg"
 feature_link: "https://unsplash.com/photos/Sb2FkPFiadg"
 feature_text: "Photo by Ryan Quintal on Unsplash"
 tags:

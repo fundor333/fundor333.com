@@ -13,6 +13,7 @@ description: This blog is publish with a docker image with GitLab. But I don't l
 slug: hugo-into-docker
 
 feature_image: "/post/hugo-into-docker/hugo-docker.jpg"
+feature_image_name: "hugo-docker.jpg"
 feature_link: "https://unsplash.com/photos/RvPDe41lYBA"
 feature_text: "Photo by Grovemade on Unsplash"
 ---
