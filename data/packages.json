@@ -63,6 +63,10 @@
 				"name": "Tabulate",
 				"url": "https://bitbucket.org/astanin/python-tabulate",
 				"description": "Output tabellare"
+			}, {
+				"name": "PyExcel",
+				"url": "http://docs.pyexcel.org/en/latest/#",
+				"description": "Let you focus on data, instead of file formats"
 			}
 
 		]
