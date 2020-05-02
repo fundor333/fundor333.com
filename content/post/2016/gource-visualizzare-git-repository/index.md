@@ -12,8 +12,7 @@ categories:
 aliases:
 - "/blog/gource-visualizzare-git-repository/"
 
-feature_image: "/post/gource-visualizzare-git-repository/gource-git.jpg"
-feature_image_name: "gource-git.jpg"
+feature_image: "gource-git.jpg"
 feature_link: "https://unsplash.com/photos/TYUS-cXzy50"
 feature_text: "Photo by Mark Tegethoff on Unsplash"
 ---

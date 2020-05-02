@@ -11,8 +11,7 @@ categories:
 aliases:
 - "/blog/orrori-delle-parentesi/"
 
-feature_image: "/post/orrori-delle-parentesi/orrori_della_parentesi.jpg"
-feature_image_name: "orrori_della_parentesi.jpg"
+feature_image: "orrori_della_parentesi.jpg"
 feature_link: "https://unsplash.com/photos/XMpXzzWrJ6g"
 feature_text: "Photo by Annie Spratt on Unsplash"
 

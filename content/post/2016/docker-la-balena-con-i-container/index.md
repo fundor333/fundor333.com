@@ -9,9 +9,7 @@ description: Docker, cos'è e come funziona
 slug: docker-la-balena-con-i-container
 categories:
 - dev
-
-feature_image: "/post/docker-la-balena-con-i-container/docker-la-balena.jpg"
-feature_image_name: "docker-la-balena.jpg"
+feature_image: "docker-la-balena.jpg"
 feature_link: "https://unsplash.com/photos/Cu6I_d8gw5A"
 feature_text: "Photo by Sho Hatakeyama on Unsplash"
 ---

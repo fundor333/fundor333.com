@@ -12,8 +12,7 @@ categories:
 - rant
 aliases:
 - "/blog/sopravivvere-un-hackathon-programmando/"
-feature_image: "/post/sopravivvere-un-hackathon-programmando/hackathon.jpg"
-feature_image_name: "hackathon.jpg"
+feature_image: "hackathon.jpg"
 ---
 Esco in questi giorni da un Hackathon organizzato dalla regione Veneto
 ([qui](http://www.energic-od.eu/) info), portando a casa con la mia
