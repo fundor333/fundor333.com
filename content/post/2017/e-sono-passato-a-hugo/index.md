@@ -12,8 +12,7 @@ description: Come e perchè sono passato a Hugo da Pelican
 categories:
 - rant
 
-feature_image: "/post/e-sono-passato-a-hugo/passato-hugo.jpg"
-feature_image_name: "passato-hugo.jpg"
+feature_image: "passato-hugo.jpg"
 feature_link: "https://unsplash.com/photos/gy08FXeM2L4"
 feature_text: "Photo by Oskar Yildiz on Unsplash"
 

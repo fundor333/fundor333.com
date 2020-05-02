@@ -11,8 +11,7 @@ aliases:
 - "/dev/pipenv-e-come-tutto-e-in-uno/"
 description: Assistiamo al matrimonio di Pipfile, Pip e PipEnv
 
-feature_image: "/post/pipenv-e-come-tutto-e-in-uno/pipenv-tutto.jpg"
-feature_image_name: "pipenv-tutto.jpg"
+feature_image: "pipenv-tutto.jpg"
 feature_link: "https://unsplash.com/photos/vYFcHzLYpmU"
 feature_text: "Photo by Max Letek on Unsplash"
 ---

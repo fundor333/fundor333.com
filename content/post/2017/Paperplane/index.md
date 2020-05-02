@@ -14,8 +14,7 @@ slug: il-mio-paperplane
 aliases:
 - "/blog/il-mio-paperplane/"
 
-feature_image: "/post/il-mio-paperplane/paperplane.jpg"
-feature_image_name: "paperplane.jpg"
+feature_image: "paperplane.jpg"
 feature_link: "https://unsplash.com/photos/BwXBIo0a1ts"
 feature_text: "Photo by Adetunji Paul on Unsplash"
 ---

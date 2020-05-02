@@ -11,8 +11,7 @@ description: DotFile e la mia configurazione di tutto
 categories:
 - rant
 
-feature_image: "/post/dotfile-e-le-mie-config/dotfile-config.jpg"
-feature_image_name: "dotfile-config.jpg"
+feature_image: "dotfile-config.jpg"
 feature_link: "https://unsplash.com/photos/rvbd2namR7U"
 feature_text: "Photo by Muhammad Haikal Sjukri on Unsplash"
 ---

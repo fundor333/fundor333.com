@@ -11,8 +11,7 @@ categories:
 aliases:
 - "/blog/astemio-al-terzo-databeers/"
 
-feature_image: "/post/astemio-al-terzo-databeers/astemio-databeers.jpg"
-feature_image_name: "astemio-databeers.jpg"
+feature_image: "astemio-databeers.jpg"
 feature_link: "https://unsplash.com/photos/6ZZh8kOyW-4"
 feature_text: "Photo by Adam Wilson on Unsplash"
 ---

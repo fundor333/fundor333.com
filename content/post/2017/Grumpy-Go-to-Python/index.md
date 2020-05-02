@@ -10,8 +10,7 @@ slug: grumpy-come-convertire-il-serpente-nel-gopher
 description: Cos'è Grumpy e come la penso su questo progetto di Google e le sue conseguenze
 categories:
 - rant
-feature_image: "/post/grumpy-come-convertire-il-serpente-nel-gopher/grumpy-go.jpg"
-feature_image_name: "grumpy-go.jpg"
+feature_image: "grumpy-go.jpg"
 feature_link: "https://unsplash.com/photos/ICW6QYOcdlg"
 feature_text: "Photo by Marius Masalar on Unsplash"
 

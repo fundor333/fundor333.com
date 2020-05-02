@@ -10,8 +10,7 @@ categories:
 - dev
 description: Come ho combinato Jupyter con questo blog in Pelican
 
-feature_image: "/post/jupyter-notebook-pelican-combo/jupyter-notebook.jpg"
-feature_image_name: "jupyter-notebook.jpg"
+feature_image: "jupyter-notebook.jpg"
 feature_link: "https://unsplash.com/photos/VSNoQdimlQQ"
 feature_text: "Photo by Zahrin Lukman on Unsplash"
 ---
