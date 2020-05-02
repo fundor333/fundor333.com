@@ -14,8 +14,7 @@ description: E vado a parlare al Pycon9 per colpa di questo blog, della mia picc
 categories:
 - rant
 
-feature_image: "/post/e-talk-al-pycon9/talk-pycon9.jpg"
-feature_image_name: "talk-pycon9.jpg"
+feature_image: "talk-pycon9.jpg"
 feature_link: "https://unsplash.com/photos/C4G18Paw0d4"
 feature_text: "Photo by Daniil Kuželev on Unsplash"
 ---

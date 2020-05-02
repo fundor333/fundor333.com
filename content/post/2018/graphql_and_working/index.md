@@ -6,7 +6,6 @@ tags:
 - graphql
 title: GraphQL and working with it
 slug: graphql-and-working-with-it
-feature_image: "/images/post/graphql/graphql.png"
 categories:
 - dev
 aliases:
@@ -15,8 +14,7 @@ description: 'This is an article about the future of the api: GraphQL. This is t
   natural evolution from the REST API and it''s the best thing for request only part
   of the data in the API'
 
-feature_image: "/post/graphql-and-working-with-it/graphql-working.jpg"
-feature_image_name: "graphql-working.jpg"
+feature_image: "graphql-working.jpg"
 feature_link: "https://unsplash.com/photos/MWXKz_o1Ls0"
 feature_text: "Photo by Bryan Trogdon on Unsplash"
 ---
