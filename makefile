@@ -6,3 +6,6 @@ developfuture:
 
 developall:
 	hugo server --disableFastRender --buildFuture --buildDrafts
+
+clean-resorce:
+	hugo --gc
