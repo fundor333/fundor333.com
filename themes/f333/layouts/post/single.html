@@ -9,8 +9,9 @@
   <hr>
 
   <article class="center mw8 ba b--black-10 mv4">
-    {{with .Params.feature_image}}
-    <img src="{{ . }}" class="w-100 db" alt="Card image cap">
+    {{ if .Params.feature_image }}
+    {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
+    <img src="{{  $image.Permalink  }}" class="w-100 db" alt="Card image cap">
     {{end}}
     </a>
     <div class="pa3">

@@ -14,8 +14,8 @@
 
 
 
-      {{ if .Params.feature_image_name }}
-      {{ $image := .Resources.GetMatch ( print .Params.feature_image_name ) }}
+      {{ if .Params.feature_image }}
+      {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
       {{ $resource := $image}}
       {{ $image := $image.Resize "600x q10" }}
       {{ $image = $image.Filter  ((images.Pixelate 8) ) ((images.Pixelate 8)) (images.GaussianBlur 80 ) }}
