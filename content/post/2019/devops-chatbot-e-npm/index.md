@@ -2,8 +2,7 @@
 title: 'DevOps, ChatBot e NPM'
 date: 2019-02-05T10:11:07.668Z
 draft: false
-feature_image: /post/devops-chatbot-npm/octocat.png
-feature_image_name: "octocat.png"
+feature_image: "octocat.png"
 tags:
   - devops
   - bot

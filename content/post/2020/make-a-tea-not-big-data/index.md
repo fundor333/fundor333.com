@@ -1,8 +1,7 @@
 ---
 title: "Make a Tea Not Big Data"
 date: 2020-01-20T00:00:00+00:00
-feature_image_name: "tea-bigdata.jpg"
-feature_image: "/post/make-tea-not-big-data/tea-bigdata.jpg"
+feature_image: "tea-bigdata.jpg"
 feature_link: "https://unsplash.com/photos/SSj5qtnrpj0"
 feature_text: "Photo by 五玄土 ORIENTO on Unsplash"
 tags:

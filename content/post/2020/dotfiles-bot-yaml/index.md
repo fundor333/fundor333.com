@@ -1,8 +1,7 @@
 ---
 title: "Dotfiles, bot and yaml files"
 date: 2020-05-01T16:00:00+00:00
-feature_image: "/post/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg"
-feature_image_name: "dotfiles-bot-yaml.jpg"
+feature_image: "dotfiles-bot-yaml.jpg"
 feature_link: "https://unsplash.com/photos/y7T1lYkfg0c"
 feature_text: "Photo by Amith Nair on Unsplash"
 tags:

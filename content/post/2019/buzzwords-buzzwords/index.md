@@ -1,8 +1,7 @@
 ---
 title: "Buzzwords buzzwords"
 date: 2019-06-17 10:00:00 +0000
-feature_image: "/post/buzzwords-buzzwords/words.jpg"
-feature_image_name: "words.jpg"
+feature_image: "words.jpg"
 feature_link: "https://unsplash.com/photos/GkinCd2enIY"
 feature_text: "Photo by Raphael Schaller on Unsplash"
 tags:

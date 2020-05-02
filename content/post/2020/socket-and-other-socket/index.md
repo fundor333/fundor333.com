@@ -1,8 +1,7 @@
 ---
 title: "Sock and socket"
 date: 2020-04-15T00:00:00+00:00
-feature_image_name: "socket-adn-other-socket.jpg"
-feature_image: "/post/sock-and-socket/socket-adn-other-socket.jpg"
+feature_image: "socket-adn-other-socket.jpg"
 feature_link: "https://unsplash.com/photos/kBGVM2mVgcI"
 feature_text: "Photo by Tai's Captures on Unsplash"
 tags:
