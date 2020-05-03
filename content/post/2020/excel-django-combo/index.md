@@ -118,4 +118,5 @@ __NB__: use the *enctype="multipart/form-data"* for upload files. If you can't u
 With all this code you can read all the xls you ever want but remember: 
 
 > This code work only if you allways have the same xls's structure.
+>
 > You can change the pyexcel module for change the type of file read 
