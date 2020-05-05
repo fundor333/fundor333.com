@@ -1,32 +1,26 @@
 {{ define "body"}}
 <article class="ph3 ph3-m ph6-l">
-  <h2 class="f3 f1-m f-headline-l center mw8">package</h2>
+  <h2 class="f3 f1-m f-headline-l">package</h2>
 
   <a href="{{ .Site.BaseURL }}">home</a>
   <a>~</a>
   <a href='{{ .Permalink }}'>package</a>
-
-
   <hr>
+
   {{ range $.Site.Data.packages }}
 
-  <h3 class="f1 f1-m">{{.language}}</h3>
+
+  {{$lang :=.language}}
   {{ range .package }}
-
-  <dl class="lh-title pa4 mt0">
-
-    <dt class="f3 b">{{.subtype}}</dt>
-    {{ range .detail }}
-    <a href="{{.url}}">
-      <dd class="20">
-        <p><b>{{.name}}</b> - {{.description}}</p>
-      </dd>
-    </a>
-    {{end}}
-  </dl>
+  <h3 class="f3 b ph6">{{$lang}} {{.subtype}}</h3>
+  {{ range .detail }}
+  <a href="{{.url}}" class="link dim black">
+    <dd class="ph6">
+      <p><b>{{.name}}</b> - {{.description}}</p>
+    </dd>
+  </a>
   {{end}}
-  </dl>
-
+  {{end}}
   {{ end }}
 </article>
 {{ end }}

@@ -1,0 +1,183 @@
+- types:
+          - type: podcast
+            elements:
+                    - name: Podcast.init
+                      url: https://www.podcastinit.com
+                    - name: Talk Python To Me
+                      url: https://talkpython.fm
+                    - name: Pythonbytes
+                      url: https://pythonbytes.fm
+                    - name: Import This
+                      url: https://www.kennethreitz.org/import-this/
+                    - name: Test and Code
+                      url: http://pythontesting.net
+                    - name: The Changelog
+                      url: https://changelog.com
+                    - name: Request For Commits
+                      url: https://changelog.com/rfc
+                    - name: Partially Derivative
+                      url: http://partiallyderivative.com/
+                    - name: Go Time
+                      url: https://changelog.com/gotime
+                    - name: The ground up show
+                      url: http://mattdavella.com/podcast
+                    - name: Data Porn
+                      url: https://dataporn.me/
+          - type: "manifesto"
+            elements:
+                    - name: 12Factor Guidelines
+                      url: https://12factor.net
+                    - name: Netiquette Guidelines
+                      url: https://tools.ietf.org/html/rfc1855
+                    - name: The Jargon File
+                      url: http://www.catb.org/jargon/
+                    - name: Hacker Manifesto
+                      url: http://phrack.org/issues/7/3.html
+                    - name: Repair Manifesto
+                      url: https://www.ifixit.com/Manifesto
+          - type: "blogs"
+            elements:
+                    - name: Kenneth Reitz
+                      url: https://www.kennethreitz.org
+                    - name: N-O-D-E.Net
+                      url: https://n-o-d-e.net
+                    - name: Storie della sala macchine
+                      url: http://www.soft-land.org
+                    - name: Jed Henry art
+                      url: http://jedhenry.tumblr.com/
+                    - name: UnixPorn
+                      url: https://unixporn.tumblr.com/
+                    - name: Lettering Daily
+                      url: https://lettering-daily.tumblr.com/
+                    - name: Time Blur - Heather Penn's art
+                      url: http://happydorid.tumblr.com/
+                    - name: Innat the crossroads
+                      url: http://www.innatthecrossroads.com/
+          - type: transports
+            elements:
+                    - name: Tube Map Central
+                      url: http://www.tubemapcentral.com/
+                    - name: Transit Map - Showing you how to get from here to there
+                      url: http://www.transitmap.net/
+          - type: posts
+            elements:
+                    - name: Spurious Correlations
+                      url: http://www.tylervigen.com/spurious-correlations
+                    - name:
+                              No Company Is So Important Its Existence Justifies Setting Up a Police
+                              State
+                      url: http://nymag.com/selectall/2018/04/richard-stallman-rms-on-privacy-data-and-free-software.html
+                    - name: La Tigre Ed Il SysAdmin
+                      url: https://www.soft-land.org//storie/06/story26
+                    - name: How to know which is a dev and which type is
+                      url: https://devrant.com/rants/1684566/some-empty-headed-helpdesk-girl-skipped-into-our-office-yesterday-afternoon-desp
+                    - name: Managing your Dotfiles
+                      url: https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
+                    - name: Create Xkcd style diagram in TeX
+                      url: https://tex.stackexchange.com/questions/74878/create-xkcd-style-diagram-in-tex
+          - type: "utility"
+            elements:
+                    - name: EmojiPedia
+                      url: https://emojipedia.org
+                    - name: Shields
+                      url: http://shields.io
+                    - name: Carbon Shell for scrennshot
+                      url: https://carbon.now.sh/
+                    - name: Kit
+                      url: https://kit.com
+                    - name: Freelancer email generator
+                      url: https://toggl.com/freelance-email-generator/
+                    - name: The Bastard Operator From Hell - Style Excuse Server
+                      url: http://pages.cs.wisc.edu/~ballard/bofh/
+                    - name: Hacker Scripts Repo
+                      url: https://github.com/NARKOZ/hacker-scripts
+                    - name: DotFiles
+                      url: https://dotfiles.github.io
+                    - name: EditorConfig
+                      url: http://editorconfig.org
+                    - name: Python Release cycle
+                      url: https://python-release-cycle.glitch.me/
+          - type: "software"
+            elements:
+                    - name: Gitea, OpenSource Version Controll Host
+                      url: https://gitea.io/
+          - type: "comics"
+            elements:
+                    - name: Monkeyuser
+                      url: http://www.monkeyuser.com/
+                    - name: TurnOFF
+                      url: http://turnoff.us/
+                    - name: Joshuaw Right
+                      url: http://www.joshuawright.net/
+                    - name: xkcd
+                      url: https://xkcd.com/
+                    - name: FishEye Placebo
+                      url: https://www.yuumeiart.com/fisheye-placebo/
+                    - name: Emily McGovern, My Life As A Background Slytherins
+                      url: http://emilymcgovern.com
+                    - name: Belzebubs
+                      url: http://belzebubsofficial.tumblr.com/
+                    - name: Patch friday
+                      url: https://patchfriday.com
+          - type: comics developer
+            elements:
+                    - name: Save the princess with a programming language
+                      url: https://toggl.com/programming-princess/
+                    - name: "How To Build A Horse With Programming "
+                      url: https://blog.toggl.com/build-horse-programming/
+                    - name: Programming languages as music
+                      url: https://blog.toggl.com/programming-languages-explained-with-music-comic/
+                    - name: How to kill a dragon with 9 programming language
+                      url: https://blog.toggl.com/kill-dragon-comic/
+                    - name: The Seven Circles of Developer Hell
+                      url: https://blog.toggl.com/seven-levels-developer-hell/
+                    - name: IT Jobs Explained With A Broken Lightbulb
+                      url: https://blog.toggl.com/lightbulb-cartoon-developers/
+                    - name: Terrible clients explained with pirates
+                      url: https://toggl.com/worst-client-types-infographic/
+                    - name: If The World Was Created By A Programmer
+                      url: https://blog.toggl.com/world-created-programmer/
+                    - name: Tech carrers of the future
+                      url: https://blog.toggl.com/tech-careers-future/
+                    - name: 11 Types of Employees You Meet at a Tech Company
+                      url: https://blog.toggl.com/tech-employee-stereotypes-comic/
+                    - name: SysAdmin vs Terrorist
+                      url: https://xkcd.com/705/
+                    - name: If A Startup Were A Zoo
+                      url: https://blog.toggl.com/startup-zoo-comic/
+                    - name: Explaining Software Development Methods By Flying To Mars
+                      url: https://blog.toggl.com/mars-software-development/
+                    - name: 9 Crucial Employees Every Startup Should Have In Their Deck
+                      url: https://blog.toggl.com/startup-employees-deck/
+                    - name: Little Red Riding Hood Teaches Programming
+                      url: https://toggl.com/blog/little-red-riding-hood-teaches-programming-comic
+          - type: "fun"
+            elements:
+                    - name: Octodex
+                      url: https://octodex.github.com
+                    - name: Order Dragons
+                      url: http://lizardshuffle.tumblr.com
+          - type: "anime"
+            elements:
+                    - name: Bakemonogatari
+                      url: https://www.animeclick.it/anime/2268/bakemonogatari
+                    - name: Steins Gate
+                      url: https://www.animeclick.it/anime/3114/steins-gate
+                    - name: Psycho-Pass
+                      url: https://www.animeclick.it/anime/4084/psycho-pass
+          - type: "films"
+            elements:
+                    - name: Movies For Hackers
+                      url: https://hackermovie.club
+                    - name: The Mysterious Life Of UX Designers
+                      url: https://youtu.be/gfHcnig8Lo4
+                    - name: The Mysterious Life of Developers
+                      url: https://youtu.be/Ey3Ix7QuKPs
+          - type: "evil overlod"
+            elements:
+                    - name: Decalogo del signore del male
+                      url: http://www.eviloverlord.com/lists/overlord.html
+                    - name: Primo decalogo delle celle
+                      url: http://www.eviloverlord.com/lists/dungeon_a.html
+                    - name: Secondo decalogo delle celle
+                      url: http://www.eviloverlord.com/lists/dungeon_b.html
