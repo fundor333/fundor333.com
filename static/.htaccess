@@ -1,7 +1,0 @@
-ErrorDocument 404 /404.html
-
-############
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^gitea.fundor333.com 
-RewriteRule ^(.*)$ http://165.227.230.47$1 [L,R=301] 
-############

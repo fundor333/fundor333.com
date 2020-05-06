@@ -1,14 +1,13 @@
 {{ define "body"}}
-
-<article class="ph3 ph3-m ph6-l">
+<div class="ph3 ph3-m ph6-l">
   <h2 class="f2">{{ .Title }}</h2>
-  <a href="{{ .Site.BaseURL }}">home</a>
-  <a>~</a>
-  <a href='{{ .Permalink }}'>{{ .Title }}</a>
+  <a class="tag" href="{{ .Site.BaseURL }}">home</a>
+  ~
+  <a class="tag" href='{{ .Permalink }}'>{{ .Title }}</a>
   <br>
   <hr>
 
-  <div class="center mw8 ba b--black-10 mv4">
+  <article class="center mw8 ba b--black-10 mv4">
     {{ if .Params.feature_image }}
     {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
     <img src="{{  $image.Permalink  }}" class="w-100 db" alt="Card image cap">
@@ -18,7 +17,6 @@
       <a href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
     </div>
   </article>
-  </div>
 
   <br>
   {{ .Content  }}
@@ -32,5 +30,5 @@
   <hr>
   {{ template "_internal/disqus.html" . }}
   <hr>
-</article>
+</div>
 {{ end }}
