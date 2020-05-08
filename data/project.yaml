@@ -1,5 +1,5 @@
 - types:
-    - type: web design️
+    - type: web
       elements:
         - name: Fundor333
           url: http://fundor333.com/
@@ -12,6 +12,11 @@
             Project for an exame at the University for Regione Veneto. I work on
             the coordination and the style for the project. Made with HTML5 and
             Bootstrap.
+        - name: Fundorux
+          url: https://fundorux.fundor333.com/
+          description:
+            Site for scraping all info about associations about tecnology,
+            programming and tech. Build with Hugo and tachyons.io
     - type: python
       elements:
         - name: MareaBot
