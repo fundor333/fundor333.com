@@ -1,0 +1,28 @@
+- types:
+    - type: web design️
+      elements:
+        - name: Fundor333
+          url: http://fundor333.com/
+          description:
+            This blog make with Hugo and love.  The Css framework change
+            somethime. Now it's tachyons.io
+        - name: ìnformatica sarà lei
+          url: http://test01.danielvedovato.it/
+          description:
+            Project for an exame at the University for Regione Veneto. I work on
+            the coordination and the style for the project. Made with HTML5 and
+            Bootstrap.
+    - type: python
+      elements:
+        - name: MareaBot
+          url: https://mareabot.github.io/
+          description:
+            Bot for read the HighWater Api of Comune di Venezia and, if there is
+            an allert, post it on a channel on telegram
+    - type: stuffs
+      elements:
+        - name: Template LaTeX for Unive
+          url: https://github.com/fundor333/TesiUniveLaTeX
+          description:
+            Template for LaTeX for the final paper. Made with LaTex and a lot of
+            my blood

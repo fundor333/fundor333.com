@@ -1,5 +1,5 @@
 ---
-title: "\U0001F4BBproject"
+title: "project"
 type: project
 
 ---
