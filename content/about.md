@@ -3,19 +3,16 @@ title: "\U0001F935\U0001F3FBabout"
 type: pages
 
 ---
-Informatico con la passione per Python, GoLang, Git e per il mondo Open Source.
+Backend developer with <3 for Python, Docker, Git and the OpenSource World.
 
-Attualmente utilizzo molto Docker, Debian e Telegram sopratutto per recuperare e
-operare sugli opendata, anche se per ora per progetti con ~~poca~~ nessuna
-risonanza.
+In this time I am using Ubuntu Server, Docker, Kubernetes and Telegram for work and elaborate OpenData for some [project]( {{< relref "project.md" >}}) with ~~little~~ or ~~none~~ echo.
 
-Da qualche parte nella pagina trovate i link ai miei social e ai miei account di GitHub e GitLab.
+On the menu of my page you can find link to my social and my [GitHub](https://github.com/fundor333) and [GitLab](https://gitlab.com/fundor333) accounts.
 
+This blog was born by my personal desider of show what I do if they whant or not. All this is done by my own free time.
 
-Il blog nasce da un mio desiderio personale di mostrare al mondo quello che faccio anche se al mondo non gliene frega niente.
+The name of the blog *Fundor333* come from my nickname and the subtitle *import antigravity* come from a strip from [xkcd](http://xkcd.com/353/) and it is a easter egg in the Python core.
 
-Il nome del blog *Fundor333* viene dal mio nickname storico mentre il sottotitolo *import antigravity* viene da una vignetta di [xkcd](http://xkcd.com/353/) su Python ed è stato implementato come pacchetto standard Python.
+If you need my GPG key [here](https://keybase.io/fundor333/key.asc) my key and the mail is blog@fundor333.com .
 
-
-Se volete potete contattarmi via mail GPG
-[qui](https://keybase.io/fundor333/key.asc) c'è la chiave. L'indirizzo è fundor333@gmail.com
+If you want to see what I am doing [now]( {{< relref "now.md" >}}) check my [now]( {{< relref "now.md" >}}) page.
