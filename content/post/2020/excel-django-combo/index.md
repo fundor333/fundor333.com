@@ -1,5 +1,5 @@
 ---
-title: "Make a Excel Django combop"
+title: "Make a Excel Django combo"
 date: 2020-05-20T00:00:00+00:00
 feature_image: "excel-django.jpg"
 feature_link: "https://unsplash.com/photos/l090uFWoPaI"
