@@ -7,7 +7,7 @@
   <br>
   <hr>
 
-  <article class="center mw8 ba b--black-10 mv4">
+  <div class="center mw8 ba b--black-10 mv4">
     {{ if .Params.feature_image }}
     {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
     <img src="{{  $image.Permalink  }}" class="w-100 db" alt="Card image cap">
@@ -16,12 +16,13 @@
     <div class="pa3">
       <a href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
     </div>
-  </article>
+  </div>
 
   <br>
-  {{ .Content  }}
-  <p>by {{ .Site.Author.name }}</p>
-
+  <article>
+    {{ .Content  }}
+    <p>by {{ .Site.Author.name }}</p>
+  </article>
 
   <hr>
   {{ with .Params.tags }} {{ range . }}
