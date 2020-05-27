@@ -21,7 +21,7 @@
         - name: Django Guardian
           url: https://django-guardian.readthedocs.io
           description: modulo per la gestione dei permessi
-        - name:Django nyt
+        - name: Django nyt
           url: https://django-nyt.readthedocs.io/en/latest/
           description: module for notifications
     - subtype: web tools
