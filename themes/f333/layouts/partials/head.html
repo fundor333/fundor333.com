@@ -46,4 +46,6 @@
   {{ template  "_internal/google_news.html" . }}
   {{ template "_internal/schema.html" . }}
   {{  partial "seo/twitter.html" . }}
+
+  {{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
 </head>
