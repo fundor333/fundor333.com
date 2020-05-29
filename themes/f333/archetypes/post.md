@@ -2,13 +2,12 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-feature_image: ""
+feature_image: "{{ .Name }}.jpg"
 feature_link: ""
 feature_text: "Photo by __ __ on Unsplash"
 tags:
-tags: []
-slug: ""
-categories: []
+slug: "{{ .Name }}"
+categories: 
 description: ""
 ---
 
