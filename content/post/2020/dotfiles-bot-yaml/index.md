@@ -30,7 +30,7 @@ So for some time I use a notebook (_a book where i write notes_ not a pc) where 
 
 So I search for a system for launch a command and update all and I find it: **_[dotbot](https://github.com/anishathalye/dotbot)_**.
 
-# The bot
+## The bot
 
 This is a project python where you can write an _install script_ from a template and write one or more _\_.conf.yaml_ with the instructions. And there are multiple plugin for some package manager (_pip, rust, apt, brew..._) which can be usefull.
 
@@ -60,7 +60,7 @@ done
 
 The only thing you need to pay attention is the _--plugin-dir <folder of the plugin>_ which can be use multiple times in the command, one for plugin you have. Also you can install a plugin as a submodule for the same reasons as the bot.
 
-# My Idea
+## My Idea
 
 I have a install script which can execute one config all the time (the _default_ one) and any number of config as add for the default.
 
@@ -78,7 +78,7 @@ I need something more modular, where i can set the config for program/app/stuff 
 
 In this way I don't have duplication of code or config long km and make multiple list-config more easy to read because they become easy to read.
 
-# New Idea because I don' t like the first
+## New Idea because I don' t like the first
 
 I re-read the wiki and I make the _meta_ files. The make file are the solution of my problem.
 
@@ -130,7 +130,7 @@ Make particolar attention of the begginning of the script because is were you ca
 
 This new script can run with or without profile. And you can also add plugins in the command as the first install script.
 
-## The config files
+### The config files
 
 Now I need to write the config files and it is an easy task. All I need to do is to use this commands and their options:
 
