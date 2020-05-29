@@ -2,7 +2,7 @@
 <article class="ph3 ph3-m ph6-l">
 
   {{if ne .Content ""}}
-  <h2 class="f3 f1-m f-headline-l center mw8">{{.Title}}</h2>
+  <h1 class="f3 f1-m f-headline-l center mw8">{{.Title}}</h1>
   {{ .Content | replaceRE "<p>" "<p class=\"f4 mb4 center measure\">" | safeHTML }}
   {{end}}
   <table class="f3 w-100 mw8 center">

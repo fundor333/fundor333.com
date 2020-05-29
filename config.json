@@ -3,6 +3,7 @@
 	"baseURL": "https://fundor333.com/",
 	"disableRSS": false,
 	"disqusShortname": "fundor333",
+	"gtm_id": "GTM-NZQKPXS",
 	"googleAnalytics": "UA-44064318-2",
 	"languageCode": "it-it",
 	"rssLimit": 10,

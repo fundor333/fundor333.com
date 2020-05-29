@@ -1,8 +1,8 @@
 {{ define "body"}}
 
 <article class="ph3 ph3-m ph6-l">
-  <h2 class="f2">{{.Title}}</h2>
-  {{with .Params.talk}}<h2 class="f3">{{.}}</h2>{{end}}
+  <h1 class="f2">{{.Title}}</h1>
+  {{with .Params.talk}}<h1 class="f3">{{.}}</h1>{{end}}
   <p class="f4 mb4 center measure ">{{dateFormat "2006-09-02 15:04" .Params.slot.start}} --
     {{dateFormat "2006-09-02 15:04" .Params.slot.end}}</p>
   <hr>
