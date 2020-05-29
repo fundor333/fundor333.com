@@ -1,6 +1,6 @@
 {{ define "body"}}
 <article class="ph3 ph3-m ph6-l">
-  <h2 class="f3 f1-m f-headline-l">project</h2>
+  <h1 class="f3 f1-m f-headline-l">project</h1>
 
   <a href="{{ .Site.BaseURL }}">home</a>
   <a>~</a>
@@ -11,7 +11,7 @@
 
 
   {{ range .types }}
-  <h3 class="f3 b ph6">{{.type}}</h3>
+  <h2 class="f3 b ph6">{{.type}}</h2>
   {{ range .elements }}
   <a href="{{.url}}" class="link dim black">
     <dd class="ph6">
