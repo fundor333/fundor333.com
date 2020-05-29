@@ -1,6 +1,27 @@
 @import "_switch";
 @import "colors";
 
+@font-face {
+	font-family: 'Menlo Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Menlo Regular'), url('fonts/Menlo-Regular.woff') format('woff');
+}
+
+@mixin repeat($character, $n) {
+	$c: "";
+
+	$n: $n - 1;
+
+	@for $i from 1 through $n {
+		$c: $c + $character;
+	}
+
+	$c: $c+" ";
+
+	content: $c;
+}
+
 a {
 	color: $f333_red;
 	text-decoration: none;
@@ -22,6 +43,21 @@ article {
 		position: relative;
 		width: 100%;
 	}
+
+
+	@for $i from 2 through 6 {
+		h#{$i} {
+			position: relative;
+
+			&:before {
+				@include repeat('#', $i);
+				position: absolute !important;
+				left: -2rem;
+				top: 0px;
+			}
+		}
+	}
+
 }
 
 
@@ -85,17 +121,13 @@ blockquote {
 }
 
 body {
-	font-family: baskerville, sans-serif;
+	font-family: Menlo Regular, sans-serif;
 	background-color: $f333_color_background_primary;
 	color: $f333_color_font_primary;
 }
 
 code,
 
-.baskerville {
-	font-family: baskerville,
-		serif;
-}
 
 .code {
 	font-family: Consolas,
@@ -105,10 +137,6 @@ code,
 
 .tag {
 	&:before {
-		content: "<";
-	}
-
-	&:after {
-		content: ">" !important;
+		content: "#";
 	}
 }
