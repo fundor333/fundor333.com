@@ -1,0 +1,31 @@
+{{ define "body"}}
+<article class="ph3 ph3-m ph6-l">
+  <h1 class="f3 f1-m f-headline-l">{{ .Title }}</h1>
+
+  <a href="{{ .Site.BaseURL }}">home</a>
+  <a>~</a>
+  <a href='{{ .Permalink }}'>{{ .Title }}</a>
+  <hr>
+
+  {{ .Content }}
+</article>
+
+
+
+<div class="ph3 ph3-m ph6-l tc">
+  <div id="gr_challenge_11621"
+    style="border: 2px solid #EBE8D5; border-radius:10px; padding: 0px 7px 0px 7px; max-width:230px; min-height: 100px">
+    <div id="gr_challenge_progress_body_11621" style="font-size: 12px; font-family: georgia,serif;line-height: 18px">
+      <h3 style="margin: 4px 0 10px; font-weight: normal; text-align: center">
+        <a style="text-decoration: none; font-family:georgia,serif;font-style:italic; font-size: 1.1em" rel="nofollow"
+          href="https://www.goodreads.com/challenges/11621-2020-reading-challenge">2020 Reading Challenge</a>
+      </h3>
+
+    </div>
+    <script src="https://www.goodreads.com/user_challenges/widget/5312887-matteo?challenge_id=11621&v=2"></script>
+  </div>
+</div>
+
+
+
+{{ end }}

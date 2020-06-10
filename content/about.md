@@ -1,6 +1,6 @@
 ---
 title: "\U0001F935\U0001F3FBabout"
-type: pages
+type: about
 
 ---
 Backend developer with <3 for Python, Docker, Git and the OpenSource World.
