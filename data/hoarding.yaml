@@ -155,6 +155,8 @@
           url: https://blog.toggl.com/startup-employees-deck/
         - name: Little Red Riding Hood Teaches Programming
           url: https://toggl.com/blog/little-red-riding-hood-teaches-programming-comic
+        - name: The Hidden Dangers of Refactoring
+          url: https://toggl.com/blog/hidden-dangers-refactoring
     - type: "fun"
       elements:
         - name: Octodex
