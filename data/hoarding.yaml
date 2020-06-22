@@ -105,6 +105,8 @@
       elements:
         - name: Gitea, OpenSource Version Controll Host
           url: https://gitea.io/
+        - name: Nginx-ui
+          url: https://github.com/schenkd/nginx-ui
     - type: "comics"
       elements:
         - name: Monkeyuser
