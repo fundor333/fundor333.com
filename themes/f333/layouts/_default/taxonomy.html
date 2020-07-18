@@ -1,50 +1,50 @@
 {{ define "body" }}
-<div class="row">
-  <div class="col-8">
-    <h2>{{.Title}}</h2>
-  </div>
+<hr class="ph3 ph3-m ph6-l">
+
+<div class="ph3 ph3-m ph6-l flex flex-wrap">
   <div class="col-4 float-right">
+    <h2>{{.Title}}</h2>
+
     <a href="{{ .Site.BaseURL }}" class="bricciole">home</a>
     <a>~</a>
     <a href='{{ .Permalink }}' class="bricciole">{{ .Title }}</a>
   </div>
 </div>
-<div>
-  <div class="card-columns">
-    {{ range .Data.Pages }}
-    <article class="center">
-      <div class="pv2 ph3">
-        <h1 class="f6 ttu tracked">{{ .Title }}</h1>
-      </div>
-      <a href="{{ .Permalink }}">
+<section class="ph3 ph3-m ph6-l flex flex-wrap">
 
-        {{ if .Params.feature_image }}
-        {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
-        {{ $resource := $image}}
-        {{ $image := $image.Resize "600x q10" }}
-        {{ $image = $image.Filter  ((images.Pixelate 8) ) ((images.Pixelate 8)) (images.GaussianBlur 80 ) }}
+  {{ $paginator := .Paginate .Data.Pages  }}
 
-        {{ $image = $image.Filter (images.GaussianBlur 20 ) }}
+  {{ range $paginator.Pages }}
+  <article class="center">
+    <div class="pv2 ph3">
+      <h1 class="f6 ttu tracked">{{ .Title }}</h1>
+    </div>
+    <a href="{{ .Permalink }}">
 
-        <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}"
-          class="w-100 db lazy">
-        {{ end }}
+      {{ if .Params.feature_image }}
+      {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
+      {{ $resource := $image}}
+      {{ $image := $image.Resize "600x q10" }}
+      {{ $image = $image.Filter  ((images.Pixelate 8) ) ((images.Pixelate 8)) (images.GaussianBlur 80 ) }}
+
+      {{ $image = $image.Filter (images.GaussianBlur 20 ) }}
+
+      <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}" class="w-100 db lazy">
+      {{ end }}
 
 
-      </a>
-      <div class="pa3">
-        <a href="{{ .Permalink }}">{{ .Description }}</a>
-        <small
-          class="gray db pv2">🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
-          Reading time {{.ReadingTime}} minutes</small>
-        <small class="gray db pv2">{{ dateFormat "2006 Jan 2" .Date }}</small>
-      </div>
-    </article>
-    {{ end }}
-  </div>
-  {{ partial "paginator.html" . }}
-</div>
-</div>
-</div>
-</div>
+    </a>
+    <div class="pa3">
+      <a href="{{ .Permalink }}">{{ .Description }}</a>
+      <small
+        class="gray db pv2">🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
+        Reading time {{.ReadingTime}} minutes</small>
+      <small class="gray db pv2">{{ dateFormat "2006 Jan 2" .Date }}</small>
+    </div>
+  </article>
+  {{ end }}
+</section>
+<hr class="ph3 ph3-m ph6-l">
+
+{{ partial "paginator.html" . }}
 {{ end }}

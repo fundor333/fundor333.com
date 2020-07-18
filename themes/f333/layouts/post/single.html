@@ -19,7 +19,7 @@
     </div>
     <hr>
     {{ with .Params.categories }} {{ range . }}
-    <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+    <a class="tag" href='{{ "categories" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
     {{ end }} {{ end }}
     <hr>
 
