@@ -17,6 +17,11 @@
         <a href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
       </div>
     </div>
+    <hr>
+    {{ with .Params.categories }} {{ range . }}
+    <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+    {{ end }} {{ end }}
+    <hr>
 
     <br>
     <article>
