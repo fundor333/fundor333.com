@@ -10,6 +10,7 @@ tags:
 slug: "excel-django-combo"
 categories:
     - dev
+    - fingerfood
 description: "Import excel to django with easy and usefull form"
 ---
 

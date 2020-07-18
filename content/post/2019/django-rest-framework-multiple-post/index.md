@@ -9,6 +9,7 @@ tags:
 - api
 categories:
 - dev
+- fingerfood
 slug: django-rest-framework-multiple-post
 description: How to make a massive put with Django Rest Framework
 
