@@ -11,9 +11,6 @@
     </div>
     <a href="{{ .Permalink }}">
 
-
-
-
       {{ if .Params.feature_image }}
       {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
       {{ $resource := $image}}
@@ -29,6 +26,9 @@
     </a>
     <div class="pa3">
       <a href="{{ .Permalink }}">{{ .Description }}</a>
+      <small
+        class="gray db pv2">🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
+        Reading time {{.ReadingTime}} minutes</small>
       <small class="gray db pv2">{{ dateFormat "2006 Jan 2" .Date }}</small>
     </div>
   </article>

@@ -105,6 +105,8 @@
       elements:
         - name: Gitea, OpenSource Version Controll Host
           url: https://gitea.io/
+        - name: Nginx-ui
+          url: https://github.com/schenkd/nginx-ui
     - type: "comics"
       elements:
         - name: Monkeyuser
@@ -155,6 +157,8 @@
           url: https://blog.toggl.com/startup-employees-deck/
         - name: Little Red Riding Hood Teaches Programming
           url: https://toggl.com/blog/little-red-riding-hood-teaches-programming-comic
+        - name: The Hidden Dangers of Refactoring
+          url: https://toggl.com/blog/hidden-dangers-refactoring
     - type: "fun"
       elements:
         - name: Octodex

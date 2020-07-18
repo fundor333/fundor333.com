@@ -25,9 +25,6 @@
 		"subtitle": "import antigravity"
 	},
 	"privacy": {
-		"disqus": {
-			"disable": false
-		},
 		"googleAnalytics": {
 			"anonymizeIP": true,
 			"disable": false,
