@@ -1,11 +1,11 @@
 ---
-title: Orrori delle parentesi
+title: Parentesys Horror
 date: 2016-11-09 00:00:00 +0000
 tags:
 - programmazione
 - rant
 slug: orrori-delle-parentesi
-description: Digressione sull'uso delle parentesi nei linguaggi di programmazione
+description: How to use parentesies in coding
 categories:
 - rant
 aliases:
@@ -18,23 +18,18 @@ feature_text: "Photo by Annie Spratt on Unsplash"
 ---
 (°,,,°)
 
-La mia faccia quando ho aperto twitter...
+This is my face when I open Twitter...
 
-Un frammento di codice con parentesi messe allineate in fondo...
-
-<!--more-->
+A fragment of code with parentesies at the end of the row...
 
 {{< tweet 788690145822306304 >}}
 
 \\|/(x,,,x)\\|/
 
-Questo è, appunto, uno di quei limiti da non superare. Il *bon ton*
-della programmazione ti dovrebbe mostrare come, quando sviluppi il
-codice, questo rimanga leggibile anche a distanza di anni e con persone
-diverse, non creare orrori tipo questo in cui non ci si rende conto
-velocemente di quale parentesi chiude quale perchè, QUANDO rimetterai
-mano al codice (succederà di sicuro) ti ritroverai a imprecare e
-maledirti per quello che hai fatto.
+This is one of the think you must not do. 
+The *bon ton* of coding show you how you need to write the code.
+You need to write in a way which you will can read it easy in eons in the future with different coders. 
+If you write code like this ***when*** you came back to it, because you will, you will soffer for your older decision, cursing yourself for years to come because you will need to rewrite some part or all of the orrible code you wrote.
 
-Quindi pensa sempre a come scrivi il tuo codice, perchè ti tornerà
-indietro sotto forma di karma, tanto karma.
+So thing allwayse to write good code because the coder-karma is a monster and has your home adress and come when you don't have time to rewrite the horror-code.
+
