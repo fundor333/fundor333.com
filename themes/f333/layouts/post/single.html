@@ -18,8 +18,8 @@
       </div>
     </div>
     <hr>
-    {{ with .Params.categories }} {{ range . }}
-    <a class="tag" href='{{ "categories" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+    {{ with .Params.tags }} {{ range . }}
+    <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
     {{ end }} {{ end }}
     <hr>
 
@@ -30,9 +30,28 @@
     </article>
 
     <hr>
-    {{ with .Params.tags }} {{ range . }}
-    <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
-    {{ end }} {{ end }}
+
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ with $related }}
+    <h3>See Also</h3>
+    <ul>
+      {{ range . }}
+      <a href="{{ .Permalink }}">
+        <div class="pv2 ph3">
+          <h1 class="f6 ttu tracked">{{ .Title }}</h1>
+        </div>
+        <div class="pa3">
+          <a href="{{ .Permalink }}">{{ .Description }}</a>
+          <small
+            class="gray db pv2">🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
+            Reading time {{.ReadingTime}} minutes
+            {{ with index (.Params.tags) 0 }}
+            <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+            {{ end }}</small></p>
+        </div>
+      </a>{{ end }}
+    </ul>
+    {{ end }}
 
     <hr>
 
