@@ -55,6 +55,8 @@
           url: http://happydorid.tumblr.com/
         - name: Innat the crossroads
           url: http://www.innatthecrossroads.com/
+        - name: Victoria Drake
+          url: https://victoria.dev
     - type: transports
       elements:
         - name: Tube Map Central
