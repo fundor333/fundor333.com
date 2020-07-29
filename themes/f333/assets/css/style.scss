@@ -2,10 +2,11 @@
 @import "colors";
 
 @font-face {
-	font-family: 'Menlo Regular';
+	font-family: "Menlo Regular";
 	font-style: normal;
 	font-weight: normal;
-	src: local('Menlo Regular'), url('fonts/Menlo-Regular.woff') format('woff');
+	src: local("Menlo Regular"),
+		url("fonts/Menlo-Regular.woff") format("woff");
 }
 
 @mixin repeat($character, $n) {
@@ -17,7 +18,7 @@
 		$c: $c + $character;
 	}
 
-	$c: $c+" ";
+	$c: $c + " ";
 
 	content: $c;
 }
@@ -44,13 +45,12 @@ article {
 		width: 100%;
 	}
 
-
 	@for $i from 2 through 6 {
 		h#{$i} {
 			position: relative;
 
 			&:before {
-				@include repeat('#', $i);
+				@include repeat("#", $i);
 				position: absolute !important;
 				left: -2rem;
 				top: 0px;
@@ -58,9 +58,7 @@ article {
 			}
 		}
 	}
-
 }
-
 
 // Blockquote CSS
 blockquote {
@@ -76,20 +74,21 @@ blockquote {
 
 	&:before,
 	&:after {
-		content: '\201C';
-		font-family: 'Sanchez';
+		content: "\201C";
+		font-family: "Sanchez";
 		color: $f333_red;
 	}
 
 	&:after {
-		content: '\201D';
+		content: "\201D";
 	}
 
 	&.twitter-tweet {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+		font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri,
+			sans-serif;
 		font-size: 12px;
 		font-weight: bold;
 		line-height: 16px;
@@ -128,12 +127,13 @@ body {
 }
 
 code,
-
-
 .code {
-	font-family: Consolas,
-		monaco,
-		monospace;
+	font-family: Consolas, monaco, monospace;
+}
+
+.f333 {
+	color: $f333_color_font_primary;
+	background-color: $f333_color_background_primary;
 }
 
 .tag {
