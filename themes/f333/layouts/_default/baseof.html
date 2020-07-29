@@ -10,27 +10,28 @@
   {{ partial "navbar.html" . }}
 
   <div class="container">
-
-    <div class="row justify-content-center">
-      {{ $currentPage := . }} {{ range .Site.Data.social }}
-      <div class="col-1">
-        <a href="{{ .url }}">
-          <i class="fab fa-{{ .identifier }}" aria-hidden="true">
-          </i>
-        </a>
+    <div class=" col-8 offset-2">
+      <div class="row justify-content-center">
+        {{ $currentPage := . }} {{ range .Site.Data.social }}
+        <div class="col-1">
+          <a href="{{ .url }}">
+            <i class="fab fa-{{ .identifier }}" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        {{ end }}
       </div>
+
+      <br>
+
+      <div class="row">
+        {{ block "body" . }} {{ end }}
+      </div>
+      <br>
       {{ end }}
     </div>
-
-    <br>
-
-    <div class="row">
-      {{ block "body" . }} {{ end }}
-    </div>
-    <br>
-    {{ partial "footer.html" . }}
-    {{ end }}
   </div>
+  {{ partial "footer.html" . }}
   {{ partial "script.html" . }}
 </body>
 

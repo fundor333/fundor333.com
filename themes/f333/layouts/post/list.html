@@ -1,34 +1,43 @@
 {{ define "body" }}
-<hr class="ph3 ph3-m ph6-l">
-<section class="ph3 ph3-m ph6-l flex flex-wrap">
+
+<section class="container-fluid">
+  <h2>{{.Title}}</h2>
+
   {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
-
+  <hr>
   {{ range $paginator.Pages }}
-
-  <article class="row">
-    <div class="row">
-      <h1 class="f6 ttu tracked">{{ .Title }}</h1>
+  <article>
+    <div class="row justify-content-center">
+      <a href="{{ .Permalink }}">
+        <h2 class="text-center">{{ .Title }}</h2>
+      </a>
     </div>
 
-    <div class="row">
+    <div class="row justify-content-center">
+      <a href="{{ .Permalink }}" class="text-center">{{ .Description }}</a>
+    </div>
+    <div class="row justify-content-md-center">
       <p>
-        <a href="{{ .Permalink }}">{{ .Description }}</a>
-
-        <small
-          class="gray db pv2">🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
+        <small>🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
           Reading time {{.ReadingTime}} minutes
+        </small>
+      </p>
+    </div>
+    <div class="row justify-content-md-center">
+      <p>
+        <small>
           {{ with index (.Params.tags) 0 }}
           <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
-          {{ end }}</small></p>
+          {{ end }}
+        </small>
+      </p>
     </div>
   </article>
-
+  <hr>
 
   {{ end }}
+  {{ partial "paginator.html" . }}
 </section>
-<hr class="ph3 ph3-m ph6-l">
 
-
-{{ partial "paginator.html" . }}
 
 {{ end }}

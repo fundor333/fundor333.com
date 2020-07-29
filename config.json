@@ -8,12 +8,12 @@
 	"languageCode": "it-it",
 	"rssLimit": 10,
 	"theme": "f333",
-	"title": "Fundor 333",
+	"title": "Fundor333",
 	"enableRobotsTXT": true,
 	"linenos": true,
 	"Paginate": 9,
 	"author": {
-		"name": "Fundor 333"
+		"name": "Fundor333"
 	},
 	"outputs": {
 		"section": [
