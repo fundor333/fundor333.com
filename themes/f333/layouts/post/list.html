@@ -1,44 +1,17 @@
 {{ define "body" }}
-<hr class="ph3 ph3-m ph6-l">
-<section class="ph3 ph3-m ph6-l flex flex-wrap">
-  {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
 
+<section class="container-fluid">
+  <h2>{{.Title}}</h2>
+
+  {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
+  <hr>
   {{ range $paginator.Pages }}
 
-  <article class="center">
-    <div class="pv2 ph3">
-      <h1 class="f6 ttu tracked">{{ .Title }}</h1>
-    </div>
-    <a href="{{ .Permalink }}">
-
-      {{ if .Params.feature_image }}
-      {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
-      {{ $resource := $image}}
-      {{ $image := $image.Resize "600x q10" }}
-      {{ $image = $image.Filter  ((images.Pixelate 8) ) ((images.Pixelate 8)) (images.GaussianBlur 80 ) }}
-
-      {{ $image = $image.Filter (images.GaussianBlur 20 ) }}
-
-      <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}" class="w-100 db lazy">
-      {{ end }}
-
-
-    </a>
-    <div class="pa3">
-      <a href="{{ .Permalink }}">{{ .Description }}</a>
-      <small
-        class="gray db pv2">🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
-        Reading time {{.ReadingTime}} minutes</small>
-      <small class="gray db pv2">{{ dateFormat "2006 Jan 2" .Date }}</small>
-    </div>
-  </article>
-
+  {{ .Render "summary" }}
 
   {{ end }}
+  {{ partial "paginator.html" . }}
 </section>
-<hr class="ph3 ph3-m ph6-l">
 
-
-{{ partial "paginator.html" . }}
 
 {{ end }}

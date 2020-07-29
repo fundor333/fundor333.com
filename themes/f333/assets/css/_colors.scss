@@ -1,11 +1,9 @@
-$f333_black: #1A1A1A;
-$f333_white: #f8f8f2;
-$f333_gray: #cad2c5;
-$f333_yellow: #f4d58d;
 $f333_red: #8d0801;
-$f333_green: #8ed081;
-$f333_color_background_primary: $f333_white;
-$f333_color_background_secondary: $f333_black;
+$f333_dark: #1f1f1f;
+$f333_light: #c2c2c2;
+
+$f333_color_background_primary: $f333_dark;
+$f333_color_background_secondary: $f333_light;
 //
 $f333_color_font_primary: $f333_color_background_secondary;
 $f333_color_font_secondary: $f333_color_background_primary;

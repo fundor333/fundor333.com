@@ -2,25 +2,13 @@
 @import "colors";
 
 @font-face {
-	font-family: 'Menlo Regular';
+	font-family: "Menlo Regular";
 	font-style: normal;
 	font-weight: normal;
-	src: local('Menlo Regular'), url('fonts/Menlo-Regular.woff') format('woff');
+	src: local("Menlo Regular"),
+		url("fonts/Menlo-Regular.woff") format("woff");
 }
 
-@mixin repeat($character, $n) {
-	$c: "";
-
-	$n: $n - 1;
-
-	@for $i from 1 through $n {
-		$c: $c + $character;
-	}
-
-	$c: $c+" ";
-
-	content: $c;
-}
 
 a {
 	color: $f333_red;
@@ -36,90 +24,12 @@ article {
 		margin-left: auto !important;
 		margin-right: auto !important;
 		display: block !important;
+		max-width: 100%;
+		height: auto;
 	}
-
-	.highlight {
-		overflow: hidden;
-		position: relative;
-		width: 100%;
-	}
-
-
-	@for $i from 2 through 6 {
-		h#{$i} {
-			position: relative;
-
-			&:before {
-				@include repeat('#', $i);
-				position: absolute !important;
-				left: -2rem;
-				top: 0px;
-				color: $f333_red;
-			}
-		}
-	}
-
 }
-
 
 // Blockquote CSS
-blockquote {
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 3em;
-	position: relative;
-	padding-left: 1em;
-	border-left: 0.08em solid $f333_red;
-	font-family: Garamond;
-	font-weight: 100;
-	font-style: italic;
-
-	&:before,
-	&:after {
-		content: '\201C';
-		font-family: 'Sanchez';
-		color: $f333_red;
-	}
-
-	&:after {
-		content: '\201D';
-	}
-
-	&.twitter-tweet {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
-		font-size: 12px;
-		font-weight: bold;
-		line-height: 16px;
-		border-color: #eee #ddd #bbb;
-		border-radius: 5px;
-		border-style: solid;
-		border-width: 1px;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-		padding: 0 16px 16px 16px;
-		max-width: 468px;
-
-		p {
-			font-size: 16px;
-			font-weight: normal;
-			line-height: 20px;
-		}
-
-		a {
-			color: inherit;
-			font-weight: normal;
-			text-decoration: none;
-			outline: 0 none;
-
-			&:hover,
-			&:focus {
-				text-decoration: underline;
-			}
-		}
-	}
-}
 
 body {
 	font-family: Menlo Regular, sans-serif;
@@ -127,13 +37,14 @@ body {
 	color: $f333_color_font_primary;
 }
 
-code,
+hr {
+	color: $f333_color_font_primary;
+	border-color: $f333_color_font_primary;
+}
 
-
-.code {
-	font-family: Consolas,
-		monaco,
-		monospace;
+.f333 {
+	color: $f333_color_font_primary;
+	background-color: $f333_color_background_primary;
 }
 
 .tag {

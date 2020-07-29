@@ -1,5 +1,5 @@
 {{ define "body"}}
-<div class="ph3 ph3-m ph6-l">
+<div class="container">
   <h1 class="f2">{{ .Title }}</h2>
     <a class="tag" href="{{ .Site.BaseURL }}">home</a>
     ~
@@ -7,16 +7,27 @@
     <br>
     <hr>
 
-    <div class="center mw8 ba b--black-10 mv4">
+    <div>
       {{ if .Params.feature_image }}
       {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
-      <img src="{{  $image.Permalink  }}" class="w-100 db" alt="Card image cap">
+      <img src="{{  $image.Permalink  }}" alt="Card image cap" class="img-fluid">
       {{end}}
       </a>
-      <div class="pa3">
+      <div>
         <a href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
       </div>
     </div>
+    <hr>
+    {{ with .Params.categories }} {{ range . }}
+    <a class="tag" href='{{ "categories" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+    {{ end }} {{ end }}
+
+
+    {{ with index (.Params.tags) 0 }}
+    <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+    {{ end }}
+
+    <hr>
 
     <br>
     <article>
@@ -28,6 +39,34 @@
     {{ with .Params.tags }} {{ range . }}
     <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
     {{ end }} {{ end }}
+
+    <hr>
+
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ with $related }}
+    <h3>See Also</h3>
+    <ul>
+      {{ range . }}
+      <div class="row justify-content-center">
+        <a href="{{ .Permalink }}">
+          <h2 class="text-center">{{ .Title }}</h2>
+        </a>
+      </div>
+
+      <div class="row justify-content-center">
+        <a href="{{ .Permalink }}" class="text-center">{{ .Description }}</a>
+      </div>
+      <div class="row justify-content-md-center">
+        <p>
+          <small>🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
+            Reading time {{.ReadingTime}} minutes
+          </small>
+        </p>
+      </div>
+      {{ end }}
+    </ul>
+    {{ end }}
+
     <hr>
     {{ template "_internal/disqus.html" . }}
     <hr>
