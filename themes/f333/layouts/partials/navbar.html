@@ -1,15 +1,21 @@
-<nav class="tc pv2">
-  {{ $currentPage := . }} {{ range .Site.Data.social }}
-  <a class="f6 f5-ns dib mr3" href="{{ .url }}">
-    <i class="fab fa-{{ .identifier }}" aria-hidden="true">
-    </i>
-  </a>
-  {{ end }}
-</nav>
-<nav class="tc pv2">
-  {{ $currentPage := . }} {{ range .Site.Data.menu }}
-  <a class="f6 f5-ns dib mr3" href="{{ .url }}">
-    {{ .name }}
-  </a>
-  {{ end }}
+<nav class="navbar navbar-expand-lg  sticky-top f333">
+
+  <button class="navbar-toggler f333" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+      <img src="/img/pilogo.jpg" width="30" height="30" alt="" loading="lazy">
+      {{ .Site.Title }}
+    </a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      {{ $currentPage := . }} {{ range .Site.Data.menu }}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ .url }}">{{.name}}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 </nav>

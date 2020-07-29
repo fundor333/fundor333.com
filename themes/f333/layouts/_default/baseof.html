@@ -6,27 +6,32 @@
 <body>
   {{ block "mainbody" . }}
 
-  <nav class="navbar sticky-top f333">
-    ciao
-  </nav>
-
-  <header class="tc">
-    <a href="{{ .Site.BaseURL }}" class="f4 fw7 dib pa2 no-underline black">
-      <img src="/img/pilogo.jpg" class="br-100 pa1 b--black-10 h4 w4" alt="avatar" loading="lazy">
-      <h1 class="f5 f4-ns fw6">{{ .Site.Title }}</h1>
-      <h2 class="f6 fw2">{{ .Site.Params.subtitle }}</h2>
-    </a>
-  </header>
 
   {{ partial "navbar.html" . }}
 
-  <br>
-  <div class="center mw8 mv4">
-    {{ block "body" . }} {{ end }}
+  <div class="container">
+
+    <div class="row justify-content-center">
+      {{ $currentPage := . }} {{ range .Site.Data.social }}
+      <div class="col-1">
+        <a href="{{ .url }}">
+          <i class="fab fa-{{ .identifier }}" aria-hidden="true">
+          </i>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+
+    <br>
+
+    <div class="row">
+      {{ block "body" . }} {{ end }}
+    </div>
+    <br>
+    {{ partial "footer.html" . }}
+    {{ end }}
   </div>
-  <br>
-  {{ partial "footer.html" . }}
-  {{ end }} {{ partial "script.html" . }}
+  {{ partial "script.html" . }}
 </body>
 
 </html>
