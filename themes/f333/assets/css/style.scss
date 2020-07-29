@@ -11,11 +11,24 @@
 
 
 a {
-	color: $f333_red;
+	margin: auto;
+	font-family: sans-serif;
 	text-decoration: none;
+	color: white;
+	position: relative;
+	transition: all .3s cubic-bezier(.2, 0, 0, 1);
+	z-index: 1;
+
+
 
 	&:hover {
-		color: $f333_color_background_secondary;
+		color: $f333_red;
+
+		&:after {
+			right: 0;
+			left: 0;
+			height: 100%;
+		}
 	}
 }
 
