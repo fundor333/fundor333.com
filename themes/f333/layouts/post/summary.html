@@ -1,0 +1,28 @@
+<article>
+  <div class="row justify-content-center">
+    <a href="{{ .Permalink }}">
+      <h2 class="text-center">{{ .Title }}</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="{{ .Permalink }}" class="text-center">{{ .Description }}</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
+        Reading time {{.ReadingTime}} minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+        {{ with index (.Params.tags) 0 }}
+        <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+        {{ end }}
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
