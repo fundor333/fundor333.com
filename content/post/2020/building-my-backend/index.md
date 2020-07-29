@@ -8,6 +8,7 @@ tags:
     - django
     - backend
     - automatism
+    - programming
 slug: "building-my-backend"
 categories: 
     - dev
