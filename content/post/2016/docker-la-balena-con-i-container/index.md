@@ -12,6 +12,7 @@ categories:
 feature_image: "docker-la-balena.jpg"
 feature_link: "https://unsplash.com/photos/Cu6I_d8gw5A"
 feature_text: "Photo by Sho Hatakeyama on Unsplash"
+type: "post"
 ---
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
 Docker.  
