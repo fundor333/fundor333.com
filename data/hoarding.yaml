@@ -81,7 +81,7 @@
         - name: An automatic interactive pre-commit checklist, in the style of infomercials
           url: https://victoria.dev/blog/an-automatic-interactive-pre-commit-checklist-in-the-style-of-infomercials/
         - name: Why I'm automatically deleting my old tweets using AWS Lambda
-          ulr: https://victoria.dev/blog/why-im-automatically-deleting-my-old-tweets-using-aws-lambda/
+          url: https://victoria.dev/blog/why-im-automatically-deleting-my-old-tweets-using-aws-lambda/
     - type: "utility"
       elements:
         - name: EmojiPedia
