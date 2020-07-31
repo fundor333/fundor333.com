@@ -1,0 +1,14 @@
+{{ define "body" }}
+
+<article class="container-fluid">
+  <div class="row d-flex">
+    <img class="col-3" src="/img/pilogo.jpg">
+    <div class="col justify-content-center align-self-center">
+      <p>{{ .Content }}</p>
+      <p><small class="text-center"><b>#{{ .Title }}</b></small>
+        <small class="text-left"> - {{dateFormat "2006-01-02" .Date }}</small></p>
+    </div>
+  </div>
+</article>
+
+{{ end }}

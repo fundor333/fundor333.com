@@ -1,29 +1,9 @@
-<footer class="fixed-bottom f333 navbar">
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      Made by Fundor333 with
-      <i class="fa fa-heart" aria-hidden="true"></i>
-      <a href="https://gohugo.io">GoHugo </a>
-      <i class="fa fa-laptop" aria-hidden="true"></i>
-    </li>
-  </ul>
-
+<footer class="fixed-bottom d-flex justify-content-center f333 navbar">
   <ul class="nav justify-content-center">
     <li class="nav-item">
       <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
         <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
       </a>
-    </li>
-  </ul>
-
-
-  <ul class="nav justify-content-center">
-    <li class="nav-link">
-      {{ $.Scratch.Set "counter" 0 }}
-      {{range sort .Site.Pages }}
-      {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") .WordCount) }}
-      {{end}}
-      Words count: {{$.Scratch.Get "counter"}}
     </li>
   </ul>
 </footer>
