@@ -1,5 +1,6 @@
 @import "_switch";
 @import "colors";
+@import "tags";
 
 @font-face {
 	font-family: "Menlo Regular";
@@ -86,3 +87,9 @@ hr {
 		color: $shadow_color;
 	}
 }
+
+@each $a, $b in $tags-list {
+	[href$='tags/#{$a}/'],[href$='tags/#{$a}'] { 
+	    background-color: $b;
+	}
+    }
