@@ -4,9 +4,7 @@ date: 2017-04-21 00:00:00 +0000
 slug: il-primo-periodo-con-emacs
 tags:
 - emacs
-- editor
-- ide
-- tool
+- rant
 categories:
 - dev
 description: Diario del mio primo periodo di utilizzo di Emacs

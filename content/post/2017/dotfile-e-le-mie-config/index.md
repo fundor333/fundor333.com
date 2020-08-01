@@ -4,9 +4,8 @@ date: 2017-12-04 00:00:00 +0000
 slug: dotfile-e-le-mie-config
 tags:
 - dotfile
-- config
-- repository
-- dotbot
+- coding
+
 description: DotFile e la mia configurazione di tutto
 categories:
 - rant

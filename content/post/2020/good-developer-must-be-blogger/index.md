@@ -5,9 +5,7 @@ feature_image: "good-developer-must-be-blogger.jpg"
 feature_link: "https://unsplash.com/photos/-94oJK3PDQw"
 feature_text: "Photo by David Klein on Unsplash"
 tags:
-- blog
-- developer
-- programming
+- rant
 slug: "good-developer-must-be-blogger"
 categories: 
 - dev

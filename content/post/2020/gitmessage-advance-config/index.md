@@ -6,7 +6,6 @@ feature_link: "https://unsplash.com/photos/xDjGxM8N4sY"
 feature_text: "Photo by Victoria Zakharchuk on Unsplash"
 tags:
 - git
-- config
 - dotfiles
 slug: "gitmessage-advance-config"
 categories: 

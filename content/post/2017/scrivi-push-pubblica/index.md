@@ -3,8 +3,6 @@ title: Scrivi, push e publica
 date: 2017-01-14 00:00:00 +0000
 tags:
 - github
-- wordpress
-- container
 - pelican
 - travis
 - git

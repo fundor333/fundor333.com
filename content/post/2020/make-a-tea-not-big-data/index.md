@@ -6,7 +6,6 @@ feature_link: "https://unsplash.com/photos/SSj5qtnrpj0"
 feature_text: "Photo by 五玄土 ORIENTO on Unsplash"
 tags:
     - big data
-    - tea
     - rant
 slug: "make-tea-not-big-data"
 categories:

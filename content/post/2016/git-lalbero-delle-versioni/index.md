@@ -3,7 +3,7 @@ title: Git, l'albero delle versioni che ci salva il progetto
 date: 2016-10-10 00:00:00 +0000
 tags:
 - git
-- tool
+- coding
 slug: git-lalbero-delle-versioni
 description: Spesso e volentieri uno dei problemi dello sviluppo di software è avere
   backup del codice e condividerlo in modo da poterci lavorare in più persone in contemporanea

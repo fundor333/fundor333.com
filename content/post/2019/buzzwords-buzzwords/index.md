@@ -5,8 +5,7 @@ feature_image: "words.jpg"
 feature_link: "https://unsplash.com/photos/GkinCd2enIY"
 feature_text: "Photo by Raphael Schaller on Unsplash"
 tags:
-- tecnology
-- buzzword
+- coding
 - rant
 categories:
 - zeta target

@@ -4,7 +4,7 @@ date = "2018-06-11"
 description = "Now what appen because Microsoft own Github and all theire project?"
 feature_image = "microsoft-github.png"
 slug = "microsoft-buy-atom-electron-and-open-source"
-tags = ["github", "microsoft", "electron", "atom"]
+tags = ["github","coding"]
 title = "Microsoft buy Atom, Electron and Open Source"
 
 +++

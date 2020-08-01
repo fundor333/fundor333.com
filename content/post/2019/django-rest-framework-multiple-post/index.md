@@ -5,7 +5,6 @@ feature_image: "api.gif"
 tags:
 - django
 - rest
-- post
 - api
 categories:
 - dev

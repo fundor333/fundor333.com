@@ -5,9 +5,7 @@ feature_image: "dotfiles-bot-yaml.jpg"
 feature_link: "https://unsplash.com/photos/y7T1lYkfg0c"
 feature_text: "Photo by Amith Nair on Unsplash"
 tags:
-    - bot
     - dotfiles
-    - dotbot
 slug: "dotfiles-bot-yaml"
 categories:
     - dev

@@ -18,9 +18,9 @@
   <div class="row justify-content-md-center">
     <p>
       <small>
-        {{ with index (.Params.tags) 0 }}
+        {{ with .Params.tags }} {{ range . }}
         <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
-        {{ end }}
+        {{ end }} {{ end }}
       </small>
     </p>
   </div>

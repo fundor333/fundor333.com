@@ -6,11 +6,7 @@ category:
 - rant
 - zeta target
 tags:
-- nintendo
-- nintendo switch
-- switch
-- console
-- videogames
+- rant
 slug: tanti-auguri-nintendo
 description: Esattamente un anno fa veniva rilasciata la Nintendo Switch. Oggi, un
   anno dopo, vediamo che tipo di mercato ha coperto.

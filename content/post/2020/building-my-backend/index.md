@@ -6,9 +6,8 @@ feature_link: "https://unsplash.com/photos/fpmV3dQPUvU"
 feature_text: "Photo by Caleb Woods on Unsplash"
 tags:
     - django
-    - backend
-    - automatism
-    - programming
+    - coding
+    - api
 slug: "building-my-backend"
 categories: 
     - dev

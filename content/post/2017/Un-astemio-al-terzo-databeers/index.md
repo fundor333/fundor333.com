@@ -4,7 +4,8 @@ date: 2017-11-23 00:00:00 +0000
 slug: astemio-al-terzo-databeers
 tags:
 - databeers
-- datascienze
+- rant
+- convention
 description: La mia terza esperienza al DataBeers di Venezia, mio quarto Databeers
 categories:
 - rant

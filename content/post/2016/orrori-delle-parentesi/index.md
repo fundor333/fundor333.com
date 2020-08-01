@@ -2,7 +2,7 @@
 title: Parentesys Horror
 date: 2016-11-09 00:00:00 +0000
 tags:
-- programmazione
+- coding
 - rant
 slug: orrori-delle-parentesi
 description: How to use parentesies in coding

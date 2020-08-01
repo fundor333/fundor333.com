@@ -2,7 +2,6 @@
 title: Jupyter Notebook Pelican Combo
 tags:
 - pelican
-- jupyter
 - notebook
 date: 2017-02-14 00:00:00 +0000
 slug: jupyter-notebook-pelican-combo

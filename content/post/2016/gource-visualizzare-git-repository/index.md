@@ -3,8 +3,6 @@ title: Gource, visualizzare Git repository
 date: 2016-11-07 00:00:00 +0000
 tags:
 - git
-- gource
-- tool
 slug: gource-visualizzare-git-repository
 description: Gource, cos'è e come usarlo al meglio
 categories:

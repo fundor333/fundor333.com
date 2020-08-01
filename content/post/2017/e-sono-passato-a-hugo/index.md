@@ -6,8 +6,6 @@ tags:
 - hugo
 - pelican
 - blog
-- golang
-- https
 description: Come e perchè sono passato a Hugo da Pelican
 categories:
 - rant
