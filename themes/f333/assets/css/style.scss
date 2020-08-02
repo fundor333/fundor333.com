@@ -88,8 +88,9 @@ hr {
 	}
 }
 
-@each $a, $b in $tags-list {
+@each $a, $b , $c in $tags-list {
 	[href$='tags/#{$a}/'],[href$='tags/#{$a}'] { 
 	    background-color: $b;
+	    color: $c;
 	}
     }
