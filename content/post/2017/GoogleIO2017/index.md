@@ -2,7 +2,6 @@
 title: Google IO 2017
 date: 2017-05-18 00:00:00 +0000
 tags:
-- google
 - convention
 slug: google-io-2017
 description: Sono nell'evento del GDG di Venezia a vedermi il Google IO 2017 in compagnia

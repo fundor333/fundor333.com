@@ -3,7 +3,6 @@ title: Il primo periodo con Emacs
 date: 2017-04-21 00:00:00 +0000
 slug: il-primo-periodo-con-emacs
 tags:
-- emacs
 - rant
 categories:
 - dev

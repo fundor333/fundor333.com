@@ -1,10 +1,8 @@
 ---
 tags:
-- telegram
 - bot
 - python
 - coding
-- functional programming
 date: 2017-02-11 00:00:00 +0000
 title: Bot, Telegram e programmazione funzionale
 slug: bot-telegram-e-programmazione-funzionale

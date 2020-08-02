@@ -2,7 +2,6 @@
 title: Emacs e mai più mouse
 date: 2017-02-14 00:00:00 +0000
 tags:
-- emacs
 - coding
 - rant
 slug: emacs-e-mai-piu-mouse

@@ -4,6 +4,7 @@ slug: utilizzi-alternativi-di-farebase
 date: 2017-09-04 00:00:00 +0000
 tags:
 - coding
+- rant
 description: Utilizzare le funzionalità di Firebase in modo non 'standard'
 categories:
 - rant

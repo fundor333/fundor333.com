@@ -5,8 +5,6 @@ tags:
 - convention
 - pycon
 - python
-- pelican
-- latex
 - rant
 slug: e-talk-al-pycon9
 description: E vado a parlare al Pycon9 per colpa di questo blog, della mia piccola

@@ -4,7 +4,6 @@ date: 2018-03-03 00:00:00 +0000
 feature_image: "nintendo_switch.jpg"
 category:
 - rant
-- zeta target
 tags:
 - rant
 slug: tanti-auguri-nintendo
