@@ -5,8 +5,8 @@ feature_image: "excel-django.jpg"
 feature_link: "https://unsplash.com/photos/l090uFWoPaI"
 feature_text: "Photo by John Barkiple on Unsplash"
 tags:
-    - excel
     - django
+    - coding
 slug: "excel-django-combo"
 categories:
     - dev

@@ -3,9 +3,6 @@ date: 2017-05-16 12:27:11 +0200
 tags:
 - docker
 - hugo
-- image
-- container
-- docker
 title: Hugo into Docker
 categories:
 - dev
