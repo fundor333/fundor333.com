@@ -22,6 +22,8 @@
     <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
     {{ end }} {{ end }}
     <hr>
+    <small>{{ dateFormat "2006-01-02" .Date  }}</small>
+    <hr>
 
     <br>
     <article>
