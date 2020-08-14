@@ -34,11 +34,6 @@
 			"pygmentsStyle": "native"
 		}
 	},
-	"sitemap": {
-		"changefreq": "dayly",
-		"filename": "sitemap.xml",
-		"priority": 0.8
-	},
 	"markup": {
 		"highlight": {
 			"codeFences": true,
