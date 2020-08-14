@@ -5,6 +5,25 @@
     </a>
   </div>
 
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    {{ if .Params.feature_image }}
+    <a href="{{ .Permalink }}">
+
+      {{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
+      {{ $resource := $image}}
+      {{ $image := $image.Resize "600x q10" }}
+      {{ $image = $image.Filter  ((images.Pixelate 8) ) ((images.Pixelate 8)) (images.GaussianBlur 80 ) }}
+
+      {{ $image = $image.Filter (images.GaussianBlur 20 ) }}
+
+      <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    {{ end }}
+  </div>
+
   <div class="row justify-content-center">
     <a href="{{ .Permalink }}" class="text-center">{{ .Description }}</a>
   </div>
