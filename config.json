@@ -47,7 +47,7 @@
 			"lineNoStart": 1,
 			"lineNos": true,
 			"lineNumbersInTable": true,
-			"style": "monokai",
+			"style": "dracula",
 			"tabWidth": 4
 		}
 	}
