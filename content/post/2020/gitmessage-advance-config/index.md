@@ -16,7 +16,7 @@ description: "Sometime you need to configure your git or have a template for the
 
 Sometime you will need to have a template for the commit message.
 
-Allwayse put something (ticket code, bug code, etc...), order of stuff, some command for the CI system, etc...
+Allways put something (ticket code, bug code, etc...), order of stuff, some command for the CI system, etc...
 
 In Git you can set a a file as the template for the git commit. 
 You can do it for a single project or for your user. 
