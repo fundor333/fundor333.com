@@ -6,7 +6,6 @@ feature_link: "https://unsplash.com/photos/OVEWbIgffDk"
 feature_text: "Photo by Denisse Leon on Unsplash"
 tags:
 - coding
-- dotbot
 - devops
 slug: "ssl-check-with-a-script"
 categories: 
