@@ -52,6 +52,9 @@
         - name: PyExcel
           url: http://docs.pyexcel.org/en/latest/#
           description: Let you focus on data, instead of file formats
+        - name: coloredlogs
+          url: https://coloredlogs.readthedocs.io/en/latest/
+          description: Logger with color
 - language: others
   package:
     - subtype: style
