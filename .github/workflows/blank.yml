@@ -1,0 +1,29 @@
+name: hugo-remote
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 * * * *'
+      
+
+env:
+  REMOTE: fundor333/fundor333.github.io
+  DEST: public
+  TOKEN: ${{ secrets.TOKEN }}
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: 🚀 Build and deploy
+        #env:
+        #  HUGO_ARGS:
+        uses: victoriadrake/hugo-remote@master
