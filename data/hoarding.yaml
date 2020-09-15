@@ -106,6 +106,8 @@
           url: https://python-release-cycle.glitch.me/
         - name: Hacker Script for lazy worker
           url: https://github.com/NARKOZ/hacker-scripts
+        - name: Diagrams, prototyping architecture
+          url: https://diagrams.mingrammer.com/
     - type: "software"
       elements:
         - name: Gitea, OpenSource Version Controll Host
