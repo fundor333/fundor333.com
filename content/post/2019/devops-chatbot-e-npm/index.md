@@ -6,9 +6,7 @@ feature_image: "octocat.png"
 tags:
   - devops
   - bot
-  - chat
-  - chatbot
-  - npm
+  - coding
 categories:
   - dev
 slug: devops-chatbot-npm

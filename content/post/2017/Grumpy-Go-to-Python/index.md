@@ -2,10 +2,8 @@
 title: Grumpy, come convertire il serpente nel gopher
 date: 2017-01-26 00:00:00 +0000
 tags:
-- golang
 - python
-- grumpy
-- google
+- coding
 slug: grumpy-come-convertire-il-serpente-nel-gopher
 description: Cos'è Grumpy e come la penso su questo progetto di Google e le sue conseguenze
 categories:

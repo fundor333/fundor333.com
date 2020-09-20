@@ -5,9 +5,8 @@ feature_image: "al-you-need-is-static.jpg"
 feature_link: "https://unsplash.com/photos/3xNn1zGvBwY"
 feature_text: "Photo by Hello I'm Nik 🎞 on Unsplash"
 tags:
-- static site
-- site
-- generator
+- rant
+- coding
 slug: "al-you-need-is-static"
 categories:
 - dev

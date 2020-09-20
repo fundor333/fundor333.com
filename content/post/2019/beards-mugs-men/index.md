@@ -6,7 +6,7 @@ feature_link: "https://unsplash.com/photos/NEc3YEN1FFw"
 feature_text: "Photo by Chris Scott on Unsplash"
 tags:
 - rant
-- devrant
+
 categories:
 - dev
 - zeta target

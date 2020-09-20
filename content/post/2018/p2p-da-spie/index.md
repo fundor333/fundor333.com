@@ -2,11 +2,7 @@
 title: P2P offline come le Spie
 date: 2018-02-16 00:00:00 +0000
 tags:
-- p2p
-- librarybox
-- piratebox
-- sharing
-- dead drop
+- hacking
 slug: p2p-offline-da-spie
 description: Esistono altri sistemi per la condivisione p2p e quelli offline sono
   particolarmente interessanti. Eccone alcuni dei più interessanti

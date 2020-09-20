@@ -3,8 +3,7 @@ title: Docker, la balena con i container per software
 date: 2016-10-03 00:00:00 +0000
 tags:
 - docker
-- virtual machine
-- tool
+- coding
 description: Docker, cos'è e come funziona
 slug: docker-la-balena-con-i-container
 categories:
@@ -12,6 +11,7 @@ categories:
 feature_image: "docker-la-balena.jpg"
 feature_link: "https://unsplash.com/photos/Cu6I_d8gw5A"
 feature_text: "Photo by Sho Hatakeyama on Unsplash"
+type: "post"
 ---
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
 Docker.  

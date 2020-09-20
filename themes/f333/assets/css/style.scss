@@ -1,5 +1,6 @@
 @import "_switch";
 @import "colors";
+@import "tags";
 
 @font-face {
 	font-family: "Menlo Regular";
@@ -11,11 +12,24 @@
 
 
 a {
-	color: $f333_red;
+	margin: auto;
+	font-family: sans-serif;
 	text-decoration: none;
+	color: white;
+	position: relative;
+	transition: all .3s cubic-bezier(.2, 0, 0, 1);
+	z-index: 1;
+
+
 
 	&:hover {
-		color: $f333_color_background_secondary;
+		color: $f333_red;
+
+		&:after {
+			right: 0;
+			left: 0;
+			height: 100%;
+		}
 	}
 }
 
@@ -47,8 +61,39 @@ hr {
 	background-color: $f333_color_background_primary;
 }
 
+.highlight{
+	margin-bottom: 1rem;
+}
+
 .tag {
-	&:before {
-		content: "#";
+
+}
+
+#dot {
+	a {
+		color: $shadow_color;
 	}
 }
+
+@each $a, $b , $c in $tags-list {
+	[href$='tags/#{$a}/'],[href$='tags/#{$a}'] { 
+	    background-color: $b;
+	    color: $c;
+	    margin: 10px 5px 0 0 !important;
+	    font-size: .9em !important;
+	    font-weight: 400 !important;
+	    letter-spacing: 0 !important;
+	    text-shadow: none !important;
+	    box-shadow: 2px 3px 0 var(--black);
+	    border: 1px solid var(--black);
+	    margin: 3.5px 3px;
+	    padding: 0 .4em;
+	    border-radius: 8px;
+	    display: inline-block;
+    
+	    &:hover {
+		    text-decoration: none;
+		    color: $c;
+	    }
+	}
+    }

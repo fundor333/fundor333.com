@@ -6,8 +6,7 @@ feature_link: "https://unsplash.com/photos/Sb2FkPFiadg"
 feature_text: "Photo by Ryan Quintal on Unsplash"
 tags:
     - rant
-    - pokemon
-    - programming
+    - coding
 categories:
     - dev
     - zeta target

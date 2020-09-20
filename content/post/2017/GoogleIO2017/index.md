@@ -2,8 +2,6 @@
 title: Google IO 2017
 date: 2017-05-18 00:00:00 +0000
 tags:
-- google
-- io17
 - convention
 slug: google-io-2017
 description: Sono nell'evento del GDG di Venezia a vedermi il Google IO 2017 in compagnia
@@ -55,7 +53,6 @@ Sono riusciti a creare un sistema sempre più discirsi che riconoscono la person
 In oltre ora il Google Assistent è sisponibile anche sull&rsquo;Iphone e esite un SDK per il Google assistent.
 In questo modo le app di terze parti possono sviluppare il loro supporto per l&rsquo;assistant.
 
-{{< tweet 864896336247881728 >}}
 
 Il Google Assitant può gestire creazione degli account, pagamenti e discussioni. Per fortuna i pagamenti passano per l&rsquo;impronta digitale anche se Google ha i tuoi dati delle carte di credito e affini.
 
@@ -115,7 +112,6 @@ Questo è valido anche per alcune console e altre piattaforme che possono essere
 Possono essere fatte dei messaggi colorati/personalizzati pagando una piccola cifra che viene, in parte, donata allo streamer.
 Disponibile anche una APi per la SuperApi per ottenere azioni nel mondo reale&#x2026;
 
-{{< tweet 865118899544739840 >}}
 
 # Android<a id="sec-7" name="sec-7"></a>
 

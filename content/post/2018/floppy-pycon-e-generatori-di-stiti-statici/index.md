@@ -4,7 +4,7 @@ date = "2018-05-03T23:00:00Z"
 description = "Racconto della mia esperienza al Pycon 9"
 feature_image = "floppy-pycon.jpg"
 slug = "floppy-pycon-e-generatori-di-siti-statici"
-tags = ["pycon", "floppy disk", "convention", "talk", "qrcode"]
+tags = ["pycon", "rant", "convention"]
 title = "Floppy, Pycon e generatori di siti statici"
 
 +++
@@ -43,7 +43,6 @@ In ogni caso mi ha permesso di socializzare con alcune persone e di divertirmi i
 
 Quest'anno, sia per un discorso economico che per un discorso di tempi, ho deciso di non partecipare alla Pyfiorentina ma andare a caccia di Lampredotto.
 
-{{< tweet 987765925091868672 >}}
 
 Trovato quindi il locale e mangiato il lampredotto ho avuto una idea per un progetto con i GTFS di Google grazie all'autobus che per poco non mi metteva sotto (troppo distratto io dal lampredotto). 
 

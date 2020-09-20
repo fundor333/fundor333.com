@@ -81,7 +81,7 @@
         - name: An automatic interactive pre-commit checklist, in the style of infomercials
           url: https://victoria.dev/blog/an-automatic-interactive-pre-commit-checklist-in-the-style-of-infomercials/
         - name: Why I'm automatically deleting my old tweets using AWS Lambda
-          ulr: https://victoria.dev/blog/why-im-automatically-deleting-my-old-tweets-using-aws-lambda/
+          url: https://victoria.dev/blog/why-im-automatically-deleting-my-old-tweets-using-aws-lambda/
     - type: "utility"
       elements:
         - name: EmojiPedia
@@ -106,6 +106,8 @@
           url: https://python-release-cycle.glitch.me/
         - name: Hacker Script for lazy worker
           url: https://github.com/NARKOZ/hacker-scripts
+        - name: Diagrams, prototyping architecture
+          url: https://diagrams.mingrammer.com/
     - type: "software"
       elements:
         - name: Gitea, OpenSource Version Controll Host

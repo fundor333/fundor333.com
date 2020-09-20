@@ -3,6 +3,12 @@
 <section class="container-fluid">
   <h2>{{.Title}}</h2>
 
+  <hr>
+
+  {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+  <a class="tag" href='{{ .Permalink }}'>{{ .Title }}</a>
+  {{ end }}
+
   {{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
   <hr>
   {{ range $paginator.Pages }}

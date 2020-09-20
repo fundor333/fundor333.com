@@ -5,8 +5,8 @@
 	"disqusShortname": "fundor333",
 	"gtm_id": "GTM-NZQKPXS",
 	"googleAnalytics": "UA-44064318-2",
-	"languageCode": "it-it",
-	"rssLimit": 10,
+	"languageCode": "en",
+	"rssLimit": 9,
 	"theme": "f333",
 	"title": "Fundor333",
 	"enableRobotsTXT": true,
@@ -34,11 +34,6 @@
 			"pygmentsStyle": "native"
 		}
 	},
-	"sitemap": {
-		"changefreq": "dayly",
-		"filename": "sitemap.xml",
-		"priority": 0.8
-	},
 	"markup": {
 		"highlight": {
 			"codeFences": true,
@@ -47,7 +42,7 @@
 			"lineNoStart": 1,
 			"lineNos": true,
 			"lineNumbersInTable": true,
-			"style": "monokai",
+			"style": "dracula",
 			"tabWidth": 4
 		}
 	}

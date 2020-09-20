@@ -1,9 +1,9 @@
 {{ define "body"}}
 <div class="container">
-  <h1 class="f2">{{ .Title }}</h2>
-    <a class="tag" href="{{ .Site.BaseURL }}">home</a>
+  <h1>{{ .Title }}</h2>
+    <a class="crumb" href="{{ .Site.BaseURL }}">home</a>
     ~
-    <a class="tag" href='{{ .Permalink }}'>{{ .Title }}</a>
+    <a class="crumb" href='{{ .Permalink }}'>{{ .Title }}</a>
     <br>
     <hr>
 
@@ -18,15 +18,11 @@
       </div>
     </div>
     <hr>
-    {{ with .Params.categories }} {{ range . }}
-    <a class="tag" href='{{ "categories" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
-    {{ end }} {{ end }}
-
-
-    {{ with index (.Params.tags) 0 }}
+    {{ with .Params.tags }} {{ range . }}
     <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
-    {{ end }}
-
+    {{ end }} {{ end }}
+    <hr>
+    <small>{{ dateFormat "2006-01-02" .Date  }}</small>
     <hr>
 
     <br>
@@ -36,38 +32,15 @@
     </article>
 
     <hr>
-    {{ with .Params.tags }} {{ range . }}
-    <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
-    {{ end }} {{ end }}
-
-    <hr>
 
     {{ $related := .Site.RegularPages.Related . | first 3 }}
     {{ with $related }}
     <h3>See Also</h3>
-    <ul>
-      {{ range . }}
-      <div class="row justify-content-center">
-        <a href="{{ .Permalink }}">
-          <h2 class="text-center">{{ .Title }}</h2>
-        </a>
-      </div>
-
-      <div class="row justify-content-center">
-        <a href="{{ .Permalink }}" class="text-center">{{ .Description }}</a>
-      </div>
-      <div class="row justify-content-md-center">
-        <p>
-          <small>🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
-            Reading time {{.ReadingTime}} minutes
-          </small>
-        </p>
-      </div>
-      {{ end }}
-    </ul>
+    {{ range . }}
+    {{ .Render "summary" }}
+    {{ end }}
     {{ end }}
 
-    <hr>
     {{ template "_internal/disqus.html" . }}
     <hr>
 </div>

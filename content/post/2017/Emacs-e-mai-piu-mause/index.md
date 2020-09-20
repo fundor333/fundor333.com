@@ -2,10 +2,7 @@
 title: Emacs e mai più mouse
 date: 2017-02-14 00:00:00 +0000
 tags:
-- emacs
-- texteditor
-- programmazione
-- tool
+- coding
 - rant
 slug: emacs-e-mai-piu-mouse
 description: Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal mio
