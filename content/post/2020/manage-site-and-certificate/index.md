@@ -7,6 +7,7 @@ feature_text: "Photo by Mike Kenneally on Unsplash"
 tags:
 - devops
 - bot
+- dotfiles
 slug: "manage-site-and-certificate"
 categories: 
 - dev
@@ -28,5 +29,31 @@ So, for our task, we need :
 * Plugin or script support for custom things to check
 
 So I write a tool for check all the point: [Server Grimoire](https://github.com/fundor333/servergrimoire)
+
+## How to work?
+
+It is a terminal app, so work all into your console. All the configs and the data are into two *dotfiles*, one called *.servergrimoire_config* and *.servergrimoire_data* (config and data respectively) and can be backup like all [dotfiles](/tags/dotfiles/).
+
+So for start I need to register some urls like google and amazon for example
+
+``` bash
+ servergrimoire add --u google.com --u amamzon.it
+```
+
+Now you only register the url, nothing is check for now.
+
+For run all job or only one you need to use the *run* directive with the *--c* flag for adding command. 
+
+```bash
+ servergrimoire run
+```
+
+After this you don't have any return beause this command is for cronjob or similar. If you launch a run and you want to see what appen you need to add *--stats* for gettin an output.
+
+If you need to see what was the last run you can call *stats* and *info* if you want to see what is save into the data file. This way make easy for cronjob, automatic task and will grow with other function. All the command are in the *help* directive if you need more info.
+
+This is a little module but can be extrime usefull in small list of urls but you need other tool if you use it for hundreds urls. 
+I also accept help for the plugin.
+
 
 [^1]: Sometime they don't have the *https* or the *http* prefix
