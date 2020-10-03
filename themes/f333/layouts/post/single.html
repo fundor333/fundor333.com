@@ -19,7 +19,7 @@
     </div>
     <hr>
     {{ with .Params.tags }} {{ range . }}
-    <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+    <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'><i class="fas fa-tags"></i> {{ . }}</a>
     {{ end }} {{ end }}
     <hr>
     <small>{{ dateFormat "2006-01-02" .Date  }}</small>

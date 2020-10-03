@@ -29,7 +29,7 @@
   </div>
   <div class="row justify-content-md-center">
     <p>
-      <small>🍵{{ if gt .ReadingTime 4 }}🍵{{ if gt .ReadingTime 7 }}🍵{{ if gt .ReadingTime 10 }}🍵{{ end }}{{ end }}{{ end }}
+      <small><i class="fas fa-mug-tea"></i>{{ if gt .ReadingTime 4 }}<i class="fas fa-mug-tea"></i>{{ if gt .ReadingTime 7 }}<i class="fas fa-mug-tea"></i>{{ if gt .ReadingTime 10 }}<i class="fas fa-mug-tea"></i>{{ end }}{{ end }}{{ end }}
         Reading time {{.ReadingTime}} minutes
       </small>
     </p>
@@ -38,7 +38,7 @@
     <p>
       <small>
         {{ with .Params.tags }} {{ range . }}
-        <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'>{{ . }}</a>
+        <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'><i class="fas fa-tags"></i> {{ . }}</a>
         {{ end }} {{ end }}
       </small>
     </p>
