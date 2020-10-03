@@ -51,6 +51,8 @@ body {
 	color: $f333_color_font_primary;
 }
 
+code{padding-left: 2%;}
+
 hr {
 	color: $f333_color_font_primary;
 	border-color: $f333_color_font_primary;
@@ -62,12 +64,36 @@ hr {
 }
 
 .highlight{
-	margin-bottom: 1rem;
+	&::before{
+
+		height: 40px;
+		width: 10%;
+		padding-left: 1%;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		position: absolute;
+		top: 0;
+		content: url(/img/window-buttons.svg);
+	}
+	background-color: $f333_color_background_primary;
+	border-radius: 8px;
+	box-shadow: 3px 6px 9px 8px rgba(0,0,0,.3);
+	position: relative;
+	margin-bottom: 2.5em;
+	margin-top: 35px;
+	padding-top: 2em;
+	border: 2px solid #141414;
+
 }
 
-.tag {
+.quiet{
 
+	&:hover {
+	color: $f333_color_background_secondary;
+	text-decoration: none;
+	}
 }
+
 
 #dot {
 	a {

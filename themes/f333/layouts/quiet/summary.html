@@ -1,12 +1,13 @@
-<article>
-  <div class="row justify-content-center">
-    <p class="text-center">{{ .Content }}</p>
-  </div>
-  <div class="row">
-    <a href="{{ .Permalink }}">
-      <small class="text-center"><b><i class="fas fa-starship-freighter"></i> {{ .Title }}</b></small>
-      <small class="text-left"> - {{dateFormat "2006-01-02" .Date }}</small>
-    </a>
-  </div>
-</article>
+<a href="{{ .Permalink}}" class="quiet">
+  <article class="container-fluid">
+    <div class="row d-flex">
+      <img class="col-3" src="/img/pilogo.jpg">
+      <div class="col justify-content-center align-self-center">
+        <p>{{ .Content }}</p>
+        <p><small class="text-center"><b>#{{ .Title }}</b></small>
+          <small class="text-left"> - {{dateFormat "2006-01-02" .Date }}</small></p>
+      </div>
+    </div>
+  </article>
+</a>
 <hr>
