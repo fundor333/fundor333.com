@@ -27,7 +27,7 @@
 
     <br>
     <article>
-      {{ .Content  }}
+      {{ .Content | replaceRE "(<h[1-6] id=\"(.+)\".*>)(.*)(</h([1-6])>)" "<a class=\"h${5}-anchor\" href=\"#${2}\">${1}${3}${4}</a>" | safeHTML }}
       <p>by {{ .Site.Author.name }}</p>
     </article>
 
