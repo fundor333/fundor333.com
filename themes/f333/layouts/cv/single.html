@@ -1,0 +1,60 @@
+{{ define "body" }}
+<section class="container-fluid">
+  <h2>{{.Title}} <a href="https://www.linkedin.com/in/🐍-matteo-scarpa-78969263" target="_blank"><i
+        class="fab fa-linkedin"></i></a> <a href="mailto:jobs@fundor333.com"><i class="far fa-envelope"></i></a></h2>
+
+  <hr>
+  <div class="row">
+    <div class="col-md-3 col-sm-12">
+      {{ $image := .Resources.GetMatch ( print .Params.feature_image )  }}
+      {{ $resource := $image}}
+      {{ $image := $image.Resize "600x q10" }}
+      {{ $image = $image.Filter  ((images.Pixelate 8) ) ((images.Pixelate 8)) (images.GaussianBlur 80 ) }}
+
+      {{ $image = $image.Filter (images.GaussianBlur 20 ) }}
+
+      <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}"
+        class="img-fluid rounded mx-auto d-block lazy rounded-circle">
+
+
+    </div>
+    <div class="col-md col-sm-12">
+      {{.Content}}
+    </div>
+  </div>
+
+  <hr>
+
+  {{ range $.Site.Data.jobs }}
+
+  <div class="row">
+    <div class="col-md-3 col-sm-4">
+      <div class="row">
+        <div class="col">
+          <h4>{{ .ditta }}</h4>
+          <small><i>{{ .inizio }} - {{ .fine }}</i></small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md col-sm">
+      {{ range .roles }}
+      <div class="row">
+        <div class="col">
+          <h4><i class="far fa-male"></i> {{.role}}</h4>
+        </div>
+        <div class="col">{{.description}}</div>
+      </div>
+      <br>
+      {{ end }}
+    </div>
+  </div>
+  <hr>
+
+  {{ end }}
+
+
+
+
+
+</section>
+{{ end }}

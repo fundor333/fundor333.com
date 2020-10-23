@@ -1,0 +1,43 @@
+[
+	{
+		"ditta": "Alilaguna",
+		"inizio": "03/2018",
+		"fine": "present",
+		"roles": [
+			{
+				"role": "Backend developer",
+				"description": "Python web developer. Django, Api Rest, Nginx and PostgreSql"
+			},
+			{
+				"role": "Dev Ops",
+				"description": "Autodeploy and some Kubernetes. GitLab, Kubernetes, Bash and Nginx"
+			},
+			{
+				"role": "Integration Developer",
+				"description": "Manage data analysis and data integration of disparate systems. PostgreSql, MongoDB, Python, Rest, SOAP, GraphQL"
+			}
+		]
+	},
+	{
+		"ditta": "SerenDPT",
+		"inizio": "06/2017",
+		"fine": "10/2017",
+		"roles": [
+			{
+				"role": "Backend developer",
+				"description": "Ruby web developer. Ruby on Rails, Api Rest and PostgreSql"
+			}
+		]
+	},
+	{
+		"ditta": "Università Ca' Foscari di Venezia",
+		"inizio": "06/2017",
+		"fine": "10/2012",
+		"roles": [
+			{
+				"role": "Bachelor's degree",
+				"description": "Bachelor's degree in Computer Science with 85/110"
+			}
+		]
+	}
+]
