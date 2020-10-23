@@ -1,5 +1,8 @@
 {
     "schedule": "daily",
     "aggressiveCompression": true,
-        "minKBReduced": null
+        "minKBReduced": null,
+	"ignoredFiles": [
+    "resources/_gen/*"
+]
 }
