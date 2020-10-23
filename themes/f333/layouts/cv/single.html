@@ -1,7 +1,6 @@
 {{ define "body" }}
 <section class="container-fluid">
-  <h2>{{.Title}} <a href="https://www.linkedin.com/in/🐍-matteo-scarpa-78969263" target="_blank"><i
-        class="fab fa-linkedin"></i></a> <a href="mailto:jobs@fundor333.com"><i class="far fa-envelope"></i></a></h2>
+  <h2>{{.Title}}</h2>
 
   <hr>
   <div class="row">
@@ -16,7 +15,10 @@
       <img data-src="{{ $resource.Permalink }}" src="{{ $image.Permalink }}" alt="{{ $.Title }}"
         class="img-fluid rounded mx-auto d-block lazy rounded-circle">
 
-
+      <h2 class="row justify-content-center">
+        <a href="https://www.linkedin.com/in/🐍-matteo-scarpa-78969263" target="_blank"><i
+            class="fab fa-linkedin"></i></a> <a href="mailto:jobs@fundor333.com"><i class="far fa-envelope"></i></a>
+      </h2>
     </div>
     <div class="col-md col-sm-12">
       {{.Content}}
