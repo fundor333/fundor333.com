@@ -10,6 +10,11 @@
 						"description": "This blog make with Hugo and love.  The Css framework change somethime. Now it's boostrap 4 with font awesome"
 					},
 					{
+						"name": "DigitalTeaRoom",
+						"url": "https://digitaltearoom.com/",
+						"description": "My blog about Tea and other tea related stuff"
+					},
+					{
 						"name": "ìnformatica sarà lei",
 						"url": "http://test01.danielvedovato.it/",
 						"description": "Project for an exame at the University for Regione Veneto. I work on the coordination and the style for the project. Made with HTML5 and Bootstrap."
@@ -23,6 +28,26 @@
 						"name": "MareaBot",
 						"url": "https://mareabot.github.io/",
 						"description": "Bot for read the HighWater Api of Comune di Venezia and, if there is an allert, post it on a channel on telegram"
+					}
+				]
+			},
+			{
+				"type": "devops",
+				"elements": [
+					{
+						"name": "Dotfiles",
+						"url": "https://github.com/fundor333/dotfiles",
+						"description": "My configuration for a Mac, a Windows or a Linux installation."
+					},
+					{
+						"name": "Crontab Dotbot",
+						"url": "https://github.com/fundor333/crontab-dotbot",
+						"description": "Plugin for Dotbot for managing crontab"
+					},
+					{
+						"name": "Server Grimoire",
+						"url": "https://github.com/fundor333/servergrimoire",
+						"description": "Module for give you some command to check URLs, domains and other things in an automatic way"
 					}
 				]
 			},
@@ -43,6 +68,11 @@
 						"name": "Template LaTeX for Unive",
 						"url": "https://github.com/fundor333/TesiUniveLaTeX",
 						"description": "Template for LaTeX for the final paper. Made with LaTex and a lot of my blood"
+					},
+					{
+						"name": "Docker Hugo",
+						"url": "https://github.com/fundor333/docker-hugo",
+						"description": "A Docker image for the static sites generated Hugo"
 					}
 				]
 			}
