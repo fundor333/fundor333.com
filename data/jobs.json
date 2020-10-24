@@ -5,7 +5,7 @@
 		"fine": "present",
 		"roles": [
 			{
-				"role": "Backend developer",
+				"role": "Backend Developer",
 				"description": "Python web developer. Django, Api Rest, Nginx and PostgreSql"
 			},
 			{
@@ -19,12 +19,23 @@
 		]
 	},
 	{
+		"ditta": "Pycon 9",
+		"inizio": "20/04/2018",
+		"fine": "23/04/2017",
+		"roles": [
+			{
+				"role": "Speaker",
+				"description": "Speaker at PyconIt9 with the talk: Pelican e perchè generare siti statici"
+			}
+		]
+	},
+	{
 		"ditta": "SerenDPT",
 		"inizio": "06/2017",
 		"fine": "10/2017",
 		"roles": [
 			{
-				"role": "Backend developer",
+				"role": "Backend Developer",
 				"description": "Ruby web developer. Ruby on Rails, Api Rest and PostgreSql"
 			}
 		]
@@ -35,7 +46,7 @@
 		"fine": "10/2012",
 		"roles": [
 			{
-				"role": "Bachelor's degree",
+				"role": "Bachelor's Degree",
 				"description": "Bachelor's degree in Computer Science with 85/110"
 			}
 		]

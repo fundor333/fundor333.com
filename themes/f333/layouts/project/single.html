@@ -1,23 +1,27 @@
 {{ define "body"}}
 <article>
   <h1>project</h1>
-
-  <a href="{{ .Site.BaseURL }}">home</a>
-  <a>~</a>
-  <a href='{{ .Permalink }}'>project</a>
   <hr>
 
   {{ range $.Site.Data.project }}
 
-
   {{ range .types }}
-  <h2>{{.type}}</h2>
-  {{ range .elements }}
+  <div class="row">
+    <div class="col-sm-2">
+      <h2>{{.type}}</h2>
+    </div>
+    <div class="col-sm-9 offset-sm-1">
+      {{ range .elements }}
 
-  <p><a href="{{.url}}"><b>{{.name}}</b></a> - {{.description}}</p>
+      <p><a href="{{.url}}"><b>{{.name}}</b></a> - {{.description}}</p>
 
-  {{end}}
+      {{end}}
+    </div>
+
+  </div>
+  <hr>
   {{end}}
   {{ end }}
+
 </article>
 {{ end }}
