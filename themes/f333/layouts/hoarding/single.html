@@ -1,25 +1,28 @@
 {{ define "body"}}
 <article>
   <h1>hoarding</h1>
-
-  <a href="{{ .Site.BaseURL }}">home</a>
-  <a>~</a>
-  <a href='{{ .Permalink }}'>hoarding</a>
   <hr>
 
   {{ range $.Site.Data.hoarding }}
 
-
   {{ range .types }}
-  <h2>{{.type}}</h2>
-  {{ range .elements }}
-  <a href="{{.url}}" class="offset-1">
-    <dd>
-      <p><b>{{.name}}</b></p>
-    </dd>
-  </a>
-  {{end}}
+  <div class="row">
+    <div class="col-sm-2">
+      <h2>{{.type}}</h2>
+    </div>
+    <div class="col-sm-9 offset-sm-1">
+      {{ range .elements }}
+      <p>
+        <a href="{{.url}}" class="offset-1">
+          {{.name}}
+        </a>
+      </p>
+      {{end}}
+    </div>
+  </div>
+  <hr>
   {{end}}
   {{ end }}
+
 </article>
 {{ end }}

@@ -20,5 +20,22 @@
   <article class="row">
     {{.Content}}
   </article>
+
+  <hr>
+  {{ range  first 4 (where .Site.RegularPages "Section" "post")  }}
+
+  {{ .Render "summary" }}
+
+  {{ end }}
+
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+        <a class="tag" href="/post/">More article</a>
+      </small>
+    </p>
+  </div>
+
+
 </div>
 {{ end }}
