@@ -57,6 +57,10 @@
           url: http://www.innatthecrossroads.com/
         - name: Victoria Drake Dev Blog
           url: https://victoria.dev/
+        - name: Luis Quintanilla's Blog
+          url: https://www.luisquintanilla.me/
+        - name: Adam Johnson
+          url: https://adamj.eu/
     - type: transports
       elements:
         - name: Tube Map Central
@@ -67,7 +71,8 @@
       elements:
         - name: Spurious Correlations
           url: http://www.tylervigen.com/spurious-correlations
-        - name: No Company Is So Important Its Existence Justifies Setting Up a
+        - name:
+            No Company Is So Important Its Existence Justifies Setting Up a
             Police State
           url: http://nymag.com/selectall/2018/04/richard-stallman-rms-on-privacy-data-and-free-software.html
         - name: La Tigre Ed Il SysAdmin
@@ -78,7 +83,9 @@
           url: https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/
         - name: Create Xkcd style diagram in TeX
           url: https://tex.stackexchange.com/questions/74878/create-xkcd-style-diagram-in-tex
-        - name: An automatic interactive pre-commit checklist, in the style of infomercials
+        - name:
+            An automatic interactive pre-commit checklist, in the style of
+            infomercials
           url: https://victoria.dev/blog/an-automatic-interactive-pre-commit-checklist-in-the-style-of-infomercials/
         - name: Why I'm automatically deleting my old tweets using AWS Lambda
           url: https://victoria.dev/blog/why-im-automatically-deleting-my-old-tweets-using-aws-lambda/
