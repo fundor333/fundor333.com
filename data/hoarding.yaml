@@ -23,20 +23,6 @@
           url: http://mattdavella.com/podcast
         - name: Data Porn
           url: https://dataporn.me/
-    - type: "manifesto"
-      elements:
-        - name: 12Factor Guidelines
-          url: https://12factor.net
-        - name: Netiquette Guidelines
-          url: https://tools.ietf.org/html/rfc1855
-        - name: The Jargon File
-          url: http://www.catb.org/jargon/
-        - name: Hacker Manifesto
-          url: http://phrack.org/issues/7/3.html
-        - name: Repair Manifesto
-          url: https://www.ifixit.com/Manifesto
-        - name: WTFPL – Do What the Fuck You Want to Public License
-          url: http://www.wtfpl.net/
     - type: "blogs"
       elements:
         - name: Kenneth Reitz
@@ -61,6 +47,34 @@
           url: https://www.luisquintanilla.me/
         - name: Adam Johnson
           url: https://adamj.eu/
+    - type: "documentary"
+      elements:
+        - name: The Great Hack
+          url: https://www.netflix.com/title/80117542
+        - name: Social Dilemma
+          url: https://www.netflix.com/title/81254224
+    - type: "films"
+      elements:
+        - name: Movies For Hackers
+          url: https://hackermovie.club
+        - name: The Mysterious Life Of UX Designers
+          url: https://youtu.be/gfHcnig8Lo4
+        - name: The Mysterious Life of Developers
+          url: https://youtu.be/Ey3Ix7QuKPs
+    - type: "manifesto"
+      elements:
+        - name: 12Factor Guidelines
+          url: https://12factor.net
+        - name: Netiquette Guidelines
+          url: https://tools.ietf.org/html/rfc1855
+        - name: The Jargon File
+          url: http://www.catb.org/jargon/
+        - name: Hacker Manifesto
+          url: http://phrack.org/issues/7/3.html
+        - name: Repair Manifesto
+          url: https://www.ifixit.com/Manifesto
+        - name: WTFPL – Do What the Fuck You Want to Public License
+          url: http://www.wtfpl.net/
     - type: transports
       elements:
         - name: Tube Map Central
@@ -187,14 +201,6 @@
           url: https://www.animeclick.it/anime/3114/steins-gate
         - name: Psycho-Pass
           url: https://www.animeclick.it/anime/4084/psycho-pass
-    - type: "films"
-      elements:
-        - name: Movies For Hackers
-          url: https://hackermovie.club
-        - name: The Mysterious Life Of UX Designers
-          url: https://youtu.be/gfHcnig8Lo4
-        - name: The Mysterious Life of Developers
-          url: https://youtu.be/Ey3Ix7QuKPs
     - type: "evil overlod"
       elements:
         - name: Decalogo del signore del male
