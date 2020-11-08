@@ -53,6 +53,12 @@
           url: https://www.netflix.com/title/80117542
         - name: Social Dilemma
           url: https://www.netflix.com/title/81254224
+        - name: How iFixit Became the World's Best iPhone Teardown Team
+          url: https://youtu.be/tx-9LkVIdz0
+        - name: THE INSIDE LIFE OF A HACKER (Best Documentary 2020)
+          url: https://www.youtube.com/watch?v=CuESlhKLhCY
+        - name: Anonymous - The Hacker Wars
+          url: https://www.youtube.com/watch?v=ku9edEKvGuY
     - type: "films"
       elements:
         - name: Movies For Hackers
