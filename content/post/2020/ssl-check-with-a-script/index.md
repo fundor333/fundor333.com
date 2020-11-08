@@ -9,7 +9,7 @@ tags:
 - devops
 slug: "ssl-check-with-a-script"
 categories: 
-description: ""
+description: "You need to check a lot of SSL certificate, some domain and others things"
 type: "post"
 ---
 
