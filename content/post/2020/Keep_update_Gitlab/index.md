@@ -7,7 +7,7 @@ feature_text: "Photo by hue12 photography on Unsplash"
 tags:
 - devops
 - hacking
-slug: "Keep_update_Gitlab"
+slug: "keep_update_gitlab"
 categories: post
 description: "How to check if your GitLab is update automaticaly"
 type: "post"
