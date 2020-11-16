@@ -11,5 +11,9 @@ developfuture: ## Run the site localy with all the future article
 developall: ## Run the site localy with all the article, future or drafts
 	hugo server --disableFastRender --buildFuture --buildDrafts
 
-clean-resorce: ## Clean the directory of the project of chache e meta file
+clean: ## Clean the directory of the project of chache e meta file
 	hugo --gc
+
+.PHONY: new
+new: ## Make new object for the blog
+	python make-post.py
