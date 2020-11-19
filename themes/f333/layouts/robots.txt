@@ -1,3 +1,5 @@
-Sitemap: https://www.fundor333.com/sitemap.xml
 User-agent: *
-Allow: /
+
+{{range .Data.Pages}}
+Allow: {{.RelPermalink}}
+{{end}}
