@@ -1,0 +1,4 @@
+---
+title: "note"
+type: note
+---

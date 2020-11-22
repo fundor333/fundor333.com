@@ -1,0 +1,57 @@
+[
+	{
+		"types": [
+			{
+				"type": "Mathematics",
+				"elements": [
+					{
+						"name": "Calculus (it)",
+						"url": "https://github.com/fundor333/Appunti-di-Calcolo",
+						"description": "Note from Calculus at UniVe"
+					}
+				]
+			},
+			{
+				"type": "Computer Science",
+				"elements": [
+					{
+						"name": "Network (it)",
+						"url": "https://github.com/fundor333/TesinaReti",
+						"description":"Little presentation made for the exam of Networking"
+					}
+				]
+			},
+			{
+				"type": "Talk and Presentation",
+				"elements": [
+					{
+						"name": "Talk Pycon9, Pelican e perchè generare siti statici (it)",
+						"url": "https://github.com/fundor333/pelican-e-perche-generare-siti-statici",
+						"description": "Talk about the static site generator Pelican"
+					}
+				]
+			},
+			{
+				"type": "Other",
+				"elements": [
+					{
+						"name": "Template Latex Thesis for UniVe",
+						"url": "https://github.com/fundor333/TesiUniveLaTeX",
+						"description": "UnOfficial template for thesis in LaTaX"
+					},
+					{
+						"name": "Personal LaTeX Article Template",
+						"url": "https://github.com/fundor333/Personal-LaTeX-Article-Template",
+						"description": "My personal template for article"
+					},
+					{
+						"name": "Personal LaTeX Beamer Template",
+						"url": "https://github.com/fundor333/f333_beamer",
+						"description": "My personal template for beamer"
+					}
+				]
+			}
+			
+		]
+	}
+]
