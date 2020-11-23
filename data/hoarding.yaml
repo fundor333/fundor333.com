@@ -79,8 +79,12 @@
           url: http://phrack.org/issues/7/3.html
         - name: Repair Manifesto
           url: https://www.ifixit.com/Manifesto
+    - type: "licenses"
+      elements:
         - name: WTFPL – Do What the Fuck You Want to Public License
           url: http://www.wtfpl.net/
+        - name: AntiCopyright
+          url: https://www.anticopyright.com/
     - type: transports
       elements:
         - name: Tube Map Central
