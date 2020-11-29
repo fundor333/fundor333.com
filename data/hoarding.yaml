@@ -113,6 +113,10 @@
           url: https://victoria.dev/blog/an-automatic-interactive-pre-commit-checklist-in-the-style-of-infomercials/
         - name: Why I'm automatically deleting my old tweets using AWS Lambda
           url: https://victoria.dev/blog/why-im-automatically-deleting-my-old-tweets-using-aws-lambda/
+        - name: A Webring Kit
+          url: https://mxb.dev/blog/webring-kit/
+        - name: Git and GitHub
+          url: https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833
     - type: "utility"
       elements:
         - name: EmojiPedia
