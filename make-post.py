@@ -3,7 +3,7 @@ import os
 def post_fc():
     year = input("Give me the Year\n")
     name = input("Give me the title\n")
-    os.system(f"hugo new post/{year}/{name.replace(' ','_')}/index.md")
+    os.system(f"hugo new post/{year}/{name.replace(' ','-')}/index.md")
 
 def quiet_fc():
     print("Make a quiet")
