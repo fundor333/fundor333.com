@@ -51,7 +51,6 @@ body {
 	color: $f333_color_font_primary;
 }
 
-code{padding-left: 2%;}
 
 hr {
 	color: $f333_color_font_primary;
@@ -63,21 +62,24 @@ hr {
 	background-color: $f333_color_background_primary;
 }
 
-.highlight{
-	&::before{
-
-		height: 40px;
+.highlight {
+	&::before {
+		background-color: var(--window-border-color);
+		height: 35px;
 		width: 10%;
 		padding-left: 1%;
 		border-top-left-radius: 8px;
 		border-top-right-radius: 8px;
 		position: absolute;
 		top: 0;
-		content: url(/img/window-buttons.svg);
+		z-index: 0;
+
+		content: url('/img/window-buttons.svg');
 	}
+
 	background-color: $f333_color_background_primary;
 	border-radius: 8px;
-	box-shadow: 3px 6px 9px 8px rgba(0,0,0,.3);
+	box-shadow: 3px 6px 9px 8px rgba(0, 0, 0, .3);
 	position: relative;
 	margin-bottom: 2.5em;
 	margin-top: 35px;
@@ -86,11 +88,11 @@ hr {
 
 }
 
-.quiet{
+.quiet {
 
 	&:hover {
-	color: $f333_color_background_secondary;
-	text-decoration: none;
+		color: $f333_color_background_secondary;
+		text-decoration: none;
 	}
 }
 
@@ -101,25 +103,29 @@ hr {
 	}
 }
 
-@each $a, $b , $c in $tags-list {
-	[href$='tags/#{$a}/'],[href$='tags/#{$a}'] { 
-	    background-color: $b;
-	    color: $c;
-	    margin: 10px 5px 0 0 !important;
-	    font-size: .9em !important;
-	    font-weight: 400 !important;
-	    letter-spacing: 0 !important;
-	    text-shadow: none !important;
-	    box-shadow: 2px 3px 0 var(--black);
-	    border: 1px solid var(--black);
-	    margin: 3.5px 3px;
-	    padding: 0 .4em;
-	    border-radius: 8px;
-	    display: inline-block;
-    
-	    &:hover {
-		    text-decoration: none;
-		    color: $c;
-	    }
+@each $a,
+$b,
+$c in $tags-list {
+
+	[href$='tags/#{$a}/'],
+	[href$='tags/#{$a}'] {
+		background-color: $b;
+		color: $c;
+		margin: 10px 5px 0 0 !important;
+		font-size: .9em !important;
+		font-weight: 400 !important;
+		letter-spacing: 0 !important;
+		text-shadow: none !important;
+		box-shadow: 2px 3px 0 var(--black);
+		border: 1px solid var(--black);
+		margin: 3.5px 3px;
+		padding: 0 .4em;
+		border-radius: 8px;
+		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+			color: $c;
+		}
 	}
-    }
+}
