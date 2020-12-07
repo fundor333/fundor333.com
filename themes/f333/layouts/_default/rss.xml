@@ -33,7 +33,7 @@
 			<description>
 				{{ if .Params.feature_image }}
 				{{ $image := .Resources.GetMatch ( print .Params.feature_image ) }}
-				{{ printf "<![CDATA[<img src=\"%s\"/>]]>" ($image.Permalink) }}
+				{{ printf "<![CDATA[<img src=\"%s\"/>]]>" ($image.Permalink) | safeHTML}}
 				{{end}}
 				{{- .Summary | html -}}</description>
 		</item>
