@@ -1,0 +1,27 @@
+name: Link Snitch
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  URL: https://fundor333.com.com
+  FILENAME: report.yaml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: Report broken links
+        uses: victoriadrake/link-snitch@master
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: report
+          path: report.yaml

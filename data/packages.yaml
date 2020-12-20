@@ -76,3 +76,14 @@
         - name: TextFac
           url: https://textfac.es/
           description: Lets you finally write those damn unicode faces.
+    - subtype: GitHub actions
+      detail:
+        - name: Act
+          url: https://github.com/nektos/act
+          description: Run your GitHub Actions locally 🚀
+        - name: Link Snitch
+          url: https://github.com/marketplace/actions/link-snitch
+          description: Scan your site for broken links so you can fix them 🔗
+        - name: Deploy Hugo to Remote
+          url: https://github.com/marketplace/actions/deploy-hugo-to-remote
+          description: GitHub Action to build and deploy a Hugo site to a remote repository 🚀
