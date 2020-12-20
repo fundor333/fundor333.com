@@ -11,7 +11,8 @@ env:
         REMOTE: fundor333/fundor333.github.io
         DEST: public
         TOKEN: ${{ secrets.TOKEN }}
-
+        URL: https://fundor333.com
+        FILENAME: report.yaml
 jobs:
         build:
                 runs-on: ubuntu-latest
@@ -25,3 +26,5 @@ jobs:
                           #env:
                           #  HUGO_ARGS:
                           uses: victoriadrake/hugo-remote@master
+                        - name: Report broken links
+                          uses: victoriadrake/link-snitch@master
