@@ -33,7 +33,7 @@ So I decide to hack the system and make an allert for me.
 ## Hack the GitLab help page
 
 First ve need to understand how the label work.
-A rapid ispection of the page show that the label is a responde of a _get_ at the url *https://version.gitlab.com/check.svg* with some parameters.
+A rapid ispection of the page show that the label is a responde of a _get_ at the url *version.gitlab.com/check.svg* with some parameters.
 
 In particolar we need the GitLab version installed. So we need it too. And for them we need the token from the self hosted installation[^3]. 
 

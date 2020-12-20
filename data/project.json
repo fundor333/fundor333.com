@@ -16,7 +16,7 @@
 					},
 					{
 						"name": "ìnformatica sarà lei",
-						"url": "http://test01.danielvedovato.it/",
+						"url": "http://test01.danielvedovato.it",
 						"description": "Project for an exame at the University for Regione Veneto. I work on the coordination and the style for the project. Made with HTML5 and Bootstrap."
 					}
 				]
@@ -56,7 +56,7 @@
 				"elements": [
 					{
 						"name": "Rioba Project",
-						"url": "https://riobaproject.it/",
+						"url": "https://riobaproject.it",
 						"description": "Project about a sensors' system for calc the well being of the people in the area"
 					}
 				]
