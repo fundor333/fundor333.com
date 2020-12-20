@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  URL: https://fundor333.com.com
+  URL: https://fundor333.com
   CONFIG: link-config.json
 
 jobs:
