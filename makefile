@@ -17,3 +17,7 @@ clean: ## Clean the directory of the project of chache e meta file
 .PHONY: new
 new: ## Make new object for the blog
 	python make-post.py
+
+.PHONY: hydra
+hydra: ## Execute Hydra on the site
+	python hydra.py https://fundor333.com link-config.json > report.yaml

@@ -25,7 +25,7 @@ Facciamo un po' di ordine:
 * Ho una passione per il formato file .TeX e per LaTeX
 * Voglio partecipare al Pycon9 spendendo poco ma ho "*perso*" la posizione di studente laureandomi
 
-Questo ha portato a combinare tutto in una unica situazione: sono uno degli speaker del [Pycon 9](https://www.pycon.it/it/) e porterò *Pelican* come talk... E tutto questo in *LaTeX*.
+Questo ha portato a combinare tutto in una unica situazione: sono uno degli speaker del Pycon 9 e porterò *Pelican* come talk... E tutto questo in *LaTeX*.
 
 Questo significa che ho fatto sia delle modifiche sul blog che dei nuovi repository su *[Github](https://github.com/fundor333)*. In particolare ho ristutturato l'intero blog con _**Hugo**_ (che va a sostituire *Pelican*) e preparato due nuove sezioni del sito: *eventi* e *talk*.
 

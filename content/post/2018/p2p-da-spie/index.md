@@ -44,7 +44,7 @@ Invece esistono dispositivi più facilmente mantenibili che ottengono lo stesso 
 
 ## PirateBox
 
-Ispirata dal sistema delle radio pirata, la PiratBox è un sistema hardware di offline sharing che utilizza tecnologie OpenSource (FLOSS per gli amici) per la condivisione dei file e contenuti.[^3]
+Ispirata dal sistema delle radio pirata, la PiratBox è un sistema hardware di offline sharing che utilizza tecnologie OpenSource (FLOSS per gli amici) per la condivisione dei file e contenuti.
 
 ![Pirate Box](piratebox.gif)
 
@@ -84,7 +84,6 @@ Fondamentalmente queste sono le tecnologie _P2P_ offline che suggerisco e di cui
  
 [^1]: [The Guardian: Moscow names British 'spies' in NGO row](https://www.theguardian.com/world/2006/jan/23/russia.politics)
 [^2]: [Sito ufficiale del progetto Dead Drops](https://deaddrops.com)
-[^3]: [Sito ufficiale del progetto Pirate Box](https://piratebox.cc)
 [^3.1]: [Thread sulla mod con Icecast](http://forum.piratebox.cc/read.php?2,3764) e [tutorial](https://github.com/janbre/Assorted/tree/master/Piratebox/PirateBoxRadio)
 [^3.2]: [Thread sulla mod con OpenStreetMap](http://forum.piratebox.cc/read.php?2,6988) e [tutorial](https://github.com/reinvented/openstreetbox)
 [^3.3]: [Tutorial](https://forum.piratebox.cc/read.php?8,7921,7921#msg-7921)
