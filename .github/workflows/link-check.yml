@@ -7,6 +7,7 @@ on:
 
 env:
   URL: https://fundor333.com.com
+  CONFIG: link-config.json
 
 jobs:
   build:
