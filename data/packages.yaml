@@ -55,6 +55,9 @@
         - name: coloredlogs
           url: https://coloredlogs.readthedocs.io/en/latest/
           description: Logger with color
+        - name: rich
+          url: https://github.com/willmcgugan/rich
+          description: Python library for rich text and beautiful formatting in the terminal
 - language: others
   package:
     - subtype: style
