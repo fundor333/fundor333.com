@@ -16,3 +16,5 @@ The name of the blog *Fundor333* come from my nickname and the subtitle *import 
 If you need my GPG key [here](https://keybase.io/fundor333/key.asc) my key and the mail is blog@fundor333.com .
 
 If you want to see what I am doing [now]( {{< relref "now.md" >}}) check my [now]( {{< relref "now.md" >}}) page.
+
+![CodeWars](https://www.codewars.com/users/fundor333/badges/large)

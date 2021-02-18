@@ -9,3 +9,40 @@
   </ul>
 </footer>
 <br>
+
+<script src="/js/snowstorm.js"></script>
+
+<!-- now, we'll customize the snowStorm object -->
+<script>
+  function isWinter(dt) {
+    const m = dt.getMonth();
+    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+}
+
+function isBirthDay(dt){
+  return dt.getMonth == 2 && dt.getDate() == 3;
+}
+
+function isValentineDay(dt){
+  return dt.getMonth == 1 && dt.getDate() == 14;
+}
+
+var winterCharacter = "❄️"
+var heartCharacter = "❤️"
+var presentCharacter = "🎁"
+
+if ([isWinter(new Date()),isBirthDay(new Date()),isValentineDay(new Date())].some(function(a){return true ==a}) ) {
+  snowStorm = snowFunction(window, document);
+  snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
+  snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
+  snowStorm.followMouse = false;
+  snowStorm.freezeOnBlur = true;
+}
+
+if (isWinter(new Date())){snowStorm.snowCharacter = winterCharacter;}
+if (isBirthDay(new Date())){snowStorm.snowCharacter = presentCharacter;}
+if (isValentineDay(new Date())){snowStorm.snowCharacter = heartCharacter;}
+
+
+</script>
+
