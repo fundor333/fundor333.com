@@ -73,6 +73,21 @@
 						"name": "Docker Hugo",
 						"url": "https://github.com/fundor333/docker-hugo",
 						"description": "A Docker image for the static sites generated Hugo"
+					},
+					{
+						"name": "Hubot tea timer",
+						"url": "https://github.com/fundor333/hubot-tea-timer",
+						"description": "The last Hubot tea timer you'll ever need"
+					},
+					{
+						"name": "Bofh Oh-My-Zsh",
+						"url": "https://github.com/fundor333/bofh",
+						"description": "Plugin for ohmyszh for adding a fortune style message from a BOFH"
+					},
+					{
+						"name": "Smile Oh-My-Zsh",
+						"url": "https://github.com/fundor333/smile",
+						"description": "An oh-my-zsh plugin for printing smile"
 					}
 				]
 			}
