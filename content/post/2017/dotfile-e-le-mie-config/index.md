@@ -3,7 +3,7 @@ title: DotFile e le mie config
 date: 2017-12-04 00:00:00 +0000
 slug: dotfile-e-le-mie-config
 tags:
-- dotfile
+- dotfiles
 - coding
 
 description: DotFile e la mia configurazione di tutto
