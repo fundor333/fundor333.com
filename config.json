@@ -42,8 +42,9 @@
 			"lineNoStart": 1,
 			"lineNos": true,
 			"lineNumbersInTable": true,
-			"style": "dracula",
-			"tabWidth": 4
+			"noClasses": true,
+			"tabWidth": 4,
+			"style": "dracula"
 		}
 	}
 }

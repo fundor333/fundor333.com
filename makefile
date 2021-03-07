@@ -11,8 +11,16 @@ developfuture: ## Run the site localy with all the future article
 developall: ## Run the site localy with all the article, future or drafts
 	hugo server --disableFastRender --buildFuture --buildDrafts
 
-clean: ## Clean the directory of the project of chache e meta file
+.PHONY: syntax
+syntax: ## Build the style of the code
+	hugo gen chromastyles --style=dracula > themes/f333/assets/css/_syntax.scss
+
+clean: syntax ## Clean the directory of the project of chache e meta file
 	hugo --gc
+
+.PHONY: run
+run: clean  ## Build the site cleaning all
+	hugo
 
 .PHONY: new
 new: ## Make new object for the blog
