@@ -26,7 +26,7 @@
 				"elements": [
 					{
 						"name": "MareaBot",
-						"url": "https://samarcandaproject.github.io/MareaBot/",
+						"url": "http://venicebotcenter.org/MareaBot/",
 						"description": "Bot for read the HighWater Api of Comune di Venezia and, if there is an allert, post it on a channel on telegram"
 					}
 				]
