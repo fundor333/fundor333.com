@@ -5,7 +5,7 @@
 
   <hr>
 
-  {{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+  {{range sort ($.Site.GetPage "taxonomyTerm" "tags").Pages "Title" }}
   <a class="tag" href='{{ .Permalink }}'><i class="fas fa-tags"></i> {{ .Title }}</a>
   {{ end }}
 
