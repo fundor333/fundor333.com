@@ -52,6 +52,11 @@ body {
 	color: $f333_color_font_primary;
 }
 
+h2 {
+	a {
+		color: $f333_color_font_primary;
+	}
+}
 
 hr {
 	color: $f333_color_font_primary;
@@ -61,6 +66,16 @@ hr {
 .f333 {
 	color: $f333_color_font_primary;
 	background-color: $f333_color_background_primary;
+}
+
+
+.gr_grid_book_container {
+	/* customize book cover container div here */
+	float: left;
+	width: 98px;
+	height: 160px;
+	padding: 0px 0px;
+	overflow: hidden;
 }
 
 .quiet {
