@@ -18,7 +18,7 @@
       </div>
     </div>
     <hr>
-    {{ with .Params.tags }} {{ range . }}
+    {{ with .Params.tags }} {{ range sort . }}
     <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'><i class="fas fa-tags"></i> {{ . }}</a>
     {{ end }} {{ end }}
     <hr>
