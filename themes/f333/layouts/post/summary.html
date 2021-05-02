@@ -37,7 +37,7 @@
   <div class="row justify-content-md-center">
     <p>
       <small>
-        {{ with .Params.tags }} {{ range . }}
+        {{ with .Params.tags }} {{ range sort . }}
         <a class="tag" href='{{ "tags" | absURL }}/{{ . | urlize }}'><i class="fas fa-tags"></i> {{ . }}</a>
         {{ end }} {{ end }}
       </small>
