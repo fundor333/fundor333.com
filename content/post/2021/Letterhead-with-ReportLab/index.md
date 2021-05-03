@@ -27,7 +27,7 @@ If one ore more of this Pdf's types have a common layout (like a letterhead) I m
 Here an example[^3]
 [^3]: My default paper is _A4_ but you can import any format from _reportlab.lib.pagesizes_ or define a new one following this format _A4 = (210*mm,297*mm)_
 
-``` python {linenos=table,linenostart=1}
+``` python
 class BasicPrinter:
     def __init__(self, buffer, pagesize="A4"):
         self.buffer = buffer
@@ -71,7 +71,7 @@ The real important things are the _footer_ and _header_ function (in our case st
 
 After you have done you need to make a "_printer_" for your document. In this case is a booring paper about Privacy.
 
-``` python {linenos=table,linenostart=41}
+``` python
 class PrivacyPaperPrinter(BasicPrinter):
     @staticmethod
     def _header_footer(canvas, doc):
