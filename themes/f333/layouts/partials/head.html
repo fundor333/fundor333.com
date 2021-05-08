@@ -29,9 +29,6 @@
   </title>
   <meta name="author" content="Fundor333" />
 
-  <meta name="description"
-    content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-
   {{ if or (eq .Kind "home") (eq .Kind "page")}} {{ if isset .Params "canonical" }}
   <link rel="canonical" href="{{ .Params.Canonical}}" />
   {{ else }}
@@ -46,7 +43,7 @@
   {{ template "_internal/opengraph.html" . }}
   {{ template  "_internal/google_news.html" . }}
   {{ template "_internal/schema.html" . }}
-  {{  partial "seo/twitter.html" . }}
+  {{  partial "seo.html" . }}
 
   {{ if .Site.Params.gtm_id}}{{- partial "gtm.html" . }}{{ end }}
 </head>

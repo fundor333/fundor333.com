@@ -11,17 +11,80 @@
 		url("fonts/Menlo-Regular.woff") format("woff");
 }
 
+@mixin dark-mode {
+	background-color: $f333_color_background_primary;
+	color: $f333_color_font_primary;
+
+	a {
+		color: $f333_color_background_secondary;
+	}
+
+	h2 {
+		a {
+			color: $f333_color_font_primary;
+		}
+	}
+
+	hr {
+		color: $f333_color_font_primary;
+		border-color: $f333_color_font_primary;
+	}
+
+	.quiet {
+
+		&:hover {
+			color: $f333_color_background_secondary;
+		}
+	}
+}
+
+@mixin light-mode {
+	background-color: whitesmoke;
+	color: $f333_color_font_secondary;
+
+	a {
+		color: $f333_color_background_primary;
+	}
+
+	h2 {
+		a {
+			color: $f333_color_font_secondary;
+		}
+	}
+
+	hr {
+		color: $f333_color_font_secondary;
+		border-color: $f333_color_font_secondary;
+	}
+
+	.quiet {
+
+		&:hover {
+			color: $f333_color_background_primary;
+		}
+	}
+}
+
+@media (prefers-color-scheme: dark),
+(prefers-color-scheme: no-preference) {
+	body {
+		@include dark-mode;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		@include light-mode;
+	}
+}
 
 a {
 	margin: auto;
 	font-family: sans-serif;
 	text-decoration: none;
-	color: white;
 	position: relative;
 	transition: all .3s cubic-bezier(.2, 0, 0, 1);
 	z-index: 1;
-
-
 
 	&:hover {
 		color: $f333_red;
@@ -44,29 +107,11 @@ article {
 	}
 }
 
-// Blockquote CSS
 
 body {
 	font-family: Menlo Regular, sans-serif;
-	background-color: $f333_color_background_primary;
-	color: $f333_color_font_primary;
 }
 
-h2 {
-	a {
-		color: $f333_color_font_primary;
-	}
-}
-
-hr {
-	color: $f333_color_font_primary;
-	border-color: $f333_color_font_primary;
-}
-
-.f333 {
-	color: $f333_color_font_primary;
-	background-color: $f333_color_background_primary;
-}
 
 
 .gr_grid_book_container {
@@ -81,17 +126,10 @@ hr {
 .quiet {
 
 	&:hover {
-		color: $f333_color_background_secondary;
 		text-decoration: none;
 	}
 }
 
-
-#dot {
-	a {
-		color: $shadow_color;
-	}
-}
 
 @each $a,
 $b,
